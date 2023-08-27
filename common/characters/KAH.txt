@@ -1,0 +1,17 @@
+characters = {
+
+    KAH_Nursultan_Nazarbaev = {
+		name = KAH_Nursultan_Nazarbaev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KAH/portrait_KAH_Nursultan_Nazarbaev.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			traits = { }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}
+}

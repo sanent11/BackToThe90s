@@ -1,0 +1,17 @@
+characters = {
+
+    LAA_anatoliy_gorbunov = {
+		name = LAA_anatoliy_gorbunov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LAA/portrait_LAA_Anatoliy_Gorbunov.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			traits = { }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}
+}

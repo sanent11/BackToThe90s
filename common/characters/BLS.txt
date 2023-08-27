@@ -1,0 +1,16 @@
+characters = {  
+  
+    BLS_Stanislav_Shuskevic = {
+		name = BLS_Stanislav_Shuskevic
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BLS/portrait_BLS_Stanislav_Shuskevic.dds"
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			traits = { }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}

@@ -1,0 +1,68 @@
+FRG = {
+	color = rgb { 106 119 89 }
+	color_ui = rgb { 106 119 89 }
+}
+DDR = {
+	color = rgb { 144 71 71 }
+	color_ui = rgb { 144 71 71 } 
+}
+WGR = {
+	color = rgb { 138 155 116 }
+	color_ui = rgb { 138 155 116 }
+}
+SOU = {
+	color = rgb { 123 0 28 }
+	color_ui = rgb { 123 0 28 }
+}
+RUS = {
+	color = rgb { 55 148 143 }
+	color_ui = rgb { 55 148 143 }
+}
+UKN = {
+	color = rgb { 42 82 190 }
+	color_ui = rgb { 42 82 190 }
+}
+BLS = {
+	color = rgb { 255 250 240 }
+	color_ui = rgb { 255 250 240 }
+}
+KAH = {
+	color = rgb { 162 162 208 }
+	color_ui = rgb { 162 162 208 }
+}
+PLN = {
+	color = rgb { 221 91 129 }
+	color_ui = rgb { 221 91 129 }
+}
+LIA = {
+	color = rgb { 219 219 119 }
+	color_ui = rgb { 219 219 119 }
+}
+ESA = {
+	color = rgb { 50 135 175 }
+	color_ui = rgb { 50 135 175 }
+}
+LAA = {
+	color = rgb { 75 77 186 }
+	color_ui = rgb { 75 77 186 }
+}
+AZB = {
+	color = rgb { 69 151 49 }
+	color_ui = rgb { 69 151 49 }
+}
+GRU = {
+	color = rgb { 255 204 204 }
+	color_ui = rgb { 255 204 204 }
+}
+ARN = {
+	color = rgb { 176 102 180 }
+	color_ui = rgb { 176 102 180 }
+}
+KYS = {
+	color = rgb { 153 76 0 }
+	color_ui = rgb { 153 76 0 }
+}
+MLD = {
+	color = rgb { 255 204 204 }
+	color_ui = rgb { 255 204 204 }
+}

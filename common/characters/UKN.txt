@@ -1,0 +1,17 @@
+characters = {
+
+
+    UKN_Leonid_Kravchuk = {
+		name = UKN_Leonid_Kravchuk
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/UKN/portrait_UKN_Leonid_Kravchuk.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_democratic
+			traits = { }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}
