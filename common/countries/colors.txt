@@ -19,50 +19,94 @@ RUS = {
 	color_ui = rgb { 55 148 143 }
 }
 UKN = {
-	color = rgb { 42 82 190 }
-	color_ui = rgb { 42 82 190 }
+	color = rgb { 36 70 162 }
+	color_ui = rgb { 36 70 162 }
 }
 BLS = {
-	color = rgb { 255 250 240 }
-	color_ui = rgb { 255 250 240 }
+	color = rgb { 217 213 204 }
+	color_ui = rgb { 217 213 204 }
 }
 KAH = {
 	color = rgb { 162 162 208 }
 	color_ui = rgb { 162 162 208 }
 }
 PLN = {
-	color = rgb { 221 91 129 }
-	color_ui = rgb { 221 91 129 }
+	color = rgb { 188 77 110 }
+	color_ui = rgb { 188 77 110 }
 }
 LIA = {
-	color = rgb { 219 219 119 }
-	color_ui = rgb { 219 219 119 }
+	color = rgb { 186 186 101 }
+	color_ui = rgb { 186 186 101 }
 }
 ESA = {
-	color = rgb { 50 135 175 }
-	color_ui = rgb { 50 135 175 }
+	color = rgb { 43 115 149 }
+	color_ui = rgb { 43 115 149 }
 }
 LAA = {
-	color = rgb { 75 77 186 }
-	color_ui = rgb { 75 77 186 }
+	color = rgb { 64 65 158 }
+	color_ui = rgb { 64 65 158 }
 }
 AZB = {
-	color = rgb { 69 151 49 }
-	color_ui = rgb { 69 151 49 }
+	color = rgb { 59 128 42 }
+	color_ui = rgb { 59 128 42 }
 }
 GRU = {
-	color = rgb { 255 204 204 }
-	color_ui = rgb { 255 204 204 }
+	color = rgb { 217 173 173 }
+	color_ui = rgb { 217 173 173 }
 }
 ARN = {
-	color = rgb { 176 102 180 }
-	color_ui = rgb { 176 102 180 }
+	color = rgb { 150 87 153 }
+	color_ui = rgb { 150 87 153 }
 }
 KYS = {
 	color = rgb { 153 76 0 }
 	color_ui = rgb { 153 76 0 }
 }
 MLD = {
-	color = rgb { 255 204 204 }
-	color_ui = rgb { 255 204 204 }
+	color = rgb { 179 143 143 }
+	color_ui = rgb { 179 143 143 }
+}
+RMN = {
+	color = rgb { 183 167 61 }
+	color_ui = rgb { 183 167 61 }
+}
+BLG = {
+	color = rgb { 51 155 0 }
+	color_ui = rgb { 51 155 0 }
+}
+YGS = {
+	color = rgb { 72 73 126 }
+	color_ui = rgb { 72 73 126 }
+}
+HUG = {
+	color = rgb { 212 107 83 }
+	color_ui = rgb { 212 107 83 }
+}
+CZH = {	
+    color = rgb { 46 142 133 }
+	color_ui = rgb { 46 142 133 }
+}
+ALN = {
+	color = rgb { 149 45 102 }
+	color_ui = rgb { 149 45 102 }
+}
+GRC = {
+	color = rgb { 79 154 193 }
+	color_ui = rgb { 79 154 193 }
+}
+TUK = {
+	color = rgb { 146 156 121 }
+	color_ui = rgb { 146 156 121 }
+}
+SLN = {
+	color = rgb { 102 178 255 }
+	color_ui = rgb { 102 178 255 }
+}
+XOR = {
+	color = rgb { 230 70 180 }
+	color_ui = rgb { 230 70 180 }
+}
+MAK = {
+	color = rgb { 146 156 121 }
+	color_ui = rgb { 146 156 121 }
 }
