@@ -20,7 +20,7 @@ MLD = "countries/Moldavia.txt"
 ##Южная Европа
 RMN = "countries/Romania.txt"
 BLG = "countries/Bolgaria.txt"
-YGS = "countries/Yugoslavia.txt"
+SRB = "countries/Serbia.txt"
 HUG = "countries/Hungary.txt"
 CZH = "countries/Czechoslovakia.txt"
 GRC = "countries/Grecia.txt"

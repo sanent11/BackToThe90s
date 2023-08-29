@@ -1,0 +1,24 @@
+state={
+	id=913
+	name="STATE_913"
+	
+	history={
+		owner = SOU
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SOU
+		add_core_of = KAL
+	
+
+	}
+	
+	provinces={
+		481 3413 3439 3475 6463 9426 9442 11416 
+	}
+	manpower=38673
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

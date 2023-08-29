@@ -1,1 +1,1 @@
-color = rgb { 255 51 51 }
+color = rgb { 124 133 103 }

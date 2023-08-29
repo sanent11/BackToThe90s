@@ -44,7 +44,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = no
 	election_frequency = 48
 	elections_allowed = no
@@ -54,11 +54,11 @@ set_popularities = {
 	fascism = 0
 	nationalism = 0
 	neutrality = 0 
-	conservocratic = 20
+	conservocratic = 44
 	liberocratic = 5
-	democratic = 55
+	democratic = 0
 	paternalism = 0
-	communism = 20
+	communism = 51
 	anarchy = 0
 	
 }

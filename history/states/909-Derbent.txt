@@ -1,0 +1,24 @@
+state={
+	id=909
+	name="STATE_909"
+	
+	history={
+		owner = SOU
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+
+		}
+		add_core_of = SOU
+		
+
+	}
+	
+	provinces={
+		1450 3711 4463 7554 7624 9645 
+	}
+	manpower=104865
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

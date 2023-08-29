@@ -1,0 +1,27 @@
+state={
+	id=927
+	name="STATE_927"
+	
+	history={
+		owner = ARN
+		victory_points = {
+			12441 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			
+		}
+		
+		add_core_of = ARN
+		
+	}
+	
+	provinces={
+		3564 12441 
+	}
+	manpower=228164
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

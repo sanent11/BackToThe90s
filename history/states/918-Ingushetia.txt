@@ -1,0 +1,32 @@
+state={
+	id=918
+	name="STATE_918"
+	resources={
+		oil=12.000
+	}
+	
+	history={
+		owner = SOU
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			670 5 
+		}
+		victory_points = {
+			13257 1
+		}
+		add_core_of = SOU
+		add_core_of = CIN
+
+	}
+	
+	provinces={
+		670 3667 13257
+	}
+	manpower=192642
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -71,12 +71,12 @@ RMN = {
 	color_ui = rgb { 183 167 61 }
 }
 BLG = {
-	color = rgb { 51 155 0 }
-	color_ui = rgb { 51 155 0 }
+	color = rgb { 43 132 0 }
+	color_ui = rgb { 43 132 0 }
 }
-YGS = {
-	color = rgb { 72 73 126 }
-	color_ui = rgb { 72 73 126 }
+SRB = {
+	color = rgb { 61 62 107 }
+	color_ui = rgb { 61 62 107 }
 }
 HUG = {
 	color = rgb { 212 107 83 }
@@ -99,14 +99,14 @@ TUK = {
 	color_ui = rgb { 146 156 121 }
 }
 SLN = {
-	color = rgb { 102 178 255 }
-	color_ui = rgb { 102 178 255 }
+	color = rgb { 87 151 217 }
+	color_ui = rgb { 87 151 217 }
 }
 XOR = {
-	color = rgb { 230 70 180 }
-	color_ui = rgb { 230 70 180 }
+	color = rgb { 167 51 130 }
+	color_ui = rgb { 167 51 130 }
 }
 MAK = {
-	color = rgb { 146 156 121 }
-	color_ui = rgb { 146 156 121 }
+	color = rgb { 124 133 103 }
+	color_ui = rgb { 124 133 103 }
 }
