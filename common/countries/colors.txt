@@ -110,3 +110,7 @@ MAK = {
 	color = rgb { 124 133 103 }
 	color_ui = rgb { 124 133 103 }
 }
+AUT = {
+	color = rgb { 228 221 221 }
+	color_ui = rgb { 253 221 221 }
+}
