@@ -16,8 +16,6 @@ KYS = "countries/Kirgizia.txt"
 TMN = "countries/Turkmenistan.txt" 
 TJK = "countries/Tajikistan.txt"
 MLD = "countries/Moldavia.txt"
-
-##Южная Европа
 RMN = "countries/Romania.txt"
 BLG = "countries/Bolgaria.txt"
 SRB = "countries/Serbia.txt"
@@ -33,6 +31,11 @@ MAK = "countries/Makedonia.txt"
 ##Западная Европа
 FRG = "countries/Federate Germany.txt" 
 AUT = "countries/Austria.txt"
+
+##Азия
+NRK = "countries/North Korea.txt"
+
+
 
 
 

@@ -39,13 +39,18 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SOU/portrait_SOU_Boris_Yeltsin.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_LAA_Anatoliy_Gorbunov"
-		texturefile = "gfx/leaders/LAA/portrait_LAA_Anatoliy_Gorbunov.dds"
+		name = "GFX_portrait_SOU_Vladimir_Zhirinovsky"
+		texturefile = "gfx/leaders/SOU/portrait_SOU_Vladimir_Zhirinovsky.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_GER_Rihard_Karl"
-		texturefile = "gfx/leaders/FRG/portrait_GER_Rihard_Karl.dds"
+		name = "GFX_portrait_NRK_Kim_Ir_Sen"
+		texturefile = "gfx/leaders/NRK/portrait_NRK_Kim_Ir_Sen.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_NRK_Kim_Jong_Ir"
+		texturefile = "gfx/leaders/NRK/portrait_NRK_Kim_Jong_Ir.dds"
+	}
+
 
 
 

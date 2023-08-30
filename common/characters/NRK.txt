@@ -1,0 +1,32 @@
+characters = {
+
+
+    NRK_Kim_Ir_Sen = {
+		name = NRK_Kim_Ir_Sen
+		portraits={
+			civilian={
+				large= "gfx/leaders/NRK/portrait_NRK_Kim_Ir_Sen.dds"
+			}
+		}
+		country_leader = {
+			ideology = juche
+			traits = { }
+			expire = "1994.9.8.1"
+			id = -1
+		}
+	}
+	NRK_Kim_Jong_Ir = {
+		name = NRK_Kim_Jong_Ir
+		portraits={
+			civilian={
+				large= "gfx/leaders/NRK/portrait_NRK_Kim_Jong_Ir.dds"
+			}
+		}
+		country_leader = {
+			ideology = juche
+			traits = { }
+			expire = "2011.12.17.1"
+			id = -1
+		}
+	}
+}

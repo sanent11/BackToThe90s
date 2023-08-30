@@ -2,6 +2,8 @@ capital = 219
 oob = "SOU_1991"
 
 recruit_character = SOU_boris_yeltsin
+recruit_character = SOU_boris_yeltsin1
+recruit_character = SOU_Vladimir_Zhirinovsky
 
 set_research_slots = 4
 set_convoys = 0

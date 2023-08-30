@@ -1,0 +1,26 @@
+state={
+	id=947
+	name="STATE_947"
+	
+	history={
+		owner = SOK
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			dockyard = 1
+			
+
+		}
+		
+		add_core_of = SOK
+
+	}
+	
+	provinces={
+		1148 4004 7021 11958 
+	}
+	manpower=1270384
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

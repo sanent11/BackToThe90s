@@ -24,6 +24,24 @@ defined_text = {
 		}
 		localization_key = neutrality
 	}
+	text = {
+		trigger = {
+			has_government = conservocratic
+		}
+		localization_key = conservocratic
+	}
+	text = {
+		trigger = { 
+			has_government = liberocratic
+		}
+		localization_key = liberocratic
+	}
+	text = {
+		trigger = {
+			has_government = paternalism
+		}
+		localization_key = paternalism
+	}
 }
 defined_text = {
 	name = GetRulingIdeologyFullName
@@ -82,9 +100,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = true_whig
+			has_country_leader_ideology = con_populism
 		}
-		localization_key = true_whig
+		localization_key = con_populism
 	}
 	text = {
 		trigger = {
@@ -112,9 +130,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = socialist_autocracy
+			has_country_leader_ideology = neo_liberalism
 		}
-		localization_key = socialist_autocracy
+		localization_key = neo_liberalism
 	}
 	text = {
 		trigger = {
@@ -133,6 +151,12 @@ defined_text = {
 			has_country_leader_ideology = anarcho_syndicalism
 		}
 		localization_key = anarcho_syndicalism
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = juche
+		}
+		localization_key = juche 
 	}
 	text = {
 		trigger = {

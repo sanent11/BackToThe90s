@@ -9,7 +9,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_democratic
+			ideology = conservatism
 			traits = { }
 			expire = "2022.8.24.1"
 			id = -1

@@ -44,7 +44,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = natdem
+	ruling_party = conservocratic
 	last_election = no
 	election_frequency = 48
 	elections_allowed = no
@@ -53,13 +53,13 @@ set_politics = {
 set_popularities = {
 	fascism = 0
 	nationalism = 0
-	neutrality = 10 
-	natdem = 60
-	conservocratic = 10
+	neutrality = 13
+	natdem = 16
+	conservocratic = 50
 	liberocratic = 0
 	democratic = 0
 	paternalism = 0
-	communism = 20
+	communism = 21
 	anarchy = 0
 	
 }
