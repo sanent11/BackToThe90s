@@ -1,0 +1,17 @@
+characters = {
+
+
+    JPN_Kiiti_Miadzava = {
+		name = JPN_Kiiti_Miadzava
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JPN/portrait_JPN_Kiiti_Miadzava.dds"
+			}
+		}
+		country_leader = {
+			ideology = soc_con
+			traits = { }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}

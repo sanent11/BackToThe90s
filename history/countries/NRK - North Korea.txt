@@ -1,4 +1,4 @@
-capital = 405
+capital = 527
 oob = "NRK_1991"
 
 recruit_character = NRK_Kim_Ir_Sen

@@ -1,0 +1,19 @@
+characters = {
+
+
+    SOK_Ro_De_Y = {
+		name = SOK_Ro_De_Y
+		portraits={
+			civilian={
+				large= "gfx/leaders/SOK/portrait_SOK_Ro_De_Y.dds"
+			}
+		}
+		country_leader = {
+			ideology = soc_lib
+			traits = { }
+			expire = "2021.10.26.1"
+			id = -1
+		}
+	}
+
+}

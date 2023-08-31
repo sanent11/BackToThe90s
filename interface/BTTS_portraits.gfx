@@ -50,6 +50,14 @@ spriteTypes = {
 		name = "GFX_portrait_NRK_Kim_Jong_Ir"
 		texturefile = "gfx/leaders/NRK/portrait_NRK_Kim_Jong_Ir.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_SOK_Ro_De_Y"
+		texturefile = "gfx/leaders/SOK/portrait_SOK_Ro_De_Y.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_JPN_Kiiti_Miadzava"
+		texturefile = "gfx/leaders/JPN/portrait_JPN_Kiiti_Miadzava.dds"
+	}
 
 
 

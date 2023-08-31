@@ -34,6 +34,19 @@ AUT = "countries/Austria.txt"
 
 ##Азия
 NRK = "countries/North Korea.txt"
+SOK = "countries/South Korea.txt"
+CPR = "countries/ComChina.txt"
+JPN = "countries/Japan.txt"
+MON = "countries/Mongolia.txt"
+VIE = "countries/Vietnam.txt"
+BIR = "countries/Burma.txt"
+THA = "countries/Siam.txt"
+CMJ = "countries/Cambodia.txt"
+IND = "countries/India.txt"
+NEP = "countries/Nepal.txt"
+BHU = "countries/Bhutan.txt"
+LAO = "countries/Laos.txt"
+
 
 
 

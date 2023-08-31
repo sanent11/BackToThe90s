@@ -1,5 +1,5 @@
 guiTypes = {
-
+ 
 	containerWindowType = {
 		name = "syndicalist_soc_dem_notice_container"
 		position = { x = 88 y = 305 }

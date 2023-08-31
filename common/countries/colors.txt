@@ -118,3 +118,51 @@ NRK = {
 	color = rgb { 139 0 0 }
 	color_ui = rgb { 139 0 0 }
 }
+SOK = {
+	color = rgb { 0 47 85 }
+	color_ui = rgb { 0 47 85 }
+}
+CPR = {
+	color = rgb { 175 43 30 }
+	color_ui = rgb { 175 43 30 }
+}
+JPN = {
+	color = rgb { 255 191 191 }
+	color_ui = rgb { 255 191 191 }
+}
+MON = {
+	color = rgb { 161 190 102 }
+	color_ui = rgb { 161 190 102 }
+}
+VIE = {
+	color = rgb { 230 223 50 }
+	color_ui = rgb { 230 223 50 }
+}
+BIR = {
+	color = rgb { 76 153 0 }
+	color_ui = rgb { 76 153 0 }
+}
+THA = {
+	color = rgb { 171 190 152 }
+	color_ui = rgb { 171 190 152 }
+}
+CMJ = {
+	color = rgb { 160 71 102 }
+	color_ui = rgb { 160 71 102 }
+}
+IND = {
+	color = rgb { 0 154 99 }
+	color_ui = rgb { 0 154 99 }
+}
+NEP = {
+	color = rgb { 152 130 191 }
+	color_ui = rgb { 152 130 191 }
+}
+BHU = {
+	color = rgb { 137 172 118 }
+	color_ui = rgb { 137 172 118 }
+}
+LAO = {
+	color = rgb { 30 71 190 }
+	color_ui = rgb { 30 71 190 }
+}
