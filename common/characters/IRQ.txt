@@ -1,0 +1,17 @@
+characters = {
+
+
+    IRQ_Saddam_Khuseyn = {
+		name = IRQ_Saddam_Khuseyn
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/IRQ/portrait_IRQ_Saddam_Khuseyn.dds"
+			}
+		}
+		country_leader = {
+			ideology = react_conservatism
+			traits = { }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}

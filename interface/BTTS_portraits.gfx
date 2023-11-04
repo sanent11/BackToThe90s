@@ -27,20 +27,20 @@ spriteTypes = {
 		texturefile = "gfx/leaders/KAH/portrait_KAH_Nursultan_Nazarbaev.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_SOU_Mikhail_Gorbachov"
-		texturefile = "gfx/leaders/SOU/portrait_SOU_Mikhail_Gorbachov.dds"
+		name = "GFX_portrait_RUS_Mikhail_Gorbachov"
+		texturefile = "gfx/leaders/RUS/portrait_RUS_Mikhail_Gorbachov.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_UKN_Leonid_Kravchuk"
 		texturefile = "gfx/leaders/UKN/portrait_UKN_Leonid_Kravchuk.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_SOU_Boris_Yeltsin"
-		texturefile = "gfx/leaders/SOU/portrait_SOU_Boris_Yeltsin.dds"
+		name = "GFX_portrait_RUS_Boris_Yeltsin"
+		texturefile = "gfx/leaders/RUS/portrait_RUS_Boris_Yeltsin.dds"
 	}
 	spriteType = {
-		name = "GFX_portrait_SOU_Vladimir_Zhirinovsky"
-		texturefile = "gfx/leaders/SOU/portrait_SOU_Vladimir_Zhirinovsky.dds"
+		name = "GFX_portrait_RUS_Vladimir_Zhirinovsky"
+		texturefile = "gfx/leaders/RUS/portrait_RUS_Vladimir_Zhirinovsky.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_NRK_Kim_Ir_Sen"
@@ -58,6 +58,24 @@ spriteTypes = {
 		name = "GFX_portrait_JPN_Kiiti_Miadzava"
 		texturefile = "gfx/leaders/JPN/portrait_JPN_Kiiti_Miadzava.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_SYR_Khafez_Asad"
+		texturefile = "gfx/leaders/SYR/portrait_SYR_Khafez_Asad.dds"
+	}
+
+    spriteType = {
+		name = "GFX_portrait_IRQ_Saddam_Khuseyn"
+		texturefile = "gfx/leaders/IRQ/portrait_IRQ_Saddam_Khuseyn.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_CPR_Jiang_Zemiin"
+		texturefile = "gfx/leaders/CPR/portrait_CPR_Jiang_Zemiin.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ITA_Anderotti"
+		texturefile = "gfx/leaders/ITA/portrait_ITA_Anderotti.dds"
+	}
+
 
 
 

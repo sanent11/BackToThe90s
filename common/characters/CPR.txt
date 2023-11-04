@@ -1,0 +1,17 @@
+characters = {
+
+
+    CPR_Jiang_Zemiin = {
+		name = CPR_Jiang_Zemiin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CPR/portrait_CPR_Jiang_Zemiin.dds"
+			}
+		}
+		country_leader = {
+			ideology = china_socialism
+			traits = { }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}

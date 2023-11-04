@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = SOU
+		owner = RUS
 		buildings = {
 			infrastructure = 2
 
@@ -15,13 +15,13 @@ state={
 		victory_points = {
 			666 5 
 		}
-		add_core_of = SOU
+		add_core_of = RUS
 		add_core_of = CIN
 
 	}
 
 	provinces={
-		666 1455 3672 6689 13258 13262
+		666 1455 3672 6689 13274 13278
 	}
 	manpower=1101283
 	buildings_max_level_factor=1.000

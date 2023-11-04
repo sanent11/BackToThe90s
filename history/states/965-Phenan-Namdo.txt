@@ -1,0 +1,24 @@
+state={
+	id=965
+	name="STATE_965"
+	
+	history={
+		owner = NRK
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+
+		}
+		
+		add_core_of = NRK
+
+	}
+	
+	provinces={
+		3912 7171 9790 10083 11770 
+	}
+	manpower=487511
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

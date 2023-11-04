@@ -1,0 +1,22 @@
+state={
+	id=982
+	name="STATE_982"
+	
+	history={
+		owner = IAF
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = IAF
+
+	}
+	
+	provinces={
+		7584 7984 10852 12248 12877 
+	}
+	manpower=507842
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

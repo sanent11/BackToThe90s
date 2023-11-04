@@ -4,12 +4,42 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1991.12.1.12
 		picture = "GFX_select_date_1991"
-		default_country = "GER"
+		default_country = "RUS"
 		default = yes
 		
-		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
+		"RUS"={
+			history = "RUS_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				
+			}
+			focuses = {
+				RUS_belovezhskii_sogl
+				RUS_new_constitution
+				RUS_protest_snd
+			}
 		}
+		"UKN"={
+			history = "UKN_GATHERING_STORM_DESC"
+			ideology = conservocratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"BLS"={
+			history = "BLR_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
 		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

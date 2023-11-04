@@ -56,6 +56,11 @@ TJK_SOU = {
 	color = rgb { 123 0 28 }
 	color_ui = rgb { 123 0 28 }
 }
+RUS_DEM = {
+	color = rgb { 0 102 51 }
+	color_ui = rgb { 0 102 51 }
+}
+
 
 #Vanilla
 

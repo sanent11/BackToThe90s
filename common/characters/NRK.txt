@@ -9,7 +9,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = juche
+			ideology = leninism
 			traits = { }
 			expire = "1994.9.8.1"
 			id = -1
@@ -23,7 +23,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = juche
+			ideology = leninism
 			traits = { }
 			expire = "2011.12.17.1"
 			id = -1

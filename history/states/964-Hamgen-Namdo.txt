@@ -1,0 +1,24 @@
+state={
+	id=964
+	name="STATE_964"
+	
+	history={
+		owner = NRK
+		buildings = {
+			infrastructure = 2
+			
+
+		}
+		
+		add_core_of = NRK
+
+	}
+	
+	provinces={
+		852 978 3852 3904 3981 6928 
+	}
+	manpower=332756
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

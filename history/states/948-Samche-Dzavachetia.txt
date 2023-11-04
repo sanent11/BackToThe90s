@@ -1,0 +1,23 @@
+state={
+	id=948
+	name="STATE_948"
+	
+	history={
+		owner = GRU
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = GRU
+
+	}
+	
+	provinces={
+		3656 6669 9702 
+	}
+	manpower=200123
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

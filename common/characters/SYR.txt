@@ -1,0 +1,17 @@
+characters = {
+
+
+    SYR_Khafez_Asad = {
+		name = SYR_Khafez_Asad
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SYR/portrait_SYR_Khafez_Asad.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = { }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}

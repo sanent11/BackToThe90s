@@ -1,7 +1,7 @@
 capital = 608
 oob = "CPR_1991"
 
-recruit_character = CPR_Tzan_Tzemen
+recruit_character = CPR_Jiang_Zemiin
 
 set_research_slots = 3
 set_convoys = 0

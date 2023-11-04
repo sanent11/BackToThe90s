@@ -1,0 +1,17 @@
+characters = {
+
+
+    ITA_Anderotti = {
+		name = ITA_Anderotti
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/portrait_ITA_Anderotti.dds"
+			}
+		}
+		country_leader = {
+			ideology = christian_democratic
+			traits = { }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}

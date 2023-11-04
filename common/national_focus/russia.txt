@@ -1,0 +1,314 @@
+focus_tree = {
+    id = RUS_focus_tree
+	
+	country = {
+	    factor = 0
+		modifier = {
+		    add = 10
+			tag = RUS 
+		}
+	}
+	
+	default = no
+	
+	
+	focus = {
+	    id = RUS_belovezhskii_sogl
+	    x = 8
+	    y = 0
+	    cost = 1
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+	        add_political_power = -50
+			add_stability = -0.3
+			set_politics = {
+	           ruling_party = liberocratic
+               elections_allowed = no
+               election_frequency = 48
+ 
+			}
+		}
+	}
+	focus = {
+	    id = RUS_pereimenovanie
+		prerequisite = { focus = RUS_belovezhskii_sogl }
+	    x = 8
+	    y = 1
+	    cost = 1
+	    available_if_capitulated = no
+	   
+	    completion_reward = {
+	       set_cosmetic_tag = RUS_DEM  
+
+		}
+	}
+	focus = {
+	    id = RUS_new_constitution
+		prerequisite = { focus = RUS_pereimenovanie }
+	    x = 8
+	    y = 3
+	    cost = 10
+	    available_if_capitulated = no
+	   
+	    completion_reward = {
+	        
+		}
+	}
+	focus = {
+	    id = RUS_liberalizatia
+		prerequisite = { focus = RUS_new_constitution }
+	    x = 4
+	    y = 3
+	    cost = 10
+	    available_if_capitulated = no
+	   
+	    completion_reward = {
+	        
+		}
+	}
+	focus = {
+	    id = RUS_privatizatia
+		prerequisite = { focus = RUS_liberalizatia }
+	    x = 4
+	    y = 5
+	    cost = 10
+	    available_if_capitulated = no
+	   
+	    completion_reward = {
+	        
+		}
+	}
+	focus = {
+	    id = RUS_protest_snd
+		prerequisite = { focus = RUS_new_constitution }
+	    x = 8
+	    y = 6
+	    cost = 10
+	    available_if_capitulated = no
+	   
+	    completion_reward = {
+	        
+		}
+	}
+	focus = {
+	    id = RUS_ichkeria_tatarstan
+		prerequisite = { focus = RUS_new_constitution }
+	    x = 12
+	    y = 3
+	    cost = 10
+	    available_if_capitulated = no
+	   
+	    completion_reward = {
+	        
+		}
+	}
+	focus = {
+	    id = RUS_update_federation
+		prerequisite = { focus = RUS_ichkeria_tatarstan }
+	    x = 12
+	    y = 5
+	    cost = 10
+	    available_if_capitulated = no
+	   
+	    completion_reward = {
+	        
+		}
+	}
+	focus = {
+	    id = RUS_referendum
+		prerequisite = { focus = RUS_protest_snd }
+	    x = 8
+	    y = 7
+	    cost = 10
+	    available_if_capitulated = no
+	   
+	    completion_reward = {
+	        
+		}
+	}
+	focus = {
+	    id = RUS_otstavka_eltsina
+		prerequisite = { focus = RUS_referendum }
+	    x = 11
+	    y = 8
+	    cost = 10 
+	    available_if_capitulated = no
+	   
+	    completion_reward = {
+	     set_global_flag = hasbulatov
+		}
+	}
+	focus = {
+	    id = RUS_rospusk_snd
+		prerequisite = { focus = RUS_referendum }
+	    x = 5
+	    y = 8
+	    cost = 10
+	    available_if_capitulated = no
+	   
+	    completion_reward = {
+	        
+		}
+	}
+	focus = {
+	    id = RUS_boi_v_moskve
+		prerequisite = { focus = RUS_rospusk_snd }
+	    x = 5
+	    y = 9
+	    cost = 10
+	    available_if_capitulated = no
+	   
+	    completion_reward = {
+	        
+		}
+	}
+	focus = {
+	    id = RUS_eltsen_arrest
+		prerequisite = { focus = RUS_boi_v_moskve }
+	    x = 8
+	    y = 10
+	    cost = 10
+	    available_if_capitulated = no
+	   
+	    completion_reward = {
+	        
+		}
+	}
+	focus = {
+	    id = RUS_vlast_voennih
+		prerequisite = { focus = RUS_boi_v_moskve }
+		mutually_exclusive = ( focus = RUS_kapitulatsia_verh_sov }
+	    x = 5
+	    y = 10
+	    cost = 10
+	    available_if_capitulated = no
+	   
+	    completion_reward = {
+	        
+		}
+	}
+	focus = {
+	    id = RUS_kapitulatsia_verh_sov
+		prerequisite = { focus = RUS_boi_v_moskve }
+		mutually_exclusive = ( focus = RUS_vlast_voennih }
+	    x = 3
+	    y = 10
+	    cost = 10
+	    available_if_capitulated = no
+	   
+	    completion_reward = {
+	        
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	continuous_focus_position = { x = 20 y = 1700 }

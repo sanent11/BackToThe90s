@@ -1,4 +1,4 @@
-version="1.12.14"
+version="1.13.2"
 tags={
 	"Alternative History"
 	"Events"
@@ -10,4 +10,11 @@ tags={
 	"Technologies"
 }
 name="Back to the 90s"
-supported_version="1.12.14"
+supported_version="1.13.2"
+
+replace_path="history/countries"
+replace_path="common"
+
+
+
+
