@@ -16,6 +16,10 @@ spriteTypes = {
 		name = "GFX_portrait_unknown_female"
 		texturefile = "gfx/leaders/leader_unknown_female.dds"
 	}
+	
+	
+	
+	
 	# Mod
 	
     spriteType = {
@@ -74,6 +78,14 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_ITA_Anderotti"
 		texturefile = "gfx/leaders/ITA/portrait_ITA_Anderotti.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ENG_John_Meijor"
+		texturefile = "gfx/leaders/ENG/portrait_ENG_John_Meijor.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_USA_George_Bush_st"
+		texturefile = "gfx/leaders/USA/portrait_USA_George_Bush_st.dds"
 	}
 
 

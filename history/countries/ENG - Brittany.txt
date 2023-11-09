@@ -1,7 +1,7 @@
 capital = 126
 oob = "ENG_1991"
 
-recruit_character = 
+recruit_character = ENG_John_Meijor
 
 set_research_slots = 3
 set_convoys = 0

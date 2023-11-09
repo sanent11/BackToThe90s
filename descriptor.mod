@@ -12,8 +12,7 @@ tags={
 name="Back to the 90s"
 supported_version="1.13.2"
 
-replace_path="history/countries"
-replace_path="common"
+
 
 
 

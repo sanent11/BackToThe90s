@@ -1,0 +1,16 @@
+characters = {  
+  
+    ENG_John_Meijor = {
+		name = ENG_John_Meijor
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ENG/portrait_ENG_John_Meijor.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = { }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}

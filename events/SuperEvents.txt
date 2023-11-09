@@ -5,40 +5,6 @@
 add_namespace = super
 add_namespace = super_info
 
-country_event = { #info
-	id = super_info.1
-	title = super_info.1.t
-	desc = super_info.1.d
-	picture = GFX_super_event_picture
-
-	is_triggered_only = yes
-	
-	fire_only_once = no
-
-	option = { #changelog
-		name = super_info.1.a
-		country_event = { id = super_info.2 }
-	}
-	option = { #bye
-		name = super_info.1.b
-	}
-}
-
-country_event = { #changelog
-	id = super_info.2
-	title = super_info.2.t
-	desc = super_info.2.d
-	picture = GFX_report_event_physics_lab_01
-
-	is_triggered_only = yes
-	
-	fire_only_once = no
-
-	option = { #bye
-		name = super_info.2.a
-	}
-}
-
 country_event = {	#ww2
 	id = super.1
 	title = super.1.t
