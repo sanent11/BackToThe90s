@@ -1,7 +1,7 @@
 capital = 3
 oob = "SWI_1991"
 
-recruit_character = 
+recruit_character = SWI_Federal_Sovet
 
 set_research_slots = 3
 set_convoys = 0

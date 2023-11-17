@@ -1,0 +1,16 @@
+characters = {  
+  
+    GER_Gelmut_Kol = {
+		name = GER_Gelmut_Kol
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GER/portrait_GER_Gelmut_Kol.dds"
+			}
+		}
+		country_leader = {
+			ideology = christian_democracy
+			traits = { }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}

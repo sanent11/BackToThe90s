@@ -87,6 +87,42 @@ spriteTypes = {
 		name = "GFX_portrait_USA_George_Bush_st"
 		texturefile = "gfx/leaders/USA/portrait_USA_George_Bush_st.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_BEL_Wilfrid_Martins"
+		texturefile = "gfx/leaders/Benilux/portrait_BEL_Wilfrid_Martins.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_HOL_Ruud_Lubbers"
+		texturefile = "gfx/leaders/Benilux/portrait_HOL_Ruud_Lubbers.dds"
+	}
+		spriteType = {
+		name = "GFX_portrait_POR_Marselu_Di_Soza"
+		texturefile = "gfx/leaders/Iberia/portrait_POR_Marselu_Di_Soza.dds"
+	}
+		spriteType = {
+		name = "GFX_portrait_SPR_Felipe_Gonsales"
+		texturefile = "gfx/leaders/Iberia/portrait_SPR_Felipe_Gonsales.dds"
+	}
+		spriteType = {
+		name = "GFX_portrait_FRA_Fransua_Mitteran"
+		texturefile = "gfx/leaders/FRA/portrait_FRA_Fransua_Mitteran.dds"
+	}
+		spriteType = {
+		name = "GFX_portrait_LUX_Jacques_Santer"
+		texturefile = "gfx/leaders/Benilux/portrait_LUX_Jacques_Santer.dds"
+	}
+		spriteType = {
+		name = "GFX_portrait_SWI_Federal_Sovet"
+		texturefile = "gfx/leaders/SWI/portrait_portrait_SWI_Federal_Sovet.dds"
+	}
+		spriteType = {
+		name = "GFX_portrait_GER_Gelmut_Kol"
+		texturefile = "gfx/leaders/GER/portrait_portrait_GER_Gelmut_Kol.dds"
+	}
+		spriteType = {
+		name = "GFX_portrait_AUS_Franz_Vranitski"
+		texturefile = "gfx/leaders/AUS/portrait_AUS_Franz_Vranitski.dds"
+	}
 
 
 

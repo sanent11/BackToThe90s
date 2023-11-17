@@ -1,0 +1,16 @@
+characters = {  
+  
+    POR_Marselu_Di_Soza = {
+		name = POR_Marselu_Di_Soza
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Iberia/portrait_POR_Marselu_Di_Soza.dds"
+			}
+		}
+		country_leader = {
+			ideology = soc_lib
+			traits = { }
+			expire = "2025.1.1.1"
+			id = -1
+		}
+	}

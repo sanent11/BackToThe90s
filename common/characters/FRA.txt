@@ -1,0 +1,16 @@
+characters = {  
+  
+    FRA_Fransua_Mitteran = {
+		name = FRA_Fransua_Mitteran
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FRA/portrait_FRA_Fransua_Mitteran.dds"
+			}
+		}
+		country_leader = {
+			ideology = soc_dem
+			traits = { }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}

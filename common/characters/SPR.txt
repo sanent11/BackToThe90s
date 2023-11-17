@@ -1,0 +1,16 @@
+characters = {  
+  
+    SPR_Felipe_Gonsales = {
+		name = SPR_Felipe_Gonsales
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Iberia/portrait_SPR_Felipe_Gonsales.dds"
+			}
+		}
+		country_leader = {
+			ideology = soc_dem
+			traits = { }
+			expire = "2025.1.1.1"
+			id = -1
+		}
+	}

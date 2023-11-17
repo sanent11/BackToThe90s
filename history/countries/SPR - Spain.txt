@@ -1,7 +1,7 @@
 capital = 41
-oob = "SPA_1991"
+oob = "SPR_1991"
 
-recruit_character = 
+recruit_character = SPR_Felipe_Gonsales
 
 set_research_slots = 3
 set_convoys = 0
@@ -56,9 +56,9 @@ set_popularities = {
 	nationalism = 0
 	neutrality = 0 
 	natdem = 0
-	conservocratic = 22
-	liberocratic = 0
-	democratic = 78
+	conservocratic = 23
+	liberocratic = 5
+	democratic = 72
 	paternalism = 0
 	communism = 0
 	anarchy = 0

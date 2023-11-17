@@ -1,0 +1,16 @@
+characters = {  
+  
+    HOL_Ruud_Lubbers = {
+		name = HOL_Ruud_Lubbers
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Benilux/portrait_HOL_Ruud_Lubbers.dds"
+			}
+		}
+		country_leader = {
+			ideology = christian_democracy
+			traits = { }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}

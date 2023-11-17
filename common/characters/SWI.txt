@@ -1,0 +1,16 @@
+characters = {  
+  
+    SWI_Federal_Sovet = {
+		name = SWI_Federal_Sovet
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWI/portrait_SWI_Federal_Sovet.dds"
+			}
+		}
+		country_leader = {
+			ideology = soc_dem
+			traits = { }
+			expire = "2111.8.24.1"
+			id = -1
+		}
+	}

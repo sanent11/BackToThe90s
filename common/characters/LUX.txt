@@ -1,0 +1,16 @@
+characters = {  
+  
+    LUX_Jacques_Santer = {
+		name = LUX_Jacques_Santer
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Benilux/portrait_LUX_Jacques_Santer.dds"
+			}
+		}
+		country_leader = {
+			ideology = christian_democracy
+			traits = { }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}

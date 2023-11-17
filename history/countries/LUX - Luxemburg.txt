@@ -1,7 +1,7 @@
 capital = 267
 oob = "LUX_1991"
 
-recruit_character = 
+recruit_character = LUX_Jacques_Santer
 
 set_research_slots = 3
 set_convoys = 0

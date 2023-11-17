@@ -1,0 +1,16 @@
+characters = {  
+  
+    AUS_Franz_Vranitski = {
+		name = AUS_Franz_Vranitski
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AUS/portrait_AUS_Franz_Vranitski.dds"
+			}
+		}
+		country_leader = {
+			ideology = soc_dem
+			traits = { }
+			expire = "2111.8.24.1"
+			id = -1
+		}
+	}

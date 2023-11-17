@@ -1,0 +1,16 @@
+characters = {  
+  
+    BEL_Wilfrid_Martins = {
+		name = BEL_Wilfrid_Martins
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Benilux/portrait_BEL_Wilfrid_Martins.dds"
+			}
+		}
+		country_leader = {
+			ideology = christian_democracy
+			traits = { }
+			expire = "2018.1.1.1"
+			id = -1
+		}
+	}

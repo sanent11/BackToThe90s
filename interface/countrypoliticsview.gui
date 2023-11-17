@@ -117,11 +117,12 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "elections"
-				position = { x = -60 y =30 }
+				position = { x = -70 y =35 }
 				font = "hoi_16mbs"
 				text = "elections"
 				maxWidth = 155
 				maxHeight = 32
+				format = left
 				vertical_alignment = center
 			}
 			

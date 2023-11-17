@@ -16,18 +16,12 @@ focus_tree = {
 	    id = RUS_belovezhskii_sogl
 	    x = 8
 	    y = 0
-	    cost = 1
+	    cost = 5     
 	    available_if_capitulated = no
 	   
 	    completion_reward = { 
 	        add_political_power = -50
 			add_stability = -0.3
-			set_politics = {
-	           ruling_party = liberocratic
-               elections_allowed = no
-               election_frequency = 48
- 
-			}
 		}
 	}
 	focus = {

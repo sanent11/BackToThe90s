@@ -1,7 +1,7 @@
 capital = 64
-oob = "FRG_1991"
+oob = "GER_1991"
 
-recruit_character = 
+recruit_character = GER_Gelmut_Kol
 
 set_research_slots = 4
 set_convoys = 0

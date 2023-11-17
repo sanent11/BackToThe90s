@@ -29,8 +29,8 @@ XOR = "countries/Xorvatia.txt"
 MAK = "countries/Makedonia.txt"
 
 ##Западная Европа
-FRG = "countries/Federate Germany.txt" 
-AUT = "countries/Austria.txt"
+GER = "countries/Federate Germany.txt" 
+AUS = "countries/Austria.txt"
 ITA = "countries/Italy.txt"
 FRA = "countries/France.txt"
 BEL = "countries/Belgium.txt"

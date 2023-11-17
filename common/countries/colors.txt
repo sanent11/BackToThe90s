@@ -1,4 +1,4 @@
-FRG = {
+GER = {
 	color = rgb { 106 119 89 }
 	color_ui = rgb { 106 119 89 }
 }
@@ -114,7 +114,7 @@ MAK = {
 	color = rgb { 124 133 103 }
 	color_ui = rgb { 124 133 103 }
 }
-AUT = {
+AUS = {
 	color = rgb { 228 221 221 }
 	color_ui = rgb { 253 221 221 }
 }

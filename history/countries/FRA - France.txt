@@ -1,7 +1,7 @@
 capital = 16
 oob = "FRA_1991"
 
-recruit_character = 
+recruit_character = FRA_Fransua_Mitteran
 
 set_research_slots = 3
 set_convoys = 0
