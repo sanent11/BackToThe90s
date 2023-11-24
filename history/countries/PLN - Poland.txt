@@ -1,7 +1,7 @@
 capital = 10
 oob = "PLN_1991"
 
-recruit_character = PLN_nn
+recruit_character = PLN_Leh_Valensna
 
 set_research_slots = 3
 set_convoys = 0
@@ -44,7 +44,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberocratic
 	last_election = no
 	election_frequency = 48
 	elections_allowed = no
@@ -54,11 +54,11 @@ set_popularities = {
 	fascism = 0
 	nationalism = 0
 	neutrality = 0 
-	conservocratic = 5
-	liberocratic = 15
-	democratic = 70
+	conservocratic = 7
+	liberocratic = 48
+	democratic = 16
 	paternalism = 0
-	communism = 10
+	communism = 29
 	anarchy = 0
 	
 }

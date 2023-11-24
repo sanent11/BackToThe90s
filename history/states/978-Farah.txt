@@ -3,17 +3,17 @@ state={
 	name="STATE_978"
 	
 	history={
-		owner = IAF
+		owner = AFN
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = IAF
+		add_core_of = AFN
 
 	}
 	
 	provinces={
-		2017 2062 
+	  13284 13285
 	}
 	manpower=48573
 	state_category=rural

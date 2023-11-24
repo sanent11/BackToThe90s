@@ -1,0 +1,16 @@
+characters = {  
+  
+    PLN_Leh_Valensna = {
+		name = PLN_Leh_Valensna
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PLN/portrait_PLN_Leh_Valensna.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = { }
+			expire = "2111.8.24.1"
+			id = -1
+		}
+	}

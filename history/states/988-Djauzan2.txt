@@ -1,0 +1,20 @@
+
+state={
+	id=988
+	name="STATE_988"
+	history={
+		owner = AFN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = AFN
+
+	}
+
+	provinces = { 7984 12877 }
+	manpower=105834
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

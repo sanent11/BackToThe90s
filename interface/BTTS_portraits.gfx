@@ -123,7 +123,30 @@ spriteTypes = {
 		name = "GFX_portrait_AUS_Franz_Vranitski"
 		texturefile = "gfx/leaders/AUS/portrait_AUS_Franz_Vranitski.dds"
 	}
-
+		spriteType = {
+		name = "GFX_portrait_PLN_Leh_Valensna"
+		texturefile = "gfx/leaders/PLN/portrait_PLN_Leh_Valensna.dds"
+	}
+		spriteType = {
+		name = "GFX_portrait_CZH_Voclav_Havel"
+		texturefile = "gfx/leaders/CZH/portrait_CZH_Voclav_Havel.dds"
+	}
+		spriteType = {
+		name = "GFX_portrait_TUR_Turgut_Ozal"
+		texturefile = "gfx/leaders/TUR/portrait_TUR_Turgut_Ozal.dds"
+	}
+		spriteType = {
+		name = "GFX_portrait_BUL_Zhely_Zhelev"
+		texturefile = "gfx/leaders/Balkans/portrait_BUL_Zhely_Zhelev.dds"
+	}
+		spriteType = {
+		name = "GFX_portrait_IAF_Sebgatulla_Modjaddedi"
+		texturefile = "gfx/leaders/Afgan/portrait_IAF_Sebgatulla_Modjaddedi.dds"
+	}
+		spriteType = {
+		name = "GFX_portrait_AFN_Mohammad_Najibulla"
+		texturefile = "gfx/leaders/Afgan/portrait_AFN_Mohammad_Najibulla.dds"
+	}
 
 
 

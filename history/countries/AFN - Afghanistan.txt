@@ -1,7 +1,7 @@
 capital = 267
 oob = "AFN_1991"
 
-recruit_character = AFN_nn
+recruit_character = AFN_Mohammad_Najibulla
 
 set_research_slots = 3
 set_convoys = 0
@@ -55,7 +55,7 @@ add_equipment_to_stockpile = {
 
 
 set_politics = {
-	ruling_party = paternalism
+	ruling_party = neutrality
 	last_election = no
 	election_frequency = 48
 	elections_allowed = no
@@ -63,13 +63,13 @@ set_politics = {
 
 set_popularities = {
 	fascism = 0
-	nationalism = 7
-	neutrality = 0 
+	nationalism = 0
+	neutrality = 84
 	natdem = 0
 	conservocratic = 0
 	liberocratic = 0
 	democratic = 0
-	paternalism = 93
+	paternalism = 16
 	communism = 0
 	anarchy = 0
 	

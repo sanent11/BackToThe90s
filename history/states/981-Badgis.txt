@@ -3,17 +3,17 @@ state={
 	name="STATE_981"
 	
 	history={
-		owner = IAF
+		owner = AFN
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = IAF
+		add_core_of = AFN
 
 	}
 	
 	provinces={
-		7448 10476 10896 
+		7448  
 	}
 	manpower=494712
 	buildings_max_level_factor=1.000

@@ -1,0 +1,16 @@
+characters = {  
+  
+    IAF_Sebgatulla_Modjaddedi = {
+		name = IAF_Sebgatulla_Modjaddedi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Afgan/portrait_IAF_Sebgatulla_Modjaddedi.dds"
+			}
+		}
+		country_leader = {
+			ideology = nationalism_ideology
+			traits = { }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}

@@ -1,7 +1,7 @@
 capital = 9
 oob = "CZH_1991"
 
-recruit_character = 
+recruit_character = CZH_Voclav_Havel
 
 set_research_slots = 3
 set_convoys = 0
@@ -54,11 +54,11 @@ set_popularities = {
 	fascism = 0
 	nationalism = 0
 	neutrality = 0 
-	conservocratic = 60
-	liberocratic = 25
-	democratic = 5
+	conservocratic = 54
+	liberocratic = 30
+	democratic = 11
 	paternalism = 0
-	communism = 10
+	communism = 5
 	anarchy = 0
 	
 }

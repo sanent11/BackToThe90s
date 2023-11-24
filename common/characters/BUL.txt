@@ -1,0 +1,16 @@
+characters = {  
+  
+    BUL_Zhely_Zhelev = {
+		name = BUL_Zhely_Zhelev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Balkans/portrait_BUL_Zhely_Zhelev.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = { }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}

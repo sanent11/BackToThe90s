@@ -1,0 +1,16 @@
+characters = {  
+  
+    AFN_Mohammad_Najibulla = {
+		name = AFN_Mohammad_Najibulla
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Afgan/portrait_AFN_Mohammad_Najibulla.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = { }
+			expire = "1996.8.24.1"
+			id = -1
+		}
+	}

@@ -6,19 +6,16 @@ state={
 		owner = IAF
 		buildings = {
 			infrastructure = 1
-
-		}
-		victory_points = {
-			5064 1 
+            arms_factory = 1
 		}
 		add_core_of = IAF
 
 	}
 	
 	provinces={
-		4949 5020 5064 
+		4949 5020 		
 	}
-	manpower=450856
+	manpower=110654
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

@@ -98,7 +98,7 @@ GRC = {
 	color = rgb { 79 154 193 }
 	color_ui = rgb { 79 154 193 }
 }
-TUK = {
+TUR = {
 	color = rgb { 146 156 121 }
 	color_ui = rgb { 146 156 121 }
 }
@@ -319,8 +319,10 @@ CHI = {
 	color = rgb { 255  244  190 }
 	color_ui = rgb { 255  244  1901 }
 }
-
-
+PRD = {
+	color = rgb { 155 0 0 }
+	color_ui = rgb { 155 0 0 }
+}
 
 
 

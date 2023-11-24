@@ -1,0 +1,16 @@
+characters = {  
+  
+    CZH_Voclav_Havel = {
+		name = CZH_Voclav_Havel
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CZH/portrait_CZH_Voclav_Havel.dds"
+			}
+		}
+		country_leader = {
+			ideology = lib_con
+			traits = { }
+			expire = "2111.8.24.1"
+			id = -1
+		}
+	}

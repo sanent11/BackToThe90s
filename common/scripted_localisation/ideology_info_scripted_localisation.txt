@@ -278,6 +278,18 @@ defined_text = {
 	    }
 		text = {
 		    trigger = {
+			    has_country_leader_ideology = usa_conservatism
+			}
+			localization_key = usa_conservatism
+	    }
+		text = {
+		    trigger = {
+			    has_country_leader_ideology = lib_con
+			}
+			localization_key = lib_con
+	    }
+		text = {
+		    trigger = {
 			    has_country_leader_ideology = soc_con
 			}
 			localization_key = soc_con

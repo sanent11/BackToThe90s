@@ -13283,3 +13283,12 @@
 13280;12;88;144;land;false;desert;7
 ##Кипр
 13281;1;211;165;land;true;hills;1
+#Приднестровье
+13282;123;55;84;land;false;plains;1
+13283;33;55;99;land;false;plains;1
+#Афган
+13284;1;22;100;land;false;desert;6
+13285;111;22;100;land;false;desert;6
+13286;122;222;1;land;false;desert;6
+13287;222;5;78;land;false;desert;6
+13288;123;123;48;land;false;desert;6

@@ -13,7 +13,7 @@ state={
 	state_category = city
 
 	history= {
-		owner = TUK
+		owner = TUR
 		victory_points = {
 			9833 25
 		}
@@ -26,7 +26,7 @@ state={
 				naval_base = 8
 			}
 		}
-		add_core_of = TUK
+		add_core_of = TUR
 	}
 
 	local_supplies=0.0 

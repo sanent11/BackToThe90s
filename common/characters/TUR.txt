@@ -1,0 +1,16 @@
+characters = {  
+  
+    TUR_Turgut_Ozal = {
+		name = TUR_Turgut_Ozal
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TUR/portrait_TUR_Turgut_Ozal.dds"
+			}
+		}
+		country_leader = {
+			ideology = lib_con
+			traits = { }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}
