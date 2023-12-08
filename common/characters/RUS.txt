@@ -11,20 +11,6 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = leninism
-			traits = { }
-			expire = "2007.4.25.1"
-			id = -1
-		}
-	}
-	RUS_boris_yeltsin1 = {
-		name = RUS_boris_yeltsin1
-		portraits={
-			civilian={
-				large= "gfx/leaders/RUS/portrait_RUS_Boris_Yeltsin.dds"
-			}
-		}
-		country_leader = {
 			ideology = neo_liberalism
 			traits = { }
 			expire = "2007.4.25.1"
@@ -40,8 +26,9 @@ characters = {
 		}
 		country_leader = {
 			ideology = nationalism_ideology
+
 			traits = { }
-			expire = "2007.4.25.1"
+			expire = "2007.4.25.1
 			id = -1
 		}
 	}

@@ -1,0 +1,12 @@
+ideas = {
+    country = {
+        SOV_gorbachev= {
+			modifier = {
+				stability_factor = -0.05			
+			}
+			picture = RUS_gorbachev
+
+        }        
+	}
+		
+}

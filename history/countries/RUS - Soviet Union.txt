@@ -2,7 +2,6 @@ capital = 219
 oob = "RUS_1991"
 
 recruit_character = RUS_boris_yeltsin
-recruit_character = RUS_boris_yeltsin1
 recruit_character = RUS_Vladimir_Zhirinovsky
 
 set_research_slots = 4
@@ -71,3 +70,11 @@ set_popularities = {
 	
 }
 
+create_faction = USSRSTART
+add_to_faction = BLS
+add_to_faction = UKN
+add_to_faction = KAH
+
+set_cosmetic_tag = RUS_SOU 
+
+add_ideas = { SOV_gorbachev }
