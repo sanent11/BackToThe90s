@@ -55,7 +55,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "country_name"
 				position = { x = 245 y = 3 }
-				font = "hoi_18mbs"
+				font = "hoi_16mbs"
 				text = "Germanian"
 				maxWidth = 173
 				fixedsize = yes
@@ -72,7 +72,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "faction_name"
 					position = { x = 0 y = 0 }
-					font = "hoi_18mbs"
+					font = "hoi_16mbs"
 					text = "faction"
 					maxWidth = 173
 					maxHeight = 20
@@ -143,14 +143,14 @@ guiTypes = {
 			{
 				name ="stability_bg"
 				spriteType = "GFX_diplo_unity_bg"
-				position = { x= 447 y = 1 } #position = { x= 370 y = 1 }
+				position = { x= 446 y = 1 } #position = { x= 370 y = 1 }
 			}	
 			
 			iconType =
 			{
 				name ="stability_icon"
 				spriteType = "GFX_stability_icon"
-				position = { x= 455 y = 9 } #position = { x= 378 y = 9 }
+				position = { x= 454 y = 9 } #position = { x= 378 y = 9 }
 			}			
 
 			instantTextboxType = {
@@ -167,7 +167,7 @@ guiTypes = {
 			{
 				name ="war_support_bg"
 				spriteType = "GFX_diplo_unity_bg"
-				position = { x= 490 y = 1 } #position = { x= 414 y = 1 }
+				position = { x= 487 y = 1 } #position = { x= 414 y = 1 }
 			}	
 			
 			iconType =
@@ -179,7 +179,7 @@ guiTypes = {
 
 			instantTextboxType = {
 				name = "war_support_value"
-				position = { x = 490 y = 42 } #osition = { x = 414 y = 42 }
+				position = { x = 487 y = 42 } #osition = { x = 414 y = 42 }
 				font = "hoi_16mbs"
 				text = "100%"
 				maxWidth = 44
@@ -200,17 +200,17 @@ guiTypes = {
 			buttonType = {
 				name = "relations_tab_button"
 				quadTextureSprite = "GFX_tab_intel_ledger"
-				position = { x=15 y=70 }
+				position = { x=15 y=67 }
 				buttonText = "DIPLOMACY_RELATIONS_TAB"
-				font = "hoi_18mbs"
+				font = "hoi_16mbs"
 			}
 		
 			buttonType = {
 				name = "info_tab_button"
 				quadTextureSprite = "GFX_tab_intel_ledger"
-				position = { x=275 y= 70 }
+				position = { x=275 y= 67 }
 				buttonText = "DIPLOMACY_INFO_TAB"
-				font = "hoi_18mbs"
+				font = "hoi_16mbs"
 			}
 			
 			#------------------------- END TAB BUTTONS ----------------------------
@@ -220,58 +220,58 @@ guiTypes = {
 					
 			containerWindowType = {
 				name = "diplomacy_tab_top"
-				position = { x=0 y= 110 }
+				position = { x=1 y= 110 }
 					
 				iconType = {
 					name = "leader_portrait"
-					position = { x = 20 y = 10 }
+					position = { x = 18 y = 8 }
 					spriteType = "GFX_leader_unknown"
 					scale = 0.74
 				}
 				
 				iconType = {
 					name = "diplo_leader_frame"
-					position = { x = 13 y = 0 }
+					position = { x = 10 y = -3}
 					spriteType = "GFX_diplo_leader_frame"
 					alwaystransparent = yes
 				}
 				
 				iconType = {
 					name = "top_bg"
-					spriteType = "GFX_diplo_upper_diplo_bg"
+					spriteType = "GFX_diplo_upper_win_bg"
 					position = { x = 138 y = 0 }
 					alwaystransparent = yes
 				}
 				
 				containerWindowType = {
 					name = "political_pie_chart"
-					position = { x = 141 y = 9 }
+					position = { x = 135 y = 11 }
 					size = { width=330 height=30 }
 					clipping = no
 
 					iconType = {
 						name = "chart"
 						spriteType = "GFX_political_chart_big"
-						position = { x = 51 y = 5 }
+						position = { x = 48 y = -2 }
 					}
 					
 					iconType ={
 						name ="pol_view_bg"
 						spriteType = "GFX_pol_piechart_overlay"
-						position = { x= 16 y = 0 }
+						position = { x= 13 y = -12 }
 					}				
 				}	
 				
 				containerWindowType = {
 					name = "ruling_party_info"
-					position = { x = 258 y = 25 }
+					position = { x = 248 y = 25 }
 					size = { width = 255 height = 60 }
 					clipping = no
 							
 					instantTextboxType = {
 						name = "party_name"
-						position = { x = 5 y = -5 }
-						font = "hoi_16mbs"
+						position = { x = -16 y = -20 }
+						font = "hoi_16mbs" 
 						text = "party"
 						maxWidth = 205
 						maxHeight = 20
@@ -289,7 +289,7 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "elections"
-						position = { x = 5 y = 25 }
+						position = { x = -16 y = 20 }
 						font = "hoi_16mbs"
 						text = "elections"
 						maxWidth = 205
@@ -299,7 +299,7 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "active_national_focus_info"
-					position = { x = 144 y = 88 }
+					position = { x = 144 y = 70 }
 					size = { width = 330 height = 50 }
 					clipping = no
 					
@@ -312,7 +312,7 @@ guiTypes = {
 
 					iconType = {
 						name = "goal_icon"
-						position = { x = 48 y = 39 }
+						position = { x = 46 y = 50 }
 						spriteType = "GFX_goal_unknown"
 						centerposition = yes					
 						scale = 0.9
@@ -320,10 +320,10 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "national_focus_label"
-						position = { x = 146 y = 23 }
-						font = "hoi_18mbs"
+						position = { x = 123 y = 35 }
+						font = "hoi_16mbs"
 						text = "POLITICS_ACTIVE_GOAL"
-						maxWidth = 200
+						maxWidth = 222
 						maxHeight = 20
 						format = center
 						alwaystransparent = yes
@@ -413,19 +413,19 @@ guiTypes = {
 				
 				
 				instantTextBoxType = {
-					name = "spirit_title"
-					position = { x = 0 y = 0 }
-					font = "hoi_18mbs"
-					borderSize = {x = 0 y = 0}
-					text = "FE_COUNTRY_SPIRIT"
-					maxWidth = 240
-					maxHeight = 30	
+					#name = "spirit_title"
+					#position = { x = 0 y = 0 }
+					#font = "hoi_18mbs"
+					#borderSize = {x = 0 y = 0}
+					#text = "FE_COUNTRY_SPIRIT"
+					#maxWidth = 240
+					#maxHeight = 30	
 				}
 				
 				containerWindowType = {
 					name = "national_spirit_container"
-					position = { x = -387 y = -5 }
-					size = { width = 375 height = 74 }
+					position = { x = -520 y = -5 }
+					size = { width = 470 height = 74 }
 					verticalScrollbar = "right_vertical_slider"
 					orientation = upper_right
 					
@@ -438,7 +438,7 @@ guiTypes = {
 						name = "national_spirit_ideas_grid"
 						position = { x = 0 y = 2 }
 						size = { width = 360 height = 68 }
-						slotsize = { width = 60 height = 68 }
+						slotsize = { width = 74 height = 68 }
 						max_slots = { x = 6 y = 1 }
 						format = "UPPER_LEFT"
 					}
@@ -519,7 +519,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "window_header_text"
 					position = { x = 32 y = 17 }
-					font = "hoi_18mbs"
+					font = "hoi_16mbs"
 					text = "DIPLOMACY_INTELLIGENCE"
 					maxWidth = 200
 					maxHeight = 20
@@ -2687,7 +2687,7 @@ guiTypes = {
 			editBoxType = {
 				position = {x=162 y=163}
 				name = "faction_name"
-				font = "hoi_18mbs"
+				font = "hoi_16mbs"
 				borderSize = {x=10 y=10}	
 				size = {x=200 y=45}
 				text = "Your Faction Name Here"
@@ -2697,7 +2697,7 @@ guiTypes = {
 				name = "faction_name_status"
 				position = { x = 117 y = 139 }
 				textureFile = ""
-				font = "hoi_18mbs"
+				font = "hoi_16mbs"
 				borderSize = {x = 0 y = 0}
 				text = "FACTION_NAME_IS_AVALIABLE"	
 				maxWidth = 300

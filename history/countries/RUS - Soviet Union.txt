@@ -45,6 +45,11 @@ set_technology = {
 	synth_oil_experiments = 1
 }
 
+add_ideas = {
+	RUS_epoha_eltsina
+	RUS_economic_crisis
+}
+
 
 set_politics = {
 	ruling_party = liberocratic

@@ -16,6 +16,7 @@ focus_tree = {
 	    id = RUS_belovezhskii_sogl
 	    x = 8
 	    y = 0
+		icon = GFX_focus_RUS_belovezh
 	    cost = 5     
 	    available_if_capitulated = no
 	   
@@ -42,6 +43,7 @@ focus_tree = {
 		prerequisite = { focus = RUS_pereimenovanie }
 	    x = 8
 	    y = 3
+		icon = GFX_focus_RUS_new_constitution
 	    cost = 10
 	    available_if_capitulated = no
 	   
@@ -76,6 +78,7 @@ focus_tree = {
 	focus = {
 	    id = RUS_protest_snd
 		prerequisite = { focus = RUS_new_constitution }
+		icon = GFX_focus_RUS_zapad
 	    x = 8
 	    y = 6
 	    cost = 10
