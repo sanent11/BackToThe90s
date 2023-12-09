@@ -14,19 +14,19 @@ guiTypes = {
 		#}
 		instantTextboxType = {
 			name = "subideology"
-			position = { x = 117 y = -170 }
-			font = "hoi_16mbs"
+			position = { x = 88 y = -155 }
+			font = "hoi_18mbs"
 			text = "[get_subideology_loc]"
-			format = LEFT
+			format = CENTER
 			vertical_alignment = CENTER
-			maxWidth = 215
+			maxWidth = 220
 			maxHeight = 40
 			fixedsize = yes
 		}
 	}
 	containerWindowType = {
 		name = "countrydiplomacyview_ideology_info"
-		position = { x = 228 y = 125 }
+		position = { x = 235 y = 125 }
 		size = { width = 255 height = 60 }
 		clipping = no
 		instantTextboxType = {

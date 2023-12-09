@@ -116,19 +116,19 @@ guiTypes = {
 			}
 			
 			instantTextboxType = {
-				name = "elections"
-				position = { x = 123 y = -145 }
-				font = "hoi_16mbs"
-				text = "elections"
-				maxWidth = 190
-				maxHeight = 32
-				vertical_alignment = center
+				#name = "elections"
+				#position = { x = 116 y = -135 }
+				#font = "hoi_16mbs"
+				#text = "elections"
+				#maxWidth = 190
+				#maxHeight = 32
+				#vertical_alignment = center
 			}
 			
 			instantTextboxType = {
 				name = "faction_name"
 				position = { x = 118 y = -80 }
-				font = "hoi_18mbs"
+				font = "hoi_16mbs"
 				text = "faction"
 				maxWidth = 195
 				maxHeight = 20
@@ -453,7 +453,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "leader_name"
 			position = { x = 18 y = 262 }
-			font = "hoi_18mbs"
+			font = "hoi_16mbs"
 			text = "leader_name"
 			maxWidth = 155
 			maxHeight = 36
@@ -534,7 +534,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "manage_occupied_button_text"
 			position = { x = 400 y = 315 }
-			font = "hoi_18mbs"
+			font = "hoi_16mbs"
 			text = "MANAGE_OCCUPIED_TERRITORIES"
 			maxWidth = 122
 			alwaystransparent = yes
@@ -556,7 +556,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "show_subjects_button_text"
 				position = { x = 30 y = 5 }
-				font = "hoi_18mbs"
+				font = "hoi_16mbs"
 				text = "MANAGE_SUBJECTS"
 				Orientation = "UPPER_LEFT"
 				maxWidth = 130
@@ -584,7 +584,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "manage_exiled_collaborations_governments"
 			position = { x = 410 y = 360 }
-			font = "hoi_18mbs"
+			font = "hoi_16mbs"
 			maxWidth = 100
 			maxHeight = 100
 			fixedsize = yes

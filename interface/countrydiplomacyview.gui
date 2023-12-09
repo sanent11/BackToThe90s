@@ -54,7 +54,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "country_name"
-				position = { x = 245 y = 3 }
+				position = { x = 240 y = 1 }
 				font = "hoi_16mbs"
 				text = "Germanian"
 				maxWidth = 173
@@ -65,7 +65,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "faction"
-				position = { x = 245 y = 23}	
+				position = { x = 240 y = 21}	
 				size = { width = 175 height = 20 }
 				clipping = no
 			
@@ -83,7 +83,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "leader_name"
-				position = { x = 245 y = 43 }
+				position = { x = 240 y = 40 }
 				font = "hoi_16mbs"
 				text = "Rudolf Kittler"
 				maxWidth = 173
@@ -264,7 +264,7 @@ guiTypes = {
 				
 				containerWindowType = {
 					name = "ruling_party_info"
-					position = { x = 248 y = 25 }
+					position = { x = 255 y = 25 }
 					size = { width = 255 height = 60 }
 					clipping = no
 							
@@ -289,7 +289,7 @@ guiTypes = {
 					
 					instantTextboxType = {
 						name = "elections"
-						position = { x = -16 y = 20 }
+						position = { x = -16 y = 19 }
 						font = "hoi_16mbs"
 						text = "elections"
 						maxWidth = 205
@@ -321,7 +321,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "national_focus_label"
 						position = { x = 123 y = 35 }
-						font = "hoi_16mbs"
+						font = "hoi_18mbs"
 						text = "POLITICS_ACTIVE_GOAL"
 						maxWidth = 222
 						maxHeight = 20
