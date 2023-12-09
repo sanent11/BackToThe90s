@@ -59,13 +59,14 @@ set_politics = {
 
 set_popularities = {
 	fascism = 0
-	nationalism = 4
+	nationalism = 1
+	conservliberal = 4
 	neutrality = 0 
 	conservocratic = 7
 	liberocratic = 43
 	democratic = 6
 	paternalism = 0
-	communism = 40
+	communism = 39
 	anarchy = 0
 	
 }

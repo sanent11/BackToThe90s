@@ -1,0 +1,21 @@
+ideas = {
+    country = {
+        USA_wincoldwar= {
+			modifier = {
+				stability_factor = 0.25			
+				war_support_factor = -0.25	
+				communism_drift = -0.2
+				paternalism_drift = -0.2
+				research_speed_factor = 0.25
+				monthly_population = 0.25
+				political_power_gain = 1.0
+				conscription_factor  = -0.25
+				opinion_gain_monthly_factor = 1.0
+				opinion_gain_monthly_factor = 1.0
+			}
+			picture = USA_wincoldwar
+
+        }        
+	}
+		
+}

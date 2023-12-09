@@ -2,7 +2,9 @@ ideas = {
     country = {
         SOV_gorbachev= {
 			modifier = {
-				stability_factor = -0.05			
+				stability_factor = -0.10			
+				war_support_factor = -0.10	
+				communism_drift = 0.01
 			}
 			picture = RUS_gorbachev
 

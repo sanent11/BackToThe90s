@@ -1,0 +1,33 @@
+####NO STEP BACK####
+SRB_YUGOSLAVIA_category = {
+
+	attackYug = {
+
+		allowed = {  
+			tag = SRB
+		}
+
+		icon = GFX_decision_hol_exchange_intelligence_data
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+
+		}
+
+		visible = {
+		}
+		
+		cancel_effect = {
+			
+		}
+		
+		complete_effect = {
+
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+}

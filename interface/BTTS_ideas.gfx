@@ -1,10 +1,16 @@
 spriteTypes = {
 
-	# leaders we need to override in DLC go in this file
+	#RUS
 
 	spriteType = {
 		name = "GFX_idea_RUS_gorbachev"
 		texturefile = "gfx/interface/ideas/idea_Gorvachev.dds"
+	}
+	
+	#USA
+	spriteType = {
+		name = "GFX_idea_USA_wincoldwar"
+		texturefile = "gfx/interface/ideas/USA/idea_USA_wincoldwar.dds"
 	}
 
 

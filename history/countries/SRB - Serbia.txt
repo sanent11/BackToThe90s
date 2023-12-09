@@ -52,13 +52,16 @@ set_politics = {
 
 set_popularities = {
 	fascism = 0
-	nationalism = 0
-	neutrality = 0 
-	conservocratic = 10
-	liberocratic = 0
-	democratic = 70
-	paternalism = 0
-	communism = 20
+	nationalism = 22
+	neutrality = 10
+	conservocratic = 9
+	liberocratic = 3
+	democratic = 23
+	paternalism = 28
+	communism = 5
 	anarchy = 0
 	
 }
+
+set_cosmetic_tag = YUGcommunism 
+set_country_flag = youyugoslavia

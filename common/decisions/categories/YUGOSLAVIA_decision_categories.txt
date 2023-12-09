@@ -1,0 +1,18 @@
+
+SRB_YUGOSLAVIA_category = {
+	
+	icon = saf_anti_colonialist_crusade
+
+	allowed = {
+		original_tag = SRB
+	}
+	visible = {
+		has_country_flag = youyugoslavia
+		NOT = {
+			has_country_flag = YugoslaviaConfederation
+		}
+	}
+
+	priority = 200
+}
+

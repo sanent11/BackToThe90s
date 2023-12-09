@@ -1,0 +1,27 @@
+﻿l_russian: 
+
+ #Leaders
+
+ 
+ #Party
+ SRB_paternalism_party: "СПС"
+ SRB_paternalism_party_long: "Социалистическая партия Сербии" 
+ SRB_democratic_party: "ДПСЧ"
+ SRB_democratic_party_long: "Демократическая партия социалистов Черногории" 
+ SRB_democratic_party: "ДПСЧ"
+ SRB_democratic_party_long: "Демократическая партия социалистов Черногории" 
+ SRB_nationalism_party: "СРП"
+ SRB_nationalism_party_long: "Сербская радикальная партия" 
+ SRB_neutrality_party: "СДО"
+ SRB_neutrality_party_long: "Сербское движение обновления"
+ 
+ #Focus
+ SRB_YUGOSLAVIA_category: "Югославская проблема"
+ SRB_YUGOSLAVIA_category_desc: "В югославии множество проблем/n/n £war_support_icon [?BOS.war_support] \n"
+ 
+ #Event
+
+
+ #Other
+ YUGcommunism:0 "СФР Югославия"
+ YUGcommunism_DEF:0 "Социалистическая Федеративная Республика Югославия"

@@ -25,10 +25,10 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = nationalism_ideology
+			ideology = slavanofil
 
 			traits = { }
-			expire = "2007.4.25.1
+			expire = "2022.4.6.1
 			id = -1
 		}
 	}
