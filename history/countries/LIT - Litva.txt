@@ -1,7 +1,7 @@
-capital = 808
-oob = "LAA_1991"
+capital = 784
+oob = "LIT_1991"
 
-recruit_character = LAA_anatoliy_gorbunov
+recruit_character = LIT_nn
 
 set_research_slots = 3
 set_convoys = 0
@@ -52,13 +52,13 @@ set_politics = {
 
 set_popularities = {
 	fascism = 0
-	nationalism = 5
+	nationalism = 10
 	neutrality = 0 
-	conservocratic = 70
-	liberocratic = 10
-	democratic = 0
+	conservocratic = 50
+	liberocratic = 20
+	democratic = 10
 	paternalism = 0
-	communism = 15
+	communism = 10
 	anarchy = 0
 	
 }

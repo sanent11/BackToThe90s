@@ -1,7 +1,7 @@
-capital = 812
-oob = "ESA_1991"
+capital = 808
+oob = "LAT_1991"
 
-recruit_character = ESA_nn
+recruit_character = LAT_NN
 
 set_research_slots = 3
 set_convoys = 0
@@ -54,11 +54,11 @@ set_popularities = {
 	fascism = 0
 	nationalism = 5
 	neutrality = 0 
-	conservocratic = 60
+	conservocratic = 70
 	liberocratic = 10
-	democratic = 5
+	democratic = 0
 	paternalism = 0
-	communism = 20
+	communism = 15
 	anarchy = 0
 	
 }

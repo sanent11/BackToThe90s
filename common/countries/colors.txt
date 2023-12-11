@@ -38,15 +38,15 @@ PLN = {
 	color = rgb { 188 77 110 }
 	color_ui = rgb { 188 77 110 }
 }
-LIA = {
+LIT = {
 	color = rgb { 186 186 101 }
 	color_ui = rgb { 186 186 101 }
 }
-ESA = {
+EST = {
 	color = rgb { 43 115 149 }
 	color_ui = rgb { 43 115 149 }
 }
-LAA = {
+LAT = {
 	color = rgb { 64 65 158 }
 	color_ui = rgb { 64 65 158 }
 }

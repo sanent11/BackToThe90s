@@ -2,9 +2,9 @@
 ##Восточная Европа и СНГ
 RUS = "countries/Soviet Union.txt"
 PLN = "countries/Poland.txt"
-LIA = "countries/Litva.txt"
-ESA = "countries/Estonia.txt"
-LAA = "countries/Latvia.txt"  
+LIT = "countries/Litva.txt"
+EST = "countries/Estonia.txt"
+LAT = "countries/Latvia.txt"  
 BLS = "countries/Belarus.txt" 
 UKN = "countries/Ukraina.txt"
 GRU = "countries/Gruzia.txt"
