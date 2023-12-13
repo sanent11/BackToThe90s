@@ -62,7 +62,7 @@ ARN = {
 	color = rgb { 150 87 153 }
 	color_ui = rgb { 150 87 153 }
 }
-KYS = {
+KYR = {
 	color = rgb { 153 76 0 }
 	color_ui = rgb { 153 76 0 }
 }

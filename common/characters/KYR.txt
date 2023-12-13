@@ -1,0 +1,16 @@
+characters = {  
+  
+    KYR_Askar_Akaev = {
+		name = KYR_Askar_Akaev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SrednayaAsia/portrait_KYR_Askar_Akaev.dds"
+			}
+		}
+		country_leader = {
+			ideology = autor_democratic
+			traits = { }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}

@@ -1,7 +1,7 @@
 capital = 584
 oob = "TMN_1991"
 
-recruit_character = TMN_nn
+recruit_character = TMN_Saparmurat_Niyazov
 
 set_research_slots = 3
 set_convoys = 0
