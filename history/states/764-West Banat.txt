@@ -15,7 +15,7 @@ state={
 			infrastructure = 3 #was: 6
 		}
 		add_core_of = SRB
-		add_core_of = TRA
+		add_core_of = VOE
 	}
 
 	provinces={

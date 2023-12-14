@@ -1,23 +1,33 @@
 ﻿l_russian: 
 
  #Leaders
-
+ SRB_Branko_Kostic: "Бранко Костич"
  
  #Party
- SRB_paternalism_party: "СПС"
+ SRB_paternalism_party: "Социалистическая партия Сербии"
  SRB_paternalism_party_long: "Социалистическая партия Сербии" 
- SRB_democratic_party: "ДПСЧ"
+ SRB_democratic_party: "Демократическая партия социалистов Черногории"
  SRB_democratic_party_long: "Демократическая партия социалистов Черногории" 
- SRB_democratic_party: "ДПСЧ"
+ SRB_democratic_party: "Демократическая партия социалистов Черногории"
  SRB_democratic_party_long: "Демократическая партия социалистов Черногории" 
- SRB_nationalism_party: "СРП"
+ SRB_nationalism_party: "Сербская радикальная партия"
  SRB_nationalism_party_long: "Сербская радикальная партия" 
- SRB_neutrality_party: "СДО"
+ SRB_neutrality_party: "Сербское движение обновления"
  SRB_neutrality_party_long: "Сербское движение обновления"
  
- #Focus
+ #Decsions
  SRB_YUGOSLAVIA_category: "Югославская проблема"
- SRB_YUGOSLAVIA_category_desc: "В югославии множество проблем/n/n £war_support_icon [?BOS.war_support] \n"
+ SRB_YUGOSLAVIA_category_desc: "В югославии множество проблем\n\nЭтнонационализм в §YСловении§!  £war_support_icon §LВЫШЕЛ§!\n\nЭтнонационализм в §YМакедонии§!  £war_support_icon §LВЫШЕЛ§!\n\nЭтнонационализм в §YХорватии§!  £war_support_icon §RВОЙНА!§!\n\nЭтнонационализм в §YБосния и Герцеговина§! £war_support_icon [?BOS.has_war_support|%t0]   \n\nЭтнонационализм в §YКосово§!  £war_support_icon [?KOS.has_war_support|%t0]\n\nЭтнонационализм в §YЧерногория§!  £war_support_icon [?MNT.has_war_support|%t0]\n\nЭтнонационализм в §YВоеводина§!  £war_support_icon [?VOE.has_war_support|%t0]\n"
+ yugoslavia_SLOproblem: "§YСловения"
+ yugoslavia_MACproblem: "§YМакедония"
+ yugoslavia_XORproblem: "§YХорватия"
+ yugoslavia_BOSproblem: "§YБосния и Герцеговина"
+ yugoslavia_KOSproblem: "§YКосово"
+ yugoslavia_MNTproblem: "§YЧерногория"
+ yugoslavia_SRBproblem: "§YСербия"
+ yugoslavia_VOEproblem: "§YВоеводина"
+ 
+ SRB_yug_attackBOS: "§OПодавить боснийский национализм"
  
  #Event
 

@@ -1,10 +1,10 @@
 capital = 812
 oob = "ESA_1991"
 
-recruit_character = ESA_nn
+recruit_character = EST_HenrihMark
 
 set_research_slots = 3
-set_convoys = 0
+set_convoys = 40
 
 set_technology = {
 	infantry_weapons = 1

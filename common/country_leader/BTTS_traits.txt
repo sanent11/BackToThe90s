@@ -1,0 +1,18 @@
+leader_traits = {
+
+	RUS_eltsin_alchocol = {
+		random = no
+		political_power_gain = -0.05
+	}	
+	EST_war_nezisimost = {
+		random = no
+		war_support_factor = 0.15
+		army_core_defence_factor = 0.15
+	}	
+	BALTIC_heavystart = {
+		random = no
+		war_support_factor = 0.05
+		stability_factor = -0.05	
+		political_power_cost = 0.5
+	}
+}

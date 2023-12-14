@@ -44,7 +44,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = paternalism
 	last_election = no
 	election_frequency = 48
 	elections_allowed = no
@@ -57,8 +57,8 @@ set_popularities = {
 	conservocratic = 0
 	liberocratic = 0
 	democratic = 0
-	paternalism = 0
-	communism = 100
+	communism = 0
+	paternalism = 100
 	anarchy = 0
 	
 }

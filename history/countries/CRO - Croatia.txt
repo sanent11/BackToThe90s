@@ -137,3 +137,5 @@ add_country_leader_role = { #This replaces the commented script below - fixing a
 #		#
 #	}
 #}
+
+set_war_support = 0.8

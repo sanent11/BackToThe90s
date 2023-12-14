@@ -1,10 +1,10 @@
-capital = 109
-oob = "XOR_1991"
+capital = 107
+oob = "SRB_1991"
 
-recruit_character = 
+recruit_character = SRB_Branko_Kostic
 
 set_research_slots = 3
-set_convoys = 0
+set_convoys = 140
 
 set_technology = {
 	infantry_weapons = 1
@@ -44,22 +44,23 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = conservliberal
+	ruling_party = conservocratic
 	last_election = no
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascism = 7
-	nationalism = 33
-	neutrality = 0 
-	liberocratic = 20
-	democratic = 10
-	conservliberal = 25
+	fascism = 4
+	nationalism = 10
+	neutrality = 10
+	conservocratic = 19
+	liberocratic = 9
+	democratic = 30
 	paternalism = 0
-	communism = 5
-	anarchy = 0
+	communism = 15
+	anarchy = 3
 	
 }
-set_war_support = 0.8
+
+set_war_support = 0.20

@@ -10,6 +10,7 @@ state={
 
 		}
 		add_core_of = SRB
+		add_core_of = VOE
 
 	}
 

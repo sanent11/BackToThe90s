@@ -1,0 +1,16 @@
+characters = {  
+  
+    USA_George_Bush_st = {
+		name = USA_George_Bush_st
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/portrait_USA_George_Bush_st.dds"
+			}
+		}
+		country_leader = {
+			ideology = usa_conservatism
+			traits = { }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}

@@ -143,13 +143,16 @@ spriteTypes = {
 		name = "GFX_portrait_IAF_Sebgatulla_Modjaddedi"
 		texturefile = "gfx/leaders/Afgan/portrait_IAF_Sebgatulla_Modjaddedi.dds"
 	}
-		spriteType = {
+	spriteType = {
 		name = "GFX_portrait_AFN_Mohammad_Najibulla"
 		texturefile = "gfx/leaders/Afgan/portrait_AFN_Mohammad_Najibulla.dds"
 	}
 
-
-
+	###Yugoslavia########
+	spriteType = {
+		name = "GFX_portrait_SRB_Branko_Kostic"
+		texturefile = "gfx/leaders/Balkans/SRB/portrait_SRB_Branko_Kostic.dds"
+	}
 
 
 

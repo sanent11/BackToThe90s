@@ -339,7 +339,7 @@ war_support_good_modifier = {
 	army_core_attack_factor = 0.2
 	army_core_defence_factor = 0.2
 	surrender_limit = 0.5
-	conscription_factor  = 0.25
+	conscription_factor  = 0.3
 	production_speed_buildings_factor = -0.5
 	resistance_growth_on_our_occupied_states = 0.75	
 	stability_factor = -0.3
@@ -351,16 +351,16 @@ war_support_good_modifier = {
 	faction_trade_opinion_factor = -1.0
 	opinion_gain_monthly_factor = -1.0
 	compliance_growth_on_our_occupied_states = -0.1
-	monthly_population = -0.5
+	monthly_population = -0.6
 
 }
 
 war_support_bad_modifier = {
 	resistance_growth_on_our_occupied_states = -0.25	
+	convoy_escort_efficiency = 1.0
 
 	surrender_limit = -0.5	
-	conscription_factor  = -0.25
-	production_speed_industrial_complex_factor = 0.20
+	conscription_factor  = -0.3
 	production_speed_arms_factory_factor = -0.25
 	stability_factor = 0.3
 	research_speed_factor = 0.20
@@ -370,8 +370,8 @@ war_support_bad_modifier = {
 	faction_trade_opinion_factor = 1.0
 	opinion_gain_monthly_factor = 1.0
 	compliance_growth_on_our_occupied_states = 0.1
-	monthly_population = 0.5
-	political_power_factor = 0.1
+	monthly_population = 0.6
+	political_power_factor = 0.5
 
 }
 

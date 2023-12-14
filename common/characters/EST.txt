@@ -1,0 +1,17 @@
+characters = {  
+  
+    EST_HenrihMark = {
+		name = EST_HenrihMark
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Baltika/EST/portrait_EST_Heinrik_Mark.dds"
+			}
+		}
+		country_leader = {
+			ideology = lib_con
+			traits = { BALTIC_heavystart }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}
+}

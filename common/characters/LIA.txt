@@ -1,0 +1,17 @@
+characters = {  
+  
+    LIA_Vitaus_Vitausovic = {
+		name = LIA_Vitaus_Vitausovic
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Baltika/LIA/portrait_LIT_Vitaytas.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = { BALTIC_heavystart }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}
+}

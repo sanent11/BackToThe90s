@@ -91,4 +91,5 @@ recruit_character = MNT_blazo_dukanovic
 
 
 
+set_war_support = 0.4
 

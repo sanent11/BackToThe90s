@@ -79,3 +79,4 @@ set_popularities = {
 	neutrality = 30
 	communism = 20
 }
+set_war_support = 0.45

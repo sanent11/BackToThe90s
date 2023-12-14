@@ -1,0 +1,17 @@
+characters = {  
+  
+    UZB_Islam_Karimov = {
+		name = UZB_Islam_Karimov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Srednaya Asia/UZB/portrait_UZB_Islam_Karimov.dds"
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			traits = { }
+			expire = "1996.8.24.1"
+			id = -1
+		}
+	}
+}

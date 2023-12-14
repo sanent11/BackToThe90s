@@ -184,7 +184,6 @@ ideologies = {
 		}
 		
 		modifiers = {
-			war_support_factor = 0.10
 			#increased_influence_factor = 0.3 #30% easier to influence
 			generate_wargoal_tension = 0.5
 			join_faction_tension = 0.4

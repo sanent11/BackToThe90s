@@ -1,0 +1,16 @@
+characters = {  
+  
+    SRB_Branko_Kostic = {
+		name = SRB_Branko_Kostic
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SRB_Branko_Kostic
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = { }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}

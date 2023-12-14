@@ -1,7 +1,7 @@
 capital = 405
 oob = "UZK_1991"
 
-recruit_character = UZK_nn
+recruit_character = UZB_Islam_Karimov
 
 set_research_slots = 3
 set_convoys = 0
@@ -52,10 +52,10 @@ set_politics = {
 
 set_popularities = {
 	fascism = 0
-	nationalism = 0
-	neutrality = 80
+	nationalism = 15
+	neutrality = 60
 	conservocratic = 0
-	liberocratic = 0
+	liberocratic = 5
 	democratic = 0
 	paternalism = 0
 	communism = 20
