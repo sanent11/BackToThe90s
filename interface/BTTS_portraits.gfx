@@ -159,6 +159,30 @@ spriteTypes = {
 		name = "GFX_portrait_TMN_Saparmurat_Niyazov"
 		texturefile = "gfx/leaders/SrednayaAsia/portrait_TMN_Saparmurat_Niyazov.dds"
 	}
+		spriteType = {
+		name = "GFX_portrait_AZE_Ayaz_Mutalibov"
+		texturefile = "gfx/leaders/Kavkaz/portrait_AZE_Ayaz_Mutalibov.dds"
+	}
+		spriteType = {
+		name = "GFX_portrait_ARM_Levon_Petrosyan"
+		texturefile = "gfx/leaders/Kavkaz/portrait_ARM_Levon_Petrosyan.dds"
+	}
+		spriteType = {
+		name = "GFX_portrait_GEO_Gamsahurdia"
+		texturefile = "gfx/leaders/Kavkaz/portrait_GEO_Gamsahurdia.dds"
+	}
+		spriteType = {
+		name = "GFX_portrait_PRD_Igor_Smirnov"
+		texturefile = "gfx/leaders/Kavkaz/portrait_PRD_Igor_Smirnov.dds"
+	}
+		spriteType = {
+		name = "GFX_portrait_MOL_Mircha_Snegur"
+		texturefile = "gfx/leaders/Kavkaz/portrait_MOL_Mircha_Snegur.dds"
+	}
+		spriteType = {
+		name = "GFX_portrait_CHE_Dudaev"
+		texturefile = "gfx/leaders/CHECHNYA/portrait_CHE_Dudaev.dds"
+	}
 
 
 

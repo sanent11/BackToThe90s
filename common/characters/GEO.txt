@@ -1,0 +1,16 @@
+characters = {  
+  
+    GEO_Gamsahurdia = {
+		name = GEO_Gamsahurdia
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Kavkaz/portrait_GEO_Gamsahurdia.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_democratic
+			traits = { }
+			expire = "1993.8.24.1"
+			id = -1
+		}
+	}

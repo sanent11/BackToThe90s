@@ -1,7 +1,7 @@
-capital = 229
-oob = "AZB_1991"
+capital = 955
+oob = "NKR_1991"
 
-recruit_character = AZB_nn
+recruit_character = a
 
 set_research_slots = 3
 set_convoys = 0
@@ -44,7 +44,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = conservocratic
+	ruling_party = neutrality
 	last_election = no
 	election_frequency = 48
 	elections_allowed = no
@@ -53,12 +53,13 @@ set_politics = {
 set_popularities = {
 	fascism = 0
 	nationalism = 0
-	neutrality = 20 
-	conservocratic = 60
+	neutrality = 84
+	natdem = 0
+	conservocratic = 0
 	liberocratic = 0
 	democratic = 0
-	paternalism = 0
-	communism = 20
+	paternalism = 16
+	communism = 0
 	anarchy = 0
 	
 }

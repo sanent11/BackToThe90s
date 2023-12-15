@@ -1,7 +1,7 @@
-capital = 231
-oob = "GRU_1991"
+capital = 229
+oob = "AZE_1991"
 
-recruit_character = GRU_nn
+recruit_character = AZE_Ayaz_Mutalibov
 
 set_research_slots = 3
 set_convoys = 0
@@ -44,7 +44,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = natdem
+	ruling_party = conservocratic
 	last_election = no
 	election_frequency = 48
 	elections_allowed = no
@@ -53,13 +53,12 @@ set_politics = {
 set_popularities = {
 	fascism = 0
 	nationalism = 0
-	neutrality = 0 
-	natdem = 70
-	conservocratic = 20
-	liberocratic = 0
+	neutrality = 26 
+	conservocratic = 48
+	liberocratic = 5
 	democratic = 0
 	paternalism = 0
-	communism = 10
+	communism = 21
 	anarchy = 0
 	
 }

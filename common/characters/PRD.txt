@@ -1,0 +1,16 @@
+characters = {  
+  
+    PRD_Igor_Smirnov = {
+		name = PRD_Igor_Smirnov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PRD/portrait_PRD_Igor_Smirnov.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			traits = { }
+			expire = "2023.8.24.1"
+			id = -1
+		}
+	}

@@ -1,6 +1,6 @@
 capital = 986
 oob = "PRD_1991"
-recruit_character = 
+recruit_character = PRD_Igor_Smirnov
 
 set_research_slots = 3
 set_convoys = 0
@@ -43,7 +43,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = conservocratic
+	ruling_party = communism
 	last_election = no
 	election_frequency = 48
 	elections_allowed = no
@@ -52,12 +52,12 @@ set_politics = {
 set_popularities = {
 	fascism = 0
 	nationalism = 0
-	neutrality = 10 
-	conservocratic = 57
-	liberocratic = 5
+	neutrality = 0 
+	conservocratic = 28
+	liberocratic = 15
 	democratic = 0
 	paternalism = 0
-	communism = 28
+	communism = 57
 	anarchy = 0
 	
 }

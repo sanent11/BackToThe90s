@@ -1,7 +1,7 @@
-﻿capital = 821
-oob = "СIN_1991"
+capital = 231
+oob = "GEO_1991"
 
-recruit_character = DUDAEV
+recruit_character = GEO_Gamsahurdia
 
 set_research_slots = 3
 set_convoys = 0
@@ -43,10 +43,8 @@ set_technology = {
 	synth_oil_experiments = 1
 }
 
-
-
 set_politics = {
-	ruling_party = nationalism 
+	ruling_party = natdem
 	last_election = no
 	election_frequency = 48
 	elections_allowed = no
@@ -54,14 +52,14 @@ set_politics = {
 
 set_popularities = {
 	fascism = 0
-	nationalism = 100
-	neutrality = 0
-	natdem = 0
-	conservocratic = 0
+	nationalism = 0
+	neutrality = 0 
+	natdem = 50
+	conservocratic = 22
 	liberocratic = 0
 	democratic = 0
 	paternalism = 0
-	communism = 0
+	communism = 28
 	anarchy = 0
 	
 }

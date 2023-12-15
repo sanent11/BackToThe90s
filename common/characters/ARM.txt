@@ -1,0 +1,16 @@
+characters = {  
+  
+    ARM_Levon_Petrosyan = {
+		name = ARM_Levon_Petrosyan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Kavkaz/portrait_ARM_Levon_Petrosyan.dds"
+			}
+		}
+		country_leader = {
+			ideology = con_lib
+			traits = { }
+			expire = "1993.8.24.1"
+			id = -1
+		}
+	}

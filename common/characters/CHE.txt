@@ -1,0 +1,16 @@
+characters = {  
+  
+   CHE_Dudaev = {
+		name = CHE_Dudaev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHECHNYA/portrait_CHE_Dudaev.dds"
+			}
+		}
+		country_leader = {
+			ideology = nationalism_ideology
+			traits = { }
+			expire = "1996.8.24.1"
+			id = -1
+		}
+	}

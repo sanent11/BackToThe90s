@@ -1,0 +1,16 @@
+characters = {  
+  
+    MOL_Mircha_Snegur = {
+		name = MOL_Mircha_Snegur
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MOL/portrait_MOL_Mircha_Snegur.dds"
+			}
+		}
+		country_leader = {
+			ideology = soc_dem
+			traits = { }
+			expire = "2023.8.24.1"
+			id = -1
+		}
+	}

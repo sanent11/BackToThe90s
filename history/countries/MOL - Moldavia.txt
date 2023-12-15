@@ -1,6 +1,7 @@
-capital = 230
-oob = "ARN_1991"
-recruit_character = ARN_nn
+capital = 78
+oob = "MOL_1991"
+
+recruit_character = MOL_Mircha_Snegur
 
 set_research_slots = 3
 set_convoys = 0
@@ -43,7 +44,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = liberocratic
+	ruling_party = democratic
 	last_election = no
 	election_frequency = 48
 	elections_allowed = no
@@ -52,12 +53,12 @@ set_politics = {
 set_popularities = {
 	fascism = 0
 	nationalism = 0
-	neutrality = 5 
+	neutrality = 0 
 	conservocratic = 20
-	liberocratic = 60
-	democratic = 0
+	liberocratic = 12
+	democratic = 42
 	paternalism = 0
-	communism = 15
+	communism = 26
 	anarchy = 0
 	
 }

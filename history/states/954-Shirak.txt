@@ -3,7 +3,7 @@ state={
 	name="STATE_954"
 	
 	history={
-		owner = ARN
+		owner = ARM
 		victory_points = {
 			12441 1 
 		}
@@ -13,7 +13,7 @@ state={
 			
 		}
 		
-		add_core_of = ARN
+		add_core_of = ARM
 		
 	}
 	
