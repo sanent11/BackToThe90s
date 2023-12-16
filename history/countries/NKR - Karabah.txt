@@ -1,7 +1,9 @@
-capital = 231
-oob = "GRU_1991"
+capital = 955
+oob = "NKR_1991"
 
-recruit_character = GRU_nn
+
+
+recruit_character = a
 
 set_research_slots = 3
 set_convoys = 0
@@ -44,7 +46,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = natdem
+	ruling_party = neutrality
 	last_election = no
 	election_frequency = 48
 	elections_allowed = no
@@ -52,14 +54,15 @@ set_politics = {
 
 set_popularities = {
 	fascism = 0
+
 	nationalism = 0
-	neutrality = 0 
-	natdem = 70
-	conservocratic = 20
-	liberocratic = 0
+	neutrality = 84
+	natdem = 0
+	conservocratic = 0
+	liberocratic = 5
 	democratic = 0
-	paternalism = 0
-	communism = 10
+	paternalism = 16
+	communism = 0
 	anarchy = 0
 	
 }

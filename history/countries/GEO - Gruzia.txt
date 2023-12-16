@@ -1,10 +1,10 @@
-capital = 808
-oob = "LAA_1991"
+capital = 231
+oob = "GEO_1991"
 
-recruit_character = LAA_anatoliy_gorbunov
+recruit_character = GEO_Gamsahurdia
 
 set_research_slots = 3
-set_convoys = 40
+set_convoys = 0
 
 set_technology = {
 	infantry_weapons = 1
@@ -44,7 +44,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = conservliberal
+	ruling_party = natdem
 	last_election = no
 	election_frequency = 48
 	elections_allowed = no
@@ -52,14 +52,14 @@ set_politics = {
 
 set_popularities = {
 	fascism = 0
-	nationalism = 10
+	nationalism = 0
 	neutrality = 0 
-	conservliberal = 40
-	conservocratic = 15
-	liberocratic = 20
+	natdem = 50
+	conservocratic = 22
+	liberocratic = 0
 	democratic = 0
 	paternalism = 0
-	communism = 15
+	communism = 28
 	anarchy = 0
 	
 }

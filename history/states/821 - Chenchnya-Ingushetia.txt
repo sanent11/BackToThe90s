@@ -7,24 +7,26 @@ state={
 	}
 
 	history={
-		owner = RUS
+		owner = CHE
 		buildings = {
 			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 2
 
 		}
 		victory_points = {
-			666 5 
+			666 15 
 		}
 		add_core_of = RUS
-		add_core_of = CIN
+		add_core_of = CHE
 
 	}
 
 	provinces={
 		666 1455 3672 6689 13274 13278
 	}
-	manpower=1101283
+	manpower=1401283
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 	local_supplies=0.000
 }

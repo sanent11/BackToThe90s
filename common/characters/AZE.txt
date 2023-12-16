@@ -1,0 +1,16 @@
+characters = {  
+  
+    AZE_Ayaz_Mutalibov = {
+		name = AZE_Ayaz_Mutalibov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Kavkaz/portrait_AZE_Ayaz_Mutalibov.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = { }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}

@@ -1,0 +1,16 @@
+characters = {  
+  
+    TMN_Saparmurat_Niyazov = {
+		name = TMN_Saparmurat_Niyazov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SrednayaAsia/portrait_TMN_Saparmurat_Niyazov.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = { }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}

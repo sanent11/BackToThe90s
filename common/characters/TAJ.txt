@@ -1,0 +1,16 @@
+characters = {  
+  
+    TAJ_Rahmon_Nabiev = {
+		name = TAJ_Rahmon_Nabiev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SrednayaAsia/portrait_TAJ_Rahmon_Nabiev.dds"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			traits = { }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}

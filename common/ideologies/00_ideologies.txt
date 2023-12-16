@@ -141,6 +141,9 @@ ideologies = {
 			#Деспотизм
 			despotism  = {
 			}
+			#Авторитарная демократия
+			autor_democratic  = {
+			}
 			#Олигархия
 			oligarchism  = {
 			}

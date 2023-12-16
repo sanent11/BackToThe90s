@@ -1,7 +1,7 @@
 capital = 732
-oob = "KYS_1991"
+oob = "KYR_1991"
 
-recruit_character = KYS_nn
+recruit_character = KYR_Askar_Akaev
 
 set_research_slots = 3
 set_convoys = 0
@@ -52,13 +52,13 @@ set_politics = {
 
 set_popularities = {
 	fascism = 0
-	nationalism = 0
-	neutrality = 60 
-	conservocratic = 0
+	nationalism = 2
+	neutrality = 53 
+	conservocratic = 4
 	liberocratic = 0
 	democratic = 0
 	paternalism = 0
-	communism = 40
+	communism = 41
 	anarchy = 0
 	
 }

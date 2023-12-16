@@ -1,9 +1,10 @@
-capital = 230
-oob = "ARN_1991"
-recruit_character = ARN_nn
+capital = 784
+oob = "LIT_1991"
+
+recruit_character = LIA_Vitaus_Vitausovic
 
 set_research_slots = 3
-set_convoys = 0
+set_convoys = 40
 
 set_technology = {
 	infantry_weapons = 1
@@ -43,7 +44,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = liberocratic
+	ruling_party = conservocratic
 	last_election = no
 	election_frequency = 48
 	elections_allowed = no
@@ -51,13 +52,13 @@ set_politics = {
 
 set_popularities = {
 	fascism = 0
-	nationalism = 0
-	neutrality = 5 
-	conservocratic = 20
-	liberocratic = 60
-	democratic = 0
+	nationalism = 15
+	neutrality = 0 
+	conservocratic = 45
+	liberocratic = 20
+	democratic = 10
 	paternalism = 0
-	communism = 15
+	communism = 10
 	anarchy = 0
 	
 }

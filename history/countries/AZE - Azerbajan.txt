@@ -1,7 +1,8 @@
-capital = 784
-oob = "LIA_1991"
+capital = 229
+oob = "AZE_1991"
 
-recruit_character = LIA_Vitaus_Vitausovic
+
+recruit_character = AZE_Ayaz_Mutalibov
 
 set_research_slots = 3
 set_convoys = 40
@@ -52,13 +53,13 @@ set_politics = {
 
 set_popularities = {
 	fascism = 0
-	nationalism = 15
-	neutrality = 0 
-	conservocratic = 45
-	liberocratic = 20
-	democratic = 10
+	nationalism = 0
+	neutrality = 26 
+	conservocratic = 48
+	liberocratic = 5
+	democratic = 0
 	paternalism = 0
-	communism = 10
+	communism = 21
 	anarchy = 0
 	
 }
