@@ -1,7 +1,7 @@
 capital = 808
 oob = "LAT_1991"
 
-recruit_character = LAT_NN
+recruit_character = LAT_anatoliy_gorbunov
 
 set_research_slots = 3
 set_convoys = 40

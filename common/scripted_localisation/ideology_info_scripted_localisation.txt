@@ -38,6 +38,12 @@ defined_text = {
 	}
 	text = {
 	    trigger = {
+		    has_government = conservliberal
+		}
+		localization_key = "[get_subideology_conservliberal]"
+	}
+	text = {
+	    trigger = {
 		    has_government = democratic
 		}
 		localization_key = "[get_subideology_democratic]"
@@ -369,6 +375,21 @@ defined_text = {
 	    }
 		text = {
 		        localization_key = subideology_loc_error
+	    }
+	}
+	defined_text = {
+	    name = get_subideology_conservliberal
+		text = {
+		    trigger = {
+			    has_country_leader_ideology = con_lib
+			}
+			localization_key = con_lib
+	    }
+		text = {
+		    trigger = {
+			    has_country_leader_ideology = slavanofil
+			}
+			localization_key = slavanofil
 	    }
 	}
 	#Социализм

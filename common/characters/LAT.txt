@@ -1,16 +1,17 @@
-characters = {  
-  
-    USA_George_Bush_st = {
-		name = USA_George_Bush_st
+characters = {
+
+    LAT_anatoliy_gorbunov = {
+		name = LAT_anatoliy_gorbunov
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/USA/portrait_USA_George_Bush_st.dds"
+				large = "gfx/leaders/Baltika/LAT/portrait_LAT_Gorbunov.dds"
 			}
 		}
 		country_leader = {
-			ideology = usa_conservatism
-			traits = { }
+			ideology = con_lib
+			traits = { BALTIC_heavystart }
 			expire = "2022.8.24.1"
 			id = -1
 		}
 	}
+}

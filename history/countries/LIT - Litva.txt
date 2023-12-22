@@ -1,7 +1,7 @@
 capital = 784
 oob = "LIT_1991"
 
-recruit_character = LIA_Vitaus_Vitausovic
+recruit_character = LIT_Vitaus_Vitausovic
 
 set_research_slots = 3
 set_convoys = 40

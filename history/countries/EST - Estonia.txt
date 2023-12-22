@@ -1,7 +1,7 @@
 capital = 812
 oob = "EST_1991"
 
-recruit_character = EST_nn
+recruit_character = EST_HenrihMark
 
 set_research_slots = 3
 set_convoys = 0
