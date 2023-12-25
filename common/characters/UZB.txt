@@ -4,7 +4,7 @@ characters = {
 		name = UZB_Islam_Karimov
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/Srednaya Asia/UZB/portrait_UZB_Islam_Karimov.dds"
+				large = "gfx/leaders/SrednayaAsia/portrait_UZB_Islam_Karimov.dds"
 			}
 		}
 		country_leader = {

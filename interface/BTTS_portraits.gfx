@@ -183,6 +183,10 @@ spriteTypes = {
 		name = "GFX_portrait_CHE_Dudaev"
 		texturefile = "gfx/leaders/CHECHNYA/portrait_CHE_Dudaev.dds"
 	}
+		spriteType = {
+		name = "GFX_portrait_UZB_Islam_Karimov"
+		texturefile = "gfx/leaders/SrednayaAsia/portrait_UZB_Islam_Karimov.dds"
+	}
 
 	###Yugoslavia########
 	spriteType = {

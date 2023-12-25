@@ -1,7 +1,7 @@
 capital = 405
 oob = "UZB_1991"
 
-recruit_character = UZB_nn
+recruit_character = UZB_Islam_Karimov
 
 set_research_slots = 3
 set_convoys = 0
