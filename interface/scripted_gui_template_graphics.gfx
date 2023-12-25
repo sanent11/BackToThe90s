@@ -1,0 +1,35 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_scripted_gui_window_background"
+		textureFile = "/gfx/interface/economic/scripted_gui_background.dds"
+	}	
+	spriteType = {
+		name = "GFX_close_button"
+		textureFile = "/gfx/interface/closebutton.dds"
+	}	
+	spriteType = {
+		name = "GFX_help_buttons"
+		textureFile = "/gfx/interface/economic/help.dds"
+	}	
+
+	frameAnimatedSpriteType = {
+		name = "GFX_economic_animation"     
+		texturefile = "/gfx/interface/economic/animation1.dds"        
+		noOfFrames = 28        
+		animation_rate_fps = 14
+		looping = yes
+		play_on_show = yes
+	}
+	progressbartype = {
+		name = "GFX_economic_IT_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx//interface//LoadingScreen_Progress_2.dds"
+		textureFile2 = "gfx//interface//LoadingScreen_Progress_1.dds"
+		size = { x = 200 y = 40 }
+		effectFile = "gfx//FX//progress.lua"
+		horizontal = yes
+		steps = 100
+	}
+}

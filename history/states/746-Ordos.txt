@@ -1,25 +1,29 @@
+
+
 state={
 	id=746
-	name="STATE_746"
-	provinces={
-		1959 3427 4960 4986 10451 10854 12706 
-	}
-	state_category = pastoral
-	
-	
+	name="STATE_107"
+
 	history={
-	
-		owner = CPR
-		add_core_of = CPR
-		
-		
+		owner = TAJ
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			 
+
 		}
 
+		add_core_of = TAJ
+		victory_points = {
+			10187 30 
+		}
 	}
-	manpower=500000
-	buildings_max_level_factor=1.000
 
-	local_supplies=0.0 
+	provinces={
+		10187 12430
+	}
+	manpower=185121
+	buildings_max_level_factor=1.000
+	state_category=rural	
+
+	local_supplies=4.0 
 }

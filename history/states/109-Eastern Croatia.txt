@@ -10,7 +10,7 @@ state={
 		owner = XOR
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 3
+			 
 		}
 		victory_points = {
 			11581 3 
@@ -20,7 +20,7 @@ state={
 	}
 
 	provinces={
-		624 3592 3596 3627 6647 9595 9608 9611 11581 11594
+		3592 3627 6647 9595 9611 11581 11594
 	}
 
 	local_supplies=0.0 

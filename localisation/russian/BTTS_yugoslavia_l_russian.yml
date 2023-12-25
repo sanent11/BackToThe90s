@@ -17,7 +17,7 @@
  
  #Decsions
  SRB_YUGOSLAVIA_category: "Югославская проблема"
- SRB_YUGOSLAVIA_category_desc: "В югославии множество проблем\n\nЭтнонационализм в §YСловении§!  £war_support_icon §LВЫШЕЛ§!\n\nЭтнонационализм в §YМакедонии§!  £war_support_icon §LВЫШЕЛ§!\n\nЭтнонационализм в §YХорватии§!  £war_support_icon §RВОЙНА!§!\n\nЭтнонационализм в §YБосния и Герцеговина§! £war_support_icon [?BOS.has_war_support|%t0]   \n\nЭтнонационализм в §YКосово§!  £war_support_icon [?KOS.has_war_support|%t0]\n\nЭтнонационализм в §YЧерногория§!  £war_support_icon [?MNT.has_war_support|%t0]\n\nЭтнонационализм в §YВоеводина§!  £war_support_icon [?VOE.has_war_support|%t0]\n"
+ SRB_YUGOSLAVIA_category_desc: "В югославии множество проблем\n\nЭтнонационализм в §YСловении§!  £war_support_icon §LВЫШЕЛ§!\n\nЭтнонационализм в §YМакедонии§!  £war_support_icon §LВЫШЕЛ§!\n\nЭтнонационализм в §YХорватии§!  £war_support_icon §RВОЙНА!§!\n\nЭтнонационализм в §YБосния и Герцеговина§! £war_support_icon [?BOS.has_war_support|%G0]   \n\nЭтнонационализм в §YКосово§!  £war_support_icon [?KOS.has_war_support|%t0]\n\nЭтнонационализм в §YЧерногория§!  £war_support_icon [?MNT.has_war_support|%t0]\n\nЭтнонационализм в §YВоеводина§!  £war_support_icon [?VOE.has_war_support|%t0]\n"
  yugoslavia_SLOproblem: "§YСловения"
  yugoslavia_MACproblem: "§YМакедония"
  yugoslavia_XORproblem: "§YХорватия"

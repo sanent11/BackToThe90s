@@ -247,9 +247,9 @@
  PLN_paternalism_party: ""
  PLN_anarchy_party: ""
  
- NRK_paternalism_party: "§R[ЗАПРЕЩЕНО]§!" 
- NRK_communism_party: "ТПК"
- NRK_communism_party_long: "Трудовая Партия Кореи"
+ NRK_paternalism_party: "§RТрудовая Партия Кореи§!" 
+ NRK_communism_party: "§R[ЗАПРЕЩЕНО]§!"
+ NRK_communism_party_long: "§R[ЗАПРЕЩЕНО]§!"
  NRK_liberocratic_party: "§R[ЗАПРЕЩЕНО]§!"
  NRK_fascism_party: "§R[ЗАПРЕЩЕНО]§!"
  NRK_nationalism_party: "§R[ЗАПРЕЩЕНО]§!"

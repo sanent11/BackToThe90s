@@ -1,24 +1,29 @@
+
 state={
 	id=612
-	name="STATE_612"
+	name="STATE_107"
 
 	history={
-		owner = CPR
-		add_core_of = CPR
-		
+		owner = XOR
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
+			arms_factory = 1
+			 
 
 		}
+		victory_points = {
+			9608 10 
+		}
+		add_core_of = SRB
 
 	}
 
 	provinces={
-		1551 1608 1796 1811 1871 4222 4555 7578 7648 10363 10372 12348 12448 12554 
+		9608 
 	}
-	manpower=566000
+	manpower=191121
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_city
 
-	local_supplies=0.0 
+	local_supplies=4.0 
 }

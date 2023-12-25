@@ -78,4 +78,6 @@ add_to_faction = KAH
 
 set_cosmetic_tag = RUS_SOU 
 
-add_ideas = { SOV_gorbachev }
+add_ideas = { SOV_gorbachev economic_ideaaaa }
+every_country = { add_dynamic_modifier = { modifier = addfabric_economic_res } }	
+	

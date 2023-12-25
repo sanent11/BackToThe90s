@@ -23,7 +23,7 @@ state=
 		owner = CZH
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 2
+			 
 			anti_air_building = 1
 			424 =
 			{

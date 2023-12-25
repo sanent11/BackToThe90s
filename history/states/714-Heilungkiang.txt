@@ -1,9 +1,13 @@
 state={
 	id=714
 	name="STATE_714"
-
+	resources={
+		oil=456.000
+	}
 	history={
 		owner = CPR
+		add_core_of = CHI
+		add_claim_by = CHI
 		add_core_of = CPR
 		
 		buildings = {

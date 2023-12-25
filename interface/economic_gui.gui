@@ -1,0 +1,114 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "new_scripted_gui_window"
+		position = { x = 0 y = 0}	
+		size = { width = 820 height= 550 }
+		orientation = center
+		origo = center
+		fade_time = 100
+		moveable = yes
+		fade_type = linear
+		click_to_front = no
+		clipping = no
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_scripted_gui_window_background"
+		}
+
+		buttonType ={
+			name ="close_button"
+			spriteType = "GFX_close_button"
+			position = { x= 772	y = 26 }
+			Orientation = "UPPER_LEFT"
+			maxWidth = 28
+			maxHeight = 28
+
+		}			
+		iconType ={
+			name ="economic_animation1"
+			spriteType = "GFX_economic_animation"
+			position = { x= 732	y = 92 }
+			Orientation = "UPPER_LEFT"
+
+
+		}	
+
+		instantTextboxType = {
+			name = "Text_nazvanie"
+			position = { x = 48 y = 30 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "Экономика"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		buttonType = {
+			name ="help_button"
+			spriteType = "GFX_help_buttons"
+			position = {x=40 y=88}
+		}
+
+		instantTextboxType = {
+			name = "Text_help"
+			position = { x = 40 y = 134 }
+			font = "hoi_16mbs"
+			borderSize = {x = 0 y = 0}
+			text = "Помогите"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}		
+		instantTextboxType = {
+			name = "Text_Res"
+			position = { x = 48 y = 225 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = economic_Text_Res
+			maxWidth = 400
+			maxHeight = 100   
+			fixedsize = yes
+		}			
+		instantTextboxType = {
+			name = "Text_Res2"
+			position = { x = 50 y = 260 }
+			font = "hoi_16mbs"
+			borderSize = {x = 0 y = 0}
+			text = economic_Text_Res_Fabric
+			maxWidth = 450
+			maxHeight = 100
+			fixedsize = yes
+		}		
+		instantTextboxType = {
+			name = "Text_IT"
+			position = { x = 50 y = 300 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = economic_Text_IT
+			maxWidth = 400
+			maxHeight = 100
+			fixedsize = yes
+		}		
+		
+		iconType ={
+			name ="economic_IT_progress"
+			spriteType = "GFX_economic_IT_progress"
+			position = { x= 50	y = 350 }
+			Orientation = "UPPER_LEFT"
+
+		}
+		instantTextboxType = {
+			name = "Text_ITprogress" 
+			position = { x = 136 y = 360 }
+			font = "hoi_16mbs"
+			borderSize = {x = 0 y = 0}
+			text = economic_Text_ITprogress
+			maxWidth = 400
+			maxHeight = 100
+			fixedsize = yes
+		}	
+	
+	}
+}

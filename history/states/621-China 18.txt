@@ -1,25 +1,28 @@
+
+
 state={
 	id=621
-	name="STATE_621"
+	name="STATE_107"
 
 	history={
-		owner = CPR
-		add_core_of = CPR
-		
+		owner = TAJ
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
+			 
 
 		}
+
+		add_core_of = TAJ
+		add_core_of = BUK
 
 	}
 
 	provinces={
-		2087 4525 7048 7158 7631 10424 10629 12331 12403 12609 12880 
+		8027 10417 12805
 	}
-	manpower=1583700
+	manpower=165121
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=wasteland
 
 	local_supplies=4.0 
 }
