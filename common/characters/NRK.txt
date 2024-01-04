@@ -10,7 +10,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = juche
-			traits = { }
+			traits = { NRK_leadernation }
 			expire = "1994.9.8.1"
 			id = -1
 		}

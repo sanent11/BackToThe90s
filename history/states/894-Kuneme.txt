@@ -3,11 +3,13 @@ state={
 	name="STATE_894"
 	manpower = 69300
 	state_category = wasteland
-
+	resources={
+		uran = 52
+	}
 	history={
 		owner = NMB
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 
 		}
 		

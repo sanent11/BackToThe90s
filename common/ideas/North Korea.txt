@@ -1,0 +1,15 @@
+ideas = {
+    country = {
+        NorthKoreaIdeologia= {
+			modifier = {
+				paternalism_drift = 2.0
+				political_power_gain = 2.0
+				conscription_factor  = 0.5
+
+			}
+			picture = KNDR
+
+        }        
+	}
+		
+}

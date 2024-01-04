@@ -1,0 +1,6 @@
+﻿l_russian:
+ economic_Text_Res: "£resources_to_market_icon §YСырьевая промышленность\n£civ_factory[?sum_res_fabricsget|..0§R]"
+ economic_Text_Res_Fabric: ""
+ 
+ economic_Text_IT: "£resources_to_market_icon §YIT,электроника и машиностроение\n§!£civ_factory [?economic_IT_progress|%%0]"
+ economic_Text_ITprogress: "[?economic_IT_progress|%%0]"

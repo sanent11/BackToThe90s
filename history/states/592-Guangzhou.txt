@@ -1,23 +1,20 @@
 state={
 	id=592
 	name="STATE_592"
-	manpower = 17835200
-	state_category = city
-	resources={
-		tungsten=8 # was: 10
-		steel= 15 # was: 20
-		chromium = 3 # was: 4
-	}
+	manpower = 160000
+	state_category = town
 
+	#Баня-Лука
 	history={
-		owner = CPR
-		add_core_of = CPR
+		owner = SRB
+		add_core_of = SRB
+		add_claim_by = BOS
 		
 		
 		buildings = {
 			infrastructure = 2
 			arms_factory = 2
-			industrial_complex = 2
+			 
 			air_base = 3
 			1047 = {
 				naval_base = 5
@@ -27,13 +24,13 @@ state={
 
 		}
 		victory_points = {
-			1047 5
+			6983 3
 		}
 
 	}
 
 	provinces={
-		1047 1087 1131 1187 4092 7039 7152 9963 11938 11941 12077 
+		3985 6619 6957 6983 9588  
 	}
 
 	local_supplies=1.0 

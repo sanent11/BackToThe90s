@@ -1,0 +1,116 @@
+﻿
+add_namespace = russia
+
+
+country_event = {
+	id = russia.1
+	title = russia.1.t
+	desc = russia.1.d
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { 
+		
+		set_party_name = {
+			ideology = neutrality
+			long_name = RUS_neutrality_party_hunta_long
+			name = RUS_neutrality_party_hunta
+		}
+		
+		
+		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+		}
+		
+		add_country_leader_role = {
+			character = RUS_Achalov
+			country_leader = {
+				ideology = militocratism 
+				expire = "2022.1.1.1"
+				id = -1
+			}
+		}
+		
+		set_cosmetic_tag = RUS_WAR
+		
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.2
+
+		}
+		hidden_effect = {		
+			load_focus_tree = RUS_WAR_focus_tree
+		}
+		
+	}
+}
+
+country_event = {
+	id = russia.2
+	title = russia.2.t
+	desc = russia.2.d
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+	
+		add_popularity = { 
+			ideology = liberocratic
+			popularity = 0.2
+
+		}		
+		
+		hidden_effect = {		
+			load_focus_tree = RUS_Eltsin_focus_tree
+			set_global_flag = Eltsin
+		}
+
+	}
+}
+country_event = {
+	id = russia.3
+	title = russia.3.t
+	desc = russia.3.d
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	option = {
+	
+		set_party_name = {
+			ideology = conservocratic
+			name = RUS_conservocratic_party_RUTSKOY
+			long_name = RUS_conservocratic_party_RUTSKOY_long
+		}
+	
+		set_politics = {
+			ruling_party = conservocratic
+			elections_allowed = no
+		}
+		
+		add_country_leader_role = {
+			character = Rutskoy
+			country_leader = {
+				ideology = conservatism 
+				expire = "2022.7.6.1"
+				id = -1
+			}
+		}
+		
+		set_cosmetic_tag = RUS_RUTSKOY
+		
+		add_popularity = {
+			ideology = conservocratic
+			popularity = 0.2
+		}
+	
+		hidden_effect = {		
+			load_focus_tree = RUS_Rutskoy_focus_tree
+			set_global_flag = Rutskoy
+		} 
+
+	}
+}

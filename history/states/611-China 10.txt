@@ -1,27 +1,28 @@
 
+
 state={
 	id=611
-	name="STATE_611" # South Chahar
-	manpower = 1470000
-	
-	state_category = pastoral
+	name="STATE_107"
 
 	history={
-		owner = CPR
-		add_core_of = CPR
-		
+		owner = XOR
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 2
+			arms_factory = 1
+			 
+
 		}
-		victory_points = {
-			11752 4
-		}
+
+		add_core_of = SRB
+
 	}
 
 	provinces={
-		828 952 1137 1489 1590 4495 4612 6904 7545 7674 9776 10397 11752 
+		624 3596
 	}
+	manpower=191121
+	buildings_max_level_factor=1.000
+	state_category=large_city
 
-	local_supplies=0.0 
+	local_supplies=4.0 
 }

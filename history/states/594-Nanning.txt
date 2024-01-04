@@ -2,7 +2,7 @@
 state={
 	id=594
 	name="STATE_594"
-	manpower = 6550000
+	manpower = 10000
 	state_category = town
 	resources={
 		tungsten=11 # was: 14
@@ -11,21 +11,21 @@ state={
 	}
 
 	history={
-		owner = CPR
-		add_core_of = CPR
+		owner = SRB
+		add_claim_by = BOS
+		add_core_of = BOS
+		add_core_of = SRB
 		
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
+			 
 		}
-		victory_points = { 
-			7137 10 
-		}
+		
 
 	}
 
 	provinces={
-		1018 4023 4121 4177 7044 7137 7192 10004 10050 10105 11926 11983 12023 
+		6614 9586
 	}
 
 	local_supplies=1.0 

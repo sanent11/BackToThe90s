@@ -42,5 +42,24 @@ ideas = {
 				production_factory_start_efficiency_factor = -0.1
 				production_factory_efficiency_gain_factor = -0.1
 			}
+		}		
+		economic_ideaaaa	= {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = idea_RUS_economic_crisis
+
+			modifier = {
+				industrial_factory_donations = var:sum_res_fabricsget
+
+			}
 		}
 	}
