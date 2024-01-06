@@ -1,0 +1,27 @@
+focus_tree = {
+    id = RUS_Rutskoy_focus_tree
+	
+	country = {
+	    factor = 0
+		modifier = {
+		    add = 10
+			tag = RUS 
+		}
+	}
+	
+	default = no
+	
+	
+	focus = {
+	    id = RUS_sud_nad_eltsin
+	    x = 8
+	    y = 0
+		icon = GFX_focus_RUS_sud_eltsin
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+	        add_political_power = -25
+			add_stability = 0.15
+		}
+	}

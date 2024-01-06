@@ -234,6 +234,12 @@ defined_text = {
 	    }
 		text = {
 		    trigger = {
+			    has_country_leader_ideology = stratocraty
+			}
+			localization_key = stratocraty
+	    }
+		text = {
+		    trigger = {
 			    has_country_leader_ideology = aristocratism
 			}
 			localization_key = aristocratism

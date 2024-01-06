@@ -3,6 +3,9 @@ oob = "RUS_1991"
 
 recruit_character = RUS_boris_yeltsin
 recruit_character = RUS_Vladimir_Zhirinovsky
+recruit_character = RUS_Achalov
+recruit_character = Rutskoy
+recruit_character = Hasbulatov
 
 set_research_slots = 4
 set_convoys = 0
@@ -47,6 +50,7 @@ set_technology = {
 add_ideas = {
 	RUS_epoha_eltsina
 	RUS_economic_crisis
+	SOV_gorbachev
 }
 
 
@@ -78,6 +82,6 @@ add_to_faction = KAH
 
 set_cosmetic_tag = RUS_SOU 
 
-add_ideas = { SOV_gorbachev economic_ideaaaa }
+add_ideas = { SOV_gorbachev  }
 every_country = { add_dynamic_modifier = { modifier = addfabric_economic_res } }	
 	

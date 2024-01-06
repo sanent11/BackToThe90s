@@ -28,8 +28,50 @@ characters = {
 			ideology = slavanofil
 
 			traits = { }
-			expire = "2022.4.6.1
+			expire = "2022.4.6.1"
 			id = -1
 		}
 	}
-}
+	RUS_Achalov = {
+		name = RUS_Achalov
+		portraits={
+			civilian={
+				large= "gfx/leaders/RUS/portrait_RUS_Achalov.dds"
+			}
+		}
+		country_leader = {
+			ideology = stratocraty
+			traits = { }
+			expire = "2022.5.6.1"
+			id = -1
+		}
+	}
+	Hasbulatov = {
+		name = Hasbulatov
+		portraits={
+			civilian={
+				large= "gfx/leaders/RUS/Hasbulatov.dds"
+			}
+		}
+		country_leader = {
+			ideology = left_populism
+			traits = { }
+			expire = "2022.6.6.1"
+			id = -1
+		}
+	}
+	Rutskoy = {
+		name = Rutskoy
+		portraits={
+			civilian={
+				large= "gfx/leaders/RUS/Rutskoy.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = { }
+			expire = "2022.7.6.1"
+			id = -1
+		}
+	}
+

@@ -1,0 +1,25 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = news
+
+
+news_event = {
+	id = news.410
+	title = news.410.t
+	desc = news.410.desc
+	picture = GFX_news_event_410
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.410.a
+	}
+}
+
+
+
+

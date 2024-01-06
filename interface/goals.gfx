@@ -13,6 +13,59 @@ spriteTypes = {
 	name = "GFX_focus_RUS_new_constitution"
 	texturefile = "gfx/interface/goals/focus_RUS_new_constitution.dds"			
 	}	
+	SpriteType = {
+	name = "GFX_focus_RUS_vlast_voennih"
+	texturefile = "gfx/interface/goals/focus_RUS_vlast_voennih.dds"			
+	}
+	SpriteType = {
+	name = "GFX_focus_RUS_kapitulatsia_verh_sov"
+	texturefile = "gfx/interface/goals/focus_RUS_kapitulatsia_verh_sov.dds"			
+	}
+	SpriteType = {
+	name = "GFX_focus_RUS_eltsen_arrest"
+	texturefile = "gfx/interface/goals/focus_RUS_eltsen_arrest.dds"			
+	}
+	SpriteType = {
+	name = "GFX_focus_RUS_privatizatia"
+	texturefile = "gfx/interface/goals/focus_RUS_privatizatia.dds"			
+	}
+	SpriteType = {
+	name = "GFX_focus_RUS_ichkeria_tatarstan"
+	texturefile = "gfx/interface/goals/focus_RUS_ichkeria_tatarstan.dds"			
+	}
+	SpriteType = {
+	name = "GFX_focus_RUS_liberalizatia"
+	texturefile = "gfx/interface/goals/focus_RUS_liberalizatia.dds"			
+	}
+	SpriteType = {
+	name = "GFX_focus_RUS_otstavka_eltsina"
+	texturefile = "gfx/interface/goals/focus_RUS_otstavka_eltsina.dds"			
+	}
+	SpriteType = {
+	name = "GFX_focus_RUS_referendum"
+	texturefile = "gfx/interface/goals/focus_RUS_referendum.dds"			
+	}
+	SpriteType = {
+	name = "GFX_protest_snd"
+	texturefile = "gfx/interface/goals/protest_snd.dds"			
+	}
+	SpriteType = {
+	name = "GFX_rospusk"
+	texturefile = "gfx/interface/goals/rospusk.dds"			
+	}
+	SpriteType = {
+	name = "GFX_boi_v_moskve"
+	texturefile = "gfx/interface/goals/boi_v_moskve.dds"			
+	}
+	SpriteType = {
+	name = "GFX_update_feder"
+	texturefile = "gfx/interface/goals/update_feder.dds"			
+	}
+	SpriteType = {
+	name = "GFX_pereimenovanie"
+	texturefile = "gfx/interface/goals/pereimenovanie.dds"			
+	}
+
 
 
 

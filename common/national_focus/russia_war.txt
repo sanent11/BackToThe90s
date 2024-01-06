@@ -1,0 +1,27 @@
+focus_tree = {
+    id = RUS_WAR_focus_tree
+	
+	country = {
+	    factor = 0
+		modifier = {
+		    add = 10
+			tag = RUS 
+		}
+	}
+	
+	default = no
+	
+	
+	focus = {
+	    id = RUS_voen_polozhenie
+	    x = 8
+	    y = 0
+		icon = GFX_focus_RUS_voen_polozhenie
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+	        add_political_power = 50
+			add_stability = 0.1
+		}
+	}

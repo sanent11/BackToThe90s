@@ -1,0 +1,26 @@
+﻿l_russian: 
+
+protest_snd: "Протест случился"
+pizdec: "§RНАД РОССИЕЙ СГУЩАЮТСЯ ТУЧИ...§!"
+
+#Названия
+RUS_neutrality_party_hunta_long: "Министерство обороны РФ"
+RUS_neutrality_party_hunta: "Министерство обороны РФ"
+
+RUS_conservocratic_party_RUTSKOY: "Верховный Совет РФ"
+RUS_conservocratic_party_RUTSKOY_long: "Верховный Совет РФ"
+ 
+#Ивенты
+russia.1.t: "Военные захватывают власть"
+russia.1.a: "Без паники! Всё под контролем!
+
+russia.2.t: "Победа президента"
+russia.2.a: "Туда им и дорога!"
+
+russia.3.t: "Победа Верховного Совета"
+russia.3.a: "Ельцина на свалку истории!"
+
+#Лидеры
+RUS_Achalov: "Павел Грачёв"
+Hasbulatov: "Руслан Хасбулатов"
+Rutskoy: "Александр Руцкой"
