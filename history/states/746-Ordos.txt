@@ -13,9 +13,6 @@ state={
 		}
 
 		add_core_of = TAJ
-		victory_points = {
-			10187 30 
-		}
 	}
 
 	provinces={

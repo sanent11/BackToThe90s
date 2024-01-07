@@ -5,21 +5,18 @@ state={
 	name="STATE_107"
 
 	history={
-		owner = TAJ
+		owner = UZB
 		buildings = {
 			infrastructure = 1
 			 
 
 		}
 
-		add_core_of = TAJ
-		victory_points = {
-			10187 30 
-		}
+		add_core_of = UZB
 	}
 
 	provinces={
-		10187 12430
+		2058 4467 4923 12581
 	}
 	manpower=185121
 	buildings_max_level_factor=1.000
