@@ -53,6 +53,11 @@ add_ideas = {
 	SOV_gorbachev
 }
 
+set_power_balance = {
+	id = RUS_pravitelstvo_balance
+	set_default = yes
+}
+
 
 set_politics = {
 	ruling_party = liberocratic
