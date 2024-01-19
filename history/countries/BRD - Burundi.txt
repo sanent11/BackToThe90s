@@ -89,3 +89,4 @@ set_popularities = {
 	communism = 5
 	neutrality = 25
 }
+add_ideas = { ultraunitarstate dictatorship }

@@ -412,4 +412,147 @@ SRB_YUGOSLAVIA_category = {
 			
 		}
 	}
+	SRB_bos_separate= {
+
+		activation = {
+			has_country_flag = youyugoslavia
+			has_idea = YUG_bos_separate
+		}		
+		available = {
+			NOT = {			has_idea = YUG_bos_separate }
+		}
+		cancel_trigger = {
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = yes
+		days_mission_timeout = 7
+		selectable_mission = no
+
+		timeout_effect = {
+			BOS = {
+				add_war_support = 0.02
+			}
+			activate_mission = SRB_bos_separate
+
+		}
+	}	
+	SRB_kos_separate= {
+
+		activation = {
+			has_country_flag = youyugoslavia
+		}		
+		available = {
+			always = no
+		}
+		cancel_trigger = {
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = yes
+		days_mission_timeout = 7
+		selectable_mission = no
+
+		timeout_effect = {
+			KOS = {
+				add_war_support = 0.01
+			}
+			activate_mission = SRB_kos_separate
+
+		}
+	}		
+	 SRB_separate {
+
+		activation = {
+			has_country_flag = youyugoslavia
+			has_war_support > 0.55
+		}		
+		available = {
+			has_war_support < 0.5
+		}
+		cancel_trigger = {
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = yes
+		days_mission_timeout = 30
+		selectable_mission = no
+
+		timeout_effect = {
+			add_war_support = -0.01
+			add_stability  = 0.005
+			if = {
+				limit = {
+					802 = {
+						is_owned_by = SRB
+					}					
+				}
+				KOS = {
+					add_war_support = 0.01
+				}
+				802 = {
+					add_manpower = -4
+				}
+
+			}			
+			if = {
+				limit = {
+					104 = {
+						is_owned_by = SRB
+					}					
+				}
+				BOS = {
+					add_war_support = 0.01
+				}
+
+			}			
+			if = {
+				limit = {
+					105 = {
+						is_owned_by = SRB
+					}					
+				}
+				MNT = {
+					add_war_support = 0.005
+				}
+				105 = {
+					add_manpower = -2
+				}
+
+			}
+		}
+	}
+	SRB_bos_separate2= {
+
+		activation = {
+			has_country_flag = youyugoslavia
+			BOS = {
+				has_war_support > 0.9 
+			}
+			has_idea = { YUG_bos_separate }
+		}		
+		available = {
+			BOS = {
+				has_war_support < 0.8
+			}		
+		}
+		cancel_trigger = {
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = yes
+		days_mission_timeout = 25
+		selectable_mission = no
+
+		timeout_effect = {
+			BOS = {
+				add_war_support = 0.1
+				transfer_state = 104
+				transfer_state = 728
+				transfer_state = 747
+				transfer_state = 804
+				transfer_state = 592
+				transfer_state = 594
+
+			}
+			complete_national_focus = yugfocus_start
+			remove_ideas = { YUG_bos_separate }
+		}
+	}	
 }

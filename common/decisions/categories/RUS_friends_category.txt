@@ -1,0 +1,16 @@
+
+RUS_friends_category = {
+	
+	icon = saf_anti_colonialist_crusade
+
+	allowed = {
+		original_tag = RUS
+	}
+	visible = {
+		always = yes
+	}
+	scripted_gui = rus_friends_decsions_ui	
+
+	priority = 500
+}
+

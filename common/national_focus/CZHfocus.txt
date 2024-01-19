@@ -1,0 +1,98 @@
+focus_tree = {
+	id = czhfocus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CZH
+		}
+	}
+	default = no
+	focus = {
+		id = czhfocus_start
+		text = czhfocus_start
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 30.00
+		x = 10
+		y = 1
+		completion_reward = {
+
+		}
+	}	
+	focus = {
+		id = czhfocus_war
+		text = czhfocus_war
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 2.0
+		x = 9
+		y = 2
+		prerequisite = { focus = czhfocus_start }
+		mutually_exclusive = ( focus = czhfocus_liberty }
+		completion_reward = {
+
+		}
+	}	
+	focus = {
+		id = czhfocus_liberty
+		text = czhfocus_liberty
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 8.70
+		x = 11
+		y = 2
+		prerequisite = { focus = czhfocus_start }
+		mutually_exclusive = ( focus = czhfocus_war }
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = czhfocus_liberty1
+		text = czhfocus_liberty1
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 8.70
+		x = 11
+		y = 3
+		prerequisite = { focus = czhfocus_liberty }
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = czhfocus_liberty2
+		text = czhfocus_liberty2
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 8.70
+		x = 11
+		y = 4
+		prerequisite = { focus = czhfocus_liberty1 }
+		completion_reward = {
+
+		}
+	}	
+	focus = {
+		id = czhfocus_Chechia
+		text = czhfocus_Chechia
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 8.70
+		x = 9
+		y = 5
+		prerequisite = { focus = czhfocus_liberty2 focus = czhfocus_war }
+		completion_reward = {
+
+		}
+	}	
+	focus = {
+		id = czhfocus_NATO
+		text = czhfocus_NATO
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 8.70
+		x = 10
+		y = 6
+		prerequisite = { focus = czhfocus_liberty2 }
+		prerequisite = { focus = czhfocus_Chechia }
+		completion_reward = {
+
+		}
+	}
+
+}

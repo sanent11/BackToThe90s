@@ -17,21 +17,48 @@
  
  #Decsions
  SRB_YUGOSLAVIA_category: "Югославская проблема"
- SRB_YUGOSLAVIA_category_desc: "В югославии множество проблем\n\nЭтнонационализм в §YСловении§!  £war_support_icon §LВЫШЕЛ§!\n\nЭтнонационализм в §YМакедонии§!  £war_support_icon §LВЫШЕЛ§!\n\nЭтнонационализм в §YХорватии§!  £war_support_icon §RВОЙНА!§!\n\nЭтнонационализм в §YБосния и Герцеговина§! £war_support_icon [?BOS.has_war_support|%G0]   \n\nЭтнонационализм в §YКосово§!  £war_support_icon [?KOS.has_war_support|%t0]\n\nЭтнонационализм в §YЧерногория§!  £war_support_icon [?MNT.has_war_support|%t0]\n\nЭтнонационализм в §YВоеводина§!  £war_support_icon [?VOE.has_war_support|%t0]\n"
+ SRB_YUGOSLAVIA_category_desc: "В югославии множество проблем\n\nЭтнонационализм в §YСловении§!  £war_support_icon §LВЫШЕЛ§!\n\nЭтнонационализм в §YМакедонии§!  £war_support_icon §LВЫШЕЛ§!\n\nЭтнонационализм в §YХорватии§!  £war_support_icon §RВОЙНА!§!\n\nЭтнонационализм в §YБосния и Герцеговина§! £war_support_icon [?BOS.has_war_support|%G0]   \n\nЭтнонационализм в §YКосово§!  £war_support_icon [?KOS.has_war_support|%t0]\n\nЭтнонационализм в §YЧерногория§!  £war_support_icon [?MNT.has_war_support|%t0]\n\nЭтнонационализм в §YВоеводина§!  £war_support_icon [?VOE.has_war_support|%t0]\n" 
+ 
+ SRB_bezrabotica_category: "Высокий уровень безработицы"
+ SRB_bezrabotica_category_desc: "В результате продолжительного экономического кризиса, много предприятий закрылись, а люди оставались безработицы.\n\nПроцент безработицы: [?SRB.YUGbezwork|%t0]" 
+ SRB_gosdolg_category: "Госдолг"
+ SRB_gosdolg_category_desc: "В стране огромный внешний долг, и он всё растет и растер.\n\nГос долг: [?SRB.YUGdolg|%t0] млрд.$"
  yugoslavia_SLOproblem: "§YСловения"
  yugoslavia_MACproblem: "§YМакедония"
  yugoslavia_XORproblem: "§YХорватия"
- yugoslavia_BOSproblem: "§YБосния и Герцеговина"
+ yugoslavia_BOSproblem: "§Y[BOS.GetFlag] Босния и Герцеговина"
  yugoslavia_KOSproblem: "§YКосово"
  yugoslavia_MNTproblem: "§YЧерногория"
  yugoslavia_SRBproblem: "§YСербия"
  yugoslavia_VOEproblem: "§YВоеводина"
- 
+ SRB_bos_separate: "§OРост [BOS.GetFlag] Боснийского национализма§!   "
+ SRB_kos_separate: "§OРост [KOS.GetFlag] Косовского национализма§!   "
+ SRB_bos_separate2: "§RВыход Боснии§!"
  SRB_yug_attackBOS: "§OПодавить боснийский национализм"
+ SRB_yug_attackKOS: "§OПодавить косовский национализм"
+ SRB_separate: "§YДействия Сербских Националистов"
  
  #Event
+ 
+ 
+ #Yugoslavia focus
+ yugfocus_yugwar: "Югославский войны"
+ yugfocus_sloven: "Словенская война"
+ yugfocus_sloven2: "Брионское соглашение"
+ yugfocus_macedonia: "Брионское соглашение"
+ yugfocus_macedoniambwar: "Победа Македонских Националистов"
+ yugfocus_macedonia2: "Тропа войны"
+ yugfocus_macedonia3: "Бескровное отпущение"
+ yugfocus_xorstart: "Хорватия"
+ yugfocus_start: "Обновление Югославии"
+ yugfocus_xorwar: "Вынужденные казни"
+ yugfocus_xorpeace: "Сараевское перемирие"
+ yugfocus_xorsrb: "\"Забыть\" оружие для РСК"
+ yugfocus_xorsrb2: "Добровольцы"
 
 
  #Other
  YUGcommunism:0 "СФР Югославия"
- YUGcommunism_DEF:0 "Социалистическая Федеративная Республика Югославия"
+ YUGcommunism_DEF:0 "Социалистическая Федеративная Республика Югославия" 
+ YUG:0 "Союзная Республика Югославия"
+ YUG_DEF:0 "Союзная Республика Югославия"

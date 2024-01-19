@@ -65,3 +65,34 @@ set_popularities = {
 
 set_cosmetic_tag = YUGcommunism 
 set_country_flag = youyugoslavia
+add_dynamic_modifier = { modifier = YUG_armycrisis }
+add_ideas = { federative president_parlament }
+add_ideas = {YUG_crisis  }
+add_dynamic_modifier = { modifier = YUG_bezwork }
+add_ideas = {YUG_crisis YUG_bos_separate }
+add_dynamic_modifier = { modifier = YUG_dolg }
+
+unlock_national_focus = yugfocus_yugwar
+unlock_national_focus = yugfocus_sloven
+unlock_national_focus = yugfocus_sloven2
+unlock_national_focus = yugfocus_macedonia
+unlock_national_focus = yugfocus_macedoniambwar
+unlock_national_focus = yugfocus_macedonia3
+unlock_national_focus = yugfocus_xorstart
+unlock_national_focus = yugfocus_xorwar
+
+set_variable = {
+	var = YUGbezwork
+	value = 0.25
+}
+
+set_variable = {
+	var = YUGdolg
+	value = 0.29
+}
+
+set_autonomy = {
+    target = RSK
+    autonomous_state = autonomy_integrated_puppet
+
+}

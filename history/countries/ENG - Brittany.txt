@@ -4,7 +4,7 @@ oob = "ENG_1991"
 recruit_character = ENG_John_Meijor
 
 set_research_slots = 3
-set_convoys = 0
+set_convoys = 1000
 
 set_technology = {
 	infantry_weapons = 1
@@ -65,3 +65,6 @@ set_popularities = {
 	anarchy = 0
 	
 }
+
+add_ideas = {ENG_Elizabeth2}
+add_ideas = { unitarstate constitutial_monarchy }

@@ -2,20 +2,23 @@ state={
 	id=748
 	name="STATE_748"
 	provinces={
-		1010 4141 4325 4431 9939 10763 11972 
+		13289
+	}
+	resources = {
+		tungsten = 1
+		steel = 1
 	}
 	history={
-		owner = CPR
-		add_core_of = CHI
-		add_claim_by = CHI
-		add_core_of = CPR
+		owner = RWP
+		add_core_of = RWA
+		add_core_of = RWP
 		
 		buildings = {
 			infrastructure = 1
 
 		}
 		victory_points = {
-			1010 3
+			13289 15
 		}
 		
 	}

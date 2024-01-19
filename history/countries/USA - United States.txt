@@ -84,3 +84,4 @@ add_to_faction = TUR
 add_to_faction = SPR
 
 add_ideas = { USA_wincoldwar }
+add_ideas = { confederative president_republic }

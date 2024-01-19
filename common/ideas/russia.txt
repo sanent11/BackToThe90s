@@ -43,10 +43,10 @@ ideas = {
 				production_factory_efficiency_gain_factor = -0.1
 			}
 		}		
-		economic_ideaaaa	= {
+		RUS_dualpower = {
 
 			allowed = {
-				always = yes
+				always = no
 			}
 
 			allowed_civil_war = {
@@ -55,11 +55,11 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = idea_RUS_economic_crisis
+			picture = idea_RUS_epoha_eltsina
 
 			modifier = {
-				industrial_factory_donations = var:sum_res_fabricsget
-
+				political_power_factor = -1.0
+				stability_factor = -0.2
 			}
 		}
 	}

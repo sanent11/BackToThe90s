@@ -14,6 +14,11 @@ leader_traits = {
 		war_support_factor = 0.05
 		stability_factor = -0.05	
 		political_power_cost = 0.5
+	}		
+	YUG_IO = {
+		random = no
+		war_support_factor = 0.05
+		stability_factor = -0.05	
 	}	
 	NRK_leadernation = {
 		random = no

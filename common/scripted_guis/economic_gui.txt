@@ -12,7 +12,8 @@ scripted_gui = {
 			clr_country_flag = open_my_new_gui
 		
 		}	
-    }
+
+	} 
 
     triggers = {
     }

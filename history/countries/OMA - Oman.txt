@@ -65,3 +65,5 @@ set_popularities = {
 	anarchy = 0
 	
 }
+
+add_ideas = { ultraunitarstate absolute_monarchy }

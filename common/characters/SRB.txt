@@ -9,7 +9,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = socialism
-			traits = { }
+			traits = { YUG_IO }
 			expire = "2022.8.24.1"
 			id = -1
 		}

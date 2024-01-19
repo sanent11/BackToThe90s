@@ -64,4 +64,4 @@ set_popularities = {
 	
 }
 
-
+add_ideas = { federative parlament_democratic }

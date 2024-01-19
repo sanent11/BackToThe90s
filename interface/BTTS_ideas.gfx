@@ -12,6 +12,11 @@ spriteTypes = {
 		name = "GFX_idea_USA_wincoldwar"
 		texturefile = "gfx/interface/ideas/USA/idea_USA_wincoldwar.dds"
 	}	
+	#England
+	spriteType = {
+		name = "GFX_idea_ENG_King"
+		texturefile = "gfx/interface/ideas/idea_ENG_King.dds"
+	}	
 	#North Korea
 	spriteType = {
 		name = "GFX_idea_KNDR"

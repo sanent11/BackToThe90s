@@ -1,0 +1,14 @@
+ideas = {
+    country = {
+        ENG_Elizabeth2 = {
+			modifier = {
+				stability_factor = 0.4			
+				consumer_goods_factor = 0.05
+
+			}
+			picture = ENG_King
+
+        }        
+	}
+		
+}

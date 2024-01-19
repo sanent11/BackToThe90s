@@ -62,3 +62,4 @@ set_popularities = {
 	anarchy = 0
 	
 }
+add_ideas = { unitarstate dictatorship }

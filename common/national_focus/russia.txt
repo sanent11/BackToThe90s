@@ -23,6 +23,19 @@ focus_tree = {
 	    completion_reward = { 
 	        add_political_power = -50
 			add_stability = -0.3
+			country_event = russiaStart.1
+			UKN = {
+				add_political_power = 25
+				country_event = russiaStart.1
+			}		
+			BLN = {
+				add_political_power = 25
+				country_event = russiaStart.1
+			}			
+			KAH = {
+				add_political_power = 25
+				country_event = russiaStart.1
+			}	
 		}
 	}
 	focus = {

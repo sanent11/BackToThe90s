@@ -87,3 +87,4 @@ set_popularities = {
 #		#
 #	}
 #}
+add_ideas = { ultraunitarstate constitutial_monarchy }

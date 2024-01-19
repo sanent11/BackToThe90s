@@ -1,0 +1,30 @@
+ideas = {
+    country = {
+        YUG_crisis= {
+			modifier = {
+				political_power_cost = 1.0
+				stability_factor = -0.5
+				war_support_weekly = 0.01
+				drift_defence_factor = -1.0
+
+			}
+			picture = KNDR
+
+        }             
+       
+	}      
+	country = {
+        YUG_bos_separate= {
+			modifier = {
+				political_power_cost = 0.5
+				stability_factor = -0.1
+				
+
+			}
+			picture = KNDR
+
+        }             
+       
+	}    
+		
+}

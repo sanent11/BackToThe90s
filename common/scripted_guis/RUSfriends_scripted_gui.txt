@@ -1,0 +1,19 @@
+scripted_gui = {
+
+	rus_friends_decsions_ui = {
+		context_type = decision_category
+		window_name = "rus_friends_decsions_ui_window"
+
+		properties = {
+			senate_icon = {
+				frame = current_senate_icon_frame
+			}
+
+			house_icon = {
+				frame = current_house_icon_frame
+			}
+		}
+	}
+	
+}
+

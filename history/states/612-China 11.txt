@@ -4,7 +4,7 @@ state={
 	name="STATE_107"
 
 	history={
-		owner = XOR
+		owner = RSK
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
@@ -15,11 +15,13 @@ state={
 			9608 10 
 		}
 		add_core_of = SRB
+		add_core_of = RSK
+		add_claim_by = 	XOR
 
 	}
 
 	provinces={
-		9608 
+		9608 13302 13303 13304
 	}
 	manpower=191121
 	buildings_max_level_factor=1.000

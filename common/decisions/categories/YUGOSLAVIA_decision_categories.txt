@@ -15,4 +15,34 @@ SRB_YUGOSLAVIA_category = {
 
 	priority = 200
 }
+SRB_bezrabotica_category = {
+	
+	icon = saf_anti_colonialist_crusade
+
+	allowed = {
+		original_tag = SRB
+	}
+	visible = {
+		check_variable = {
+			YUGbezwork > 5
+		}
+	}
+
+	priority = 150
+}
+SRB_gosdolg_category = {
+	
+	icon = saf_anti_colonialist_crusade
+
+	allowed = {
+		original_tag = SRB
+	}
+	visible = {
+		check_variable = {
+			YUGdolg > 1
+		}
+	}
+
+	priority = 140
+}
 

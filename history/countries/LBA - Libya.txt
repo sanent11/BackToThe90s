@@ -117,3 +117,5 @@ create_country_leader = {
 		#
 	}
 }
+
+add_ideas = { ultraunitarstate absolute_dictatorship }

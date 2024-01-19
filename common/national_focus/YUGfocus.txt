@@ -1,0 +1,213 @@
+focus_tree = {
+	id = yugfocus
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = SRB
+		}
+	}
+	default = no
+	focus = {
+		id = yugfocus_yugwar
+		text = yugfocus_yugwar 
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 5.00
+		x = 6
+		y = 0
+
+		completion_reward = {
+
+		}
+	}		
+	focus = {
+		id = yugfocus_sloven
+		text = yugfocus_sloven
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 5.00
+		x = 1
+		y = 1
+		prerequisite = { focus = yugfocus_yugwar }
+
+		completion_reward = {
+
+		}
+	}		
+	focus = {
+		id = yugfocus_sloven2
+		text = yugfocus_sloven2
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 5.00
+		x = 1
+		y = 2
+		prerequisite = { focus = yugfocus_sloven }
+
+		completion_reward = {
+
+		}
+	}		
+	focus = {
+		id = yugfocus_macedonia
+		text = yugfocus_macedonia
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 5.00
+		x = 4
+		y = 1
+		prerequisite = { focus = yugfocus_yugwar }
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = yugfocus_macedoniambwar
+		text = yugfocus_macedoniambwar
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 5.00
+		x = 4
+		y = 2
+		prerequisite = { focus = yugfocus_macedonia }
+
+		completion_reward = {
+
+		}
+	}		
+	focus = {
+		id = yugfocus_macedonia2
+		text = yugfocus_macedonia2
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 5.00
+		x = 3
+		y = 3
+		prerequisite = { focus = yugfocus_macedoniambwar }
+		mutually_exclusive = ( focus = yugfocus_macedonia3 }
+
+		completion_reward = {
+
+		}
+	}	
+	focus = { 
+		id = yugfocus_macedonia3
+		text = yugfocus_macedonia3
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 5.00
+		x = 5
+		y = 3
+		prerequisite = { focus = yugfocus_macedoniambwar }
+		mutually_exclusive = ( focus = yugfocus_macedonia2 }
+
+		completion_reward = {
+
+		}
+	}		
+	focus = {
+		id = yugfocus_xorstart
+		text = yugfocus_xorstart
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 5.00
+		x = 8
+		y = 1
+		prerequisite = { focus = yugfocus_yugwar }
+
+		completion_reward = {
+
+		}
+	}		
+	focus = {
+		id = yugfocus_xorwar
+		text = yugfocus_xorwar
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 5.00
+		x = 8
+		y = 2
+		prerequisite = { focus = yugfocus_xorstart }
+
+		completion_reward = {
+
+		}
+		
+	}		
+	focus = {
+		id = yugfocus_xorpeace
+		text = yugfocus_xorpeace
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 5.00
+		x = 8
+		y = 3
+		prerequisite = { focus = yugfocus_xorwar }
+
+		completion_reward = {
+
+		}
+	}		
+	focus = {
+		id = yugfocus_xorsrb
+		text = yugfocus_xorsrb
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 5.00
+		x = 7
+		y = 4
+		prerequisite = { focus = yugfocus_xorpeace }
+		available = { has_completed_focus = yugfocus_start }
+
+		completion_reward = {
+
+		}
+	}		
+	focus = {
+		id = yugfocus_xorsrb2 
+		text = yugfocus_xorsrb2
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 5.00
+		x = 9
+		y = 4
+		available = { has_completed_focus = yugfocus_start }
+		prerequisite = { focus = yugfocus_xorpeace }
+		completion_reward = {
+
+		}
+	}		
+	focus = {
+		id = yugfocus_BOS 
+		text = yugfocus_BOS
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 5.00
+		x = 11
+		y = 1
+		available = { has_completed_focus = yugfocus_start }
+		prerequisite = { focus = yugfocus_yugwar }
+		completion_reward = {
+
+		}
+	}		
+	focus = {
+		id = yugfocus_start
+		text = yugfocus_start
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 5.00
+		x = 20
+		y = 0
+		available = {
+			always = no
+		}		
+		completion_reward = {
+			drop_cosmetic_tag = yes
+			set_cosmetic_tag = YUG 
+
+		}
+	}	
+	focus = {
+		id = yugfocus_war
+		text = yugfocus_war
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 2.0
+		x = 20
+		y = 1
+		prerequisite = { focus = yugfocus_start }
+		completion_reward = {
+
+		}
+	}	
+
+
+}

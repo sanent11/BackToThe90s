@@ -88,3 +88,4 @@ set_popularities = {
 #		#
 #	}
 #}
+add_ideas = { federative absolute_monarchy }

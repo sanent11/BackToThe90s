@@ -1,0 +1,234 @@
+ideas = {
+
+	distribution_power = {
+		law = yes
+		use_list_view = yes
+
+		absolute_dictatorship = {
+
+			available = {
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 2.0
+				consumer_goods_factor = 0.29
+				research_speed_factor = -0.3
+				stability_factor = -0.5
+				drift_defence_factor = -0.5
+				production_speed_buildings_factor = -1.0
+				war_support_factor = 0.05
+
+			}
+
+			default = no
+
+			cancel_if_invalid = no
+		}		
+		absolute_monarchy = {
+
+			available = {
+			}
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 1.75
+				consumer_goods_factor = 0.6
+				research_speed_factor = -0.25
+				drift_defence_factor = -0.45
+				production_speed_buildings_factor = -0.75
+				war_support_factor = 0.1
+
+			}
+
+			default = no
+
+			cancel_if_invalid = no
+		}
+
+		war_dictatorship = {
+
+			available = {
+			}
+
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 1.5
+				consumer_goods_factor = 0.25
+
+				experience_gain_army = 0.1
+				monthly_population = -0.2
+				research_speed_factor = -0.2
+				stability_factor = -0.4
+				conscription_factor = 0.1
+				drift_defence_factor = -0.4
+				production_speed_buildings_factor = -0.5
+				communism_acceptance = -50
+				paternalism_acceptance = -50
+				communism_drift = -0.2
+				paternalism_drift = -0.2
+
+			}
+
+			default = no
+
+			cancel_if_invalid = no
+		}
+		dictatorship = {
+
+			available = {
+			}
+
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 1.0
+				consumer_goods_factor = 0.3
+				research_speed_factor = -0.15
+				stability_factor = -0.25
+				drift_defence_factor = -0.25
+				production_speed_buildings_factor = -0.1
+
+			}
+
+			default = no
+
+			cancel_if_invalid = no
+		}
+		
+		oligarchia = {
+			available = {
+			}
+
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.75
+				consumer_goods_factor = 0.4
+				research_speed_factor = -0.05
+				stability_factor = -0.125
+				drift_defence_factor = -0.125
+				production_speed_buildings_factor = -0.01
+				min_export = 0.1
+				communism_drift = -0.1
+				paternalism_drift = -0.1
+			}
+
+			default = no
+
+			cancel_if_invalid = no
+		}
+		president_republic = {
+
+					available = {
+			}
+
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.5
+				min_export = 0.075
+				drift_defence_factor = -0.05
+
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+		soviet_republic = {
+			available = {
+			}
+
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.35
+				consumer_goods_factor = -0.1
+
+				stability_factor = 0.05
+				war_support_factor = -0.01
+				min_export = 0.1
+				communism_drift = 0.2
+				communism_acceptance = 25
+				paternalism_acceptance = 25
+			}
+
+			default = no
+
+			cancel_if_invalid = no
+		}	
+		president_parlament = {
+			available = {
+			}
+
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.25
+				stability_factor = 0.2
+				min_export = 0.1
+
+			}
+
+			default = no
+
+			cancel_if_invalid = no
+		}
+	
+		constitutial_monarchy = {
+			available = {
+			}
+
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.25
+				stability_factor = 0.4
+				min_export = 0.1
+				communism_drift = -0.1
+				war_support_factor = 0.05
+				consumer_goods_factor = 0.05
+
+			}
+
+			default = no
+
+			cancel_if_invalid = no
+		}
+		parlament_democratic = {
+			available = {
+			}
+
+
+			cost = 150
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.6
+				min_export = 0.15
+				war_support_factor = -0.15
+			}
+
+			default = no
+
+			cancel_if_invalid = no
+		}
+}

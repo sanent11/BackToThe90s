@@ -396,6 +396,8 @@ diff_very_easy_player = {
  	navy_fuel_consumption_factor = -0.5
 	supply_consumption_factor = -0.1
 	no_supply_grace = 72
+	production_speed_buildings_factor = 10.0 
+
 }
 
 diff_easy_player = {
@@ -408,10 +410,14 @@ diff_easy_player = {
  	navy_fuel_consumption_factor = -0.25
 	supply_consumption_factor = -0.05
 	no_supply_grace = 48
+	production_speed_buildings_factor = 10.0 
+
 }
 
 diff_normal_player = {
 	no_supply_grace = 36
+	production_speed_buildings_factor = 10.0 
+
 }
 
 diff_hard_player = {
@@ -420,6 +426,8 @@ diff_hard_player = {
 	political_power_factor = -0.1
 	supply_consumption_factor = 0.05
 	no_supply_grace = 24
+	production_speed_buildings_factor = 10.0 
+
 }
 
 diff_very_hard_player = {
@@ -427,20 +435,28 @@ diff_very_hard_player = {
 	research_speed_factor = -0.30
 	political_power_factor = -0.15
 	supply_consumption_factor = 0.1
+	production_speed_buildings_factor = 10.0 
+
 }
 
 
 diff_very_easy_ai = {
 	peace_score_ratio_transferred_to_players = 0.25
+	production_speed_buildings_factor = 11.0 
+
 }
 
 diff_easy_ai = {
 	no_supply_grace = 24
 	peace_score_ratio_transferred_to_players = 0.1
+	production_speed_buildings_factor = 11.0 
+
 }
 
 diff_normal_ai = {
 	no_supply_grace = 36
+	production_speed_buildings_factor = 11.0 
+
 }
 
 diff_hard_ai = {
@@ -448,6 +464,8 @@ diff_hard_ai = {
 	air_fuel_consumption_factor = -0.25
  	navy_fuel_consumption_factor = -0.25
 	no_supply_grace = 48
+	production_speed_buildings_factor = 11.0 
+
 }
 
 diff_very_hard_ai = {
@@ -455,6 +473,8 @@ diff_very_hard_ai = {
 	air_fuel_consumption_factor = -0.5
  	navy_fuel_consumption_factor = -0.5
 	no_supply_grace = 72
+	production_speed_buildings_factor = 11.0 
+
 }
 
 
@@ -569,6 +589,7 @@ country_is_at_peace = {
 }
 
 country_is_at_war = {
+	war_support_factor = 0.25
 
 }
 

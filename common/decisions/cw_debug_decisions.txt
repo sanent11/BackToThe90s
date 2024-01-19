@@ -49,76 +49,6 @@ cw_gui_debug_mode = {
 			factor = 0
 		}
 	}	
-	economic_weekUpdate = {
-
-		available = {
-			always = no
-		}
-		cancel_trigger = {
-		}
-		icon = mission_icon     # For GFX_decision_mission_icon
-		is_good = yes
-		days_mission_timeout = 7
-		selectable_mission = no
-
-		timeout_effect = {
-			set_variable = {
-				var = sum_res
-				value = var:ROOT.resource_exported@oil
-			}	
-			divide_variable = {
-				var = sum_res
-				value = 3
-			}
-			add_to_variable = {
-				var = sum_res
-				value = var:ROOT.resource_exported@steel
-			}		
-			add_to_variable = {
-				var = sum_res
-				value = var:ROOT.resource_exported@aluminium
-			}						
-			
-			add_to_variable = {
-				var = sum_res
-				value = var:ROOT.resource_exported@tungsten
-			}		
-			add_to_variable = {
-				var = sum_res
-				value = var:ROOT.resource_exported@chromium
-			}			
-
-			add_to_variable = {
-				var = sum_res
-				value = var:ROOT.resource_exported@uran
-			}		
-			add_to_variable = {
-				var = sum_res
-				value = var:ROOT.resource_exported@uran
-			}		
-			add_to_variable = {
-				var = sum_res
-				value = var:ROOT.resource_exported@uran
-			}
-			set_variable = {
-				var = sum_res_fabricsget
-				value = var:sum_res
-			}
-
-			divide_variable = {
-				var = sum_res_fabricsget
-				value = 10
-				tooltip = divide_var_by_100_tt
-			}
-
-			add_to_variable = {
-				var = economic_IT_progress
-				value = 10
-			}	
-			activate_mission = economic_weekUpdate
-			
-		}
-	}
 	economic_startUpdate= {
 
 		activation = {
@@ -184,9 +114,40 @@ cw_gui_debug_mode = {
 			}	
 			add_to_variable = {
 				var = economic_IT_progress
-				value = 1
+				value = 50
 			}	
 			set_country_flag = economic_startUpdates			
+		}
+	}	
+	economic_sector_IT= {
+
+		activation = {
+
+		}		
+		available = {
+			check_variable = {
+				economic_IT_progress > 99
+			}
+		}
+		cancel_trigger = {
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = yes
+		days_mission_timeout = 100
+		selectable_mission = no
+		complete_effect = {
+			add_to_variable = {
+				var = economic_IT_fabricsget
+				value = 4
+			}	
+			set_variable = {
+				var = economic_IT_progress
+				value = 0
+			}
+		}
+		timeout_effect = {
+			activate_mission = economic_sector_IT
+
 		}
 	}
 	economic_test = {
@@ -255,6 +216,34 @@ cw_gui_debug_mode = {
 			}	
 
 		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	economic_test2 = {
+
+		icon = generic_industry
+
+		available = {
+			is_ai = no
+		}
+
+		visible = {
+			is_debug = yes
+		}
+
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+
+			add_to_variable = {
+				var = economic_ITprogress_growth
+				value = 5
+			}		
+
 		
 		ai_will_do = {
 			factor = 0

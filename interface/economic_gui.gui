@@ -70,7 +70,7 @@ guiTypes = {
 			maxWidth = 400
 			maxHeight = 100   
 			fixedsize = yes
-		}			
+		}			 
 		instantTextboxType = {
 			name = "Text_Res2"
 			position = { x = 50 y = 260 }
@@ -100,11 +100,33 @@ guiTypes = {
 
 		}
 		instantTextboxType = {
-			name = "Text_ITprogress" 
+			name = "Text_ITprogress"        
 			position = { x = 136 y = 360 }
 			font = "hoi_16mbs"
 			borderSize = {x = 0 y = 0}
 			text = economic_Text_ITprogress
+			maxWidth = 400
+			maxHeight = 100
+			fixedsize = yes
+		}		
+   
+
+		instantTextboxType = {
+			name = "Text_value_black_market"        
+			position = { x = 530 y = 507 }   
+			font = "hoi_16mbs"
+			borderSize = {x = 0 y = 0}  
+			text = economic_Text_value_black_market
+			maxWidth = 400
+			maxHeight = 100
+			fixedsize = yes
+		}		
+		instantTextboxType = {
+			name = "Text_value_INFLATION"        
+			position = { x = 200 y = 507 }   
+			font = "hoi_16mbs"
+			borderSize = {x = 0 y = 0}
+			text = economic_Text_value_INFLATION
 			maxWidth = 400
 			maxHeight = 100
 			fixedsize = yes

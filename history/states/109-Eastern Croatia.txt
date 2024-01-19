@@ -15,12 +15,11 @@ state={
 		victory_points = {
 			11581 3 
 		}
-		add_core_of = YGS
 		add_core_of = XOR
 	}
 
 	provinces={
-		3592 3627 6647 9595 9611 11581 11594
+		3592  3627 6647 9595 9611 11581 11594 13305 13306 13313 13314
 	}
 
 	local_supplies=0.0 

@@ -88,3 +88,4 @@ create_country_leader = {
 		
 	}
 }
+add_ideas = { ultraunitarstate war_dictatorship }
