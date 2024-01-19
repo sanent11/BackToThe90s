@@ -10,14 +10,14 @@ guiTypes = {
 		#	format = CENTER
 		#	maxWidth = 147
 		#	maxHeight = 18
-		#	fixedsize = yes
+		#	fixedsize = ye3
 		#}
 		instantTextboxType = {
 			name = "subideology"
-			position = { x =106 y = -155 }
-			font = "hoi_18mbs"
+			position = { x =114 y = -155 }
+			font = "hoi_16mbs"
 			text = "[get_subideology_loc]"
-			format = CENTER
+			format = LEFT
 			vertical_alignment = CENTER
 			maxWidth = 184
 			maxHeight = 40

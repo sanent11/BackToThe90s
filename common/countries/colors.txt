@@ -324,8 +324,8 @@ PHI = {
 	color_ui = rgb { 152  130  191 }
 }
 CHI = {
-	color = rgb { 255  244  190 }
-	color_ui = rgb { 255  244  1901 }
+	color = rgb { 8 99 156 }
+	color_ui = rgb { 8 99 156 }
 }
 PRD = {
 	color = rgb { 155 0 0 }
