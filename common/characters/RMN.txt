@@ -1,0 +1,16 @@
+characters = {
+
+    RMN_ion_iliescu = {
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/RMN/portrait_RMN_ion_iliescu.dds"
+            }
+        }
+        country_leader = {
+            ideology = autor_democratic
+            traits = {}
+            expire = "2024.8.24.1"
+            id = -1
+        }
+    }
+}

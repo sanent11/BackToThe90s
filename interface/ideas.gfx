@@ -22,6 +22,18 @@ spriteTypes = {
 		name = "GFX_idea_RUS_economic_crisis"
 		texturefile = "gfx/interface/ideas/idea_RUS_economic_crisis.dds"
 	}		
+
+		### ROMANIA ###
+		
+	spriteType = {
+		name = "GFX_idea_RMN_true_democratic"
+		texturefile = "gfx/interface/ideas/idea_true_democratic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_RMN_legacy_of_ceausescu"
+		texturefile = "gfx/interface/ideas/idea_legacy_of_ceausescu.dds"
+	}
+
 	
 	
 	
@@ -8218,5 +8230,4 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_hol_hih_siderius.dds"
 	}
 	
-
 }

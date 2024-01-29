@@ -1,7 +1,7 @@
 capital = 46
 oob = "RMN_1991"
 
-recruit_character = 
+recruit_character = RMN_ion_iliescu
 
 set_research_slots = 3
 set_convoys = 0
@@ -43,22 +43,25 @@ set_technology = {
 	synth_oil_experiments = 1
 }
 
+add_ideas = {
+	RMN_true_democratic
+}
+
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = no
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
 	fascism = 0
 	nationalism = 0
-	neutrality = 0 
+	neutrality = 50
 	conservocratic = 20
 	liberocratic = 10
-	democratic = 60
+	democratic = 10
 	paternalism = 0
 	communism = 10
 	anarchy = 0
-	
 }
