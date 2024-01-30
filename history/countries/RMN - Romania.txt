@@ -45,6 +45,7 @@ set_technology = {
 
 add_ideas = {
 	RMN_true_democratic
+	RMN_legacy_of_ceausescu
 }
 
 set_politics = {

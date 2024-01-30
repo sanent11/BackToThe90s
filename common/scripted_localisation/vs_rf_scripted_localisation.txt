@@ -1,0 +1,19 @@
+
+defined_text = {
+	name = GetPortrait_cm
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "GFX_RUS_Hasbulatov"
+	}
+}
+defined_text = {
+	name = name_portrait
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "Hasbulatov"
+	}
+}

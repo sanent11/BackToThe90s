@@ -1,0 +1,16 @@
+spriteTypes = {
+
+	#Верховный совет
+ 
+	spriteType = {
+		name = "GFX_RUS_Hasbulatov"
+		texturefile = "gfx/interface/parliament/portrait_RUS_Hasbulatov.png"
+    }
+	spriteType = {
+		name = "GFX_high_council"
+		texturefile = "gfx/interface/parliament/vs.png"
+    }
+	spriteType = {
+		name = "GFX_dinah"
+		texturefile = "gfx/interface/parliament/dinah.png"
+    }

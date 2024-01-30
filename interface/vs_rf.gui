@@ -1,0 +1,64 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "high_council_RF_container"
+		position = { x = 0 y = 0 }
+		
+		iconType = {
+			name ="house_icon"
+			spriteType = "GFX_decision_category_usa_congress_house_ui"
+			position = { x= 30 y = -200 }
+		}
+		
+		iconType = {
+			name = "portrait_councli"
+			spiriteType = "[GetPortrait_cm]"
+			position = { x = 370 y = -250 }
+		}
+		
+		iconType = {
+			name = "high" 
+			spiriteType = "GFX_high_council"
+			position = { x = 200 y = -255 } 
+		}
+		
+		instantTextBoxType = {
+			name = "portrait_name"
+			position = { x = 341 y = -120 }
+			font = "hoi_18mbs" 
+			text = "[name_portrait]"
+			format = center
+			maxWidth = 150
+			maxHeight = 250 
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name ="house_support_header"
+			position = { x= 7 y = -120 }
+			font = "hoi_18mbs"
+			text = "RUS_congress_house_support_header"
+			format = center
+			maxHeight = 80
+			fixedsize = yes
+			maxWidth = 180
+		}
+		instantTextBoxType = {
+			name ="status_house"
+			position = { x= 43 y = -220 }
+			font = "hoi_18mbs"
+			text = "RUS_congress_house_support_amount"
+			format = center
+			fixedsize = yes
+			maxWidth = 100
+		}
+		instantTextBoxType = {
+			name ="council_rank"
+			position = { x= 346 y = -78 }
+			font = "hoi_18mbs"
+			text = "council_rank"
+			format = center
+			fixedsize = yes
+			maxWidth = 140
+		}
+	}
+}

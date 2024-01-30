@@ -27,11 +27,11 @@ spriteTypes = {
 		
 	spriteType = {
 		name = "GFX_idea_RMN_true_democratic"
-		texturefile = "gfx/interface/ideas/idea_true_democratic.dds"
+		texturefile = "gfx/interface/ideas/Romania/idea_true_democratic.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_RMN_legacy_of_ceausescu"
-		texturefile = "gfx/interface/ideas/idea_legacy_of_ceausescu.dds"
+		texturefile = "gfx/interface/ideas/Romania/idea_legacy_of_ceausescu.dds"
 	}
 
 	

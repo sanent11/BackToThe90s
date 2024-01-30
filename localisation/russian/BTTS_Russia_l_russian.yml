@@ -40,3 +40,12 @@ russia.4.a: "Ельцина на свалку истории!"
 RUS_Achalov: "Павел Грачёв"
 Hasbulatov: "Руслан Хасбулатов"
 Rutskoy: "Александр Руцкой"
+
+high_council_RF_category: "Верховный Совет"
+high_council_RF_category_desc: "\n\n\n\n\n\n\n\n\n\n\n\nВерховный Совет РФ - высший, постоянно действующий законодательный, распорядительный и контрольный орган государственной власти Российской Федерации.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+
+
+Hasbulatov: "Руслан Хасбулатов"
+council_rank: "§RПредседатель ВС РФ§!"
+RUS_congress_house_support_header: "§HДвухпалатный парламент§!"
+RUS_congress_house_support_amount: "§G[?RUS.representatives_support]§! / §Y[?RUS.representatives_total]§!"
