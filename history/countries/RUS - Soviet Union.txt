@@ -1,4 +1,4 @@
-capital = 219
+capital = 993
 oob = "RUS_1991"
 
 recruit_character = RUS_boris_yeltsin
@@ -74,15 +74,15 @@ set_politics = {
 }
 
 set_popularities = {
-	fascism = 0
-	nationalism = 1
-	conservliberal = 4
+	fascism = 1
+	nationalism = 2
+	conservliberal = 3
 	neutrality = 0 
-	conservocratic = 7
-	liberocratic = 43
-	democratic = 6
+	conservocratic = 9
+	liberocratic = 31
+	democratic = 20
 	paternalism = 0
-	communism = 39
+	communism = 34
 	anarchy = 0
 	
 }
@@ -97,4 +97,4 @@ set_cosmetic_tag = RUS_SOU
 add_ideas = { SOV_gorbachev RUS_dualpower  }
 every_country = { add_dynamic_modifier = { modifier = addfabric_economic_res } }	
 	
-add_ideas = { federative soviet_republic }
+add_ideas = { federative soviet_republic extensive_conscription }

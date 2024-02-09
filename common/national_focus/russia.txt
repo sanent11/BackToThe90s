@@ -61,7 +61,6 @@ focus_tree = {
 	    cost = 10
 		cancelable = no
 	    available_if_capitulated = no
-	   
 	    completion_reward = {
 	        
 		}
@@ -200,7 +199,7 @@ focus_tree = {
 	focus = {
 	    id = RUS_vlast_voennih
 		prerequisite = { focus = RUS_boi_v_moskve }
-		mutually_exclusive = ( focus = RUS_kapitulatsia_verh_sov }
+		mutually_exclusive = { focus = RUS_kapitulatsia_verh_sov }
 		icon = GFX_focus_RUS_vlast_voennih
 	    x = 5
 	    y = 10
@@ -219,7 +218,7 @@ focus_tree = {
 	focus = {
 	    id = RUS_kapitulatsia_verh_sov
 		prerequisite = { focus = RUS_boi_v_moskve }
-		mutually_exclusive = ( focus = RUS_vlast_voennih }
+		mutually_exclusive = { focus = RUS_vlast_voennih }
 		icon = GFX_focus_RUS_kapitulatsia_verh_sov
 	    x = 3
 	    y = 10
@@ -227,119 +226,194 @@ focus_tree = {
 	    available_if_capitulated = no
 	   
 	    completion_reward = {		
-			add_stability = 0.1 
-			add_war_support = -0.15
-		    country_event = russia.2
+
+		}
+	}	
+	
+	focus = {
+	    id = RUS_start_army1
+		text = RUS_start_army1 
+		
+		icon = GFX_focus_RUS_kapitulatsia_verh_sov
+	    x = 17
+	    y = 0
+	    cost = 10
+	    available_if_capitulated = no
+		available = {
+			always = no
+		}		 
+	    completion_reward = {		
+
+		}
+	}	
+	focus = {
+	    id = RUS_start_army2
+		text = RUS_start_army2
+		
+		icon = GFX_focus_RUS_kapitulatsia_verh_sov
+	    x = 16
+	    y = 1
+	    cost = 10
+	    available_if_capitulated = no
+		prerequisite = { focus = RUS_start_army1 }
+	   
+	    completion_reward = {		 
+
+		}
+	}		
+	focus = {
+	    id = RUS_start_army3 
+		text = RUS_start_army3
+		
+		icon = GFX_focus_RUS_kapitulatsia_verh_sov
+	    x = 16
+	    y = 2
+	    cost = 10
+	    available_if_capitulated = no
+		prerequisite = { focus = RUS_start_army2 }
+	   
+	    completion_reward = {		
+			custom_effect_tooltip = RUS_start_army3_csm  
+		}
+	}	
+	focus = {
+	    id = RUS_start_army4
+		text = RUS_start_army4
+		
+		icon = GFX_focus_RUS_kapitulatsia_verh_sov
+	    x = 17
+	    y = 3
+	    cost = 10 
+	    available_if_capitulated = no
+		prerequisite = { focus = RUS_start_army3 }
+		prerequisite = { focus = RUS_start_armyNuclear }
+	   
+	    completion_reward = {		
+		}
+	}	
+	focus = {
+	    id = RUS_start_armyNuclear
+		text = RUS_start_armyRAZDEL1
+		
+		icon = GFX_focus_RUS_kapitulatsia_verh_sov
+	    x = 19 
+	    y = 1
+	    cost = 10
+	    available_if_capitulated = no
+		prerequisite = { focus = RUS_start_army1 }
+	   
+	    completion_reward = {		
+
 		}
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	continuous_focus_position = { x = 20 y = 1700 }
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

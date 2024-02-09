@@ -244,9 +244,101 @@ cw_gui_debug_mode = {
 				value = 5
 			}		
 
-		
+			219 = { 		set_demilitarized_zone = yes }
 		ai_will_do = {
 			factor = 0
 		}
 	}
+	naemcvk = {
+			icon = generic_formable_nations
+			picture = GFX_decision_cat_picture_government_in_exile
+			allowed = {
+				always = yes
+			}
+			complete_effect = {
+				division_template = {
+					name = "CVK WAGNER"
+					is_locked = yes
+					division_cap = 3 
+					division_names_group = USA_INF_01
+					priority = 0
+					template_counter = 0
+					regiments = {
+						mountaineers = { x = 0 y = 0 }
+						mountaineers = { x = 0 y = 1 }
+						mountaineers = { x = 0 y = 2 }
+						mountaineers = { x = 0 y = 3 }
+						mountaineers = { x = 0 y = 4 }
+						mountaineers = { x = 0 y = 5 }
+						mountaineers = { x = 1 y = 5 }
+						cavalry = { x = 1 y = 0 }
+						cavalry = { x = 1 y = 1 }
+						armored_car = { x = 1 y = 2 }
+						armored_car = { x = 1 y = 3 }
+						armored_car = { x = 1 y = 4 }
+						armored_car = { x = 1 y = 5 }
+
+					}
+					support = {
+						engineer = { x = 0 y = 0 }
+						artillery = { x = 0 y = 1 }
+					}
+				}
+				capital_scope = { 
+					create_unit = { #Historically 14 battalions
+						division = "division_template = \"CVK WAGNER\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+						owner = ROOT
+						count = 2
+						
+					}
+				}
+				SYR = {
+					division_template = {
+										name = "CVK WAGNER"
+										is_locked = yes
+										division_cap = 3 
+										division_names_group = USA_INF_01
+										priority = 0
+										template_counter = 0
+										regiments = {
+											mountaineers = { x = 0 y = 0 }
+											mountaineers = { x = 0 y = 1 }
+											mountaineers = { x = 0 y = 2 }
+											mountaineers = { x = 0 y = 3 }
+											mountaineers = { x = 0 y = 4 }
+											mountaineers = { x = 0 y = 5 }
+											mountaineers = { x = 1 y = 5 }
+											cavalry = { x = 1 y = 0 }
+											cavalry = { x = 1 y = 1 }
+											armored_car = { x = 1 y = 2 }
+											armored_car = { x = 1 y = 3 }
+											armored_car = { x = 1 y = 4 }
+											armored_car = { x = 1 y = 5 }
+
+										}
+										support = {
+											engineer = { x = 0 y = 0 }
+											artillery = { x = 0 y = 1 }
+										}			
+				}
+				capital_scope = { 
+							create_unit = { #Historically 14 battalions
+								division = "division_template = \"CVK WAGNER\" start_experience_factor = 1.0 start_equipment_factor = 1.0"
+								owner = SYR
+								count = 2
+								
+							}
+						}
+					}
+			}
+			modifier = {
+				min_export = 0.1
+
+			}
+			visible = {
+				always = yes
+			}
+			cost = 100
+			days_remove = 30
+		}
 }

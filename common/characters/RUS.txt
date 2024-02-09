@@ -46,6 +46,20 @@ characters = {
 			id = -1
 		}
 	}
+	Rutskoy = {
+		name = Rutskoy
+		portraits={
+			civilian={
+				large= "gfx/leaders/RUS/Rutskoy.dds"
+			}
+		}
+		country_leader = {
+			ideology = socialism
+			traits = { }
+			expire = "2022.7.6.1"
+			id = -1
+		}
+	}
 	Hasbulatov = {
 		name = Hasbulatov
 		portraits={
@@ -60,18 +74,5 @@ characters = {
 			id = -1
 		}
 	}
-	Rutskoy = {
-		name = Rutskoy
-		portraits={
-			civilian={
-				large= "gfx/leaders/RUS/Rutskoy.dds"
-			}
-		}
-		country_leader = {
-			ideology = conservatism
-			traits = { }
-			expire = "2022.7.6.1"
-			id = -1
-		}
-	}
 
+}

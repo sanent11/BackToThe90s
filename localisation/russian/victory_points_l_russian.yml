@@ -207,7 +207,6 @@
  VICTORY_POINTS_9392:0 "Эдинбург"
  VICTORY_POINTS_11293:0 "Дублин"
  VICTORY_POINTS_7394:0 "Корк"
- VICTORY_POINTS_6380:0 "Москва"
  VICTORY_POINTS_525:0 "Киев"
  VICTORY_POINTS_3529:0 "Волгоград"
  VICTORY_POINTS_3151:0 "Санкт-Петербург"
@@ -1119,6 +1118,17 @@
  VICTORY_POINTS_6900:0 "Корча"
  VICTORY_POINTS_6680:0 "Лихтенштейн"
  VICTORY_POINTS_666:0 "Грозный"
+ 
+ 
+ VICTORY_POINTS_13318:0 "Москва. Кремль" 
+ VICTORY_POINTS_13316:0 "Останкинская телебашня" 
+ VICTORY_POINTS_13317:0 "Москва. Дом советов"
+ VICTORY_POINTS_13320:0 "Москва. Моссовет"
+ VICTORY_POINTS_13319:0 "Тверская улица"
+ VICTORY_POINTS_13325:0 "Зеленоград"
+ VICTORY_POINTS_301:0 "Балашиха"
+ VICTORY_POINTS_9348:0 "Подольск"
+ VICTORY_POINTS_9378:0 "Королёв"
  
 
 

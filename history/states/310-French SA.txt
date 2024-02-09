@@ -2,17 +2,17 @@
 state={
 	id=310
 	name="STATE_310"
-	manpower = 47341
+	manpower = 207549
 
 	state_category = pastoral
 
 	history={
-		owner = CAY
+		owner = FRA
 		add_core_of = CAY
 		buildings = {
 			infrastructure = 1
 			12885 = {
-				naval_base = 1
+				naval_base = 2
 			}
 		}
 		victory_points = {

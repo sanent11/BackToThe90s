@@ -58,7 +58,7 @@ ideologies = {
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
 		
-		rules = {
+		rules = {  can_join_factions = no
 			can_force_government = no
 			can_send_volunteers = yes
 			can_puppet = yes
@@ -113,7 +113,7 @@ ideologies = {
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
 		
-		rules = {
+		rules = {  can_join_factions = no
 			can_force_government = no
 			can_send_volunteers = yes
 			can_puppet = yes
@@ -178,12 +178,12 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 		
-		color = { 124 124 124 }
+		color = { 95 95 95 }
 		
 		war_impact_on_world_tension = 0.25		#no major danger
 		faction_impact_on_world_tension = 0.1
 		
-		rules = {
+		rules = {  can_join_factions = no
 			can_force_government = no
 			can_puppet = yes
 			can_send_volunteers = no
@@ -244,7 +244,7 @@ ideologies = {
 		war_impact_on_world_tension = 0.25		#no major danger
 		faction_impact_on_world_tension = 0.1
 		
-		rules = {
+		rules = {  can_join_factions = no
 			can_force_government = no
 			can_puppet = yes
 			can_send_volunteers = no
@@ -315,7 +315,7 @@ ideologies = {
 		
 		color = { 0 0 255 }
 		
-		rules = {
+		rules = {  can_join_factions = no  can_leave_factions = no can_create_factions = no can_not_declare_war = yes
 			can_create_collaboration_government = no
 			can_declare_war_on_same_ideology = no
 			can_force_government = yes
@@ -382,7 +382,7 @@ ideologies = {
 		
 		color = { 65 105 225 }
 		
-		rules = {
+		rules = {  can_join_factions = no
 			can_create_collaboration_government = no
 			can_declare_war_on_same_ideology = no
 			can_force_government = yes
@@ -440,7 +440,7 @@ ideologies = {
 		
 		color = { 62 59 255 }
 		
-		rules = {
+		rules = {  can_join_factions = no
 			can_create_collaboration_government = no
 			can_declare_war_on_same_ideology = no
 			can_force_government = yes
@@ -508,7 +508,7 @@ ideologies = {
 		
 		color = { 247 129 176 }
 		
-		rules = {
+		rules = {  can_join_factions = no
 			can_create_collaboration_government = no
 			can_declare_war_on_same_ideology = no
 			can_force_government = yes
@@ -581,7 +581,7 @@ ideologies = {
 		
 		ai_communist = yes # uses the commie AI behaviour
 		
-		rules = {
+		rules = {  can_join_factions = no
 			can_force_government = no
 			can_send_volunteers = yes
 			can_puppet = yes
@@ -637,7 +637,7 @@ ideologies = {
 		
 		ai_communist = yes # uses the commie AI behaviour
 		
-		rules = {
+		rules = {  can_join_factions = no
 			can_force_government = no
 			can_send_volunteers = yes
 			can_puppet = yes
@@ -693,7 +693,7 @@ ideologies = {
 		
 		color = { 35 51 43 }
 		
-		rules = {
+		rules = {  can_join_factions = no
 			can_declare_war_on_same_ideology = no
 			can_create_collaboration_government = no
 			can_force_government = yes
