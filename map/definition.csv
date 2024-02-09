@@ -13335,3 +13335,12 @@
 13323;1;143;255;land;false;urban;1
 13324;85;255;151;land;false;urban;1
 13325;3;221;2;land;false;urban;1
+
+#СПБ
+13326;99;228;14;land;true;forest;1
+13327;99;12;14;land;true;forest;1
+13328;11;12;228;land;true;forest;1
+13329;88;55;0;land;true;forest;1
+13330;123;144;1;land;false;plains;1
+13331;1;217;1;land;false;plains;1
+

@@ -141,13 +141,14 @@ focus_tree = {
 	    available_if_capitulated = no
 	   
 	    completion_reward = {
-	        
+	        country_event = russia.4
 		}
 	}
 	focus = {
 	    id = RUS_otstavka_eltsina
 		prerequisite = { focus = RUS_referendum }
 		icon = GFX_focus_RUS_otstavka_eltsina
+		available = { has_global_flag = eltsin_lose }
 	    x = 11
 	    y = 8
 	    cost = 10 
@@ -160,6 +161,7 @@ focus_tree = {
 	focus = {
 	    id = RUS_rospusk_snd
 		prerequisite = { focus = RUS_referendum }
+		available = { has_global_flag = eltsin_win }
 		icon = GFX_rospusk
 	    x = 5
 	    y = 8 
