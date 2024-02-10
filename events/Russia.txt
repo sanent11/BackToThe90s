@@ -114,3 +114,20 @@ country_event = {
 
 	}
 }
+country_event = {
+	id = russia.4
+	title = russia.4.t
+	desc = russia.4.d
+	picture = GFX_vseros_referendum
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = russia.4.a
+		set_global_flag = eltsin_win 
+	}
+	option = {
+		name = russia.4.b
+		set_global_flag = eltsin_lose
+	}
+}

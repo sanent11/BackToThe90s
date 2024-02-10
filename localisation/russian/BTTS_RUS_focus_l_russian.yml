@@ -21,3 +21,23 @@ RUS_vlast_voennih: "§GВЛАСТЬ ВОЕННЫХ§!"
 RUS_kapitulatsia_verh_sov: "Капитуляция Верховного совета"
 RUS_kapitulatsia_verh_sov_desc: "Верховный совет и Съезд народных депутатов перестали существовать. Была ликвидирована вся система Советской власти, существовавшая с 1917 года."
 
+
+RUS_start_army0: "Учредить Объединённые Вооруженные Силы СНГ"
+RUS_start_army1: "Раздел ВС СССР"
+RUS_start_army1_desc: "Раздел ВС СССР"
+RUS_start_army2: "Образование Вооруженных сил РФ"
+RUS_start_army2_desc: "Раздел ВС СССР"
+RUS_start_armyRAZDEL1: "Лиссабонский протокол"
+RUS_start_armyRAZDEL1_desc: "Раздел ВС СССР"
+RUS_start_army3: "Сокращение Армии"
+RUS_start_army3_csm: "Мы...\nНе можем. Начнём сокращать вооруженные силы."
+RUS_start_army4: "Мысли о будущем"
+
+
+RUS_start_army3_desc: "Раздел ВС СССР"
+RUS_start_army2: "Образование Вооруженных сил РФ"
+RUS_start_army2_desc: "Раздел ВС СССР"
+RUS_start_army2: "Образование Вооруженных сил РФ"
+RUS_start_army2_desc: "Раздел ВС СССР"
+
+

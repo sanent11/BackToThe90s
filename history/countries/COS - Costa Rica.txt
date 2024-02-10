@@ -110,3 +110,5 @@ set_popularities = {
 	retire_character = COS_ricardo_jiménez_oreamuno
 
 }
+
+add_ideas = { disarmed_nation unitarstate }

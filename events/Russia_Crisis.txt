@@ -1,0 +1,28 @@
+﻿
+add_namespace = russiacrisis
+
+
+country_event = {
+	id = russiacrisis.1
+	title = russiacrisis.1.t
+	desc = russiacrisis.1.d
+	picture = GFX_news_event_410
+	
+	is_triggered_only = yes
+	
+	
+	option = { 
+		name = russiacrisis.1.b 
+
+		994 = { transfer_state_to = RSC  }	
+		add_stability = -3.0
+		
+		RSC = {change_tag_from = RUS set_province_controller = 2999 add_state_core = 994}
+		goto_state = 994
+	}	
+
+
+}
+
+
+
