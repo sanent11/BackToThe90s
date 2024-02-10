@@ -8,10 +8,19 @@ characters = {
 				large = "gfx/leaders/CPR/portrait_CPR_Jiang_Zemiin.dds"
 			}
 		}
+	}
+	 CPR_Yan_Shangkun = {
+		name = CPR_Yan_Shangkun
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CPR/portrait_CPR_Yan_Shangkun.dds"
+			}
+		}
 		country_leader = {
 			ideology = china_socialism
-			traits = { }
-			expire = "2022.8.24.1"
+			traits = { CPR_one_of_immortals }
+			expire = "1998.8.24.1"
 			id = -1
 		}
 	}
+}

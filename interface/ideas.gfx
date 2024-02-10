@@ -12,7 +12,20 @@ spriteTypes = {
 
 
 
+	spriteType = {
+		name = "GFX_idea_CPR_xiaoping_era"
+		texturefile = "gfx/interface/ideas/ComChina/idea_CPR_xiaoping_era.dds"
+	}
 
+	spriteType = {
+		name = "GFX_idea_CPR_the_end_of_maoism"
+		texturefile = "gfx/interface/ideas/ComChina/idea_CPR_the_end_of_maoism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CPR_entering_big_game"
+		texturefile = "gfx/interface/ideas/ComChina/idea_CPR_casino.dds"
+	}
 
     spriteType = {
 		name = "GFX_idea_RUS_epoha_eltsina"

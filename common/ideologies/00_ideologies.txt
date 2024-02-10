@@ -549,9 +549,6 @@ ideologies = {
 	paternalism = {
 		
 		types = {
-			#Чучхе
-			juche = {
-			}
 			#Необольшевизм
 			neobolshevizm = {
 			}
@@ -608,6 +605,10 @@ ideologies = {
 	communism = {
 		
 		types = {
+
+			#Чучхе
+			juche = {
+			}
 			#Троцкизм
 			trotskyism = {
 			}

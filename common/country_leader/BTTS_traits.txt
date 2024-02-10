@@ -24,4 +24,14 @@ leader_traits = {
 		random = no
 		war_support_factor = 0.80
 	}
+	CRP_chairman = {
+		random = no
+		stability_factor = 0.1
+	}
+	CPR_one_of_immortals = {
+		random = no 
+		political_power_gain = 0.05
+		stability_factor = 0.2
+		paternalism_drift = 0.05
+	}
 }

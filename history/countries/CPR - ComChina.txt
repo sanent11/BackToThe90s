@@ -1,7 +1,14 @@
 capital = 608
 oob = "CPR_1991"
 
+recruit_character = CPR_Yan_Shangkun
 recruit_character = CPR_Jiang_Zemiin
+
+add_ideas = {
+	CPR_xiaoping_era
+	CPR_the_end_for_maoism
+	CPR_entering_big_game
+}
 
 set_research_slots = 3
 set_convoys = 0
