@@ -9,10 +9,10 @@ state={
 	history={ 
 		owner = RUS
 		victory_points = {
-			13320 3
+			13330 3
 		}
 		victory_points = {
-			13319 3
+			13331 3
 		}
 		buildings = {
 			infrastructure = 4			 	
@@ -21,7 +21,7 @@ state={
 	}
 
 	provinces={
-		149 13328 13329 13330 13331
+		149 13330 13331
 	}
 
 	local_supplies=11.0 
