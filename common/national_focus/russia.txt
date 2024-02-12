@@ -21,6 +21,7 @@ focus_tree = {
 	    available_if_capitulated = no
 	   
 	    completion_reward = { 
+			set_global_flag = belovezh_sogl
 	        add_political_power = -50
 			add_stability = -0.3
 			country_event = russiaStart.1

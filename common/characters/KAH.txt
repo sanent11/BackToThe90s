@@ -14,4 +14,18 @@ characters = {
 			id = -1
 		}
 	}
+	KAH_Nursultan_Nazarbaev = {
+		name = KAH_Nursultan_Nazarbaev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KAH/portrait_KAH_Nursultan_Nazarbaev.dds"
+			}
+		}
+		country_leader = {
+			ideology = autor_democratic
+			traits = { }
+			expire = "2019.1.1.1"
+			id = -1
+		}
+	}
 }

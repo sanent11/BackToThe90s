@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_conservocratic_group"
+		textureFile = "gfx/interface/ideologies/conservatism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_lib_con"
+		textureFile = "gfx/interface/ideologies/liberal_conservatism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_liberocratic_group"
+		textureFile = "gfx/interface/ideologies/liberalism.png"
+	}
+}

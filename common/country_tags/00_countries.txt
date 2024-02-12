@@ -1,6 +1,6 @@
 
 ##Восточная Европа и СНГ
-RUS = "countries/Soviet Union.txt"
+RUS = "countries/Russia.txt"
 PLN = "countries/Poland.txt"
 LIT = "countries/Litva.txt"
 EST = "countries/Estonia.txt"
@@ -10,7 +10,7 @@ UKN = "countries/Ukraina.txt"
 GEO = "countries/Gruzia.txt"
 ARM = "countries/Armenia.txt"
 AZE = "countries/Azerbajan.txt"
-KAH = "countries/Kazahstan.txt" 
+KAH = "countries/Kazakhstan.txt" 
 UZB = "countries/Uzbekistan.txt"
 KYR = "countries/Kirgizia.txt"
 TMN = "countries/Turkmenistan.txt" 

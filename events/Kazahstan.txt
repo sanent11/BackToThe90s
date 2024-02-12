@@ -1,0 +1,37 @@
+add_namespace = kaz
+
+
+country_event = {
+	id = kaz.1
+	title = kaz.1.t
+	desc = kaz.1.d
+	picture = GFX_report_event_soviet_soldiers
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = KAH
+		has_global_flag = belovezh_sogl
+    }
+	mean_time_to_happen = {
+		days = 8
+	}
+	
+	option = { 
+		
+		drop_cosmetic_tag = KAH_SOU
+		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+		}
+		add_country_leader_role = {
+			character = KAH_Nursultan_Nazarbaev
+			country_leader = {
+				ideology = autor_democratic 
+				expire = "2019.1.1.1"
+				id = -1
+			}
+		}
+		
+	}
+}

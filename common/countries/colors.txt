@@ -14,13 +14,9 @@ WGR = {
 	color = rgb { 138 155 116 }
 	color_ui = rgb { 138 155 116 }
 }
-SOU = {
-	color = rgb { 123 0 28 }
-	color_ui = rgb { 123 0 28 }
-}
 RUS = {
-	color = rgb { 55 148 143 }
-	color_ui = rgb { 55 148 143 }
+	color = rgb { 0 154 99 }
+	color_ui = rgb { 0 154 99 }
 }
 CHE = {
 	color = rgb { 108 112 89 }
@@ -39,8 +35,8 @@ BLS = {
 	color_ui = rgb { 217 213 204 }
 }
 KAH = {
-	color = rgb { 162 162 208 }
-	color_ui = rgb { 162 162 208 }
+	color = rgb { 75 184 203 }
+	color_ui = rgb { 75 184 203 }
 }
 PLN = {
 	color = rgb { 188 77 110 }
