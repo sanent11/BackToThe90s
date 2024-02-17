@@ -82,6 +82,16 @@ YEM = "countries/Yemen.txt"
 ##Африка
 LIB = "countries/Liberia.txt"
 SAF = "countries/South Africa.txt"
+LBA = "countries/Libya.txt"
+ALG = "countries/Algeria.txt"
+EGY = "countries/Egypt.txt"
+MOR = "countries/Morocco.txt"
+NGA = "countries/Nigeria.txt"
+TUN = "countries/Tunisia.txt"
+NGR = "countries/Niger.txt"
+CHA = "countries/Chad.txt"
+
+
 
 ##Северная Америка
 USA = "countries/USA.txt"
@@ -89,6 +99,7 @@ CAN = "countries/Canada.txt"
 MEX = "countries/Mexico.txt"
 
 ##Южная Америка
+BRA = "countries/Brazil.txt"
 
 ##Океания
 INS = "countries/Indonesia.txt"

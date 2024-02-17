@@ -1,0 +1,17 @@
+characters = {  
+  
+    Ben_Ali = {
+		name = Ben_Ali
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/Ben_Ali.png"
+			}
+		}
+		country_leader = {
+			ideology = soc_dem
+			traits = { }
+			expire = "2011.3.11.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,17 @@
+characters = {  
+  
+    Escho_Aho = {
+		name = Escho_Aho
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Scandinavia/Escho_Aho.png"
+			}
+		}
+		country_leader = {
+			ideology = soc_lib
+			traits = { }
+			expire = "1995.1.1.1"
+			id = -1
+		}
+	}
+}

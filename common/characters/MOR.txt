@@ -1,0 +1,17 @@
+characters = {  
+  
+    Hasan = {
+		name = Hasan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/Hasan.png"
+			}
+		}
+		country_leader = {
+			ideology = democratic_monarchism
+			traits = { }
+			expire = "1999.7.23.1"
+			id = -1
+		}
+	}
+}

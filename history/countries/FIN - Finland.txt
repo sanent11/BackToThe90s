@@ -1,7 +1,7 @@
 capital = 111
 oob = "FIN_1991"
 
-recruit_character = 
+recruit_character = Escho_Aho
 
 set_research_slots = 3
 set_convoys = 0
@@ -46,7 +46,7 @@ set_technology = {
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberocratic
 	last_election = no
 	election_frequency = 48
 	elections_allowed = no
@@ -57,9 +57,9 @@ set_popularities = {
 	nationalism = 0
 	neutrality = 0 
 	natdem = 0
-	conservocratic = 39
-	liberocratic = 0
-	democratic = 61
+	conservocratic = 19
+	liberocratic = 42
+	democratic = 39
 	paternalism = 0
 	communism = 0
 	anarchy = 0

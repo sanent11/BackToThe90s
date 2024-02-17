@@ -1,0 +1,17 @@
+characters = {  
+  
+    Caddafi = {
+		name = Caddafi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/Caddafi.png"
+			}
+		}
+		country_leader = {
+			ideology = nationalism_ideology
+			traits = { }
+			expire = "2000.8.1.1"
+			id = -1
+		}
+	}
+}

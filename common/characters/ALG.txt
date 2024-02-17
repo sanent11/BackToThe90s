@@ -1,0 +1,17 @@
+characters = {  
+  
+    Mohamed_Boudiaf = {
+		name = Mohamed_Boudiaf
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/Mohamed_Boudiaf.png"
+			}
+		}
+		country_leader = {
+			ideology = soc_dem
+			traits = { }
+			expire = "2001.8.1.1"
+			id = -1
+		}
+	}
+}

@@ -8,5 +8,17 @@ spriteTypes = {
 		name = "GFX_vseros_referendum"
 		texturefile = "gfx/event_pictures/vseros_referendum.png"
 	}
+	spriteType = {
+		name = "GFX_rne_zig_zig"
+		texturefile = "gfx/event_pictures/rne_zig_zig.png"
+	}
+	spriteType = {
+		name = "GFX_liberalizatia_tsen"
+		texturefile = "gfx/event_pictures/liberalizatia_tsen.png"
+	}
+	spriteType = {
+		name = "GFX_privatizatia"
+		texturefile = "gfx/event_pictures/privatizatia.png"
+	}
 	
 }

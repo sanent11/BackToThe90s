@@ -19,14 +19,14 @@ guiTypes = {
 			text = "[get_subideology_loc]"
 			format = center
 			vertical_alignment = CENTER
-			maxWidth = 184
+			maxWidth = 180
 			maxHeight = 40
 			fixedsize = yes
 		}
 	}
 	containerWindowType = {
 		name = "countrydiplomacyview_ideology_info"
-		position = { x = 235 y = 125 }
+		position = { x = 235 y = 124 }
 		size = { width = 255 height = 60 }
 		clipping = no
 		instantTextboxType = {

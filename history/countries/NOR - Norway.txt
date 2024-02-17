@@ -1,7 +1,7 @@
 capital = 110
 oob = "NOR_1991"
 
-recruit_character = 
+recruit_character = Gru_Harlem_Bruntlann
 
 set_research_slots = 3
 set_convoys = 0

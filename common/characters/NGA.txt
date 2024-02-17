@@ -1,0 +1,17 @@
+characters = {  
+  
+    Babangida = {
+		name = Babangida
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/Babangida.png"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = { }
+			expire = "1993.11.27.1"
+			id = -1
+		}
+	}
+}

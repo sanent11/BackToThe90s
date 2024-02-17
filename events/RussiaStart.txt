@@ -126,3 +126,29 @@ news_event = { #Мировой ивент про распад СССР
 
 	}
 }
+country_event = { #Либерализация цен
+	id = russiaStart.5
+	title = russiaStart.5.t
+	desc = russiaStart.5.d
+	picture = GFX_liberalizatia_tsen  
+	
+	is_triggered_only = yes
+	
+	option = {	
+		name = russiaStart.5.a
+		add_stability = -0.1
+	}
+}
+country_event = { #Приватизация
+	id = russiaStart.6
+	title = russiaStart.6.t
+	desc = russiaStart.6.d
+	picture = GFX_privatizatia
+	
+	is_triggered_only = yes
+	
+	option = {	
+		name = russiaStart.6.a
+		add_stability = -0.1
+	}
+}

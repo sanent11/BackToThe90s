@@ -1,0 +1,17 @@
+characters = {  
+  
+    Idris_Debi = {
+		name = Idris_Debi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/Idris_Debi.png"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = { }
+			expire = "2021.4.10.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,17 @@
+characters = {  
+  
+    Hosni_Mubarak = {
+		name = Hosni_Mubarak
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/Hosni_Mubarak.png"
+			}
+		}
+		country_leader = {
+			ideology = autor_democratic
+			traits = { }
+			expire = "2011.1.1.1"
+			id = -1
+		}
+	}
+}

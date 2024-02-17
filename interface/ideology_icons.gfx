@@ -4,11 +4,63 @@ spriteTypes = {
 		textureFile = "gfx/interface/ideologies/conservatism.png"
 	}
 	spriteType = {
+		name = "GFX_ideology_liberocratic_group"
+		textureFile = "gfx/interface/ideologies/liberalism.png"
+	}
+	spriteType = {
 		name = "GFX_ideology_lib_con"
 		textureFile = "gfx/interface/ideologies/liberal_conservatism.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_liberocratic_group"
-		textureFile = "gfx/interface/ideologies/liberalism.png"
+		name = "GFX_ideology_usa_conservatism"
+		textureFile = "gfx/interface/ideologies/usa_conservatism.png"
 	}
-}
+	spriteType = {
+		name = "GFX_ideology_democratic_group"
+		textureFile = "gfx/interface/ideologies/social_democracy.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_usa_liberalism"
+		textureFile = "gfx/interface/ideologies/usa_liberalism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_juche"
+		textureFile = "gfx/interface/ideologies/juche.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_soc_lib"
+		textureFile = "gfx/interface/ideologies/soc_lib.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_china_socialism"
+		textureFile = "gfx/interface/ideologies/china_socialism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_leninism"
+		textureFile = "gfx/interface/ideologies/leninism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_bolshevizm"
+		textureFile = "gfx/interface/ideologies/bolshevizm.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_trotskyism"
+		textureFile = "gfx/interface/ideologies/trotskyism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_christian_democracy"
+		textureFile = "gfx/interface/ideologies/christian_democracy.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_soc_con"
+		textureFile = "gfx/interface/ideologies/soc_con.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_neo_liberalism"
+		textureFile = "gfx/interface/ideologies/neo_liberalism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_autor_democratic"
+		textureFile = "gfx/interface/ideologies/autor_democratic.png"
+	}
+} 

@@ -57,7 +57,7 @@ guiTypes = {
 				position = { x = 240 y = 1 }
 				font = "hoi_16mbs"
 				text = "Germanian"
-				maxWidth = 173
+				maxWidth = 211
 				fixedsize = yes
 				maxHeight = 20
 				format = left
@@ -74,7 +74,7 @@ guiTypes = {
 					position = { x = 0 y = 0 }
 					font = "hoi_16mbs"
 					text = "faction"
-					maxWidth = 173
+					maxWidth = 210
 					maxHeight = 20
 					fixedsize = yes		
 					format = left
@@ -333,15 +333,15 @@ guiTypes = {
 					iconType = {
 						name = "progress"
 						spriteType = "GFX_activegoal_progress"
-						position = { x=129 y = 57 }	
+						position = { x=115 y = 74 }	
 						alwaystransparent = yes				
 					}
 					
 					iconType = {
-						name = "progress_frame"
-						position = { x = 127 y = 57 }
-						spriteType = "GFX_pol_goal_progress_frame"
-						alwaystransparent = yes
+						#name = "progress_frame"
+						#position = { x = 127 y = 57 }
+						#spriteType = "GFX_pol_goal_progress_frame"
+						#alwaystransparent = yes
 					}			
 				}
 			}

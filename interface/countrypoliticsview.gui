@@ -53,7 +53,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "chart_explanation"
-			position = { x = 1110 y = -22 }
+			position = { x = 111110 y = -22 }
 			size = { width = 330 height = 70 }
 			clipping = no
 			
@@ -128,7 +128,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "faction_name"
 				position = { x = 118 y = -80 }
-				font = "hoi_16mbs"
+				font = "hoi_18mbs"
 				text = "faction"
 				maxWidth = 195
 				maxHeight = 20
@@ -369,7 +369,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "title"
 				position = { x = -235 y = 34 }
-				font = "hoi_16mbs"
+				font = "hoi_18mbs"
 				text = "POLITICS_ACTIVE_GOAL"
 				maxWidth = 200
 				maxHeight = 20
@@ -453,7 +453,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "leader_name"
 			position = { x = 18 y = 262 }
-			font = "hoi_16mbs"
+			font = "hoi_18mbs"
 			text = "leader_name"
 			maxWidth = 155
 			maxHeight = 36

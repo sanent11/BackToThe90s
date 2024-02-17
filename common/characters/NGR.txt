@@ -1,0 +1,17 @@
+characters = {  
+  
+    Saibou = {
+		name = Saibou
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Africa/Saibou.png"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = { }
+			expire = "1993.4.16.1"
+			id = -1
+		}
+	}
+}

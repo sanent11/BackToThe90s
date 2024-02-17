@@ -20,8 +20,20 @@ country_event = {
 		RSC = {change_tag_from = RUS set_province_controller = 2999 add_state_core = 994}
 		goto_state = 994
 	}	
+}
+country_event = {
+	id = russiacrisis.2
+	title = russiacrisis.2.t
+	desc = russiacrisis.2.d
+	picture = GFX_rne_zig_zig
+	
+	is_triggered_only = yes
+	
+	
+	option = { 
+		name = russiacrisis.2.b
 
-
+	}	
 }
 
 

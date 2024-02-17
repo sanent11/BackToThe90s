@@ -205,4 +205,15 @@ spriteTypes = {
 		name = "GFX_portrait_SRB_Branko_Kostic"
 		texturefile = "gfx/leaders/Balkans/SRB/portrait_SRB_Branko_Kostic.dds"
 	}
+	#Скандинавия
+	spriteType = {
+		name = "GFX_portrait_Escho_Aho"
+		texturefile = "gfx/leaders/Scandinavia/Escho_Aho.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_Gru_Harlem_Bruntlann"
+		texturefile = "gfx/leaders/Scandinavia/Gru_Harlem_Bruntlann.png"
+	}
+	#Африка
+
 }

@@ -76,7 +76,7 @@ focus_tree = {
 	    available_if_capitulated = no
 	   
 	    completion_reward = {
-	        
+			country_event = russiaStart.5  
 		}
 	}
 	focus = {
@@ -89,7 +89,7 @@ focus_tree = {
 	    available_if_capitulated = no
 	   
 	    completion_reward = {
-	        
+	        country_event = russiaStart.6
 		}
 	}
 	focus = {

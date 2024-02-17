@@ -1,0 +1,17 @@
+characters = {  
+  
+    Fernandu_Kolor = {
+		name = Fernandu_Kolor
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/South America/Fernandu_Kolor.png"
+			}
+		}
+		country_leader = {
+			ideology = christian_democracy
+			traits = { }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}
+}

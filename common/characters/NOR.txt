@@ -1,0 +1,17 @@
+characters = {  
+  
+    Gru_Harlem_Bruntlann = {
+		name = Gru_Harlem_Bruntlann
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Scandinavia/Gru_Harlem_Bruntlann.png"
+			}
+		}
+		country_leader = {
+			ideology = soc_dem 
+			traits = { }
+			expire = "1996.10.25.1"
+			id = -1
+		}
+	}
+}

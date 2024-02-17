@@ -10,7 +10,7 @@ spriteTypes = {
 	#USA
 	spriteType = {
 		name = "GFX_idea_USA_wincoldwar"
-		texturefile = "gfx/interface/ideas/USA/idea_USA_wincoldwar.dds"
+		texturefile = "gfx/interface/ideas/USA/idea_USA_wincoldwar.png"
 	}	
 	#England
 	spriteType = {
