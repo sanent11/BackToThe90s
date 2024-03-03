@@ -27,7 +27,7 @@ focus_tree = {
 		x = 9
 		y = 2
 		prerequisite = { focus = czhfocus_start }
-		mutually_exclusive = ( focus = czhfocus_liberty }
+		mutually_exclusive = { focus = czhfocus_liberty }
 		completion_reward = {
 
 		}

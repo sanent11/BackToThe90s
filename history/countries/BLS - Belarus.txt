@@ -52,15 +52,19 @@ set_politics = {
 
 set_popularities = {
 	fascism = 0
-	nationalism = 0
-	neutrality = 50 
+	nationalism = 5
+	neutrality = 15 
 	conservocratic = 0
-	liberocratic = 10
+	liberocratic = 5
 	democratic = 0
 	paternalism = 0
-	communism = 40
+	communism = 75
 	anarchy = 0
 	
 }
 
-add_ideas = { SOV_gorbachev }
+add_ideas = { 
+	SOV_gorbachev 
+	deficit_tovarov
+	degradatsia_armii
+}

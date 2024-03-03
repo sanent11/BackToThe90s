@@ -1,0 +1,68 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_focus_Amerikanskie_bratya"
+		texturefile = "gfx/interface/goals/Belarus/Amerikanskie_bratya.png"
+	}
+	spriteType = {
+		name = "GFX_focus_Ekonomicheskie_reformy"
+		texturefile = "gfx/interface/goals/Belarus/Ekonomicheskie_reformy.png"
+	}
+	spriteType = {
+		name = "GFX_focus_Elita"
+		texturefile = "gfx/interface/goals/Belarus/Elita.png"
+	}
+	spriteType = {
+		name = "GFX_focus_Kritika"
+		texturefile = "gfx/interface/goals/Belarus/Kritika.png"
+	}
+	spriteType = {
+		name = "GFX_focus_Miting_u_parlamenta"
+		texturefile = "gfx/interface/goals/Belarus/Miting_u_parlamenta.png"
+	}
+	spriteType = {
+		name = "GFX_focus_Natsionalnaya_ideya"
+		texturefile = "gfx/interface/goals/Belarus/Natsionalnaya_ideya.png"
+	}
+	spriteType = {
+		name = "GFX_focus_Natsionalny_biznes"
+		texturefile = "gfx/interface/goals/Belarus/Natsionalny_biznes.png"
+	}
+	spriteType = {
+		name = "GFX_focus_Perekleit_oboi"
+		texturefile = "gfx/interface/goals/Belarus/Perekleit_oboi.png"
+	}
+	spriteType = {
+		name = "GFX_focus_Podvesti_itogi"
+		texturefile = "gfx/interface/goals/Belarus/Podvesti_itogi.png"
+	}
+	spriteType = {
+		name = "GFX_focus_Porvat_tsepi"
+		texturefile = "gfx/interface/goals/Belarus/Porvat_tsepi.png"
+	}
+	spriteType = {
+		name = "GFX_focus_Predsedatel"
+		texturefile = "gfx/interface/goals/Belarus/Predsedatel.png"
+	}
+	spriteType = {
+		name = "GFX_focus_Razlozhenie_armii"
+		texturefile = "gfx/interface/goals/Belarus/Razlozhenie_armii.png"
+	}
+	spriteType = {
+		name = "GFX_focus_Verkhovny_Sovet"
+		texturefile = "gfx/interface/goals/Belarus/Verkhovny_Sovet.png"
+	}
+	spriteType = {
+		name = "GFX_focus_belarusifikatsia"
+		texturefile = "gfx/interface/goals/Belarus/belarusifikatsia.png"
+	}
+	spriteType = {
+		name = "GFX_focus_sovietskoe_nasledie"
+		texturefile = "gfx/interface/goals/Belarus/sovietskoe_nasledie.png"
+	}
+	spriteType = {
+		name = "GFX_focus_zavodi_lyudiam"
+		texturefile = "gfx/interface/goals/Belarus/zavodi_lyudiam.png"
+	}
+	
+}

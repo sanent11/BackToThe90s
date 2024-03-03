@@ -1,0 +1,11 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_deficit_tovarov"
+		texturefile = "gfx/interface/ideas/Belarus/deficit_tovarov.png"
+	}
+	spriteType = {
+		name = "GFX_idea_degradatsia_armii"
+		texturefile = "gfx/interface/ideas/Belarus/degradatsia_armii.png"
+	}
+}

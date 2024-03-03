@@ -1,0 +1,24 @@
+state={
+	id=998
+	name="STATE_998"
+	history={
+		owner = BLS
+		victory_points = {
+			9288 10 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+
+		}
+		add_core_of = BLS
+
+	}
+	provinces={
+		9288 9342 
+	}
+	manpower=451231
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

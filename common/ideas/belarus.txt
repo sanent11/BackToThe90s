@@ -1,0 +1,43 @@
+ideas = {
+
+	country = {
+		deficit_tovarov = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = deficit_tovarov
+
+			modifier = {
+				stability_factor = -0.1
+				consumer_goods_factor = 0.15  
+			}
+		}
+		
+		degradatsia_armii	= {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = degradatsia_armii
+
+			modifier = {
+				war_support_weekly = -0.05
+			}
+		}		
+	}
+}

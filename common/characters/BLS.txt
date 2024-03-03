@@ -9,6 +9,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = centrism
+			desc = Shuskevic_desc
 			traits = { }
 			expire = "2022.8.24.1"
 			id = -1

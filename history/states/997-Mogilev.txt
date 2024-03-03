@@ -1,0 +1,22 @@
+state={
+	id=997
+	name="STATE_997"
+	history={
+		owner = BLS
+		victory_points = {
+			9289 5 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = BLS
+
+	}
+	provinces={
+		342 3378 9289 13332
+	}
+	manpower=205812
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

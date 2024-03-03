@@ -1,0 +1,11 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_soldatskoe_bratstvo"
+		texturefile = "gfx/event_pictures/Belarus/soldatskoe_bratstvo.png"
+	}
+	spriteType = {
+		name = "GFX_proshai_strana"
+		texturefile = "gfx/event_pictures/Belarus/proshai_strana.png"
+	}
+}

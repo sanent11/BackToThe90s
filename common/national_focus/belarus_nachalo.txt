@@ -1,0 +1,306 @@
+focus_tree = {
+    id = BLS_nachalo_focus_tree
+	
+	country = {
+	    factor = 0
+		modifier = {
+		    add = 10
+			tag = BLS 
+		}
+	}
+	
+	default = no
+	
+	
+	focus = {
+	    id = podvesti_itogi
+	    x = 8
+	    y = 0
+		icon = GFX_focus_Podvesti_itogi
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+	        country_event = belarus.1
+		}
+	}
+	focus = {
+	    id = perekleit_oboi
+	    x = 8
+	    y = 2
+		icon = GFX_focus_Perekleit_oboi
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = podvesti_itogi }
+	   
+	    completion_reward = { 
+	        country_event = belarus.2
+		}
+	}
+	focus = {
+	    id = sovietskoe_nasledie
+	    x = 12
+	    y = 3
+		icon = GFX_focus_sovietskoe_nasledie
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = perekleit_oboi }
+		
+	   
+	    completion_reward = { 
+	        
+		}
+	}
+	focus = {
+	    id = economic_reformi
+	    x = 5
+	    y = 3
+		icon = GFX_focus_Ekonomicheskie_reformy
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = perekleit_oboi focus = american_brothers }
+		
+	   
+	    completion_reward = { 
+	        country_event = belarus.3
+		}
+	}
+	focus = {
+	    id = razlozhenie_armii
+	    x = 12
+	    y = 7
+		icon = GFX_focus_Razlozhenie_armii
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = sovietskoe_nasledie }
+	   
+	    completion_reward = { 
+	        
+		}
+	}
+	focus = {
+	    id = american_brothers
+	    x = 3
+	    y = 3
+		icon = GFX_focus_Amerikanskie_bratya
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = perekleit_oboi focus = economic_reformi }
+		
+	   
+	    completion_reward = { 
+	        
+		}
+	}
+	focus = {
+	    id = porvat_tsepi
+	    x = 5
+	    y = 5
+		icon = GFX_focus_Porvat_tsepi
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = economic_reformi focus = american_brothers }
+	   
+	    completion_reward = { 
+	        
+		}
+	}
+	focus = {
+	    id = state_biznes
+	    x = 3 
+	    y = 5
+		icon = GFX_focus_Natsionalny_biznes
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = american_brothers focus = economic_reformi }
+	   
+	    completion_reward = { 
+	        
+		}
+	}
+	focus = {
+	    id = verhovni_sovet
+	    x = 8 
+	    y = 3
+		icon = GFX_focus_Verkhovny_Sovet
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = perekleit_oboi }
+	   
+	    completion_reward = { 
+	        
+		}
+	}
+	focus = {
+	    id = belarusifikatsia
+	    x = 8 
+	    y = 4
+		icon = GFX_focus_belarusifikatsia
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = verhovni_sovet }
+	   
+	    completion_reward = { 
+	        
+		}
+	}
+	focus = {
+	    id = elita
+	    x = 8 
+	    y = 5
+		icon = GFX_focus_Elita
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = belarusifikatsia }
+	   
+	    completion_reward = { 
+	        
+		}
+	}
+	focus = {
+	    id = kritika
+	    x = 8 
+	    y = 6
+		icon = GFX_focus_Kritika
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = elita }
+	   
+	    completion_reward = { 
+	        
+		}
+	}
+	focus = {
+	    id = zavodi_lyudiam
+	    x = 4
+	    y = 7
+		icon = GFX_focus_zavodi_lyudiam
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = state_biznes focus = porvat_tsepi }
+	   
+	    completion_reward = { 
+	        
+		}
+	}
+	focus = {
+	    id = state_idea
+	    x = 8
+	    y = 9
+		icon = GFX_focus_Natsionalnaya_ideya
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = zavodi_lyudiam }
+		prerequisite = { focus = kritika }
+		prerequisite = { focus = razlozhenie_armii }
+	   
+	    completion_reward = { 
+	        
+		}
+	}
+	focus = {
+	    id = miting
+	    x = 8
+	    y = 10
+		icon = GFX_focus_Miting_u_parlamenta
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = state_idea }
+
+	    completion_reward = { 
+	        
+		}
+	}
+	focus = {
+	    id = razgon
+	    x = 6
+	    y = 11
+		icon = GFX_focus_razgon
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = miting }
+
+	    completion_reward = { 
+	        
+		}
+	}
+	focus = {
+	    id = sturm
+	    x = 10
+	    y = 11
+		icon = GFX_focus_sturm
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = miting }
+
+	    completion_reward = { 
+	        
+		}
+	}
+	focus = {
+	    id = reforma_armii
+	    x = 6
+	    y = 12
+		icon = GFX_focus_reforma_armii
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = razgon }
+
+	    completion_reward = { 
+	        
+		}
+	}
+	focus = {
+	    id = novaya_konstitucia
+	    x = 6
+	    y = 13
+		icon = GFX_focus_novaya_konstitucia
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = reforma_armii }
+
+	    completion_reward = { 
+	        
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	continuous_focus_position = { x = 20 y = 2000 }
+}

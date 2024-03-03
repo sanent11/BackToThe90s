@@ -1,0 +1,76 @@
+﻿
+add_namespace = belarus
+
+
+country_event = { #Солдатское братство
+	id = belarus.1
+	title = belarus.1.t
+	desc = belarus.1.d
+	picture = GFX_soldatskoe_bratstvo
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = belarus.1.a	
+	}
+}
+country_event = { #Прощай, страна
+	id = belarus.2
+	title = belarus.2.t
+	desc = belarus.2.d
+	picture = GFX_proshai_strana
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = belarus.2.a	
+	}
+}
+country_event = { #Тишина на границе
+	id = belarus.3
+	title = belarus.3.t
+	desc = belarus.3.d
+	picture = GFX_tishina_na_granitse
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = belarus.3.a	
+	}
+}
+country_event = { #Десоветизация
+	id = belarus.4
+	title = belarus.4.t
+	desc = belarus.4.d
+	picture = GFX_desovetizatsia
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = belarus.4.a	
+	}
+}
+country_event = { #Огонь времени
+	id = belarus.5
+	title = belarus.5.t
+	desc = belarus.5.d
+	picture = GFX_fire_vremeni
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = belarus.5.a	
+	}
+}
+country_event = { #Подпольный комсомол
+	id = belarus.6
+	title = belarus.6.t
+	desc = belarus.6.d
+	picture = GFX_podpolni_komsomol
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = belarus.6.a	
+	}
+}

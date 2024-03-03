@@ -152,3 +152,16 @@ country_event = { #Приватизация
 		add_stability = -0.1
 	}
 }
+country_event = { #Обновлённая федерация
+	id = russiaStart.7
+	title = russiaStart.7.t
+	desc = russiaStart.7.d
+	picture = GFX_aleshenka
+	
+	is_triggered_only = yes
+	
+	option = {	
+		name = russiaStart.7.a
+		add_manpower = 1
+	}
+}
