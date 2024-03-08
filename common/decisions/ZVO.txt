@@ -1,0 +1,36 @@
+
+ZVO_category = { 
+ 
+	Nachat_ZVO = {       
+
+		allowed = {   
+			tag = RUS
+		} 
+         
+		icon = GFX_decision_hol_exchange_intelligence_data
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+
+		}
+
+		visible = {
+		}
+		
+		cancel_effect = {
+			
+		}
+		
+		complete_effect = {
+			declare_war_on = {
+    			target = UKN
+    			type = annex_everything
+			}
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+}

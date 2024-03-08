@@ -1,0 +1,47 @@
+﻿
+add_namespace = zvo
+
+
+country_event = {
+	id = zvo.1
+	title = zvo.1.t
+	desc = zvo.1.d
+	picture = 1
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = RUS
+		has_war_with = UKN
+		controls_province = 6474
+		controls_province = 3686
+		controls_province = 11397
+		controls_province = 525
+
+	}
+	option = { 
+		name = zvo.1.a
+		white_peace = UKN
+		puppet = UKN
+		transfer_state = 227
+		transfer_state = 228
+		transfer_state = 200
+		transfer_state = 196
+		transfer_state = 137
+		transfer_state = 221
+		transfer_state = 226
+		transfer_state = 197
+		transfer_state = 192
+		transfer_state = 766
+		transfer_state = 834
+		UKN = {
+			set_popularities = {
+				liberocratic = 100
+			}
+			set_cosmetic_tag = UKN_Malorossia
+		}
+	}	
+}
+
+
+

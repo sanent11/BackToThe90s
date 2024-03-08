@@ -1,0 +1,15 @@
+
+ZVO_category = {
+	 
+	icon = saf_anti_colonialist_crusade
+	picture = GFX_ZVO                                          
+	                                           
+	allowed = {                              
+		original_tag = RUS 
+	}
+	visible = {  
+	}	  
+
+	priority = 500
+}
+

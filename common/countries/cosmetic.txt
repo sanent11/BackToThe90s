@@ -61,6 +61,10 @@ RUS_SOU = {
 	color_ui = rgb { 123 0 28 }
 }
 
+UKN_Malorossia = {
+	color = rgb { 0 154 99 }
+	color_ui = rgb { 0 154 99 }
+}
 
 #Vanilla
 
