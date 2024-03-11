@@ -165,3 +165,17 @@ country_event = { #Обновлённая федерация
 		add_manpower = 1
 	}
 }
+country_event = { #СНД протестует
+	id = russiaStart.8
+	title = russiaStart.8.t
+	desc = russiaStart.8.d
+	picture = GFX_protest_snd
+
+	is_triggered_only = yes
+	
+	option = {	
+		name = russiaStart.8.a
+		add_stability = -0.15
+		set_global_flag = protest_snd
+	}
+}	

@@ -103,7 +103,13 @@ focus_tree = {
 	    available_if_capitulated = no
 	   
 	    completion_reward = {
-	        
+	        hidden_effect = {
+				country_event = {
+					id = russiaStart.8
+					days = 350
+					random_days = 3
+				}			
+			}
 		}
 	}
 	focus = {
