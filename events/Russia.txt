@@ -131,3 +131,33 @@ country_event = {
 		set_global_flag = eltsin_lose
 	}
 }
+country_event = {
+	id = russia.5
+	title = russia.5.t
+	desc = russia.5.d
+	picture = GFX_vseros_referendum
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = russia.5.a
+		set_global_flag = hasbulatov
+
+		remove_country_leader_role = {
+    		character = RUS_boris_yeltsin
+    		ideology = neo_liberalism
+		}
+		add_country_leader_role = {
+			character = Hasbulatov
+			promote_leader = yes
+			country_leader = {
+				ideology = neo_liberalism 
+				expire = "2022.6.6.1"
+				id = -1
+			}
+		}
+		hidden_effect = {
+			load_focus_tree = RUS_Hasbulatov_focus_tree
+		}
+	}
+}

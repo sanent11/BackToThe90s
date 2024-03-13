@@ -68,7 +68,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = left_populism
+			ideology = neo_liberalism
 			traits = { }
 			expire = "2022.6.6.1"
 			id = -1

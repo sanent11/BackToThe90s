@@ -63,6 +63,13 @@ focus_tree = {
 		cancelable = no
 	    available_if_capitulated = no
 	    completion_reward = {
+			hidden_effect = {
+				country_event = {
+					id = russiaStart.8
+					days = 350
+					random_days = 3
+				}			
+			}
 	        
 		}
 	}
@@ -103,13 +110,6 @@ focus_tree = {
 	    available_if_capitulated = no
 	   
 	    completion_reward = {
-	        hidden_effect = {
-				country_event = {
-					id = russiaStart.8
-					days = 350
-					random_days = 3
-				}			
-			}
 		}
 	}
 	focus = {
@@ -162,7 +162,7 @@ focus_tree = {
 	    available_if_capitulated = no
 	   
 	    completion_reward = {
-	     set_global_flag = hasbulatov
+			country_event = russia.5
 		}
 	}
 	focus = {

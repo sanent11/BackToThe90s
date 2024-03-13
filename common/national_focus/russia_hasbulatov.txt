@@ -1,0 +1,77 @@
+focus_tree = {
+    id = RUS_Hasbulatov_focus_tree
+	
+	country = {
+	    factor = 0
+		modifier = {
+		    add = 10
+			tag = RUS 
+		}
+	}
+	
+	default = no
+	
+	
+	focus = {
+	    id = Za_Hasbulatova
+	    x = 8
+	    y = 0
+		icon = GFX_Za_Hasbulatova
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+			add_stability = 0.1
+		}
+	}
+	focus = {
+	    id = Ogranichenie_polnomochii
+		prerequisite = { focus = Za_Hasbulatova }
+	    x = 8
+	    y = 1
+		icon = GFX_Z1
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = Nash_dalneishi_put
+		prerequisite = { focus = Ogranichenie_polnomochii }
+	    x = 8
+	    y = 2
+		icon = GFX_Za_Hasbulatova
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = socialism_s_litsom
+		prerequisite = { focus = Nash_dalneishi_put }
+		mutually_exclusive = { focus = conservatism_v_massi }
+	    x = 4
+	    y = 3
+		icon = GFX_Za_Hasbulatova
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = conservatism_v_massi
+		prerequisite = { focus = Nash_dalneishi_put }
+		mutually_exclusive = { focus = socialism_s_litsom }
+	    x = 12
+	    y = 3
+		icon = GFX_Za_Hasbulatova
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+		}
+	}
+}
