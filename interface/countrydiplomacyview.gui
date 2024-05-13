@@ -55,7 +55,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "country_name"
 				position = { x = 240 y = 1 }
-				font = "hoi_16mbs"
+				font = "hoi_18mbs"
 				text = "Germanian"
 				maxWidth = 211
 				fixedsize = yes
@@ -72,7 +72,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "faction_name"
 					position = { x = 0 y = 0 }
-					font = "hoi_16mbs"
+					font = "hoi_18mbs"
 					text = "faction"
 					maxWidth = 210
 					maxHeight = 20
@@ -84,7 +84,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "leader_name"
 				position = { x = 240 y = 40 }
-				font = "hoi_16mbs"
+				font = "hoi_18mbs"
 				text = "Rudolf Kittler"
 				maxWidth = 173
 				maxHeight = 20
@@ -271,7 +271,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "party_name"
 						position = { x = -16 y = -20 }
-						font = "hoi_16mbs" 
+						font = "hoi_18mbs" 
 						text = "party"
 						maxWidth = 205
 						maxHeight = 20
@@ -290,7 +290,7 @@ guiTypes = {
 					instantTextboxType = {
 						name = "elections"
 						position = { x = -16 y = 19 }
-						font = "hoi_16mbs"
+						font = "hoi_18mbs"
 						text = "elections"
 						maxWidth = 205
 						maxHeight = 20
@@ -519,7 +519,7 @@ guiTypes = {
 				instantTextboxType = {
 					name = "window_header_text"
 					position = { x = 32 y = 17 }
-					font = "hoi_16mbs"
+					font = "hoi_18mbs"
 					text = "DIPLOMACY_INTELLIGENCE"
 					maxWidth = 200
 					maxHeight = 20
@@ -963,7 +963,7 @@ guiTypes = {
 			name = "cost"
 			position = { x = 125 y = 5 }
 			textureFile = ""
-			font = "hoi_16mbs"
+			font = "hoi_18mbs"
 			borderSize = { x = 0 y = 0 }
 			text = ""
 			maxWidth = 100

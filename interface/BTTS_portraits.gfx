@@ -27,6 +27,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/BLS/portrait_BLS_Stanislav_Shuskevic.dds"
 	}
 	spriteType = {
+		name = "GFX_portrait_Malofeev"
+		texturefile = "gfx/leaders/BLS/Malofeev.png"
+	}
+	spriteType = {
 		name = "GFX_portrait_KAH_Nursultan_Nazarbaev"
 		texturefile = "gfx/leaders/KAH/portrait_KAH_Nursultan_Nazarbaev.dds"
 	}

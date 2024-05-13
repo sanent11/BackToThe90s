@@ -1,0 +1,23 @@
+﻿
+add_namespace = elections1996
+
+
+
+country_event = { #Выборы 1996
+	id = elections1996.1
+	title = elections1996.81.t
+	desc = elections1996.1.d
+
+	is_triggered_only = yes
+	
+	option = {	
+		name = elections1996.1.a
+		set_country_flag = elections1996
+		set_variable = { support_eltsin = 32 }
+		set_variable = { support_zyuganov = 31 }
+		set_variable = { support_yavlinski = 18 }
+		set_variable = { support_zhirinovsky = 15 }
+		set_variable = { support_fyodorov = 6 }
+		set_variable = { support_lebed = 22 }
+	}
+}	

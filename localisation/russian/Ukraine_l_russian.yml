@@ -1,0 +1,53 @@
+﻿l_russian: 
+
+ #Партии
+
+ #Названия страны 
+
+ UKN: "Украина"
+ UKN_DEF: "Украина"
+ UKN_reactionism: "Украинская Держава"
+ UKN_reactionism_DEF: "Украинская Держава"
+ UKN_nazism: "Государство Украина"
+ UKN_nazism_DEF: "Государство Украина"
+ UKN_fascism: "Государство Украина"
+ UKN_fascism_DEF: "Государство Украина"
+ UKN_radsoc: "Украинская Советская Социалистическая Республика"
+ UKN_radsoc_DEF: "Украинская Советская Социалистическая Республика"
+ UKN_paternalism: "Украинская Советская Социалистическая Республика"
+ UKN_paternalism_DEF: "Украинская Советская Социалистическая Республика"
+ UKN_communism: "Украинская Советская Социалистическая Республика"
+ UKN_communism_DEF: "Украинская Советская Социалистическая Республика"
+ UKN_anarchy: "Украинская Вольная Территория"
+ UKN_anarchy_DEF: "Украинская Вольная Территория"
+ UKN_ADJ: "Украинск."
+
+ #Нац. духи
+
+
+ #Ивенты
+
+
+#Фокусы
+
+nezalezhnost: "Независимость"
+vstrecha_s_plavukom: "Встреча с Плавьюком"
+borba_s_sovet_proshlim: "Борьба с Советским Прошлым"
+otkaz_ot_dnyo: "Отказ от ДНЯО"
+neutral_vnesh_politika: "Нейтральная Внешняя Политика"
+social_reformii: "Социальные Реформы"
+sotrudnichat_s_sng: "Сотрудничасть с СНГ"
+podderzhat_ludei: "Поддержать Людей"
+krim_nash: "Крым Наш?"
+giperinflatia: "Гиперинфляция"
+pomosh_ot_big_brother: "Помощь от Большого Брата"
+unite_to_mvf: "Присоединиться к МВФ"
+viti_na_rinok: "Выход на Международный Рынок"
+vopros_o_chernobil: "Вопрос о Чернобыле"
+pokonchit_s_oligarhami: "Покончить с Олигархами"
+programa_privatizatii: "Программа Приватизации"
+concurentni_rinok: "Конкурентный Рынок"
+monopolizatia_rinka: "Монополизация Рынка"
+sotrudnichat_s_elitoi: "Сотрудничать с Элитой"
+corruption_gos_struktura: "Коррупция как Гос. Структура"
+

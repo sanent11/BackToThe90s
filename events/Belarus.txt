@@ -74,3 +74,76 @@ country_event = { #Подпольный комсомол
 		name = belarus.6.a	
 	}
 }
+country_event = { #Базарная бабка
+	id = belarus.7
+	title = belarus.7.t
+	desc = belarus.7.d
+	picture = GFX_podpolni_komsomol
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = belarus.7.a	
+	}
+}
+country_event = { #Мова в школе
+	id = belarus.8
+	title = belarus.8.t
+	desc = belarus.8.d
+	picture = GFX_podpolni_komsomol
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = belarus.8.a	
+	}
+}
+country_event = { #Новый 93-й
+	id = belarus.9
+	title = belarus.9.t
+	desc = belarus.9.d
+	picture = GFX_podpolni_komsomol
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = belarus.9.a	
+	}
+}
+country_event = { #Предприниматель
+	id = belarus.10
+	title = belarus.10.t
+	desc = belarus.10.d
+	picture = GFX_podpolni_komsomol
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = belarus.10.a	
+	}
+}
+country_event = { #Молодой революционер
+	id = belarus.11
+	title = belarus.11.t
+	desc = belarus.11.d
+	picture = GFX_podpolni_komsomol
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = belarus.11.a	
+	}
+}
+country_event = { #Разбитое лицо
+	id = belarus.12
+	title = belarus.12.t
+	desc = belarus.12.d
+	picture = GFX_podpolni_komsomol
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = belarus.12.a	
+	}
+}
+

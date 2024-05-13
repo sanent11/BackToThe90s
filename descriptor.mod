@@ -13,7 +13,6 @@ name="Back to the 90s"
 replace_path="history/countries"
 replace_path="history/states"
 replace_path="map/strategicregions"
-replace_path="common"
 replace_path="events"
 supported_version="1.14.*"
 

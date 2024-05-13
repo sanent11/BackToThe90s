@@ -1,0 +1,88 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_focus_borba_s_sovet_proshlim"
+		texturefile = "gfx/interface/goals/Ukraine/borba_s_sovet_proshlim.png"
+	}
+	spriteType = {
+		name = "GFX_focus_giperinflatia"
+		texturefile = "gfx/interface/goals/Ukraine/giperinflatia.png"
+	}
+	spriteType = {
+		name = "GFX_focus_otkaz_ot_dnyo"
+		texturefile = "gfx/interface/goals/Ukraine/otkaz_ot_dnyo.png"
+	}
+	spriteType = {
+		name = "GFX_focus_podderzhat_ludei"
+		texturefile = "gfx/interface/goals/Ukraine/podderzhat_ludei.png"
+	}
+	spriteType = {
+		name = "GFX_focus_pokonchit_s_oligarhami"
+		texturefile = "gfx/interface/goals/Ukraine/pokonchit_s_oligarhami.png"
+	}
+	spriteType = {
+		name = "GFX_focus_pomosh_ot_big_brother"
+		texturefile = "gfx/interface/goals/Ukraine/pomosh_ot_big_brother.png"
+	}
+	spriteType = {
+		name = "GFX_focus_programa_privatizatii"
+		texturefile = "gfx/interface/goals/Ukraine/programa_privatizatii.png"
+	}
+	spriteType = {
+		name = "GFX_focus_sotrudnichat_s_sng"
+		texturefile = "gfx/interface/goals/Ukraine/sotrudnichat_s_sng.png"
+	}
+	spriteType = {
+		name = "GFX_focus_unite_to_mvf"
+		texturefile = "gfx/interface/goals/Ukraine/unite_to_mvf.png"
+	}
+	spriteType = {
+		name = "GFX_focus_viti_na_rinok"
+		texturefile = "gfx/interface/goals/Ukraine/viti_na_rinok.png"
+	}
+	spriteType = {
+		name = "GFX_focus_vopros_o_chernobil"
+		texturefile = "gfx/interface/goals/Ukraine/vopros_o_chernobil.png"
+	}
+	spriteType = {
+		name = "GFX_focus_vstrecha_s_plavukom"
+		texturefile = "gfx/interface/goals/Ukraine/vstrecha_s_plavukom.png"
+	}
+	spriteType = {
+		name = "GFX_focus_ukrfokus"
+		texturefile = "gfx/interface/goals/Ukraine/ukrfokus.png"
+	}
+	spriteType = {
+		name = "GFX_focus_krymchey"
+		texturefile = "gfx/interface/goals/Ukraine/krymchey.png"
+	}
+	spriteType = {
+		name = "GFX_focus_nezalezhnost"
+		texturefile = "gfx/interface/goals/Ukraine/nezalezhnost.png"
+	}
+	spriteType = {
+		name = "GFX_focus_korrup"
+		texturefile = "gfx/interface/goals/Ukraine/korrup.png"
+	}
+	spriteType = {
+		name = "GFX_focus_neytralnayavneshka"
+		texturefile = "gfx/interface/goals/Ukraine/neytralnayavneshka.png"
+	}
+	spriteType = {
+		name = "GFX_focus_konkurentny_rynok"
+		texturefile = "gfx/interface/goals/Ukraine/konkurentny_rynok.png"
+	}
+	spriteType = {
+		name = "GFX_focus_sotrudnichat_s_elitoi"
+		texturefile = "gfx/interface/goals/Ukraine/sotrudnichat_s_elitoi.png"
+	}
+	spriteType = {
+		name = "GFX_focus_social_reformii"
+		texturefile = "gfx/interface/goals/Ukraine/social_reformii.png"
+	}
+	spriteType = {
+		name = "GFX_focus_monopolizatia_rinka"
+		texturefile = "gfx/interface/goals/Ukraine/monopolizatia_rinka.png"
+	}
+	
+}

@@ -163,6 +163,7 @@ country_event = { #Обновлённая федерация
 	option = {	
 		name = russiaStart.7.a
 		add_manpower = 1
+		add_to_variable = { support_eltsin = 10 }
 	}
 }
 country_event = { #СНД протестует
@@ -176,6 +177,6 @@ country_event = { #СНД протестует
 	option = {	
 		name = russiaStart.8.a
 		add_stability = -0.15
-		set_global_flag = protest_snd
+		set_global_flag = protest_snd	 
 	}
 }	

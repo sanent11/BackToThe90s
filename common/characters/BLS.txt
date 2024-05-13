@@ -15,3 +15,18 @@ characters = {
 			id = -1
 		}
 	}
+	Malofeev = {
+		name = Malofeev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BLS/Malofeev.png"
+			}
+		}
+		country_leader = {
+			ideology = bolshevizm
+			desc = Malofeev_desc
+			traits = { }
+			expire = "2022.8.24.1"
+			id = -1
+		}
+	}

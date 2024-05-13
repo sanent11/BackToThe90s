@@ -1,0 +1,54 @@
+﻿l_russian:
+ 
+ RUS_infantry_equipment_0: "АК-47"
+ RUS_infantry_equipment_0_short: "АК-47"
+ RUS_infantry_equipment_1: "АК-74"
+ RUS_infantry_equipment_1_short: "АК-74"
+ RUS_infantry_equipment_2: "АК-103"
+ RUS_infantry_equipment_2_short: "АК-103"
+ RUS_infantry_equipment_3: "АК-12"
+ RUS_infantry_equipment_3_short: "АК-12"
+ 
+ 
+ RUS_gw_tank_equipment: "T-72"
+ RUS_gw_tank_equipment_short: "T-72"
+ RUS_medium_tank_equipment_1: "Т-80"
+ RUS_medium_tank_equipment_1_short: "Т-80"
+ RUS_medium_tank_equipment_2: "Т-90"
+ RUS_medium_tank_equipment_2_short: "Т-90"
+ RUS_medium_tank_equipment_3: "Т-90АМ"
+ RUS_medium_tank_equipment_3_short: "Т-90АМ"
+ 
+ RUS_light_tank_equipment_1: "БМП-1"
+ RUS_light_tank_equipment_1_short: "БМП-1"
+ RUS_light_tank_equipment_2: "БМП-2"
+ RUS_light_tank_equipment_2_short: "БМП-2"
+ RUS_light_tank_equipment_3: "БМП-3"
+ RUS_light_tank_equipment_3_short: "БМП-3"
+ 
+ RUS_modern_tank_equipment_1: "Т-14"
+ RUS_modern_tank_equipment_1_short: "Т-14 "Армата""
+ 
+ RUS_motorized_equipment_1: "Урал-5323"
+ RUS_motorized_equipment_1_short: "Урал-5323"
+ 
+ RUS_motorized_rocket_equipment_1: "9К51 «Град»"
+ RUS_motorized_rocket_equipment_1_short: "9К51 «Град»"
+ RUS_motorized_rocket_equipment_2: "9К58 «Смерч»"
+ RUS_motorized_rocket_equipment_2_short: "9К58 «Смерч»"
+ 
+ RUS_mechanized_equipment_1: "БТР-70"
+ RUS_mechanized_equipment_1_short: "БТР-70"
+ RUS_mechanized_equipment_2: "БТР-80"
+ RUS_mechanized_equipment_2_short: "БТР-80"
+ RUS_mechanized_equipment_3: "БТР-90"
+ RUS_mechanized_equipment_3_short: "БТР-90"
+ 
+ RUS_rpg_equipment_0: "РПГ-7"
+ RUS_rpg_equipment_0_short: "РПГ-7"
+ 
+ RUS_rpg_equipment_1: "РПГ-27"
+ RUS_rpg_equipment_1_short: "РПГ-27"
+ 
+ RUS_rpg_equipment_2: "РПГ-28"
+ RUS_rpg_equipment_2_short: "РПГ-28"

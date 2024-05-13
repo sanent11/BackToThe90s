@@ -1,0 +1,465 @@
+
+defined_text = {
+	name = GetPortrait_kandidat1
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "GFX_Yavlinski"
+	}
+}
+defined_text = {
+	name = GetPortrait_kandidat2
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "GFX_Fyodorov"
+	}
+}
+defined_text = {
+	name = GetPortrait_kandidat3
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "GFX_Lebed"
+	}
+}
+defined_text = {
+	name = GetPortrait_kandidat4
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "GFX_Zhirinovsky"
+	}
+}
+defined_text = {
+	name = GetPortrait_kandidat5
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "GFX_Zyuganov"
+	}
+}
+defined_text = {
+	name = GetPortrait_kandidat6
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "GFX_Eltsin"
+	}
+}
+#############################
+defined_text = {
+	name = name_kandidat
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "Yavlinski"
+	}
+}
+defined_text = {
+	name = name_kandidat1
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "Eltsin"
+	}
+}
+defined_text = {
+	name = name_kandidat2
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "Zhirinovsky"
+	}
+}
+defined_text = {
+	name = name_kandidat3
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "Lebed"
+	}
+}
+defined_text = {
+	name = name_kandidat4
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "Fyodorov"
+	}
+}
+defined_text = {
+	name = name_kandidat5
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "Zyuganov"
+	}
+}
+defined_text = {
+	name = name_kandidat6
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = ""
+	}
+}
+#####################
+defined_text = {
+	name = name_party
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "Yabloko"
+	}
+}
+defined_text = {
+	name = name_party2
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "Sam"
+	}
+}
+defined_text = {
+	name = name_party3
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "LDPR"
+	}
+}
+defined_text = {
+	name = name_party4
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "PRO"
+	}
+}
+defined_text = {
+	name = name_party5
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "PST"
+	}
+}
+defined_text = {
+	name = name_party6
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "KPRF"
+	}
+}
+
+
+
+
+defined_text = {
+	name = support_kandidat
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "support"
+	}
+}
+defined_text = {
+	name = support_kandidat2
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "support2"
+	}
+}
+
+defined_text = {
+	name = support_kandidat3
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "support3"
+	}
+}
+
+defined_text = {
+	name = support_kandidat4
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "support4"
+	}
+}
+
+defined_text = {
+	name = support_kandidat5
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "support5"
+	}
+}
+
+defined_text = {
+	name = support_kandidat6
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "support6"
+	}
+}
+
+defined_text = {
+	name = GetEltsinSupport
+	text = {
+		trigger = {
+			check_variable = { support_eltsin > 10 }
+			check_variable = { support_eltsin < 20 }
+		}
+		localization_key = "low_support"
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { support_eltsin > 20 }
+				check_variable = { support_eltsin < 30 } 
+			}
+		}
+		localization_key = "middle_support"
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { support_eltsin > 30 }
+				check_variable = { support_eltsin < 40 }
+			}
+		}
+		localization_key = "high_support"
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { support_eltsin > 40 }
+			}
+		}
+		localization_key = "veryhigh_support"
+	}
+}
+defined_text = {
+	name = GetZyuganovSupport
+	text = {
+		trigger = {
+			check_variable = { support_zyuganov > 10 }
+			check_variable = { support_zyuganov < 20 }
+		}
+		localization_key = "low_support"
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { support_zyuganov > 20 }
+				check_variable = { support_zyuganov < 30 }
+			}
+		}
+		localization_key = "middle_support"
+	} 
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { support_zyuganov > 30 }
+				check_variable = { support_zyuganov < 40 }
+			}
+		}
+		localization_key = "high_support"
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { support_zyuganov > 40 }
+			}
+		}
+		localization_key = "veryhigh_support"
+	}
+}
+defined_text = {
+	name = GetYavlinskiSupport
+	text = {
+		trigger = {
+			check_variable = { support_yavlinski > 10 }
+			check_variable = { support_yavlinski < 20 }
+		}
+		localization_key = "low_support"
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { support_yavlinski > 20 }
+				check_variable = { support_yavlinski < 30 }
+			}
+		}
+		localization_key = "middle_support"
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { support_yavlinski > 30 }
+				check_variable = { support_yavlinski < 40 }
+			}
+		}
+		localization_key = "high_support"
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { support_yavlinski > 40 }
+			}
+		}
+		localization_key = "veryhigh_support"
+	}
+}
+defined_text = {
+	name = GetZhirinovskySupport
+	text = {
+		trigger = {
+			check_variable = { support_zhirinovsky > 10 }
+			check_variable = { support_zhirinovsky < 20 }
+		}
+		localization_key = "low_support"
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { support_zhirinovsky > 20 }
+				check_variable = { support_zhirinovsky < 30 }
+			}
+		}
+		localization_key = "middle_support"
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { support_zhirinovsky > 30 }
+				check_variable = { support_zhirinovsky < 40 }
+			}
+		}
+		localization_key = "high_support"
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { support_zhirinovsky > 40 }
+			}
+		}
+		localization_key = "veryhigh_support"
+	}
+}
+defined_text = {
+	name = GetLebedSupport
+	text = {
+		trigger = {
+			check_variable = { support_lebed > 10 }
+			check_variable = { support_lebed < 20 }
+		}
+		localization_key = "low_support"
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { support_lebed > 20 }
+				check_variable = { support_lebed < 30 }
+			}
+		}
+		localization_key = "middle_support"
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { support_lebed > 30 }
+				check_variable = { support_lebed < 40 }
+			}
+		}
+		localization_key = "high_support"
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { support_lebed > 40 }
+			}
+		}
+		localization_key = "veryhigh_support"
+	}
+}
+defined_text = {
+	name = GetFyodorovSupport
+	text = {
+		trigger = {
+			check_variable = { support_fyodorov > 1 }
+			check_variable = { support_fyodorov < 10 }
+		}
+		localization_key = "verylow_support"
+	}
+	text = {
+		trigger = {
+			check_variable = { support_fyodorov > 10 }
+			check_variable = { support_fyodorov < 20 }
+		}
+		localization_key = "low_support"
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { support_fyodorov > 20 }
+				check_variable = { support_fyodorov < 30 }
+			}
+		}
+		localization_key = "middle_support"
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { support_fyodorov > 30 }
+				check_variable = { support_fyodorov < 40 }
+			}
+		}
+		localization_key = "high_support"
+	}
+	text = {
+		trigger = {
+			AND = {
+				check_variable = { support_fyodorov > 40 }
+			}
+		}
+		localization_key = "veryhigh_support"
+	}
+}
+
+
+
+
+

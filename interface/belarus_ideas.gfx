@@ -8,4 +8,8 @@ spriteTypes = {
 		name = "GFX_idea_degradatsia_armii"
 		texturefile = "gfx/interface/ideas/Belarus/degradatsia_armii.png"
 	}
+	spriteType = {
+		name = "GFX_idea_konets_plana"
+		texturefile = "gfx/interface/ideas/Belarus/konets_plana.png"
+	}
 }

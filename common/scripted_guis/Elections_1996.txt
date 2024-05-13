@@ -1,0 +1,34 @@
+scripted_gui = {	
+
+	elections1996 = {
+		context_type = decision_category
+		window_name = "elections1996_container"
+		  
+		properties = {
+			portrait_kandidat1 = {
+				image = [GetPortrait_kandidat1]
+			}
+			portrait_kandidat2 = {
+				image = [GetPortrait_kandidat2]
+			}
+			portrait_kandidat3 = {
+				image = [GetPortrait_kandidat3]
+			}
+			portrait_kandidat4 = {
+				image = [GetPortrait_kandidat4]
+			}
+			portrait_kandidat5 = {
+				image = [GetPortrait_kandidat5]
+			}
+			portrait_kandidat6 = {
+				image = [GetPortrait_kandidat6]
+			}
+		}
+
+		visible = {
+			tag = RUS
+		}
+		
+	} 
+}
+

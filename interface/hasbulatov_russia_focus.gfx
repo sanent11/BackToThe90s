@@ -1,0 +1,99 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_focus_Za_Hasbulatova"
+		texturefile = "gfx/interface/goals/Hasbulatov_Russia/Za_Hasbulatova.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_Ogranichenie_polnomochii"
+		texturefile = "gfx/interface/goals/Hasbulatov_Russia/Ogranichenie_polnomochii.png"
+	}
+	spriteType = {
+		name = "GFX_focus_socialism_s_litsom"
+		texturefile = "gfx/interface/goals/Hasbulatov_Russia/socialism_s_litsom.png"
+	}
+	spriteType = {
+		name = "GFX_focus_conservatism_v_massi"
+		texturefile = "gfx/interface/goals/Hasbulatov_Russia/conservatism_v_massi.png"
+	}
+	spriteType = {
+		name = "GFX_focus_otognyt_reformi"
+		texturefile = "gfx/interface/goals/Hasbulatov_Russia/otognyt_reformi.png"
+	}
+	spriteType = {
+		name = "GFX_focus_usilenie_silovikov"
+		texturefile = "gfx/interface/goals/Hasbulatov_Russia/usilenie_silovikov.png"
+	}
+	spriteType = {
+		name = "GFX_focus_control_nad_smi"
+		texturefile = "gfx/interface/goals/Hasbulatov_Russia/control_nad_smi.png"
+	}
+	spriteType = {
+		name = "GFX_focus_kompromiss"
+		texturefile = "gfx/interface/goals/Hasbulatov_Russia/kompromiss.png"
+	}
+	spriteType = {
+		name = "GFX_focus_zapadnie_parneri"
+		texturefile = "gfx/interface/goals/Hasbulatov_Russia/zapadnie_parneri.png"
+	}
+	spriteType = {
+		name = "GFX_focus_medleni_perehod"
+		texturefile = "gfx/interface/goals/Hasbulatov_Russia/medleni_perehod.png"
+	}
+	spriteType = {
+		name = "GFX_focus_soc_garantii"
+		texturefile = "gfx/interface/goals/Hasbulatov_Russia/soc_garantii.png"
+	}
+	spriteType = {
+		name = "GFX_focus_zapret_mitingov"
+		texturefile = "gfx/interface/goals/Hasbulatov_Russia/zapret_mitingov.png"
+	}
+	spriteType = {
+		name = "GFX_focus_ukreplenie_parlamenta"
+		texturefile = "gfx/interface/goals/Hasbulatov_Russia/ukreplenie_parlamenta.png"
+	}
+	spriteType = {
+		name = "GFX_focus_gosudarstvo_stabilnosti"
+		texturefile = "gfx/interface/goals/Hasbulatov_Russia/gosudarstvo_stabilnosti.png"
+	}
+	spriteType = {
+		name = "GFX_focus_dogovornyak"
+		texturefile = "gfx/interface/goals/Hasbulatov_Russia/dogovornyak.png"
+	}
+	spriteType = {
+		name = "GFX_focus_borba_s_oligarhami"
+		texturefile = "gfx/interface/goals/Hasbulatov_Russia/borba_s_oligarhami.png"
+	}
+	spriteType = {
+		name = "GFX_focus_defence_proletariat"
+		texturefile = "gfx/interface/goals/Hasbulatov_Russia/defence_proletariat.png"
+	}
+	spriteType = {
+		name = "GFX_focus_Nash_dalneishi_put"
+		texturefile = "gfx/interface/goals/Hasbulatov_Russia/Nash_dalneishi_put.png"
+	}
+	spriteType = {
+		name = "GFX_focus_dveri_opens"
+		texturefile = "gfx/interface/goals/Hasbulatov_Russia/dveri_opens.png"
+	}
+	spriteType = {
+		name = "GFX_focus_pluralism"
+		texturefile = "gfx/interface/goals/Hasbulatov_Russia/pluralism.png"
+	}
+	spriteType = {
+		name = "GFX_focus_mnogo_vektorov"
+		texturefile = "gfx/interface/goals/Hasbulatov_Russia/mnogo_vektorov.png"
+	}
+	spriteType = {
+		name = "GFX_focus_stabilnost"
+		texturefile = "gfx/interface/goals/Hasbulatov_Russia/stabilnost.png"
+	}
+	spriteType = {
+		name = "GFX_focus_dvigat_strelki_vpered"
+		texturefile = "gfx/interface/goals/Hasbulatov_Russia/dvigat_strelki_vpered.png"
+	}
+	spriteType = {
+		name = "GFX_focus_Nash_dalneishi_put"
+		texturefile = "gfx/interface/goals/Hasbulatov_Russia/Nash_dalneishi_put.png"
+	}
+}

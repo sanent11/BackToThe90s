@@ -1,0 +1,265 @@
+focus_tree = {
+    id = BLS_communism_focus_tree
+	
+	country = {
+	    factor = 0
+		modifier = {
+		    add = 10
+			tag = BLS 
+		}
+	}
+	
+	default = no
+	
+	
+	focus = {
+	    id = revolutia_v_bls
+	    x = 8
+	    y = 0
+		icon = GFX_focus_revolutia_v_bls
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+	        set_politics = {
+   			 	ruling_party = communism
+    			elections_allowed = no
+    			last_election = "1993.1.1"
+			}
+			add_political_power = -200
+			set_cosmetic_tag = BLS_communism
+			set_country_flag = communism_v_BLS
+		}
+	}
+	focus = {
+	    id = zahvat_administratii
+	    x = 6
+	    y = 1
+		icon = GFX_focus_zahvat_administratii
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = revolutia_v_bls }
+	   
+	    completion_reward = { 
+	        add_stability = -0.15
+			country_event = belarus_communism.1
+		}
+	}
+	focus = {
+	    id = zahvat_smi
+	    x = 8
+	    y = 1
+		icon = GFX_focus_zahvat_smi
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = revolutia_v_bls }
+	   
+	    completion_reward = { 
+			add_stability = -0.15
+			country_event = belarus_communism.2
+		}
+	}
+	focus = {
+	    id = zahvat_armii
+	    x = 10
+	    y = 1
+		icon = GFX_focus_zahvat_armii
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = revolutia_v_bls }
+	   
+	    completion_reward = { 
+			add_stability = -0.15
+			country_event = belarus_communism.3
+		}
+	}
+	focus = {
+	    id = vozrodit_partiu
+	    x = 8
+	    y = 3
+		icon = GFX_focus_vozrodit_partiu
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = zahvat_armii }
+		prerequisite = { focus = zahvat_smi }
+		prerequisite = { focus = zahvat_administratii }
+	   
+	    completion_reward = { 
+			country_event = belarus_communism.3
+		}
+	}
+	focus = {
+	    id = agitprom
+	    x = 7
+	    y = 4
+		icon = GFX_focus_agitprom
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = vozrodit_partiu }
+	   
+	    completion_reward = { 
+			add_ideas = belarus_agitprom
+		}
+	}
+	focus = {
+	    id = komsomol
+	    x = 9
+	    y = 4
+		icon = GFX_focus_komsomol
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = vozrodit_partiu }
+	   
+	    completion_reward = { 
+			country_event = belarus_communism.4
+		}
+	}
+	focus = {
+	    id = nkvd_belarus
+	    x = 7
+	    y = 5
+		icon = GFX_focus_nkvd_belarus
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = agitprom }
+	   
+	    completion_reward = { 
+			add_ideas = belarus_nkvd
+		}
+	}
+	focus = {
+	    id = otmena_rinok_reform
+	    x = 9
+	    y = 5
+		icon = GFX_focus_nkvd_belarus
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = komsomol }
+	   
+	    completion_reward = { 
+			country_event = belarus_communism.5
+		}
+	}
+	focus = {
+	    id = chistki_v_belarusi
+	    x = 8
+	    y = 6
+		icon = GFX_focus_nkvd_belarus
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = nkvd_belarus }
+		prerequisite = { focus = otmena_rinok_reform }
+	   
+	    completion_reward = { 
+			add_country_leader_role = {
+    			character = Lukashenko_communist
+    			promote_leader = yes
+    			country_leader = {
+        			ideology = neobolshevizm
+        			expire = "2077.1.1.1"
+        			
+    			}
+			}
+		    country_event = belarus_communism.6
+		}
+	}
+	focus = {
+	    id = tovarish_lukash
+	    x = 8
+	    y = 7
+		icon = GFX_focus_tovarish_lukash
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = chistki_v_belarusi }
+		
+		completion_reward = {   
+			country_event = belarus_communism.7
+			add_ideas = gensek_lukosh
+		}
+	}
+	focus = {
+	    id = konstitutia_com_belarus
+	    x = 8
+	    y = 8
+		icon = GFX_focus_nkvd_belarus
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = tovarish_lukash }
+		
+		completion_reward = {   
+			country_event = belarus_communism.8
+		}
+	}
+	focus = {
+	    id = gosplan_belarus
+	    x = 8
+	    y = 9
+		icon = GFX_focus_nkvd_belarus
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = konstitutia_com_belarus }
+		
+		completion_reward = {   
+			add_ideas = first_pyatiletka_bls
+		}
+	}
+	focus = {
+	    id = otmenit_91year
+	    x = 8
+	    y = 10
+		icon = GFX_focus_nkvd_belarus
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = gosplan_belarus }
+		
+		completion_reward = {   
+			load_focus_tree = BLS_communism_focus_tree2
+			country_event = belarus_communism.9
+			set_country_flag = BLS_Soviet_Union
+		}
+	}
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	continuous_focus_position = { x = 20 y = 2000 }
+}

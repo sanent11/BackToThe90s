@@ -1,0 +1,222 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "elections1996_container"
+		position = { x = 0 y = 0 }
+		
+		
+		iconType = {
+			name = "portrait_kandidat1"
+			spiriteType = "[GetPortrait_kandidat1]"
+			position = { x = 30 y = -630 } 
+		}
+		iconType = {
+			name = "portrait_kandidat2"
+			spiriteType = "[GetPortrait_kandidat2]"
+			position = { x = 360 y = -320 }
+		}
+		iconType = {
+			name = "portrait_kandidat3"
+			spiriteType = "[GetPortrait_kandidat3]"
+			position = { x = 30 y = -320 }
+		}
+		iconType = {
+			name = "portrait_kandidat4"
+			spiriteType = "[GetPortrait_kandidat4]"
+			position = { x = 360 y = -630 }
+		}
+		iconType = {
+			name = "portrait_kandidat5"
+			spiriteType = "[GetPortrait_kandidat5]"
+			position = { x = 196 y = -320 }
+		}
+		iconType = {
+			name = "portrait_kandidat6"
+			spiriteType = "[GetPortrait_kandidat6]"
+			position = { x = 196 y = -630 }
+		}
+		
+		instantTextBoxType = {
+			name = "kandidat_name"
+			position = { x = 10 y = -680 }
+			font = "hoi_18mbs" 
+			text = "[name_kandidat]"
+			format = center
+			maxWidth = 150
+			maxHeight = 250 
+			fixedsize = yes 
+		}
+		instantTextBoxType = { 
+			name = "kandidat_name1"
+			position = { x = 200 y = -680 }
+			font = "hoi_18mbs" 
+			text = "[name_kandidat1]"
+			format = center
+			maxWidth = 100
+			maxHeight = 250 
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "kandidat_name2"
+			position = { x = 340 y = -680 }
+			font = "hoi_18mbs" 
+			text = "[name_kandidat2]"
+			format = center
+			maxWidth = 150
+			maxHeight = 250 
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "kandidat_name3"
+			position = { x = 10 y = -370 }
+			font = "hoi_18mbs" 
+			text = "[name_kandidat3]"
+			format = center
+			maxWidth = 150
+			maxHeight = 250 
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "kandidat_name4"
+			position = { x = 340 y = -370 }
+			font = "hoi_18mbs" 
+			text = "[name_kandidat4]"
+			format = center
+			maxWidth = 150
+			maxHeight = 250 
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "kandidat_name5"
+			position = { x = 178 y = -370 }
+			font = "hoi_18mbs" 
+			text = "[name_kandidat5]"
+			format = center
+			maxWidth = 150
+			maxHeight = 250 
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "name_party"
+			position = { x = 7 y = -465 }
+			font = "hoi_18mbs" 
+			text = "[name_party]"
+			format = center
+			maxWidth = 150
+			maxHeight = 250 
+			fixedsize = yes 
+		}
+		instantTextBoxType = {
+			name = "name_party2"
+			position = { x = 175 y = -465 }
+			font = "hoi_18mbs" 
+			text = "[name_party2]"
+			format = center
+			maxWidth = 150
+			maxHeight = 250 
+			fixedsize = yes 
+		}
+		instantTextBoxType = {
+			name = "name_party3"
+			position = { x = 343 y = -465 }
+			font = "hoi_18mbs" 
+			text = "[name_party3]"
+			format = center
+			maxWidth = 150
+			maxHeight = 250 
+			fixedsize = yes 
+		}
+		instantTextBoxType = {
+			name = "name_party4"
+			position = { x = 7 y = -160 }
+			font = "hoi_18mbs" 
+			text = "[name_party4]"
+			format = center
+			maxWidth = 150
+			maxHeight = 250 
+			fixedsize = yes 
+		}
+		instantTextBoxType = {
+			name = "name_party5"
+			position = { x = 343 y = -160 }
+			font = "hoi_18mbs" 
+			text = "[name_party5]"
+			format = center
+			maxWidth = 150
+			maxHeight = 250 
+			fixedsize = yes 
+		}
+		instantTextBoxType = {
+			name = "name_party6"
+			position = { x = 175 y = -160 }
+			font = "hoi_18mbs" 
+			text = "[name_party6]"
+			format = center
+			maxWidth = 150
+			maxHeight = 250 
+			fixedsize = yes 
+		}
+
+
+		instantTextBoxType = {
+			name = "support_kandidat"
+			position = { x = 175 y = -440 }
+			font = "hoi_18mbs" 
+			text = "[support_kandidat]"
+			format = center
+			maxWidth = 150
+			maxHeight = 250 
+			fixedsize = yes 
+		}
+		instantTextBoxType = {
+			name = "support_kandidat2"
+			position = { x = 10 y = -440 }
+			font = "hoi_18mbs" 
+			text = "[support_kandidat2]"
+			format = center
+			maxWidth = 150
+			maxHeight = 250 
+			fixedsize = yes 
+		}
+		instantTextBoxType = {
+			name = "support_kandidat3"
+			position = { x = 345 y = -440 }
+			font = "hoi_18mbs" 
+			text = "[support_kandidat3]"
+			format = center
+			maxWidth = 150
+			maxHeight = 250 
+			fixedsize = yes 
+		}
+		instantTextBoxType = {
+			name = "support_kandidat4"
+			position = { x = 175 y = -135 }
+			font = "hoi_18mbs" 
+			text = "[support_kandidat4]"
+			format = center
+			maxWidth = 150
+			maxHeight = 250 
+			fixedsize = yes 
+		}
+		instantTextBoxType = {
+			name = "support_kandidat5"
+			position = { x = 10 y = -135 }
+			font = "hoi_18mbs" 
+			text = "[support_kandidat5]"
+			format = center
+			maxWidth = 150
+			maxHeight = 250 
+			fixedsize = yes 
+		}
+		instantTextBoxType = {
+			name = "support_kandidat6"
+			position = { x = 345 y = -135 }
+			font = "hoi_18mbs" 
+			text = "[support_kandidat6]"
+			format = center
+			maxWidth = 150
+			maxHeight = 250 
+			fixedsize = yes 
+		}
+	}
+}

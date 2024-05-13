@@ -1,0 +1,299 @@
+focus_tree = {
+    id = UKN_nachalo_focus_tree
+	
+	country = {
+	    factor = 0
+		modifier = {
+		    add = 10
+			tag = UKN 
+		}
+	}
+	
+	default = no
+	
+	
+	focus = {
+	    id = nezalezhnost
+	    x = 8
+	    y = 0
+		icon = GFX_focus_nezalezhnost
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = vstrecha_s_plavukom
+	    x = 5
+	    y = 1
+		icon = GFX_focus_vstrecha_s_plavukom
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = nezalezhnost }
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = borba_s_sovet_proshlim
+	    x = 4
+	    y = 2
+		icon = GFX_focus_borba_s_sovet_proshlim
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = vstrecha_s_plavukom }
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = otkaz_ot_dnyo
+	    x = 6
+	    y = 2
+		icon = GFX_focus_otkaz_ot_dnyo
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = vstrecha_s_plavukom }
+		mutually_exclusive = { focus = pomosh_ot_big_brother }
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = neutral_vnesh_politika
+	    x = 5
+	    y = 4
+		icon = GFX_focus_neytralnayavneshka
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = otkaz_ot_dnyo focus = borba_s_sovet_proshlim }
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = social_reformii
+	    x = 4
+	    y = 5
+		icon = GFX_focus_social_reformii
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = neutral_vnesh_politika }
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = sotrudnichat_s_sng
+	    x = 6
+	    y = 5
+		icon = GFX_focus_sotrudnichat_s_sng
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = neutral_vnesh_politika }
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = podderzhat_ludei
+	    x = 4
+	    y = 6
+		icon = GFX_focus_podderzhat_ludei
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = social_reformii }
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = krim_nash
+	    x = 6
+	    y = 6
+		icon = GFX_focus_krymchey
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = sotrudnichat_s_sng }
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = giperinflatia
+	    x = 11
+	    y = 1
+		icon = GFX_focus_giperinflatia
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = nezalezhnost }
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = pomosh_ot_big_brother
+	    x = 8
+	    y = 2
+		icon = GFX_focus_pomosh_ot_big_brother
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = giperinflatia }
+		mutually_exclusive = { focus = otkaz_ot_dnyo }
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = unite_to_mvf
+	    x = 11
+	    y = 2
+		icon = GFX_focus_unite_to_mvf
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = giperinflatia }
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = viti_na_rinok
+	    x = 11
+	    y = 3
+		icon = GFX_focus_viti_na_rinok
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = unite_to_mvf }
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = vopros_o_chernobil
+	    x = 11
+	    y = 4
+		icon = GFX_focus_vopros_o_chernobil
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = viti_na_rinok }
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = pokonchit_s_oligarhami
+	    x = 14
+	    y = 2
+		icon = GFX_focus_pokonchit_s_oligarhami
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = giperinflatia }
+		mutually_exclusive = { focus = sotrudnichat_s_elitoi }
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = programa_privatizatii
+	    x = 14
+	    y = 3
+		icon = GFX_focus_programa_privatizatii
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = pokonchit_s_oligarhami }
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = concurentni_rinok
+	    x = 14
+	    y = 4
+		icon = GFX_focus_konkurentny_rynok
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = programa_privatizatii }
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = sotrudnichat_s_elitoi
+	    x = 16
+	    y = 2
+		icon = GFX_focus_sotrudnichat_s_elitoi
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = giperinflatia }
+		mutually_exclusive = { focus = pokonchit_s_oligarhami }
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = monopolizatia_rinka
+	    x = 16
+	    y = 3
+		icon = GFX_focus_monopolizatia_rinka
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = sotrudnichat_s_elitoi }
+	
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = corruption_gos_struktura
+	    x = 16
+	    y = 4
+		icon = GFX_focus_korrup
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = monopolizatia_rinka }
+	
+	    completion_reward = { 
+		}
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	continuous_focus_position = { x = 20 y = 2000 }
+}

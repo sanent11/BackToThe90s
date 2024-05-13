@@ -1,0 +1,33 @@
+spriteTypes = {
+
+	#Верховный совет
+ 
+
+	spriteType = {
+		name = "GFX_Elections_1996"
+		texturefile = "gfx/interface/elections1996/Elections_1996.png"
+    }
+	spriteType = {
+		name = "GFX_Yavlinski"
+		texturefile = "gfx/interface/elections1996/Yavlinski.png"
+    }
+	spriteType = {
+		name = "GFX_Fyodorov"
+		texturefile = "gfx/interface/elections1996/Fyodorov.png"
+    }
+	spriteType = {
+		name = "GFX_Lebed"
+		texturefile = "gfx/interface/elections1996/Lebed.png"
+    }
+	spriteType = {
+		name = "GFX_Zhirinovsky"
+		texturefile = "gfx/interface/elections1996/Zhirinovsky.png"
+    }
+	spriteType = {
+		name = "GFX_Zyuganov"
+		texturefile = "gfx/interface/elections1996/Zyuganov.png"
+    }
+	spriteType = {
+		name = "GFX_Eltsin"
+		texturefile = "gfx/interface/elections1996/Eltsin.png"
+    }

@@ -1,0 +1,47 @@
+﻿l_russian:
+
+Elections_1996_category: "Президентские выборы 1996 года"
+Elections_1996_category_desc: "\n\n\n\n\n\n\n\n\n\n\n\nВыборы в России 1996 года представляют собой одно из ключевых событий в политической истории страны. Напряженная борьба между кандидатами, политические интриги и интенсивная избирательная кампания сделали этот период знаковым для России.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+
+#Кандидаты
+Yavlinski: "Григорий Явлинский"
+Eltsin: "Борис Ельцин"
+Zhirinovsky: "Владимир Жириновский"
+Zyuganov: "Геннадий Зюганов"
+Lebed: "Александр Лебедь"
+Fyodorov: "Святослав Фёдоров"
+
+
+
+
+#Партии
+Yabloko: "§G РОДП "Яблоко"§!"
+LDPR: "§2ЛДПР§!"
+Sam: "Самовыдвижение"
+PRO: "§gКРО§!"
+KPRF: "§RКПРФ§!"
+PST: "§OПСТ§!"
+
+support: "Популярность: [GetEltsinSupport]"
+support2: "Популярность: [GetYavlinskiSupport]"
+support3: "Популярность: [GetZhirinovskySupport]"
+support4: "Популярность: [GetZyuganovSupport]"
+support5: "Популярность: [GetLebedSupport]"
+support6: "Популярность: [GetFyodorovSupport]"
+
+YavlinskiCompany: "§GПредвыборная программа Явлинского§!"
+EltsinCompany: "Предвыборная программа Ельцина"
+ZhirinovskyCompany: "§2Предвыборная программа Жириновского§!"
+LebedCompany: "§gПредвыборная программа Лебедя§!"
+ZyuganovCompany: "§RПредвыборная программа Зюганова§!"
+FyodorovCompany: "§OПредвыборная программа Фёдорова§!"
+
+
+verylow_support: "§1Очень низкая§!"
+low_support: "§4Низкая§!"
+middle_support: "§5Средняя§!"
+high_support: "§7Высокая§!"
+veryhigh_support: "§8Очень высокая§!"
+
+
+

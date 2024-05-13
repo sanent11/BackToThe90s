@@ -7,6 +7,7 @@ ideas = {
 		absolute_dictatorship = {
 
 			available = {
+				always = no
 			}
 			cost = 150
 			removal_cost = -1
@@ -29,6 +30,7 @@ ideas = {
 		absolute_monarchy = {
 
 			available = {
+				always = no
 			}
 			cost = 150
 			removal_cost = -1
@@ -51,6 +53,7 @@ ideas = {
 		war_dictatorship = {
 
 			available = {
+				always = no
 			}
 
 
@@ -82,6 +85,7 @@ ideas = {
 		dictatorship = {
 
 			available = {
+				always = no
 			}
 
 
@@ -105,6 +109,7 @@ ideas = {
 		
 		oligarchia = {
 			available = {
+				always = no
 			}
 
 
@@ -129,7 +134,8 @@ ideas = {
 		}
 		president_republic = {
 
-					available = {
+			available = {
+				always = no
 			}
 
 
@@ -149,6 +155,7 @@ ideas = {
 		}
 		soviet_republic = {
 			available = {
+				always = no
 			}
 
 
@@ -173,6 +180,7 @@ ideas = {
 		}	
 		president_parlament = {
 			available = {
+				always = no
 			}
 
 
@@ -193,6 +201,7 @@ ideas = {
 	
 		constitutial_monarchy = {
 			available = {
+				always = no
 			}
 
 
@@ -215,6 +224,7 @@ ideas = {
 		}
 		parlament_democratic = {
 			available = {
+				always = no
 			}
 
 

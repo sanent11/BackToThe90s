@@ -16,7 +16,7 @@ focus_tree = {
 	    id = Za_Hasbulatova
 	    x = 8
 	    y = 0
-		icon = GFX_Za_Hasbulatova
+		icon = GFX_focus_Za_Hasbulatova
 	    cost = 5     
 	    available_if_capitulated = no
 	   
@@ -29,11 +29,15 @@ focus_tree = {
 		prerequisite = { focus = Za_Hasbulatova }
 	    x = 8
 	    y = 1
-		icon = GFX_Z1
+		icon = GFX_focus_Ogranichenie_polnomochii
 	    cost = 5     
 	    available_if_capitulated = no
 	   
 	    completion_reward = { 
+			swap_ideas = {
+    			remove_idea = soviet_republic
+    			add_idea = parlament_democratic
+			}
 		}
 	}
 	focus = {
@@ -41,20 +45,47 @@ focus_tree = {
 		prerequisite = { focus = Ogranichenie_polnomochii }
 	    x = 8
 	    y = 2
-		icon = GFX_Za_Hasbulatova
+		icon = GFX_focus_Nash_dalneishi_put
 	    cost = 5     
 	    available_if_capitulated = no
 	   
 	    completion_reward = { 
 		}
 	}
+	#Cоциализм
 	focus = {
 	    id = socialism_s_litsom
 		prerequisite = { focus = Nash_dalneishi_put }
 		mutually_exclusive = { focus = conservatism_v_massi }
 	    x = 4
 	    y = 3
-		icon = GFX_Za_Hasbulatova
+		icon = GFX_focus_socialism_s_litsom
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+			set_politics = {
+    			ruling_party = democratic
+    			elections_allowed = no
+    			last_election = "1993.1.1"
+    			election_frequency = 48
+			}
+			add_country_leader_role = {
+    			character = Hasbulatov
+    			promote_leader = yes
+    			country_leader = {
+        			ideology = left_populism
+        			expire = "2001.2.1.1"
+    			}
+			}
+		}
+	}
+	focus = {
+	    id = kompromiss
+		prerequisite = { focus = socialism_s_litsom }
+	    x = 2
+	    y = 4
+		icon = GFX_focus_kompromiss
 	    cost = 5     
 	    available_if_capitulated = no
 	   
@@ -62,16 +93,239 @@ focus_tree = {
 		}
 	}
 	focus = {
-	    id = conservatism_v_massi
-		prerequisite = { focus = Nash_dalneishi_put }
-		mutually_exclusive = { focus = socialism_s_litsom }
-	    x = 12
-	    y = 3
-		icon = GFX_Za_Hasbulatova
+	    id = defence_proletariat
+		prerequisite = { focus = socialism_s_litsom }
+	    x = 6
+	    y = 4
+		icon = GFX_focus_defence_proletariat
 	    cost = 5     
 	    available_if_capitulated = no
 	   
 	    completion_reward = { 
 		}
 	}
+	focus = {
+	    id = dveri_opens
+		prerequisite = { focus = kompromiss }
+	    x = 2
+	    y = 5
+		icon = GFX_focus_dveri_opens
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = borba_s_oligarhami
+		prerequisite = { focus = defence_proletariat }
+	    x = 6
+	    y = 5
+		icon = GFX_focus_borba_s_oligarhami
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = zapadnie_parneri
+		prerequisite = { focus = dveri_opens }
+	    x = 2
+	    y = 6
+		icon = GFX_focus_zapadnie_parneri
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = pluralism
+		prerequisite = { focus = borba_s_oligarhami }
+	    x = 6
+	    y = 6
+		icon = GFX_focus_pluralism
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = mnogo_vektorov
+		prerequisite = { focus = zapadnie_parneri }
+	    x = 2
+	    y = 7
+		icon = GFX_focus_mnogo_vektorov
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = stabilnost
+		prerequisite = { focus = pluralism }
+	    x = 6
+	    y = 7
+		icon = GFX_focus_stabilnost
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = dvigat_strelki_vpered
+		prerequisite = { focus = stabilnost }
+		prerequisite = { focus = mnogo_vektorov }
+	    x = 4
+	    y = 8
+		icon = GFX_focus_dvigat_strelki_vpered
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+		}
+	}
+	#Консерватизм
+	focus = {
+	    id = conservatism_v_massi
+		prerequisite = { focus = Nash_dalneishi_put }
+		mutually_exclusive = { focus = socialism_s_litsom }
+	    x = 12
+	    y = 3
+		icon = GFX_focus_conservatism_v_massi
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+			set_politics = {
+    			ruling_party = conservocratic
+    			elections_allowed = no
+    			last_election = "1993.1.1"
+    			election_frequency = 48
+			}
+			add_country_leader_role = {
+    			character = Hasbulatov
+    			promote_leader = yes
+    			country_leader = {
+        			ideology = conservatism
+        			expire = "2001.1.1.1"
+    			}
+			}
+		}
+	}
+	focus = {
+	    id = ukreplenie_parlamenta
+		prerequisite = { focus = conservatism_v_massi }
+	    x = 10
+	    y = 4
+		icon = GFX_focus_ukreplenie_parlamenta
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = control_nad_smi
+		prerequisite = { focus = ukreplenie_parlamenta }
+	    x = 10
+	    y = 5
+		icon = GFX_focus_control_nad_smi
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = soc_garantii
+		prerequisite = { focus = control_nad_smi }
+	    x = 10
+	    y = 6
+		icon = GFX_focus_soc_garantii
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = dogovornyak
+		prerequisite = { focus = soc_garantii }
+	    x = 10
+	    y = 7
+		icon = GFX_focus_dogovornyak
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = otognyt_reformi
+		prerequisite = { focus = conservatism_v_massi }
+	    x = 14
+	    y = 4
+		icon = GFX_focus_otognyt_reformi
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = medleni_perehod
+		prerequisite = { focus = otognyt_reformi }
+	    x = 14
+	    y = 5
+		icon = GFX_focus_medleni_perehod
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = usilenie_silovikov
+		prerequisite = { focus = medleni_perehod }
+	    x = 14
+	    y = 6
+		icon = GFX_focus_usilenie_silovikov
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+		}
+	}
+	focus = {
+	    id = zapret_mitingov
+		prerequisite = { focus = usilenie_silovikov }
+	    x = 14
+	    y = 7
+		icon = GFX_focus_zapret_mitingov
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+		}
+	}
+	
+	focus = {
+	    id = gosudarstvo_stabilnosti
+		prerequisite = { focus = zapret_mitingov }
+		prerequisite = { focus = dogovornyak }
+	    x = 12
+	    y = 8
+		icon = GFX_focus_gosudarstvo_stabilnosti
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+		}
+	}
+	continuous_focus_position = { x = 20 y = 1700 }
 }

@@ -1,0 +1,144 @@
+
+Elections_1996_category = { 
+	
+	YavlinskiCompany = {       
+
+		allowed = {         
+			tag = RUS                                      
+		} 
+         
+		icon = GFX_decision_hol_exchange_intelligence_data
+		days_remove = 7
+
+		visible = {
+		} 
+
+		remove_effect = {
+			 add_to_variable = { support_yavlinski = 10 }
+		}
+		
+		complete_effect = {
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+	EltsinCompany = {       
+
+		allowed = {         
+			tag = RUS                                      
+		} 
+         
+		icon = GFX_decision_hol_exchange_intelligence_data
+		days_remove = 7
+
+		visible = {
+		} 
+
+		remove_effect = {
+			 add_to_variable = { support_eltsin = 10 }
+		}
+		
+		complete_effect = {
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+	ZhirinovskyCompany = {       
+
+		allowed = {         
+			tag = RUS                                      
+		} 
+         
+		icon = GFX_decision_hol_exchange_intelligence_data
+		days_remove = 7
+
+		visible = {
+		} 
+
+		remove_effect = {
+			 add_to_variable = { support_zhirinovsky = 10 }
+		}
+		
+		complete_effect = {
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+	LebedCompany = {       
+
+		allowed = {         
+			tag = RUS                                      
+		} 
+         
+		icon = GFX_decision_hol_exchange_intelligence_data
+		days_remove = 7
+
+		visible = {
+		} 
+
+		remove_effect = {
+			 add_to_variable = { support_lebed = 10 }
+		}
+		
+		complete_effect = {
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+	ZyuganovCompany = {       
+
+		allowed = {         
+			tag = RUS                                      
+		} 
+         
+		icon = GFX_decision_hol_exchange_intelligence_data
+		days_remove = 7
+
+		visible = {
+		} 
+
+		remove_effect = {
+			 add_to_variable = { support_zyuganov = 10 }
+		}
+		
+		complete_effect = {
+			
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+	FyodorovCompany = {       
+
+		allowed = {         
+			tag = RUS                                      
+		} 
+         
+		icon = GFX_decision_hol_exchange_intelligence_data
+		days_remove = 7
+
+		visible = {
+		} 
+
+		remove_effect = {
+			 add_to_variable = { support_fyodorov = 10 }
+		}
+		
+		complete_effect = {
+			
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+}

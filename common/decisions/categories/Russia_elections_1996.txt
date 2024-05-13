@@ -1,0 +1,18 @@
+
+Elections_1996_category = {
+	 
+	icon = saf_anti_colonialist_crusade
+	picture = GFX_Elections_1996                                          
+	                                           
+	allowed = {                              
+		original_tag = RUS
+	}
+	visible = {  
+		has_country_flag = elections1996
+	}	  
+	
+	scripted_gui = elections1996 
+
+	priority = 500
+}
+

@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_focus_tovarish_lukash"
+		texturefile = "gfx/interface/goals/Communism_Belarus/tovarish_lukash.png"
+	}
+	
+}

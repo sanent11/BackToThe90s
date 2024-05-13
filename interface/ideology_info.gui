@@ -15,7 +15,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "subideology"
 			position = { x =106 y = -155 }
-			font = "hoi_16mbs"
+			font = "hoi_18mbs"
 			text = "[get_subideology_loc]"
 			format = center
 			vertical_alignment = CENTER
@@ -32,7 +32,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "ideology_gui"
 			position = { x = 5 y = 10 }
-			font = "hoi_16mbs"
+			font = "hoi_18mbs"
 			text = "[get_subideology_loc]"
 			maxWidth = 245
 			maxHeight = 20

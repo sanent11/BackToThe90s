@@ -38,6 +38,25 @@ ideas = {
 			modifier = {
 				war_support_weekly = -0.05
 			}
+		}
+
+		konets_plana = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = konets_plana
+
+			modifier = {
+				consumer_goods_factor = 0.5
+			}
 		}		
 	}
 }
