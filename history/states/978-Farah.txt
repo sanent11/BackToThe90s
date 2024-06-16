@@ -9,6 +9,7 @@ state={
 
 		}
 		add_core_of = AFN
+		add_core_of = IAF
 
 	}
 	

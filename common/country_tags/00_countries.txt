@@ -69,6 +69,13 @@ BHU = "countries/Bhutan.txt"
 LAO = "countries/Laos.txt"
 AFN = "countries/Afghanistan.txt"
 IAF = "countries/Islamic Afghanistan.txt"
+PIU = "countries/Islamic Union Party.txt"
+IPA = "countries/Islamic Afghanistan Party.txt"
+IRM = "countries/Islamic Revolution Movement.txt"
+IHA = "countries/Islamic Hekmitiar Party.txt"
+INM = "countries/Islamic National Movement.txt"
+
+
 PAK = "countries/Pakistan.txt"
 BAN = "countries/Bangladesh.txt"
 CHI = "countries/Taiwan.txt"

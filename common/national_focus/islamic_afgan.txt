@@ -1,0 +1,125 @@
+focus_tree = {
+    id = IAF_nachalo_focus_tree
+	
+	country = {
+	    factor = 0
+		modifier = {
+		    add = 10
+			tag = IAF 
+		}
+	}
+	
+	default = no
+	
+	
+	focus = {
+	    id = pobeda_v_grazdanke 
+	    x = 8
+	    y = 0
+		icon = GFX_focus_pobeda_v_grazdanke
+	    cost = 5     
+	    available_if_capitulated = no
+		available = { has_country_flag = Mojaheds_Win }
+	   
+	    completion_reward = { 
+			add_political_power = 50
+			add_stability = 0.05
+			add_war_support = 0.1
+		}
+	}
+	focus = {
+	    id = novie_islamskie_zakoni 
+	    x = 10
+	    y = 2
+		icon = GFX_focus_novie_islamskie_zakoni
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = pobeda_v_grazdanke }
+	   
+	    completion_reward = { 
+			add_political_power = 50
+
+		}
+	}
+	focus = {
+	    id = likvidatsia_ostatkov 
+	    x = 6
+	    y = 2
+		icon = GFX_focus_novie_islamskie_zakoni
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = pobeda_v_grazdanke }
+	   
+	    completion_reward = { 
+			add_political_power = 50
+			add_manpower = -10000
+		}
+	}
+	focus = {
+	    id = peredacha_vlasti 
+	    x = 8
+	    y = 4
+		icon = GFX_focus_peredacha_vlasti
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = novie_islamskie_zakoni }
+		prerequisite = { focus = likvidatsia_ostatkov }
+	   
+	    completion_reward = { 
+			set_cosmetic_tag = IAF_Mojaheds
+			set_politics = {
+    			ruling_party = conservocratic
+				elections_allowed = no
+				last_election = "1992.1.1"
+				long_name = IAF_conservocratic_party_long
+				name = IAF_conservocratic_party
+			}
+			swap_ideas = {
+    			remove_idea = war_dictatorship
+    			add_idea = president_republic
+			}
+		}
+	}	
+	focus = {
+	    id = skoro_budet_pizdec 
+	    x = 8
+	    y = 6
+		icon = GFX_focus_novie_islamskie_zakoni
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = peredacha_vlasti }
+	   
+	    completion_reward = { 
+			add_stability = -0.3
+			add_war_support = 0.1
+		}
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	continuous_focus_position = { x = 20 y = 2000 }
+}

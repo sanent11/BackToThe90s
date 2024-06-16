@@ -328,18 +328,7 @@
  AFN_liberocratic_party: ""
  AFN_fascism_party: ""
  AFN_anarchy_party: ""
- 
- IAF_nationalism_party: "Афганские моджахеды"
- IAF_neutrality_party: ""
- IAF_conservocratic_party: ""
- IAF_democratic_party: ""
- IAF_natdem_party: ""
- IAF_communism_party: ""
- IAF_paternalism_party: ""
- IAF_liberocratic_party: ""
- IAF_fascism_party: ""
- IAF_anarchy_party: ""
- IAF_neutrality_party: ""
+
 
  RMN_neutrality_party: "Демократический фронт национального спасения"
  RMN_neutrality_party_short: "ДФНС"

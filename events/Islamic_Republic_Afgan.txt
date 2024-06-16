@@ -1,0 +1,269 @@
+﻿
+add_namespace = islam_afgan
+
+
+country_event = {
+	id = islam_afgan.1
+	title = islam_afgan.1.t
+	desc = islam_afgan.1.d
+	picture = 1
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = IAF
+		has_country_flag = Mojaheds_Win
+		has_completed_focus = pobeda_v_grazdanke
+	}
+	option = { 
+		name = islam_afgan.1.a
+	}	
+}
+country_event = {
+	id = islam_afgan.2
+	title = islam_afgan.2.t
+	desc = islam_afgan.2.d
+	picture = 1
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = IAF
+		has_country_flag = Mojaheds_Win
+		has_completed_focus = novie_islamskie_zakoni
+	}
+	option = { 
+		name = islam_afgan.2.a
+	}	
+}
+country_event = {
+	id = islam_afgan.3
+	title = islam_afgan.3.t
+	desc = islam_afgan.3.d
+	picture = 1
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = IAF
+		has_country_flag = Mojaheds_Win
+		has_completed_focus = likvidatsia_ostatkov
+	}
+	option = {
+		name = islam_afgan.3.a
+	}	
+}
+country_event = {
+	id = islam_afgan.4
+	title = islam_afgan.4.t
+	desc = islam_afgan.4.d
+	picture = 1
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = IAF
+		has_country_flag = Mojaheds_Win
+		has_completed_focus = peredacha_vlasti
+	}
+	option = { 
+		name = islam_afgan.4.a
+	}	
+}
+country_event = {
+	id = islam_afgan.5
+	title = islam_afgan.5.t
+	desc = islam_afgan.5.d
+	picture = 1
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = IAF
+		has_country_flag = Mojaheds_Win
+		has_completed_focus = skoro_budet_pizdec
+	}
+	option = { 
+		name = islam_afgan.5.a
+		267 = {
+			set_demilitarized_zone = yes
+		}	
+		set_country_flag = raskol_peshevarskoy_semerki
+		hidden_effect = {
+			country_event = {
+				id = islam_afgan.6
+				days = 14
+				random_days = 5
+			}
+		}
+	}	
+}
+country_event = {
+	id = islam_afgan.6
+	title = islam_afgan.6.t
+	desc = islam_afgan.6.d
+	picture = 1
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = IAF
+		has_country_flag = raskol_peshevarskoy_semerki
+	}
+	option = {
+		name = islam_afgan.6.a
+		hidden_effect = { 
+			release = PIU
+			PIU = { transfer_state = 979 }
+			PIU = { change_tag_from = IAF }
+			country_event = {
+				id = islam_afgan.7
+				days = 5
+				random_days = 5
+			}
+		}
+	}
+	option = { 
+		name = islam_afgan.6.b
+		hidden_effect = { 
+			release = PIU
+			PIU = { transfer_state = 979 }
+			country_event = {
+				id = islam_afgan.7
+				days = 5
+				random_days = 5
+			}
+		}
+	}		
+}
+country_event = {
+	id = islam_afgan.7
+	title = islam_afgan.7.t
+	desc = islam_afgan.7.d
+	picture = 1
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = IAF
+		has_country_flag = raskol_peshevarskoy_semerki
+	}
+	option = {
+		name = islam_afgan.7.a
+		hidden_effect = { 
+			release = INM
+			INM = { 
+				transfer_state = 982 
+				transfer_state = 981
+				transfer_state = 988 
+			}
+			INM = { change_tag_from = IAF }
+			country_event = {
+				id = islam_afgan.8
+				days = 5
+				random_days = 5
+			}
+		}
+	}
+	option = { 
+		name = islam_afgan.7.b
+		hidden_effect = { 
+			release = INM
+			INM = { 
+				transfer_state = 982 
+				transfer_state = 981
+				transfer_state = 988 
+			}
+			country_event = {
+				id = islam_afgan.8
+				days = 5
+				random_days = 5
+			}
+		}
+	}		
+}
+country_event = {
+	id = islam_afgan.8
+	title = islam_afgan.8.t
+	desc = islam_afgan.8.d
+	picture = 1
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = IAF
+		has_country_flag = raskol_peshevarskoy_semerki
+	}
+	option = {
+		name = islam_afgan.8.a
+		hidden_effect = { 
+			release = IPA
+			IPA = { 
+				transfer_state = 983 
+			}
+			IPA = { change_tag_from = IAF }
+			country_event = {
+				id = islam_afgan.9
+				days = 5
+				random_days = 5
+			}
+		}
+	}
+	option = { 
+		name = islam_afgan.8.b
+		hidden_effect = { 
+			release = IPA
+			IPA = { 
+				transfer_state = 983 
+			}
+			country_event = {
+				id = islam_afgan.9
+				days = 5
+				random_days = 5
+			}
+		}
+	}		
+}
+country_event = {
+	id = islam_afgan.9
+	title = islam_afgan.9.t
+	desc = islam_afgan.9.d
+	picture = 1
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = IAF
+		has_country_flag = raskol_peshevarskoy_semerki
+	}
+	option = {
+		name = islam_afgan.9.a
+		hidden_effect = { 
+			release = IRM
+			IRM = { 
+				transfer_state = 977 
+			}
+			IRM = { change_tag_from = IAF }
+			country_event = {
+				id = islam_afgan.10
+				days = 5
+				random_days = 5
+			}
+		}
+	}
+	option = { 
+		name = islam_afgan.9.b
+		hidden_effect = { 
+			release = IRM
+			IRM = { 
+				transfer_state = 977 
+			}
+			country_event = {
+				id = islam_afgan.10
+				days = 5
+				random_days = 5
+			}
+		}
+	}		
+}
+

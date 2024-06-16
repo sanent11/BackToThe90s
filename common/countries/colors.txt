@@ -182,6 +182,25 @@ IAF = {
 	color = rgb { 0 155 118 }
 	color_ui = rgb { 0 155 118 }
 }
+PIU = {
+	color = rgb { 158 111 131 }
+	color_ui = rgb { 158 111 131 }
+}
+INM = {
+	color = rgb { 133 150 194 }
+	color_ui = rgb { 133 150 194 }
+}
+IPA = {
+	color = rgb { 166 134 102 }
+	color_ui = rgb { 166 134 102 }
+}
+IRM = {
+	color = rgb { 207 172 110 }
+	color_ui = rgb { 207 172 110 }
+}
+
+
+
 PAK = {
 	color = rgb { 170  50  150 }
 	color_ui = rgb { 170  50  150 }

@@ -1,0 +1,43 @@
+﻿
+add_namespace = dr_afgan
+
+
+country_event = {
+	id = dr_afgan.1
+	title = dr_afgan.1.t
+	desc = dr_afgan.1.d
+	picture = 1
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = AFN
+		has_war_with = IAF
+		IAF = {
+			controls_province = 10737
+		}
+	}
+	option = { 
+		name = dr_afgan.1.a
+		IAF = {
+			
+			white_peace {
+				tag = AFN
+				message = mojaheds_win_peace_tt
+			}
+			annex_country = {
+    			target = AFN
+	  			transfer_troops = no
+			}
+			set_country_flag = Mojaheds_Win
+		}
+		remove_state_core = 990
+		remove_state_core = 989
+		remove_state_core = 267
+		remove_state_core = 978
+		remove_state_core = 981
+		remove_state_core = 992
+		remove_state_core = 991
+	}	
+}
+

@@ -35,7 +35,7 @@ guiTypes = {
 		{
 			name ="frontend_game_logo"  
 			spriteType = "GFX_frontend_game_logo"
-			position = { x= -50 y = 20 }
+			position = { x= -80 y =20 }
 		}
 		
 	}
@@ -189,15 +189,12 @@ guiTypes = {
 	### MAIN MENU PANEL (bottom)
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
-		position = { x=-710 y =370}
+		position = { x=-0 y =350}
 		size = { width = 320 height = 300 }
 		Orientation = CENTER
 		Origo = center		
 
-		positionType = {
-			name = "subscription_size"
-			position = { x = 320 y = 563 }
-		}
+		
 				
 		background = {
 			name = "Background"		
@@ -216,7 +213,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "multi_player_button"
-			position = { x = 16 y = 58}
+			position = { x = 16 y = 68}
 			quadTextureSprite ="GFX_main_lobby_button"
 			font = "hoi_24header"			
 			text = "FE_MULTI_PLAYER"			
@@ -234,7 +231,7 @@ guiTypes = {
 		instantTextBoxType = {
 
 			name ="version_label"
-			position = { x = 35 y = 250 }
+			position = { x = 35 y = 150 }
 			textureFile = ""
 			font = "hoi_18b"
 			borderSize = {x = 0 y = 0}
@@ -252,7 +249,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "settings_button"
-			position = { x = 16 y = 98 }
+			position = { x = 16 y = 118 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "OPTIONS"
 			buttonFont = "hoi_24header"
@@ -262,7 +259,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "career_profile_button"
-			position = { x = 16111 y = 138 }
+			position = { x = 16111 y = 148 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			buttonText = "MENU_BAR_CAREER_PROFILE"
 			buttonFont = "hoi_24header"
@@ -301,7 +298,7 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "nudge_button"
-			position = { x = 16 y = 138 }
+			position = { x = 16 y = 168 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "Nudge!"
 			buttonFont = "hoi_24header"
@@ -309,7 +306,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "exit_button"
-			position = { x = 16 y = 178 }
+			position = { x = 16 y = 218 }
 			quadTextureSprite ="GFX_main_lobby_button"
 			font = "hoi_24header"			
 			text = "FE_EXIT"			

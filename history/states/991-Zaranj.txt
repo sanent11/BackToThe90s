@@ -13,6 +13,7 @@ state={
 			13287 1 
 		}
 		add_core_of = AFN
+		add_core_of = IAF
 
 	}
 

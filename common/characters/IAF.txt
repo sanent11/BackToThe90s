@@ -14,3 +14,17 @@ characters = {
 			id = -1
 		}
 	}
+	IAF_Rabbani = {
+		name = IAF_Rabbani
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Afgan/IAF_Rabbani.dds"
+			}
+		}
+		country_leader = {
+			ideology = islam_democracy
+			traits = { }
+			expire = "2001.12.22.2"
+			id = -1
+		}
+	}

@@ -1,0 +1,70 @@
+﻿l_russian:
+
+AFN: "Демократическая Республика Афганистан"
+AFN_DEF: "Демократическая Республика Афганистан"
+AFN_reactionism: "Демократическая Республика Афганистан"
+AFN_reactionism_DEF: "Демократическая Республика Афганистан"
+AFN_fascism: "Демократическая Республика Афганистан"
+AFN_fascism_DEF: "Демократическая Республика Афганистан"
+AFN_neutrality: "Демократическая Республика Афганистан"
+AFN_neutrality_DEF: "Демократическая Республика Афганистан"
+AFN_paternalism: "Демократическая Республика Афганистан"
+AFN_paternalism_DEF: "Демократическая Республика Афганистан"
+AFN_ADJ: "Афганск."
+ 
+IAF: "Моджахеды"
+IAF_DEF: "Моджахеды"
+IAF_Mojaheds: "Исламское Государство Афганистан"
+
+
+PIU: "Партия Исламского Единства"
+PIU_DEF: "Партия Исламского Единства"
+PIU_ADJ: "Афганск."
+
+INM: "Исламское Национальное Движение"
+INM_DEF: "Исламское Национальное Движение"
+INM_ADJ: "Афганск."
+
+IPA: "Исламская Партия Халеса"
+IPA_DEF: "Исламская Партия Халеса"
+IPA_ADJ: "Афганск."
+
+IHA: "Исламская Партия Хекмитияра"
+IHA_DEF: "Исламская Партия Хекмитияра"
+IHA_ADJ: "Афганск."
+
+IRM: "Исламское Революционное Движение"
+IRM_DEF: "Исламское Революционное Движение"
+IRM_ADJ: "Афганск."
+
+
+
+mojaheds_win_peace_tt: "ДРА была ликвидирована, а коммунистическая идеология больше никогда не возродится в Афганистане."
+
+
+IAF_conservocratic_party_long: "Исламское общество Афганистана"
+IAF_conservocratic_party: "Исламское общество Афганистана"
+IAF_nationalism_party: "Афганские моджахеды"
+IAF_neutrality_party: ""
+IAF_democratic_party: ""
+IAF_natdem_party: ""
+IAF_communism_party: ""
+IAF_paternalism_party: ""
+IAF_liberocratic_party: ""
+IAF_fascism_party: ""
+IAF_anarchy_party: "" 
+IAF_neutrality_party: ""
+
+IAF_Rabbani: "Бурхануддин Раббани"
+
+pobeda_v_grazdanke: "«Пешаварская Семёрка» у Власти"
+novie_islamskie_zakoni: "Новые Исламские Законы"
+likvidatsia_ostatkov: "Ликвидация Остатков ДРАшников"
+peredacha_vlasti: "Моджадедди Уходит на Пенсию"
+skoro_budet_pizdec: "Альянс Распадается на Части..."
+
+
+
+Mojaheds_Win: "Гражданская война закончилась"
+
+islam_afgan.1.t: "Освобождение страны"
