@@ -1,0 +1,75 @@
+﻿
+add_namespace = USAevents
+
+
+
+news_event = {
+	id = USAevents.1
+	title = USAevents.1.t
+	desc = USAevents.1.desc
+	picture = GFX_news_event_usaelection1992
+	
+	major = yes
+
+	trigger = {
+		date > 1992.11.3
+		date < 1993.1.1
+		NOT = {
+			has_global_flag = usa_elections_1992
+		}
+
+	}	
+    immediate = {
+		hidden_effect  = {
+			set_global_flag = usa_elections_1992
+
+			USA = {
+				add_popularity = {
+					ideology = liberocratic
+					popularity = 0.05
+				}
+				set_politics = {
+					ruling_party = liberocratic
+				}
+			}
+		}
+    }
+	option = {
+		name = USAevents.1.a
+	
+	}
+}
+news_event = {
+	id = USAevents.1
+	title = USAevents.1.t
+	desc = USAevents.1.desc
+	picture = GFX_news_event_usaelection1992
+	
+	major = yes
+
+	trigger = {
+		date > 1996.11.5
+		date < 1996.12.1
+		NOT = {
+			has_global_flag = usa_elections_1996
+		}
+
+	}	
+    immediate = {
+		hidden_effect  = {
+			set_global_flag = usa_elections_1996
+
+			USA = {
+				add_popularity = {
+					ideology = liberocratic
+					popularity = 0.1
+				}
+
+			}
+		}
+    }
+	option = {
+		name = USAevents.2.a
+	
+	}
+}

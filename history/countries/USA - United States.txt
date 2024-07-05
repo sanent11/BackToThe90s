@@ -2,6 +2,7 @@ capital = 361
 oob = "USA_1991"
 
 recruit_character = USA_George_Bush_st
+recruit_character = USA_Bill_Klinton
 
 set_research_slots = 3
 set_convoys = 0

@@ -14,3 +14,18 @@ characters = {
 			id = -1
 		}
 	}
+    USA_Bill_Klinton = {
+		name = USA_Bill_Klinton
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/USA_Bill_Klinton.dds"
+			}
+		}
+		country_leader = {
+			ideology = neo_liberalism
+			traits = { }
+			expire = "2030.8.24.1"
+			id = -1
+		}
+	}
+}
