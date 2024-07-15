@@ -197,7 +197,16 @@ IPA = {
 IRM = {
 	color = rgb { 207 172 110 }
 	color_ui = rgb { 207 172 110 }
+} 
+IHA = {
+	color = rgb { 186 151 108 }
+	color_ui = rgb { 186 151 108 }
 }
+ILU = {
+	color = rgb { 184 158 105 }
+	color_ui = rgb { 186 151 108 }
+}
+
 
 
 

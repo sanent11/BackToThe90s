@@ -9,6 +9,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = nationalism_ideology
+			desc = Mojaddedi_desc
 			traits = { }
 			expire = "2022.8.24.1"
 			id = -1
@@ -23,6 +24,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = islam_democracy
+			desc = Rabbani_desc
 			traits = { }
 			expire = "2001.12.22.2"
 			id = -1

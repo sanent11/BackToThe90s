@@ -70,10 +70,11 @@ LAO = "countries/Laos.txt"
 AFN = "countries/Afghanistan.txt"
 IAF = "countries/Islamic Afghanistan.txt"
 PIU = "countries/Islamic Union Party.txt"
-IPA = "countries/Islamic Afghanistan Party.txt"
+IPA = "countries/Islamic Afghanistan Party.txt" 
 IRM = "countries/Islamic Revolution Movement.txt"
 IHA = "countries/Islamic Hekmitiar Party.txt"
 INM = "countries/Islamic National Movement.txt"
+ILU = "countries/Islamic Liberation Union.txt"
 
 
 PAK = "countries/Pakistan.txt"

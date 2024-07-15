@@ -1,0 +1,69 @@
+ideas = {
+
+	country = {
+		podderzka_s_zapada = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = podderzka_s_zapada
+
+			modifier = {
+
+				war_support_factor = 0.1
+				command_power_gain = 0.5
+				production_speed_buildings_factor = 0.3
+				production_factory_efficiency_gain_factor = 0.2
+				experience_gain_army = 0.3
+			}
+		}
+		djihad = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = djihad
+
+			modifier = {
+
+				war_support_weekly = 0.01
+				army_core_defence_factor = 0.1
+			}
+		}
+		allahu_akbar = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = allahu_akbar
+
+			modifier = {
+
+				stability_factor = 0.15
+				army_morale_factor = 0.1
+				army_org_factor = 0.05
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_osvobozdenie_afgana"
+		texturefile = "gfx/event_pictures/Islam_Afgan/osvobozdenie_afgana.png"
+	}
+	spriteType = {
+		name = "GFX_afganski_shariat"
+		texturefile = "gfx/event_pictures/Islam_Afgan/afganski_shariat.png"
+	}
+	spriteType = {
+		name = "GFX_otstavka_mojaddedi"
+		texturefile = "gfx/event_pictures/Islam_Afgan/otstavka_mojaddedi.png"
+	}
+}

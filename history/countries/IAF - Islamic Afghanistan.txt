@@ -45,6 +45,8 @@ set_technology = {
 add_ideas = {
 	war_dictatorship
 	podderzka_s_zapada
+	djihad
+	allahu_akbar
 }
 
 declare_war_on = {

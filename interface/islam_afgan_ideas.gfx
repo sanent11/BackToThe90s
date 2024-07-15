@@ -1,0 +1,15 @@
+spriteTypes = {
+
+	spriteType = { 
+		name = "GFX_idea_podderzka_s_zapada"
+		texturefile = "gfx/interface/ideas/Islam_Afgan/podderzka_s_zapada.png"
+	}
+	spriteType = { 
+		name = "GFX_idea_djihad"
+		texturefile = "gfx/interface/ideas/Islam_Afgan/djihad.png"
+	}
+	spriteType = { 
+		name = "GFX_idea_allahu_akbar"
+		texturefile = "gfx/interface/ideas/Islam_Afgan/allahu_akbar.png"
+	}
+}

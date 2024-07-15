@@ -1,0 +1,24 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_focus_pobeda_v_grazdanke"
+		texturefile = "gfx/interface/goals/Islamic_Afganistan/pobeda_v_grazdanke.png"
+	}
+	spriteType = {
+		name = "GFX_focus_novie_islamskie_zakoni"
+		texturefile = "gfx/interface/goals/Islamic_Afganistan/novie_islamskie_zakoni.png"
+	}
+	spriteType = {
+		name = "GFX_focus_likvidatsia_ostatkov"
+		texturefile = "gfx/interface/goals/Islamic_Afganistan/likvidatsia_ostatkov.png"
+	}
+	spriteType = {
+		name = "GFX_focus_peredacha_vlasti"
+		texturefile = "gfx/interface/goals/Islamic_Afganistan/peredacha_vlasti.png"
+	}
+	spriteType = {
+		name = "GFX_focus_skoro_budet_pizdec"
+		texturefile = "gfx/interface/goals/Islamic_Afganistan/skoro_budet_pizdec.png"
+	}
+	
+}

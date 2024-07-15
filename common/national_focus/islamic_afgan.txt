@@ -45,7 +45,7 @@ focus_tree = {
 	    id = likvidatsia_ostatkov 
 	    x = 6
 	    y = 2
-		icon = GFX_focus_novie_islamskie_zakoni
+		icon = GFX_focus_likvidatsia_ostatkov
 	    cost = 5     
 	    available_if_capitulated = no
 		prerequisite = { focus = pobeda_v_grazdanke }
@@ -82,9 +82,9 @@ focus_tree = {
 	}	
 	focus = {
 	    id = skoro_budet_pizdec 
-	    x = 8
+	    x = 8 
 	    y = 6
-		icon = GFX_focus_novie_islamskie_zakoni
+		icon = GFX_focus_skoro_budet_pizdec
 	    cost = 5     
 	    available_if_capitulated = no
 		prerequisite = { focus = peredacha_vlasti }
