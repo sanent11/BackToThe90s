@@ -1,0 +1,6 @@
+
+
+can_create_intelligence_agency = {
+	# change as desired
+	always = no
+}

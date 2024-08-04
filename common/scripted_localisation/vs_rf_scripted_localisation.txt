@@ -9,11 +9,66 @@ defined_text = {
 	}
 }
 defined_text = {
+	name = GetPortrait_cm2
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "GFX_RUS_Eltsin"
+	}
+}
+defined_text = {
 	name = name_portrait
 	text = {
 		trigger = {
 			has_idea = RUS_epoha_eltsina
 		}
-		localization_key = "Hasbulatov"
+		localization_key = "Hasbulatov_Rusya"
+	}
+}
+defined_text = {
+	name = name_portrait_2
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "Eltsin_Borya"
+	}
+}
+defined_text = {
+	name = eltsin_support_1
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "Eltsin_Human_Support"
+	}
+}
+defined_text = {
+	name = hasbulatov_support_1
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "Hasbulatov_Human_Support"
+	}
+}
+
+defined_text = {
+	name = hasbulatov_support_2
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "Hasbulatov_SMI_Support"
+	}
+}
+defined_text = {
+	name = eltsin_support_2
+	text = {
+		trigger = {
+			has_idea = RUS_epoha_eltsina
+		}
+		localization_key = "Hasbulatov_SMI_Support"
 	}
 }

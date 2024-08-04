@@ -39,6 +39,16 @@ bookmarks = {
 				
 			}
 		}
+		"IAF"={
+			history = "IAF_GATHERING_STORM_DESC"
+			ideology = nationalism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
 		
 		
 		effect = {

@@ -8,11 +8,14 @@ scripted_gui = {
 			portrait_councli = {
 				image = [GetPortrait_cm]
 			}
+			portrait_councli_2 = {
+				image = [GetPortrait_cm2]
+			}
 			high = {
 				image = GFX_high_council
-			}
+			} 
 			house_icon = {
-				frame = current_house_icon_frame
+				frame = current_house_icon_frame 
 			}
 		}
 

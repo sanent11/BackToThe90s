@@ -14,6 +14,7 @@ replace_path="history/countries"
 replace_path="history/states"
 replace_path="map/strategicregions"
 replace_path="events"
+replace_path="gfx/loadingscreens"
 supported_version="1.14.*"
 
 

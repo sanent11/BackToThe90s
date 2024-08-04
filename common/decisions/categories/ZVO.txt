@@ -8,6 +8,7 @@ ZVO_category = {
 		original_tag = RUS 
 	}
 	visible = {  
+		has_country_flag = RUS_ekspansia
 	}	  
 
 	priority = 500

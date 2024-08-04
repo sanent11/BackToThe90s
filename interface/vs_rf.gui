@@ -4,61 +4,82 @@ guiTypes = {
 		name = "high_council_RF_container"
 		position = { x = 0 y = 0 }
 		
-		iconType = {
-			name ="house_icon"
-			spriteType = "GFX_decision_category_usa_congress_house_ui"
-			position = { x= 30 y = -200 }
-		}
+		
 		
 		iconType = {
 			name = "portrait_councli"
 			spiriteType = "[GetPortrait_cm]"
-			position = { x = 370 y = -250 }
+			position = { x = 25 y = -350 }
 		}
-		
 		iconType = {
-			name = "high" 
-			spiriteType = "GFX_high_council"
-			position = { x = 200 y = -255 } 
-		}
+			name = "portrait_councli_2"
+			spiriteType = "[GetPortrait_cm2]"
+			position = { x = 25 y = -700 }
+		} 
+		
 		
 		instantTextBoxType = {
 			name = "portrait_name"
-			position = { x = 341 y = -120 }
+			position = { x = 25 y = -130 }
 			font = "hoi_18mbs" 
 			text = "[name_portrait]"
+			format = center
+			maxWidth = 150 
+			maxHeight = 250 
+			fixedsize = yes
+		}
+		instantTextBoxType = {
+			name = "portrait_name_2"
+			position = { x = 25 y = -480  }
+			font = "hoi_18mbs" 
+			text = "[name_portrait_2]" 
 			format = center
 			maxWidth = 150
 			maxHeight = 250 
 			fixedsize = yes
 		}
+		
 		instantTextBoxType = {
-			name ="house_support_header"
-			position = { x= 7 y = -120 }
-			font = "hoi_18mbs"
-			text = "RUS_congress_house_support_header"
+			name = "human_support"
+			position = { x = 189 y = -350  }
+			font = "hoi_18mbs" 
+			text = "[hasbulatov_support_1]" 
 			format = center
-			maxHeight = 80
+			maxWidth = 200
+			maxHeight = 250 
 			fixedsize = yes
-			maxWidth = 180
 		}
 		instantTextBoxType = {
-			name ="status_house"
-			position = { x= 43 y = -220 }
-			font = "hoi_18mbs"
-			text = "RUS_congress_house_support_amount"
+			name = "human_support_2"
+			position = { x = 189 y = -700  }
+			font = "hoi_18mbs" 
+			text = "[eltsin_support_1]" 
 			format = center
+			maxWidth = 200
+			maxHeight = 250 
 			fixedsize = yes
-			maxWidth = 100
+		}
+		
+		
+		instantTextBoxType = {
+			name = "SMI_support"
+			position = { x = 159 y = -300  }
+			font = "hoi_18mbs" 
+			text = "[hasbulatov_support_2]" 
+			format = center
+			maxWidth = 200
+			maxHeight = 250 
+			fixedsize = yes
 		}
 		instantTextBoxType = {
-			name ="council_rank"
-			position = { x= 346 y = -78 }
-			font = "hoi_18mbs"
-			text = "council_rank"
+			name = "SMI_support_2"
+			position = { x = 159 y = -650  }
+			font = "hoi_18mbs" 
+			text = "[eltsin_support_2]" 
 			format = center
+			maxWidth = 200
+			maxHeight = 250 
 			fixedsize = yes
-			maxWidth = 140
 		}
 	}
 }

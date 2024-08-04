@@ -7,6 +7,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/parliament/portrait_RUS_Hasbulatov.png"
     }
 	spriteType = {
+		name = "GFX_RUS_Eltsin"
+		texturefile = "gfx/interface/parliament/Eltsin.png"
+    }
+	spriteType = {
 		name = "GFX_high_council"
 		texturefile = "gfx/interface/parliament/vs.png"
     }

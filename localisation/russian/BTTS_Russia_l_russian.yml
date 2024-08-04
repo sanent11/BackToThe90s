@@ -64,14 +64,19 @@ RUS_Achalov: "Павел Грачёв"
 Hasbulatov: "Руслан Хасбулатов"
 Rutskoy: "Александр Руцкой"
 ########################################################################
-high_council_RF_category: "Верховный Совет"
-high_council_RF_category_desc: "\n\n\n\n\n\n\n\n\n\n\n\nВерховный Совет РФ - высший, постоянно действующий законодательный, распорядительный и контрольный орган государственной власти Российской Федерации.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+high_council_RF_category: "Двоевластие"
+high_council_RF_category_desc: "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
 
 
-Hasbulatov: "Руслан Хасбулатов"
+Hasbulatov_Rusya: "Руслан Хасбулатов\nПредседатель ВС"
+Eltsin_Borya: "Борис Ельцин\nПрезидент"
 council_rank: "§RПредседатель ВС РФ§!"
-RUS_congress_house_support_header: "§HДвухпалатный парламент§!"
-RUS_congress_house_support_amount:"§G[?RUS.representatives_support]§!/ §Y[?RUS.representatives_total]§!"
+
+Eltsin_Human_Support: "НАРОДНАЯ ПОДДЕРЖКА:"
+Hasbulatov_Human_Support: "НАРОДНАЯ ПОДДЕРЖКА:"
+
+Hasbulatov_SMI_Support: "ВЛИЯНИЕ В СМИ:"
+Eltsin_SMI_Support: "Влияние в СМИ:"
 ############################################################################################
 RSC:0 "Правительство РФ Руцкого"
 RSC_DEF:0 "X Чрезвычайный Съезд народных депутатов Российской Федерации"
