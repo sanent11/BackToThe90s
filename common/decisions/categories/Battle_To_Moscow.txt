@@ -1,0 +1,17 @@
+   
+
+#RUS_battle_to_moscow = {
+#	
+#	icon = generic_research
+#	scripted_gui = RUS_battle_to_moscow_gui 
+#	visible_when_empty = yes     
+#	priority = 1000     
+#	allowed = {                                                                                                                                           
+#		original_tag = RUS                                                  
+#		not = {is_ai = yes}
+#	} 
+#
+#	visible = {           
+#                                     
+#	}
+#}        

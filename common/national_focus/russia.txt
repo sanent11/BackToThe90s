@@ -62,7 +62,9 @@ focus_tree = {
 	    cost = 10
 		cancelable = no
 	    available_if_capitulated = no
-	    completion_reward = {
+		completion_reward = {
+			add_political_power = 50
+			country_event = { id = russiaStart.9 }
 			hidden_effect = {
 				country_event = {
 					id = russiaStart.8
@@ -79,7 +81,7 @@ focus_tree = {
 		icon = GFX_focus_RUS_liberalizatia
 	    x = 4
 	    y = 3
-	    cost = 10
+	    cost = 5
 	    available_if_capitulated = no
 	   
 	    completion_reward = {
@@ -92,7 +94,7 @@ focus_tree = {
 		icon = GFX_focus_RUS_privatizatia
 	    x = 4
 	    y = 5
-	    cost = 10
+	    cost = 5
 	    available_if_capitulated = no
 	   
 	    completion_reward = {
@@ -106,7 +108,7 @@ focus_tree = {
 		icon = GFX_protest_snd
 	    x = 8
 	    y = 6
-	    cost = 10
+	    cost = 1
 	    available_if_capitulated = no
 	   
 	    completion_reward = {
@@ -118,7 +120,7 @@ focus_tree = {
 		icon = GFX_focus_RUS_ichkeria_tatarstan
 	    x = 12
 	    y = 3
-	    cost = 10
+	    cost = 5
 	    available_if_capitulated = no
 	   
 	    completion_reward = {
@@ -131,7 +133,7 @@ focus_tree = {
 		icon = GFX_update_feder
 	    x = 12
 	    y = 5
-	    cost = 10
+	    cost = 5
 	    available_if_capitulated = no
 	   
 	    completion_reward = {
@@ -144,11 +146,12 @@ focus_tree = {
 		icon = GFX_focus_RUS_referendum
 	    x = 8
 	    y = 7
-	    cost = 10
+	    cost = 5
 	    available_if_capitulated = no
 	   
 	    completion_reward = {
 	        country_event = russia.4
+			
 		}
 	}
 	focus = {
@@ -176,7 +179,10 @@ focus_tree = {
 	    available_if_capitulated = no
 	   
 	    completion_reward = {
-	        news_event = news.410
+	        hidden_effect = { 
+				news_event = news.410 
+				set_global_flag = eltsin_win_bls
+			}
 		}
 	}
 	focus = {
@@ -185,7 +191,7 @@ focus_tree = {
 		icon = GFX_boi_v_moskve
 	    x = 5
 	    y = 9
-	    cost = 10
+	    cost = 1
 	    available_if_capitulated = no
 	   
 	    completion_reward = {
@@ -234,87 +240,13 @@ focus_tree = {
 	    cost = 10
 	    available_if_capitulated = no
 	   
-	    completion_reward = {		
-
+	    completion_reward = {
+			hidden_effect = {
+				load_focus_tree = PostOctober_Russia
+			}
 		}
 	}	
 	
-	focus = {
-	    id = RUS_start_army1
-		text = RUS_start_army1 
-		
-		icon = GFX_focus_RUS_kapitulatsia_verh_sov
-	    x = 17
-	    y = 0
-	    cost = 10
-	    available_if_capitulated = no
-		available = {
-			always = no
-		}		 
-	    completion_reward = {		
-
-		}
-	}	
-	focus = {
-	    id = RUS_start_army2
-		text = RUS_start_army2
-		
-		icon = GFX_focus_RUS_kapitulatsia_verh_sov
-	    x = 16
-	    y = 1
-	    cost = 10
-	    available_if_capitulated = no
-		prerequisite = { focus = RUS_start_army1 }
-	   
-	    completion_reward = {		 
-
-		}
-	}		
-	focus = {
-	    id = RUS_start_army3 
-		text = RUS_start_army3
-		
-		icon = GFX_focus_RUS_kapitulatsia_verh_sov
-	    x = 16
-	    y = 2
-	    cost = 10
-	    available_if_capitulated = no
-		prerequisite = { focus = RUS_start_army2 }
-	   
-	    completion_reward = {		
-			custom_effect_tooltip = RUS_start_army3_csm  
-		}
-	}	
-	focus = {
-	    id = RUS_start_army4
-		text = RUS_start_army4
-		
-		icon = GFX_focus_RUS_kapitulatsia_verh_sov
-	    x = 17
-	    y = 3
-	    cost = 10 
-	    available_if_capitulated = no
-		prerequisite = { focus = RUS_start_army3 }
-		prerequisite = { focus = RUS_start_armyNuclear }
-	   
-	    completion_reward = {		
-		}
-	}	
-	focus = {
-	    id = RUS_start_armyNuclear
-		text = RUS_start_armyRAZDEL1
-		
-		icon = GFX_focus_RUS_kapitulatsia_verh_sov
-	    x = 19 
-	    y = 1
-	    cost = 10
-	    available_if_capitulated = no
-		prerequisite = { focus = RUS_start_army1 }
-	   
-	    completion_reward = {		
-
-		}
-	}
 	continuous_focus_position = { x = 20 y = 1700 }
 }
 	

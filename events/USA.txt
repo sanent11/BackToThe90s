@@ -40,10 +40,10 @@ news_event = {
 	}
 }
 news_event = {
-	id = USAevents.1
-	title = USAevents.1.t
-	desc = USAevents.1.desc
-	picture = GFX_news_event_usaelection1992
+	id = USAevents.2
+	title = USAevents.2.t
+	desc = USAevents.2.desc
+	picture = GFX_news_event_usaelection1996
 	
 	major = yes
 
@@ -73,3 +73,23 @@ news_event = {
 	
 	}
 }
+
+news_event = {
+	id = USAevents.4
+	title = USAevents.4.t
+	desc = USAevents.4.d
+	picture = GFX_new_york_terrakt
+	
+	major = yes
+	
+	
+	trigger = {
+		date > 1993.2.6
+		date < 1993.2.26
+	}
+		
+	option = {
+		name = USAevents.4.a
+	}
+}
+	

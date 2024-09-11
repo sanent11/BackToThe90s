@@ -1,0 +1,26 @@
+spriteTypes = {	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	spriteType = {
+		name = "GFX_idea_Privatizatia"
+		texturefile = "gfx/interface/ideas/PRIVATIZATIA.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Liberalizatia_Tsen"
+		texturefile = "gfx/interface/ideas/LIBERALIZATIA_TSEN.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RUS_dualpower"
+		texturefile = "gfx/interface/ideas/Dvoevlastie.png"
+	}

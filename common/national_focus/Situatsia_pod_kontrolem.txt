@@ -1,0 +1,319 @@
+focus_tree = {
+	id = PostOctober_Russia
+
+	country = {
+		factor = 0
+		modifier = { tag = RUS }
+	}
+
+	default = no
+
+	focus = {
+		id = Situatya_pod_control
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 6
+		y = 0
+
+	}
+	focus = {
+		id = Amnistia_PUTchistov
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 7
+		y = 4
+
+	}
+	focus = {
+		id = Uspeh_fin_piramid
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 15
+		y = 6
+
+	}
+	focus = {
+		id = Yugoslav_conflict
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 1
+		y = 6
+
+	}
+	focus = {
+		id = Deyton_soglasia
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = Za_Nashix_Serbskix_BratieV
+			focus = Bit_vernim_nashim_obyazat
+		}
+		x = 1
+		y = 8
+
+	}
+	focus = {
+		id = Vibori_1996
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 7
+		y = 11
+
+	}
+	focus = {
+		id = Za_Nashix_Serbskix_BratieV
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = Yugoslav_conflict
+		}
+		mutually_exclusive = {
+			focus = Bit_vernim_nashim_obyazat
+		}
+		x = 0
+		y = 7
+
+	}
+	focus = {
+		id = Bit_vernim_nashim_obyazat
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = Yugoslav_conflict
+		}
+		mutually_exclusive = {
+			focus = Pomosh_Slavyanam_Bratyam_GOIDA
+		}
+		x = 2
+		y = 7
+
+	}
+	focus = {
+		id = Poisk_inoagentov
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = Situatya_pod_control
+		}
+		x = 4
+		y = 1
+
+	}
+	focus = {
+		id = Vera_v_Atlantism
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = Amnistia_PUTchistov
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = Ukr_yaderni_vopros
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = Vera_v_Atlantism
+		}
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = Razdel_Flota
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = Ukr_yaderni_vopros
+		}
+		x = 5
+		y = 7
+
+	}
+	focus = {
+		id = Discreditatia_buntovshikov
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = Situatya_pod_control
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = New_contitutiaaa
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = Poisk_inoagentov
+		}
+		prerequisite = {
+			focus = Discreditatia_buntovshikov
+		}
+		prerequisite = {
+			focus = Tsenzura_pressi
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = Vibori_v_gosduru
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = New_contitutiaaa
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = Partner_vo_imya_peace
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = Vera_v_Atlantism
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = Voennoe_sotrudnichestvoo
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = Partner_vo_imya_peace
+		}
+		x = 7
+		y = 7
+
+	}
+	focus = {
+		id = Sotrudnichestvo_s_EU
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = Voennoe_sotrudnichestvoo
+		}
+		x = 7
+		y = 8
+
+	}
+	focus = {
+		id = vivod_voisk_iz_germanii
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = Sotrudnichestvo_s_EU
+		}
+		x = 7
+		y = 9
+
+	}
+	focus = {
+		id = SHATKOE_POLOZHENIE
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = Vibori_1996
+		}
+		x = 7
+		y = 12
+
+	}
+	focus = {
+		id = GOLOSUI_ILI_LOSE
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SHATKOE_POLOZHENIE
+		}
+		x = 7
+		y = 13
+
+	}
+	focus = {
+		id = Tsenzura_pressi
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = Situatya_pod_control
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = Druzhba_s_PRC
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = Partner_vo_imya_peace
+		}
+		x = 10
+		y = 7
+
+	}
+	focus = {
+		id = Tamozheniy_souz
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = Partner_vo_imya_peace
+		}
+		x = 12
+		y = 7
+
+	}
+	focus = {
+		id = BLACK_VTORNIK
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = Uspeh_fin_piramid
+		}
+		x = 15
+		y = 7
+
+	}
+	focus = {
+		id = VALUTE_KORIDOR
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = BLACK_VTORNIK
+		}
+		x = 15
+		y = 8
+
+	}
+	focus = {
+		id = LEBED_MARIONETKA
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GOLOSUI_ILI_LOSE
+		}
+		x = 5
+		y = 14
+
+	}
+	focus = {
+		id = PROTIV_ZUYGANOVA_COMPANY
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = GOLOSUI_ILI_LOSE
+		}
+		x = 9
+		y = 14
+
+	}
+	
+	continuous_focus_position = { x = 20 y = 2200 }
+}

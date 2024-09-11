@@ -1,0 +1,219 @@
+
+BLS_Zahvat_SNG_category = { 
+	
+
+	Obiedinit_sng = {       
+
+		allowed = {   
+			tag = BLS
+		} 
+         
+		icon = GFX_decision_hol_exchange_intelligence_data
+		fire_only_once = yes
+		cost = 100  
+		days_remove = 30
+		
+		available = {
+			owns_state = 202
+			owns_state = 586
+			owns_state = 732
+			owns_state = 405
+			owns_state = 742
+			owns_state = 584
+			owns_state = 821
+			owns_state = 231
+			owns_state = 230
+			owns_state = 229
+			owns_state = 955
+
+
+		}
+
+		visible = {
+		}
+		
+		remove_effect = {
+			set_cosmetic_tag = souz_sov_suverennix_respublic
+			202 = { add_core_of = ROOT }
+			586 = { add_core_of = ROOT }
+			732 = { add_core_of = ROOT }
+			405 = { add_core_of = ROOT }
+			742 = { add_core_of = ROOT }
+			584 = { add_core_of = ROOT }
+			821 = { add_core_of = ROOT }
+			231 = { add_core_of = ROOT }
+			230 = { add_core_of = ROOT }
+			229 = { add_core_of = ROOT }
+			955 = { add_core_of = ROOT }
+			set_global_flag = SSSR_united
+		}
+		
+		
+		complete_effect = {
+			
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+	Ukrainian_ugolnie_shahti = {       
+
+		allowed = {   
+			tag = BLS
+		} 
+         
+		icon = GFX_decision_hol_exchange_intelligence_data
+		fire_only_once = yes
+		cost = 100  
+		days_remove = 30
+		
+		available = {
+		}
+
+		visible = {
+		}
+		
+		remove_effect = {
+			declare_war_on = {
+    			target = UKN
+    			type = annex_everything
+			}
+			
+		}
+		
+		complete_effect = {
+			
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+	Kazahskie_stepi = {       
+
+		allowed = {   
+			tag = BLS
+		} 
+         
+		icon = GFX_decision_hol_exchange_intelligence_data
+		fire_only_once = yes
+		cost = 100  
+		days_remove = 30
+		
+		available = {
+		}
+
+		visible = {
+		}
+		
+		remove_effect = {
+			declare_war_on = {
+    			target = KAH
+    			type = annex_everything
+			}
+			
+		}
+		
+		complete_effect = {
+			
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+	Vorota_v_Afgan = {       
+
+		allowed = {   
+			tag = BLS
+		} 
+         
+		icon = GFX_decision_hol_exchange_intelligence_data
+		fire_only_once = yes
+		cost = 100  
+		days_remove = 30
+		
+		available = {
+		}
+
+		visible = {
+		}
+		
+		remove_effect = {
+			declare_war_on = {
+    			target = UZB
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = TMN
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = TAJ
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = KYR
+    			type = annex_everything
+			}
+			
+		}
+		
+		complete_effect = {
+			
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+	Kavkazskaya_neft = {       
+
+		allowed = {   
+			tag = BLS
+		} 
+         
+		icon = GFX_decision_hol_exchange_intelligence_data
+		fire_only_once = yes
+		cost = 100  
+		days_remove = 30
+		
+		available = {
+		}
+
+		visible = {
+		}
+		
+		remove_effect = {
+			declare_war_on = {
+    			target = AZE
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = CHE
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = GEO
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = ARM
+    			type = annex_everything
+			}
+			declare_war_on = {
+    			target = NRK
+    			type = annex_everything
+			}
+		}
+		
+		complete_effect = {
+			
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+}

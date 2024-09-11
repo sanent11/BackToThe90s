@@ -13,7 +13,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				political_power_factor = 2.0
+				
 				consumer_goods_factor = 0.29
 				research_speed_factor = -0.3
 				stability_factor = -0.5
@@ -36,7 +36,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				political_power_factor = 1.75
+				
 				consumer_goods_factor = 0.6
 				research_speed_factor = -0.25
 				drift_defence_factor = -0.45
@@ -61,7 +61,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				political_power_factor = 1.5
+				
 				consumer_goods_factor = 0.25
 
 				experience_gain_army = 0.1
@@ -73,8 +73,8 @@ ideas = {
 				production_speed_buildings_factor = -0.5
 				communism_acceptance = -50
 				paternalism_acceptance = -50
-				communism_drift = -0.2
-				paternalism_drift = -0.2
+				
+			
 
 			}
 
@@ -124,8 +124,7 @@ ideas = {
 				drift_defence_factor = -0.125
 				production_speed_buildings_factor = -0.01
 				min_export = 0.1
-				communism_drift = -0.1
-				paternalism_drift = -0.1
+	
 			}
 
 			default = no
@@ -169,7 +168,7 @@ ideas = {
 				stability_factor = 0.05
 				war_support_factor = -0.01
 				min_export = 0.1
-				communism_drift = 0.2
+			
 				communism_acceptance = 25
 				paternalism_acceptance = 25
 			}
@@ -212,7 +211,7 @@ ideas = {
 				political_power_factor = 0.25
 				stability_factor = 0.4
 				min_export = 0.1
-				communism_drift = -0.1
+			
 				war_support_factor = 0.05
 				consumer_goods_factor = 0.05
 

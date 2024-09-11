@@ -125,11 +125,12 @@ country_event = {
 	option = {
 		name = russia.4.a
 		set_global_flag = eltsin_win 
+	
 	}
-	option = {
-		name = russia.4.b
-		set_global_flag = eltsin_lose
-	}
+	#option = {
+	#	name = russia.4.b
+	#	set_global_flag = eltsin_lose
+	#}
 }
 country_event = {
 	id = russia.5

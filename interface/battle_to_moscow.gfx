@@ -1,0 +1,95 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_RUS_BTM_YugoZapad_button"
+		texturefile = "gfx/bitva_za_moskvu/YugoZapad.png"
+	}
+	spriteType = {
+		name = "GFX_RUS_BTM_background"
+		texturefile = "gfx/bitva_za_moskvu/moskva.png"
+	}
+	spriteType = {  
+		name = "GFX_RUS_BTM_YugoVostok_button"
+		texturefile = "gfx/bitva_za_moskvu/YugoVostok.png"
+	}
+	spriteType = {
+		name = "GFX_RUS_BTM_Yug_button"
+		texturefile = "gfx/bitva_za_moskvu/Yug.png"
+	}
+	spriteType = {
+		name = "GFX_RUS_BTM_Vostok_button"    
+		texturefile = "gfx/bitva_za_moskvu/Vostok.png"
+	}
+	spriteType = {
+		name = "GFX_RUS_BTM_SeveroVostok_button"     
+		texturefile = "gfx/bitva_za_moskvu/SeveroVostok.png"
+	}
+	spriteType = {     
+		name = "GFX_RUS_BTM_Tsentr_button"
+		texturefile = "gfx/bitva_za_moskvu/Tsentr.png"
+	}
+	spriteType = {
+		name = "GFX_RUS_BTM_Sever_button"       
+		texturefile = "gfx/bitva_za_moskvu/Sever.png" 
+	}
+	spriteType = {
+		name = "GFX_RUS_BTM_SeveroZapad_button"       
+		texturefile = "gfx/bitva_za_moskvu/SeveroZapad.png" 
+	}
+	spriteType = {  
+		name = "GFX_RUS_BTM_Zapad_button"           
+		texturefile = "gfx/bitva_za_moskvu/Zapad.png"       
+	}
+	spriteType = {
+		name = "GFX_ramka"           
+		texturefile = "gfx/bitva_za_moskvu/ramka.png"       
+	}
+	spriteType = {  
+		name = "GFX_vs_color"           
+		texturefile = "gfx/bitva_za_moskvu/vehrovni_sovet_color.png"       
+	}
+	spriteType = {
+		name = "GFX_eltsin_color"           
+		texturefile = "gfx/bitva_za_moskvu/eltsin_color.png"       
+	}
+	spriteType = {
+		name = "GFX_D_YUG"             
+		texturefile = "gfx/bitva_za_moskvu/D_YUG.png"       
+	}
+	spriteType = {
+		name = "GFX_D_YUGO_VOSTOK"            
+		texturefile = "gfx/bitva_za_moskvu/D_YUGO_VOSTOK.png"         
+	}
+	spriteType = {
+		name = "GFX_D_YUGO_ZAPAD"            
+		texturefile = "gfx/bitva_za_moskvu/D_YUGO_ZAPAD.png"         
+	}
+	spriteType = {
+		name = "GFX_D_SEVERO_ZAPAD"            
+		texturefile = "gfx/bitva_za_moskvu/D_SEVERO_ZAPAD.png"       
+	}
+	spriteType = {
+		name = "GFX_D_SEVER"            
+		texturefile = "gfx/bitva_za_moskvu/D_SEVER.png"       
+	}
+	spriteType = {  
+		name = "GFX_D_SEVERO_VOSTOK"            
+		texturefile = "gfx/bitva_za_moskvu/D_SEVERO_VOSTOK.png"        
+	}
+	spriteType = {
+		name = "GFX_D_VOSTOK"             
+		texturefile = "gfx/bitva_za_moskvu/D_VOSTOK.png"       
+	}
+	spriteType = {
+		name = "GFX_D_TSENTR"            
+		texturefile = "gfx/bitva_za_moskvu/D_TSENTR.png"       
+	}
+	spriteType = {
+		name = "GFX_D_ZAPAD"            
+		texturefile = "gfx/bitva_za_moskvu/D_ZAPAD.png"       
+	}
+	
+
+
+	
+}

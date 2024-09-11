@@ -1,0 +1,33 @@
+defined_text = {
+	name = MOSCOW_SELECTED_DISTRICT
+	text = { trigger = { check_variable = { var = moscow_selected_district_var value = 0 compare = equals } }
+		localization_key = moscow_selected_district_none
+	}
+	text = { trigger = { check_variable = { var = moscow_selected_district_var value = 1 compare = equals } }
+		localization_key = moscow_selected_district_1
+	}
+	text = { trigger = { check_variable = { var = moscow_selected_district_var value = 2 compare = equals } }
+		localization_key = moscow_selected_district_2
+	}
+	text = { trigger = { check_variable = { var = moscow_selected_district_var value = 3 compare = equals } }
+		localization_key = moscow_selected_district_3
+	}
+	text = { trigger = { check_variable = { var = moscow_selected_district_var value = 4 compare = equals } }
+		localization_key = moscow_selected_district_4
+	}
+	text = { trigger = { check_variable = { var = moscow_selected_district_var value = 5 compare = equals } }
+		localization_key = moscow_selected_district_5
+	}
+	text = { trigger = { check_variable = { var = moscow_selected_district_var value = 6 compare = equals } }
+		localization_key = moscow_selected_district_6
+	}
+	text = { trigger = { check_variable = { var = moscow_selected_district_var value = 7 compare = equals } }
+		localization_key = moscow_selected_district_7
+	}
+	text = { trigger = { check_variable = { var = moscow_selected_district_var value = 8 compare = equals } }
+		localization_key = moscow_selected_district_8
+	}
+	text = { trigger = { check_variable = { var = moscow_selected_district_var value = 9 compare = equals } }
+		localization_key = moscow_selected_district_9
+	}
+}

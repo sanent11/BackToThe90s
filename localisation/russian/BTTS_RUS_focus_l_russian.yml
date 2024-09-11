@@ -22,22 +22,51 @@ RUS_kapitulatsia_verh_sov: "Капитуляция Верховного сове
 RUS_kapitulatsia_verh_sov_desc: "Верховный совет и Съезд народных депутатов перестали существовать. Была ликвидирована вся система Советской власти, существовавшая с 1917 года."
 
 
-RUS_start_army0: "Учредить Объединённые Вооруженные Силы СНГ"
-RUS_start_army1: "Раздел ВС СССР"
-RUS_start_army1_desc: "Раздел ВС СССР"
-RUS_start_army2: "Образование Вооруженных сил РФ"
-RUS_start_army2_desc: "Раздел ВС СССР"
-RUS_start_armyRAZDEL1: "Лиссабонский протокол"
-RUS_start_armyRAZDEL1_desc: "Раздел ВС СССР"
-RUS_start_army3: "Сокращение Армии"
-RUS_start_army3_csm: "Мы...\nНе можем. Начнём сокращать вооруженные силы."
-RUS_start_army4: "Мысли о будущем"
+#После 1993
+Situatya_pod_control: "Ситуация Под Контролем..."
+Amnistia_PUTchistov: "Амнистия Путчистов"
+Uspeh_fin_piramid: "Успех Финансовых Пирамид"
+Yugoslav_conflict: "Конфликт в Югославии"
+Deyton_soglasia: "Дейтонские Соглашения"
+Vibori_1996: "Выборы 1996 Года"
+Za_Nashix_Serbskix_BratieV: "Помочь Нашим Братьям"
+Bit_vernim_nashim_obyazat: "Быть Верным Нашим Обязательствам"
+Poisk_inoagentov: "Поиск Предателей"
+Vera_v_Atlantism: "Вера в Атлантизм"
+Ukr_yaderni_vopros: "Украинский Ядерный Вопрос"
+Razdel_Flota: "Раздел Военно-Морского Флота"
+Discreditatia_buntovshikov: "Дискредитация Бунтовщиков"
+New_contitutiaaa: "Новая Российская Конституция"
+Vibori_v_gosduru: "Выборы в Государственную Думу"
+Partner_vo_imya_peace: "Партнёрство Во Имя Мира"
+Voennoe_sotrudnichestvoo: "Военное Сотрудничество"
+Sotrudnichestvo_s_EU: "Сотрудничество с ЕС"
+vivod_voisk_iz_germanii: "Вывод Войск из Германии"
+SHATKOE_POLOZHENIE: "ШАТКОЕ ПОЛОЖЕНИЕ"
+GOLOSUI_ILI_LOSE: "ГОЛОСУЙ ИЛИ ПРОИГРАЕШЬ!"
+Tsenzura_pressi: "Цензура Прессы"
+Druzhba_s_PRC: "Дружба с КНР"
+Tamozheniy_souz: "Таможенный Союз"
+BLACK_VTORNIK: "ЧЁРНЫЙ ВТОРНИК"
+VALUTE_KORIDOR: "ВАЛЮТНЫЙ КОРИДОР"
+LEBED_MARIONETKA: "МАРИОНЕТКА ЛЕБЕДЬ"
+PROTIV_ZUYGANOVA_COMPANY: "АНТИЗЮГАНОВСКАЯ КАМПАНИЯ"
 
 
-RUS_start_army3_desc: "Раздел ВС СССР"
-RUS_start_army2: "Образование Вооруженных сил РФ"
-RUS_start_army2_desc: "Раздел ВС СССР"
-RUS_start_army2: "Образование Вооруженных сил РФ"
-RUS_start_army2_desc: "Раздел ВС СССР"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

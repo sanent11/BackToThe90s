@@ -69,7 +69,7 @@ guiTypes = {
 				name = "selected_equipment_grid"
 				position = {x=3%% y=2}
 				size = {width=95%% height=95%%}
-				slotsize = {width=100%% height=70}
+				slotsize = {width=100%% height=105}
 				max_slots_horizontal = 1
 				format = "UPPER_LEFT"
 			}
@@ -156,7 +156,7 @@ guiTypes = {
 		iconType = {
 			name ="equipment_icon_default"
 			spriteType = "GFX_technology_medium"
-			position = { x=90 y=48 }
+			position = { x=85 y=52 }
 			centerposition = yes
 			alwaystransparent = yes
 			scale = 0.8
@@ -295,7 +295,7 @@ guiTypes = {
 
 		background = {
 			name = "Background"
-			quadTextureSprite ="GFX_tiled_plain_bg"
+			quadTextureSprite ="GFX_til1ed_plain_bg"
 		}
 
 		containerWindowType = {
@@ -314,7 +314,7 @@ guiTypes = {
 				name = "equipment_grid"
 				position = { x = 12 y = 5 }
 				size = { width = 120%% height = 100%% }
-				slotsize = { width = 335 height = 75 }
+				slotsize = { width = 335 height = 105 }
 				format = "UPPER_LEFT"
 				max_slots_horizontal = 1
 			}
@@ -323,12 +323,12 @@ guiTypes = {
 		iconType = {
 			name ="lend_lease_equip_header"
 			spriteType = "GFX_lend_lease_equip_header"
-			position = { x= 3 y = 42 }
+			position = { x= 111113 y = 42 }
 		}
 
 		instantTextboxType = {
 			name = "equipment_header"
-			position = {x=10 y=47}
+			position = {x=10111 y=47}
 			font = "hoi_18mbs"
 			text = DIPLOMACY_LEND_LEASE_HEADER_EQUIPMENT
 			maxWidth = 160
@@ -338,7 +338,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "storage_header"
-			position = {x=130 y=47}
+			position = {x=111130 y=47}
 			font = "hoi_18mbs"
 			text = DIPLOMACY_LEND_LEASE_HEADER_IN_STORAGE
 			maxWidth = 160
@@ -348,7 +348,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "producing_header"
-			position = {x=222 y=47}
+			position = {x=2111122 y=47}
 			font = "hoi_18mbs"
 			text = DIPLOMACY_LEND_LEASE_HEADER_PRODUCING
 			maxWidth = 160
@@ -372,7 +372,7 @@ guiTypes = {
 		iconType = {
 			name ="equipment_icon_default"
 			spriteType = "GFX_technology_medium"
-			position = { x=90 y=48 }
+			position = { x=84 y=52 }
 			centerposition = yes
 			alwaystransparent = yes
 			scale = 0.8

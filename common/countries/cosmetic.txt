@@ -70,6 +70,15 @@ BLS_communism = {
 	color = rgb { 177 81 36 }
 	color_ui = rgb { 177 81 36 }
 }
+BLS_soyuznoe_commi_gosudarstvo = {
+	color = rgb { 177 30 36 }
+	color_ui = rgb { 177 30 36 }
+}
+souz_sov_suverennix_respublic = {
+	color = rgb { 177 20 36 }
+	color_ui = rgb { 177 20 36 }
+}
+
 
 
 

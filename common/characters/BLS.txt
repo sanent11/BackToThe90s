@@ -15,18 +15,49 @@ characters = {
 			id = -1
 		}
 	}
-	Malofeev = {
-		name = Malofeev
+	Dementei = {
+		name = Dementei
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/BLS/Malofeev.png"
+				large = "gfx/leaders/BLS/Dementei.png"
 			}
 		}
 		country_leader = {
-			ideology = bolshevizm
-			desc = Malofeev_desc
+			ideology = leninism
 			traits = { }
-			expire = "2022.8.24.1"
+			expire = "2022.10.24.1"
 			id = -1
 		}
 	}
+	VS_BLS = {
+		name = VS_BLS
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BLS/VS_BLS.png"
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			desc = 
+			traits = { }
+			expire = "2022.9.24.1"
+			id = -1
+		}
+	}
+	Zenon_Poznyak = {
+		name = Zenon_Poznyak
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BLS/Zenon_Poznyak.png"
+			}
+		}
+		country_leader = {
+			ideology = christian_democracy
+			desc = 
+			traits = { }
+			expire = "2022.9.24.1"
+			id = -1
+		}
+	}
+	
+}

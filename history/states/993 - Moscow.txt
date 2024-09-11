@@ -6,6 +6,7 @@ state={
 		owner = RUS
 		buildings = {
 			infrastructure = 5
+			industrial_complex = 4
 			13318 = {
 				bunker = 7
 

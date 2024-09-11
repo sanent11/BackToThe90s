@@ -411,7 +411,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "national_spirit_container"
 				position = { x = 99 y = 16 }
-				size = { width = 364 height = 74 }
+				size = { width = 500 height = 74 }
 				verticalScrollbar = "right_vertical_slider"
 				
 				background = {
@@ -422,7 +422,7 @@ guiTypes = {
 				gridboxtype = {
 					name = "spirit_grid"
 					position = { x = 1 y = 2 }
-					size = { width = 354 height = 68 }
+					size = { width = 1000 height = 68 }
 					slotsize = { width = 72 height = 68 }
 					max_slots = { x = 6 y = 1 }
 					format = "UPPER_LEFT"
@@ -700,7 +700,7 @@ guiTypes = {
 
 				background = {
 					name = "Background"
-					quadTextureSprite ="GFX_tiled_generic_overlay_bg1_small"
+					quadTextureSprite ="GFX_tiled_generic_overlay_bg1_small1"
 					position = { x = -1 y = 0 }					
 				}
 

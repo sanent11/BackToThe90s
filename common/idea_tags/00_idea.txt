@@ -28,20 +28,16 @@ idea_categories = {
 		slot = trade_laws
 		slot = economy
 		slot = distribution_power
-		slot = type_state
-		slot = heritage
 		
 		cost = 9000
 		removal_cost = 9000
 	}
 	
 	government = {
-		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor
+		character_slot = head_of_government
+		character_slot = minister_inostranix_del
+		character_slot = minister_vnutrennix_del
+		character_slot = ministr_economici
 		
 		ledger = civilian
 		

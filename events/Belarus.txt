@@ -146,4 +146,120 @@ country_event = { #Разбитое лицо
 		name = belarus.12.a	
 	}
 }
+country_event = { 
+	id = belarus.13
+	title = belarus.13.t
+	desc = belarus.13.d
+	picture = GFX_podpolni_komsomol
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = belarus.13.a	
+	}
+}
+country_event = { #Беларусь готовит ответный удар
+	id = belarus.15
+	title = belarus.15.t
+	desc = belarus.15.d
+	picture = GFX_podpolni_komsomol
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = belarus.15.a	
+		load_oob = BLS_1991_war_Russia
+		add_manpower = 50000
+	}
+}
+country_event = { #Великий поход
+	id = belarus.16
+	title = belarus.16.t
+	desc = belarus.16.d
+	picture = GFX_podpolni_komsomol
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = belarus.16.a	
+		declare_war_on = {
+			target = RUS
+			type = annex_everything
+		}
+	}
+}
+country_event = { #Мятеж коммунистов
+	id = belarus.17
+	title = belarus.17.t
+	desc = belarus.17.d
+	picture = GFX_podpolni_komsomol
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = BLS
+		has_war_with = RUS
+		has_idea = zov_communistov
+		controls_province = 13317
+		controls_province = 13318
+	}
+	
+	
+	
+	option = { 
+		name = belarus.17.a 
+		load_oob = BLS_1991_war_Russia_2
+	}
+}
+country_event = { #Ельцин бежит из страны
+	id = belarus.18
+	title = belarus.18.t
+	desc = belarus.18.d
+	picture = GFX_podpolni_komsomol
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = BLS
+		has_war_with = RUS
+		has_idea = zov_communistov
+		controls_province = 13317
+		controls_province = 13318
+		controls_province = 11375
+		controls_province = 6338
+		controls_province = 3151
+		controls_province = 3529
+	}
+	
+	
+	
+	option = { 
+		name = belarus.18.a
+		white_peace = {
+			tag = RUS
+			message = bls_annex_russia
+		} 
+		annex_country = {
+			target = RUS
+			transfer_troops = yes
+		}
+	}
+}
+news_event = {
+	id = belarus.21
+	title = belarus.21.t
+	desc = belarus.21.d
+	picture = GFX_news_event_cremlin_sssr
+	
+
+	trigger = {
+
+		has_global_flag = SSSR_united
+
+	}	
+    
+	option = {
+		name = belarus.21.a
+	}
+}
 

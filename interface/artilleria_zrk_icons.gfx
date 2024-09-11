@@ -1,0 +1,41 @@
+spriteTypes = {	
+	
+	
+	SpriteType = {
+		name = "GFX_gw_artillery_medium"
+		texturefile = "gfx/interface/technologies/RUS/RUS_gw_artillery.png"
+	}
+	SpriteType = {
+		name = "GFX_artillery1_medium"
+		texturefile = "gfx/interface/technologies/RUS/RUS_artillery1.png"
+	}
+	SpriteType = {
+		name = "GFX_artillery4_medium"
+		texturefile = "gfx/interface/technologies/RUS/RUS_artillery4.png"
+	}
+	
+	
+	
+	SpriteType = {
+		name = "GFX_interwar_antiair_medium"
+		texturefile = "gfx/interface/technologies/RUS/RUS_antiair.png"
+	}
+	SpriteType = {
+		name = "GFX_antiair2_medium"
+		texturefile = "gfx/interface/technologies/RUS/RUS_antiair2.png"
+	}
+	SpriteType = {
+		name = "GFX_antiair5_medium"
+		texturefile = "gfx/interface/technologies/RUS/RUS_antiair5.png"
+	}
+	
+	
+	
+	SpriteType = {
+		name = "GFX_interwar_antitank_medium"
+		texturefile = "gfx/interface/technologies/RUS/RUS_antitank.png"
+	}
+	SpriteType = {
+		name = "GFX_antitank2_medium"
+		texturefile = "gfx/interface/technologies/RUS/RUS_antitank2.png" 
+	}

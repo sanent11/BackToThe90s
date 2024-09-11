@@ -1,0 +1,18 @@
+
+BLS_Zahvat_SNG_category = { 
+	 
+	icon = saf_anti_colonialist_crusade
+	picture = GFX_Zahvat_SNG   
+	                                    
+	                                           
+	allowed = {                              
+		original_tag = BLS
+	}
+	visible = {  
+		has_completed_focus = zahvat_sng
+	}	      
+	
+
+	priority = 500
+}
+

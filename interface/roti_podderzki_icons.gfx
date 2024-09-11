@@ -1,0 +1,142 @@
+spriteTypes = {	
+	
+	
+	SpriteType = {
+		name = "GFX_tech_engineers_medium"
+		texturefile = "gfx/interface/technologies/enginers.png"
+	}
+	SpriteType = {
+		name = "GFX_tech_engineers2_medium"
+		texturefile = "gfx/interface/technologies/enginers.png"
+	}
+	SpriteType = {
+		name = "GFX_tech_engineers3_medium"
+		texturefile = "gfx/interface/technologies/enginers.png"
+	}
+	SpriteType = {
+		name = "GFX_tech_engineers4_medium"
+		texturefile = "gfx/interface/technologies/enginers.png"
+	}
+	
+	
+	
+	SpriteType = {
+		name = "GFX_tech_recon_medium"
+		texturefile = "gfx/interface/technologies/recn.png"
+	} 
+	SpriteType = {
+		name = "GFX_tech_recon2_medium"
+		texturefile = "gfx/interface/technologies/recn.png"
+	} 
+	SpriteType = {
+		name = "GFX_tech_recon3_medium"
+		texturefile = "gfx/interface/technologies/recn.png"
+	} 
+	SpriteType = {
+		name = "GFX_tech_recon4_medium"
+		texturefile = "gfx/interface/technologies/recn.png"
+	} 
+	
+	
+	
+	SpriteType = { 
+		name = "GFX_tech_military_police_medium"
+		texturefile = "gfx/interface/technologies/police_military.png"
+	}   
+	SpriteType = { 
+		name = "GFX_tech_military_police2_medium"
+		texturefile = "gfx/interface/technologies/police_military.png"
+	} 
+	SpriteType = { 
+		name = "GFX_tech_military_police3_medium"
+		texturefile = "gfx/interface/technologies/police_military.png"
+	} 
+	SpriteType = { 
+		name = "GFX_tech_military_police4_medium"
+		texturefile = "gfx/interface/technologies/police_military.png"
+	} 
+	
+	
+	SpriteType = {
+		name = "GFX_tech_maintenance_company_medium"
+		texturefile = "gfx/interface/technologies/remontniki.png"
+	} 
+	SpriteType = {
+		name = "GFX_tech_maintenance_company2_medium"
+		texturefile = "gfx/interface/technologies/remontniki.png"
+	}
+	SpriteType = {
+		name = "GFX_tech_maintenance_company3_medium"
+		texturefile = "gfx/interface/technologies/remontniki.png"
+	}
+	SpriteType = {
+		name = "GFX_tech_maintenance_company4_medium"
+		texturefile = "gfx/interface/technologies/remontniki.png"
+	}
+	
+	
+	SpriteType = {
+		name = "GFX_tech_field_hospital_medium"
+		texturefile = "gfx/interface/technologies/hospital.png"
+	}
+	SpriteType = {
+		name = "GFX_tech_field_hospital2_medium"
+		texturefile = "gfx/interface/technologies/hospital.png"
+	}
+	SpriteType = {
+		name = "GFX_tech_field_hospital3_medium"
+		texturefile = "gfx/interface/technologies/hospital.png"
+	}
+	SpriteType = {
+		name = "GFX_tech_field_hospital4_medium"
+		texturefile = "gfx/interface/technologies/hospital.png"
+	}
+	
+	
+	SpriteType = {
+		name = "GFX_tech_logistics_company_medium"
+		texturefile = "gfx/interface/technologies/logistica.png"
+	}
+	SpriteType = {
+		name = "GFX_tech_logistics_company2_medium"
+		texturefile = "gfx/interface/technologies/logistica.png"
+	}
+	SpriteType = {
+		name = "GFX_tech_logistics_company3_medium"
+		texturefile = "gfx/interface/technologies/logistica.png"
+	}
+	SpriteType = {
+		name = "GFX_tech_logistics_company4_medium"
+		texturefile = "gfx/interface/technologies/logistica.png"
+	} 
+	
+	
+	SpriteType = {
+		name = "GFX_tech_signal_company_medium"
+		texturefile = "gfx/interface/technologies/signals.png"
+	} 
+	SpriteType = {
+		name = "GFX_tech_signal_company2_medium"
+		texturefile = "gfx/interface/technologies/signals.png"
+	} 
+	SpriteType = {
+		name = "GFX_tech_signal_company3_medium"
+		texturefile = "gfx/interface/technologies/signals.png"
+	} 
+	SpriteType = {
+		name = "GFX_tech_signal_company4_medium"
+		texturefile = "gfx/interface/technologies/signals.png"
+	} 
+	
+	
+	
+	SpriteType = {
+		name = "GFX_basic_train_medium"
+		texturefile = "gfx/interface/technologies/poezd.png"    
+	} 
+	
+	SpriteType = {
+		name = "GFX_motorized_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/RUS/RUS_motorized_equipment_1_medium.png"    
+	}
+	

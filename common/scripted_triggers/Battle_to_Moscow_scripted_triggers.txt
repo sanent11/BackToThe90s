@@ -1,0 +1,13 @@
+
+
+
+no_district_selected = { check_variable = { moscow_selected_district_var = 0 } }
+district_1_selected = { check_variable = { moscow_selected_district_var = 1 } }
+district_2_selected = { check_variable = { moscow_selected_district_var = 2 } }
+district_3_selected = { check_variable = { moscow_selected_district_var = 3 } }
+district_4_selected = { check_variable = { moscow_selected_district_var = 4 } }
+district_5_selected = { check_variable = { moscow_selected_district_var = 5 } }
+district_6_selected = { check_variable = { moscow_selected_district_var = 6 } }
+district_7_selected = { check_variable = { moscow_selected_district_var = 7 } }
+district_8_selected = { check_variable = { moscow_selected_district_var = 8 } }
+district_9_selected = { check_variable = { moscow_selected_district_var = 9 } }

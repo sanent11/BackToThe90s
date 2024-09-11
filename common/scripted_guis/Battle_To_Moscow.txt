@@ -1,0 +1,48 @@
+scripted_gui = {
+
+	RUS_battle_to_moscow_gui = {
+		context_type = decision_category
+		window_name = "RUS_Battle_To_Moscow"
+  
+		visible = {
+			not = {is_ai = yes} 
+		}
+		properties = {
+			
+		}
+		
+		effects = {   
+		  
+			RUS_BTM_YugoZapad_button_click = { if = { limit = { NOT = { has_country_flag = district_selected } } set_variable = { moscow_selected_district_var = 1 } } }
+			RUS_BTM_Yug_button_click = { if = { limit = { NOT = { has_country_flag = district_selected } } set_variable = { moscow_selected_district_var = 2 } } }
+			RUS_BTM_YugoVostok_button_click = { if = { limit = { NOT = { has_country_flag = district_selected } } set_variable = { moscow_selected_district_var = 3 } } }
+			RUS_BTM_Vostok_button_click = { if = { limit = { NOT = { has_country_flag = district_selected } } set_variable = { moscow_selected_district_var = 4 } } }
+			RUS_BTM_SeveroVostok_button_click = { if = { limit = { NOT = { has_country_flag = district_selected } } set_variable = { moscow_selected_district_var = 5 } } }
+			RUS_BTM_Sever_button_click = { if = { limit = { NOT = { has_country_flag = district_selected } } set_variable = { moscow_selected_district_var = 6 } } }
+			RUS_BTM_SeveroZapad_button_click = { if = { limit = { NOT = { has_country_flag = district_selected } } set_variable = { moscow_selected_district_var = 7 } } }
+			RUS_BTM_Zapad_button_click = { if = { limit = { NOT = { has_country_flag = district_selected } } set_variable = { moscow_selected_district_var = 8 } } }
+			RUS_BTM_Tsentr_button_click = { if = { limit = { NOT = { has_country_flag = district_selected } } set_variable = { moscow_selected_district_var = 9 } } }
+		}
+		
+		triggers = {
+			DISTRICT_YUGO_ZAPAD_visible = { district_1_selected = yes }
+			DISTRICT_YUG_visible = { district_2_selected = yes }
+			DISTRICT_YUGO_VOSTOK_visible = { district_3_selected = yes }
+			DISTRICT_VOSTOK_visible = { district_4_selected = yes }
+			DISTRICT_SEVERO_VOSTOK_visible = { district_5_selected = yes }
+			DISTRICT_SEVER_visible = { district_6_selected = yes }    
+			DISTRICT_SEVERO_ZAPAD_visible = { district_7_selected = yes }
+			DISTRICT_ZAPAD_visible = { district_8_selected = yes }
+			DISTRICT_TSENTR_visible = { district_9_selected = yes }
+		}
+		
+		ai_enabled = {
+			is_ai = no
+		}
+		
+		dynamic_lists = {
+			
+		}
+	}
+	
+}

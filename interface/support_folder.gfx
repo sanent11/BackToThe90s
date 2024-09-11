@@ -1,0 +1,19 @@
+spriteTypes = {	
+	
+	
+	SpriteType = {
+		name = "GFX_radio_medium"
+		texturefile = "gfx/interface/technologies/radio.dds"
+	}
+		SpriteType = {
+		name = "GFX_tech_support_medium"
+		texturefile = "gfx/interface/technologies/RUS/support_equipment_1.dds"
+	}
+
+
+
+
+
+
+	
+}

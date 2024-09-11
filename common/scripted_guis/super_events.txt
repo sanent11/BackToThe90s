@@ -10,17 +10,17 @@ scripted_gui = {
 		
 		triggers = {
 			Super_Event_Image_Hasbulatov_visible = {
-				has_global_flag = hasbulatov
+				has_global_flag = hasbulatov1
 			}
 		}
 		triggers = {
 			Super_Event_Image_Rutskoy_visible = {
-				has_global_flag = Rutskoy
+				has_global_flag = Rutskoy1
 			}
 		}
 		triggers = {
 			Super_Event_Image_Eltsin_visible = {
-				has_global_flag = Eltsin
+				has_global_flag = Eltsin1
 			}
 		}
 		
@@ -31,20 +31,20 @@ scripted_gui = {
 				
 				if = {
 					limit = {
-						has_global_flag = hasbulatov
+						has_global_flag = hasbulatov1
 					}
 					clr_global_flag = hasbulatov
 				}
 					
 				if = {
 					limit = {
-						has_global_flag = Rutskoy
+						has_global_flag = Rutskoy1
 					}
 					clr_global_flag = Rutskoy
 				}
 				if = {
 					limit = {
-						has_global_flag = Eltsin
+						has_global_flag = Eltsin1
 					}
 					clr_global_flag = Eltsin
 				}

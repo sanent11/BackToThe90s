@@ -301,9 +301,31 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_slot_political_advisor"
+		name = "GFX_idea_slot_minister_of_defence"
 		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_slot_head_of_government"
+		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_minister_inostranix_del"
+		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_minister_vnutrennix_del"
+		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_ministr_economici"
+		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_ministr_finansov"
+		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+	}
+	
 
 	spriteType = {
 		name = "GFX_goal_entry_pp_bg"

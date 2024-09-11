@@ -6,16 +6,14 @@ recruit_character = RUS_Vladimir_Zhirinovsky
 recruit_character = RUS_Achalov
 recruit_character = Rutskoy
 recruit_character = Hasbulatov
+recruit_character = RUS_Andrey_Dynaev
+recruit_character = RUS_Andrey_Kozirev
+recruit_character = RUS_Egor_Gaydar
 
 set_research_slots = 4
 set_convoys = 0
 
-set_variable = { var = representatives_support value = 346 }
-set_variable = { var = representatives_total value = 347 }
-set_variable = { var = quorum_low value = 118 }
-set_variable = { var = quorum_medium value = 130 }
-set_variable = { var = quorum_high value = 142 }
-RUS_recalc_congress_icon_frames = yes
+
 
 set_technology = {
 	infantry_weapons = 1
@@ -60,6 +58,14 @@ add_ideas = {
 	RUS_epoha_eltsina
 	RUS_economic_crisis
 	SOV_gorbachev
+	
+	#советники
+	RUS_boris_yeltsin_headg 
+	RUS_boris_yeltsin_mod
+	RUS_egor_gaydar_me
+	RUS_egor_gaydar_mf
+	RUS_andrey_dynaev_mvd
+	RUS_Andrey_Kozirev_mid
 }
 
 set_power_balance = {

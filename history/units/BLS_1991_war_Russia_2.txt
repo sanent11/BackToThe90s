@@ -1,0 +1,179 @@
+division_template = {
+    name = "Russian Communist"
+	division_names_group = BLS_INF_03
+	is_locked = yes
+	
+	
+	regiments = {
+	    infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 1 }
+	}
+	priority = 1
+}
+units = {
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11375
+		division_template = "Russian Communist"
+		start_experience_factor = 0.15
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11375
+		division_template = "Russian Communist"
+		start_experience_factor = 0.15
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11375
+		division_template = "Russian Communist"
+		start_experience_factor = 0.15
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 413
+		division_template = "Russian Communist"
+		start_experience_factor = 0.15
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9504
+		division_template = "Russian Communist"
+		start_experience_factor = 0.15
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9504
+		division_template = "Russian Communist"
+		start_experience_factor = 0.15
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3734
+		division_template = "Russian Communist"
+		start_experience_factor = 0.15
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3734
+		division_template = "Russian Communist"
+		start_experience_factor = 0.15
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 121
+		division_template = "Russian Communist"
+		start_experience_factor = 0.15
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 117
+		division_template = "Russian Communist"
+		start_experience_factor = 0.15
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1278
+		division_template = "Russian Communist"
+		start_experience_factor = 0.15
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1278
+		division_template = "Russian Communist"
+		start_experience_factor = 0.15
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11225
+		division_template = "Russian Communist"
+		start_experience_factor = 0.15
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11225
+		division_template = "Russian Communist"
+		start_experience_factor = 0.15
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9432
+		division_template = "Russian Communist"
+		start_experience_factor = 0.15
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3578
+		division_template = "Russian Communist"
+		start_experience_factor = 0.15
+		start_equipment_factor = 1
+	}
+	
+}

@@ -36,7 +36,9 @@ ideas = {
 			picture = degradatsia_armii
 
 			modifier = {
-				war_support_weekly = -0.05
+				army_morale_factor = -0.1
+				army_org_factor = -0.1
+				army_speed_factor = -0.05
 			}
 		}
 
@@ -57,6 +59,68 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.5
 			}
-		}		
+		}
+		Pyatiletka = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = Pyatiletka
+
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+				stability_factor = -0.05
+			}
+		}
+		zov_communistov = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = zov_communistov
+
+			modifier = {
+				war_support_weekly = 0.01
+				communism_drift = 0.01					
+				weekly_manpower = 1000	
+			}
+		}
+		close_country = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = close_country
+
+			modifier = {
+				stability_factor = 1
+				war_support_factor = -0.9
+				min_export = -0.9
+				trade_opinion_factor = -0.95
+			}
+		}						
 	}
 }

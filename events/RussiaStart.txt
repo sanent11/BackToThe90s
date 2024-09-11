@@ -6,7 +6,7 @@ country_event = { #Беловежские соглашения
 	id = russiaStart.1
 	title = russiaStart.1.t
 	desc = russiaStart.1.d
-	picture = GFX_report_event_soviet_soldiers
+	picture = GFX_belovezh
 	
 	is_triggered_only = yes
 	
@@ -36,7 +36,7 @@ country_event = { #Горбачев
 	id = russiaStart.2
 	title = russiaStart.2.t
 	desc = russiaStart.2.d
-	picture = GFX_report_event_soviet_soldiers
+	picture = GFX_gorbachev
 	
 	is_triggered_only = yes
 	
@@ -51,80 +51,36 @@ country_event = { #Отставка Горбачева
 	id = russiaStart.3
 	title = russiaStart.3.t
 	desc = russiaStart.3.d
-	picture = GFX_report_event_soviet_soldiers
+	picture = GFX_otstavka_gorbacheva
 	
 	is_triggered_only = yes
 	
 	option = {
 		
 		remove_ideas = SOV_gorbachev
+		BLS = {
+			remove_ideas = SOV_gorbachev
+		}
 		add_stability = -0.15
-
+		set_global_flag = otstavka_gorbacheva
+		name = russiaStart.3.a
 	}
 }
 news_event = { #Мировой ивент про распад СССР
 	id = russiaStart.4
 	title = russiaStart.4.t
 	desc = russiaStart.4.d
-	picture = GFX_report_event_soviet_soldiers
+	picture = GFX_raspad_ussr
 	
-	is_triggered_only = yes
-	
-	option = {
-		trigger = {
-			OR = {
-				TAG = RUS
-				TAG = BLS
-				TAG = UKN
-				TAG = KAH
-				TAG = UZB
-				TAG = TAJ
-				TAG = KYR
-				TAG = TMN
-				TAG = CHE
-				TAG = GEO
-				TAG = ARM
-				TAG = AZE
-				TAG = NKR
-				TAG = MOL
-				TAG = PRD
-				TAG = EST
-				TAG = LAT
-				TAG = LIT
-			}
-		}
-		add_stability = -0.1
-		add_war_support = 0.05
 
-	}	
-	option = {
-		trigger = {
-			NOT = {
-			OR = {
-				TAG = RUS
-				TAG = BLS
-				TAG = UKN
-				TAG = KAH
-				TAG = UZB
-				TAG = TAJ
-				TAG = KYR
-				TAG = TMN
-				TAG = CHE
-				TAG = GEO
-				TAG = ARM
-				TAG = AZE
-				TAG = NKR
-				TAG = MOL
-				TAG = PRD
-				TAG = EST
-				TAG = LAT
-				TAG = LIT
-			}
-			}
-		}
-		add_stability = -0.05
-
+	trigger = {
+		has_global_flag = otstavka_gorbacheva
 	}
+		
+	option = {
+		name = russiaStart.4.a
+		add_war_support = -0.05
+	}	
 }
 country_event = { #Либерализация цен
 	id = russiaStart.5
@@ -137,6 +93,7 @@ country_event = { #Либерализация цен
 	option = {	
 		name = russiaStart.5.a
 		add_stability = -0.1
+		add_ideas = Liberalizatia_Tsen
 	}
 }
 country_event = { #Приватизация
@@ -150,6 +107,7 @@ country_event = { #Приватизация
 	option = {	
 		name = russiaStart.6.a
 		add_stability = -0.1
+		add_ideas = Privatizatia
 	}
 }
 country_event = { #Обновлённая федерация
@@ -178,5 +136,21 @@ country_event = { #СНД протестует
 		name = russiaStart.8.a
 		add_stability = -0.15
 		set_global_flag = protest_snd	 
+	}
+}	
+country_event = { #Проект новой конституции
+	id = russiaStart.9
+	title = russiaStart.9.t
+	desc = russiaStart.9.d
+	picture = GFX_proekt_konstitutii
+
+	is_triggered_only = yes
+	
+	trigger = {
+		has_completed_focus = RUS_new_constitution
+	}
+	option = {	
+		name = russiaStart.9.a
+		add_stability = -0.05
 	}
 }	

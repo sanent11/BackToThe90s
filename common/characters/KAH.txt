@@ -14,8 +14,8 @@ characters = {
 			id = -1
 		}
 	}
-	KAH_Nursultan_Nazarbaev = {
-		name = KAH_Nursultan_Nazarbaev
+	KAH_Nursultan_Nazarbaev_1 = {
+		name = KAH_Nursultan_Nazarbaev_1
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/KAH/portrait_KAH_Nursultan_Nazarbaev.dds"

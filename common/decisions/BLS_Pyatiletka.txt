@@ -1,0 +1,406 @@
+
+BLS_Pyatiletka_category = {    
+	
+	Prom_zona_v_Minske = {       
+
+		allowed = {         
+			tag = BLS                                      
+		} 
+         
+		icon = GFX_decision_hol_exchange_intelligence_data
+		days_remove = 250
+		fire_only_once = yes
+		cost = 150
+		
+
+		visible = {
+		} 
+
+		remove_effect = {
+			206 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			set_country_flag = promzona_gotova
+		}
+		
+		complete_effect = {
+			
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+	Bobruisky_Traktorni = {       
+
+		allowed = {         
+			tag = BLS                                      
+		} 
+
+		
+		available = { 
+			has_country_flag = selhoz_brest_gotov 
+			has_country_flag = selhoz_gomel_gotov
+			has_country_flag = selhoz_grodno_gotov
+		}
+         
+		icon = GFX_decision_hol_exchange_intelligence_data
+		days_remove = 120
+		fire_only_once = no
+		cost = 100
+
+		visible = {
+		} 
+
+		remove_effect = {
+			204 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			set_country_flag = traktorni_gotov	 
+		}
+		
+		complete_effect = {
+	
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+	Soligroskiy_Tankovi_Zavod = {       
+
+		allowed = {         
+			tag = BLS                                      
+		} 
+
+		available = { 
+			has_country_flag = selhoz_brest_gotov 
+			has_country_flag = selhoz_gomel_gotov
+			has_country_flag = selhoz_grodno_gotov
+		}
+         
+		icon = GFX_decision_hol_exchange_intelligence_data
+		days_remove = 300
+		fire_only_once = yes
+		cost = 150
+
+		visible = {
+		} 
+
+		remove_effect = {
+			1003 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+			1003 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			1003 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			set_country_flag = soligorskiy_gotov
+		}
+		
+		complete_effect = {
+			
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+	Pinskiy_Metalurg = {       
+
+		allowed = {         
+			tag = BLS                                      
+		} 
+
+		available = { 
+			
+			has_country_flag = selhoz_brest_gotov 
+			has_country_flag = selhoz_gomel_gotov
+			has_country_flag = selhoz_grodno_gotov
+		}
+         
+		icon = GFX_decision_hol_exchange_intelligence_data
+		days_remove = 120
+		fire_only_once = yes
+		cost = 100
+
+		visible = {
+		} 
+
+		remove_effect = {
+			94 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			set_country_flag = pinskiy_gotov
+		}
+		
+		complete_effect = {
+			
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+	Vosstanovit_Selhoz_Grodno = {       
+
+		allowed = {         
+			tag = BLS                                      
+		} 
+
+		available = { has_country_flag = promzona_gotova }
+         
+		icon = GFX_decision_hol_exchange_intelligence_data
+		days_remove = 100
+		fire_only_once = yes
+		cost = 100
+
+		visible = {
+		} 
+
+		remove_effect = {
+			1000 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			set_country_flag = selhoz_grodno_gotov
+		}
+		
+		complete_effect = {
+			
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+	Vosstanovit_Selhoz_Gomel = {       
+
+		allowed = {         
+			tag = BLS                                      
+		} 
+
+		available = { has_country_flag = promzona_gotova }
+         
+		icon = GFX_decision_hol_exchange_intelligence_data
+		days_remove = 100
+		fire_only_once = yes
+		cost = 100
+
+		visible = {
+		} 
+
+		remove_effect = {
+			998 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			set_country_flag = selhoz_gomel_gotov
+		}
+		
+		complete_effect = {
+			
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+	Vosstanovit_Selhoz_Brest = {       
+
+		allowed = {         
+			tag = BLS                                      
+		} 
+
+		available = { has_country_flag = promzona_gotova }
+         
+		icon = GFX_decision_hol_exchange_intelligence_data
+		days_remove = 100
+		fire_only_once = yes
+		cost = 100
+
+		visible = {
+			
+		} 
+
+		remove_effect = {
+			999 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			set_country_flag = selhoz_brest_gotov
+		}
+		
+		complete_effect = {
+			
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+	
+	Doroga_Brest_Vitebsk = {       
+
+		allowed = {         
+			tag = BLS                                      
+		} 
+		available = { 
+			has_country_flag = selhoz_brest_gotov 
+			has_country_flag = selhoz_gomel_gotov
+			has_country_flag = selhoz_grodno_gotov
+			has_country_flag = pinskiy_gotov
+			has_country_flag = traktorni_gotov
+			has_country_flag = soligorskiy_gotov
+			has_country_flag = promzona_gotova	
+		}
+         
+		icon = GFX_decision_hol_exchange_intelligence_data
+		days_remove = 200
+		fire_only_once = yes
+		cost = 100
+		
+		visible = {
+		} 
+
+		remove_effect = {
+			999 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			94 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			1003 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			206 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			207 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			996 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		complete_effect = {
+			
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+	Pyatiletka_Time = {       
+
+		allowed = {             	           
+		} 
+		visible = {
+		} 
+
+		activation = {
+			has_completed_focus = New_GosPlan
+		}
+         
+		icon = GFX_decision_hol_exchange_intelligence_data
+		days_mission_timeout = 1825
+		fire_only_once = yes
+		
+		
+
+		available  = {
+			num_of_civilian_factories > 30
+			num_of_military_factories > 25 
+		}
+		complete_effect = { remove_ideas = deficit_tovarov }
+
+		timeout_effect = {
+			
+		}
+		
+
+		ai_will_do = {
+			
+		}
+	}
+}

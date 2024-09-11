@@ -1,0 +1,43 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_news_event_410"
+		texturefile = "gfx/event_pictures/news_event_410.dds"
+	}
+	spriteType = {
+		name = "GFX_vseros_referendum"
+		texturefile = "gfx/event_pictures/vseros_referendum.png"
+	}
+	spriteType = {
+		name = "GFX_rne_zig_zig"
+		texturefile = "gfx/event_pictures/rne_zig_zig.png"
+	}
+	spriteType = {
+		name = "GFX_liberalizatia_tsen"
+		texturefile = "gfx/event_pictures/liberalizatia_tsen.png"
+	}
+	spriteType = {
+		name = "GFX_privatizatia"
+		texturefile = "gfx/event_pictures/privatizatia.png"
+	}
+	spriteType = {
+		name = "GFX_aleshenka"
+		texturefile = "gfx/event_pictures/aleshenka.png"
+	}
+	spriteType = {
+		name = "GFX_belovezh"
+		texturefile = "gfx/event_pictures/belovezh.png"
+	}
+	spriteType = {
+		name = "GFX_gorbachev"
+		texturefile = "gfx/event_pictures/gorbachev.png"
+	}
+	spriteType = {
+		name = "GFX_otstavka_gorbacheva"
+		texturefile = "gfx/event_pictures/otstavka_gorbacheva.png"
+	}
+	spriteType = {
+		name = "GFX_raspad_ussr"
+		texturefile = "gfx/event_pictures/raspad_ussr.png"
+	}
+}

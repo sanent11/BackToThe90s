@@ -1,68 +1,68 @@
 spriteTypes = {
 
+	
 	spriteType = {
-		name = "GFX_focus_Amerikanskie_bratya"
-		texturefile = "gfx/interface/goals/Belarus/Amerikanskie_bratya.png"
+		name = "GFX_focus_Rosupusk_KGB"
+		texturefile = "gfx/interface/goals/Belarus/Rosupusk_KGB.png"  
 	}
 	spriteType = {
-		name = "GFX_focus_Ekonomicheskie_reformy"
-		texturefile = "gfx/interface/goals/Belarus/Ekonomicheskie_reformy.png"
+		name = "GFX_focus_Day_of_Volya"   
+		texturefile = "gfx/interface/goals/Belarus/Day_of_Volya.png"
 	}
 	spriteType = {
-		name = "GFX_focus_Elita"
-		texturefile = "gfx/interface/goals/Belarus/Elita.png"
+		name = "GFX_focus_Nostalgia_po_BSSR"
+		texturefile = "gfx/interface/goals/Belarus/Nostalgia_po_BSSR.png"
 	}
 	spriteType = {
-		name = "GFX_focus_Kritika"
-		texturefile = "gfx/interface/goals/Belarus/Kritika.png"
+		name = "GFX_focus_Sozdanie_new_gosudarstva" 
+		texturefile = "gfx/interface/goals/Belarus/Sozdanie_new_gosudarstva.png"
 	}
 	spriteType = {
-		name = "GFX_focus_Miting_u_parlamenta"
-		texturefile = "gfx/interface/goals/Belarus/Miting_u_parlamenta.png"
+		name = "GFX_focus_Dementei_New_Lenin"
+		texturefile = "gfx/interface/goals/Belarus/Dementei_New_Lenin.png"
 	}
 	spriteType = {
-		name = "GFX_focus_Natsionalnaya_ideya"
-		texturefile = "gfx/interface/goals/Belarus/Natsionalnaya_ideya.png"
+		name = "GFX_focus_New_GosPlan"
+		texturefile = "gfx/interface/goals/Belarus/New_GosPlan.png"
 	}
 	spriteType = {
-		name = "GFX_focus_Natsionalny_biznes"
-		texturefile = "gfx/interface/goals/Belarus/Natsionalny_biznes.png"
+		name = "GFX_focus_Podderzat_Kommi_v_RF"
+		texturefile = "gfx/interface/goals/Belarus/Podderzat_Kommi_v_RF.png"
 	}
 	spriteType = {
-		name = "GFX_focus_Perekleit_oboi"
-		texturefile = "gfx/interface/goals/Belarus/Perekleit_oboi.png"
+		name = "GFX_focus_RSFSR_v_izgnanii"
+		texturefile = "gfx/interface/goals/Belarus/RSFSR_v_izgnanii.png"
 	}
 	spriteType = {
-		name = "GFX_focus_Podvesti_itogi"
-		texturefile = "gfx/interface/goals/Belarus/Podvesti_itogi.png"
+		name = "GFX_focus_Marsh_na_Moskvu"
+		texturefile = "gfx/interface/goals/Belarus/Marsh_na_Moskvu.png"
 	}
 	spriteType = {
-		name = "GFX_focus_Porvat_tsepi"
-		texturefile = "gfx/interface/goals/Belarus/Porvat_tsepi.png"
+		name = "GFX_focus_Izolation"
+		texturefile = "gfx/interface/goals/Belarus/Izolation.png"
 	}
 	spriteType = {
-		name = "GFX_focus_Predsedatel"
-		texturefile = "gfx/interface/goals/Belarus/Predsedatel.png"
+		name = "GFX_focus_Conserva_put"
+		texturefile = "gfx/interface/goals/Belarus/Conserva_put.png"
 	}
 	spriteType = {
-		name = "GFX_focus_Razlozhenie_armii"
-		texturefile = "gfx/interface/goals/Belarus/Razlozhenie_armii.png"
+		name = "GFX_focus_Chistki_democratov"
+		texturefile = "gfx/interface/goals/Belarus/Chistki_democratov.png"
 	}
 	spriteType = {
-		name = "GFX_focus_Verkhovny_Sovet"
-		texturefile = "gfx/interface/goals/Belarus/Verkhovny_Sovet.png"
+		name = "GFX_focus_Usilenie_policemanov"
+		texturefile = "gfx/interface/goals/Belarus/Usilenie_policemanov.png"
 	}
 	spriteType = {
-		name = "GFX_focus_belarusifikatsia"
-		texturefile = "gfx/interface/goals/Belarus/belarusifikatsia.png"
+		name = "GFX_focus_Vostanovit_KPB"
+		texturefile = "gfx/interface/goals/Belarus/Vostanovit_KPB.png"
 	}
 	spriteType = {
-		name = "GFX_focus_sovietskoe_nasledie"
-		texturefile = "gfx/interface/goals/Belarus/sovietskoe_nasledie.png"
+		name = "GFX_focus_New_soviet_gosudarstvo"
+		texturefile = "gfx/interface/goals/Belarus/New_soviet_gosudarstvo.png"
 	}
 	spriteType = {
 		name = "GFX_focus_zavodi_lyudiam"
-		texturefile = "gfx/interface/goals/Belarus/zavodi_lyudiam.png"
+		texturefile = "gfx/interface/goals/Belarus/zavodi_lyudiam.png" 
 	}
-	
 }

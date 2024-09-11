@@ -9,6 +9,9 @@ characters = {
 			civilian={
 				large= "gfx/leaders/RUS/portrait_RUS_Boris_Yeltsin.dds"
 			}
+			civilian = {
+				small= "gfx/interface/Advisors/RUS_Boris_Yeltsin_HG.png"
+			}
 		}
 		country_leader = {
 			ideology = neo_liberalism
@@ -16,7 +19,124 @@ characters = {
 			expire = "2007.4.25.1"
 			id = -1
 		}
+		advisor = {
+			slot = head_of_government
+			idea_token = RUS_boris_yeltsin_headg
+			ledger = civilian
+			can_be_fired = no
+			allowed = {
+				original_tag = RUS 
+			}
+			traits = {
+				eltsin_hog_trait
+			}
+		}
+		advisor = {
+			slot = minister_of_defence
+			idea_token = RUS_boris_yeltsin_mod
+			ledger = civilian
+			can_be_fired = no
+			allowed = {
+				original_tag = RUS 
+			}
+			traits = {
+				eltsin_mod_trait
+			}
+		}
+		
 	}
+	
+	RUS_Egor_Gaydar = {
+		name = Egor_Gaydar
+		portraits={
+			civilian = {
+				small= "gfx/interface/Advisors/RUS_Egor_Gaydar_ME.png"
+			}
+		}
+		advisor = {
+			slot = ministr_economici
+			idea_token = RUS_egor_gaydar_me
+			ledger = civilian
+			can_be_fired = no
+			allowed = {
+				original_tag = RUS 
+			}
+			traits = {
+				egor_gaydar_me_trait
+			}
+		}
+		advisor = {
+			slot = ministr_finansov
+			idea_token = RUS_egor_gaydar_mf
+			ledger = civilian
+			can_be_fired = no
+			allowed = {
+				original_tag = RUS 
+			}
+			traits = {
+				egor_gaydar_mf_trait
+			}
+		}
+		
+	}
+	RUS_Andrey_Kozirev = {
+		name = Andrey_Kozirev
+		portraits={
+			civilian = {
+				small= "gfx/interface/Advisors/RUS_Andrey_Kozirev_MID.png"
+			}
+		}
+		advisor = {
+			slot = minister_inostranix_del
+			idea_token = RUS_Andrey_Kozirev_mid
+			ledger = civilian
+			can_be_fired = no
+			allowed = {
+				original_tag = RUS 
+			}
+			traits = {
+				andrey_kozirev_mid_trait
+			}
+		}
+	}
+	RUS_Andrey_Dynaev = {
+		name = Andrey_Dynaev
+		portraits={
+			civilian = {
+				small= "gfx/interface/Advisors/RUS_Andrey_Dynaev_MVD.png"
+			}
+		}
+		advisor = {
+			slot = minister_vnutrennix_del
+			idea_token = RUS_andrey_dynaev_mvd
+			ledger = civilian
+			can_be_fired = no
+			allowed = {
+				original_tag = RUS 
+			}
+			traits = {
+				andrey_dynaev_mvd_trait
+			}
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	RUS_Vladimir_Zhirinovsky = {
 		name = RUS_Vladimir_Zhirinovsky
 		portraits={

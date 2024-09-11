@@ -1,0 +1,185 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "RUS_battle_to_moscow"
+		position = { x = 0 y = 0 }
+		size = { width = 500 height = 850 }
+		position = { x= 0 y= 0 }
+		Orientation = CENTER
+		Origo = center
+		moveable = no
+		clipping = no	
+		
+		
+		buttonType = {
+			name = "RUS_BTM_YugoZapad_button"
+			pdx_tooltip = "RUS_BTM_YugoZapad_button_text"
+			position  = { x=146 y=330}
+			spriteType =  "GFX_RUS_BTM_YugoZapad_button"
+			orientation = UPPER_LEFT
+		}
+		buttonType = {
+			name = "RUS_BTM_Yug_button" 
+			pdx_tooltip = "RUS_BTM_Yug_button_text"
+			position  = { x=200 y=300}
+			spriteType =  "GFX_RUS_BTM_Yug_button"
+			orientation = UPPER_LEFT
+		}
+		buttonType = {
+			name = "RUS_BTM_YugoVostok_button"
+			pdx_tooltip = "RUS_BTM_YugoVostok_button_text"
+			position  = { x=277 y=258}
+			spriteType =  "GFX_RUS_BTM_YugoVostok_button"
+			orientation = UPPER_LEFT
+		}
+		buttonType = {
+			name = "RUS_BTM_Vostok_button"
+			pdx_tooltip = "RUS_BTM_Vostok_button_text"
+			position  = { x=275 y=149}
+			spriteType =  "GFX_RUS_BTM_Vostok_button"
+			orientation = UPPER_LEFT
+		}
+		buttonType = {
+			name = "RUS_BTM_SeveroVostok_button"
+			pdx_tooltip = "RUS_BTM_SeveroVostok_button_text"
+			position  = { x=203 y=111}
+			spriteType =  "GFX_RUS_BTM_SeveroVostok_button"
+			orientation = UPPER_LEFT
+		}
+		buttonType = {
+			name = "RUS_BTM_Sever_button"
+			pdx_tooltip = "RUS_BTM_Sever_button_text"
+			position  = { x=138 y=115}
+			spriteType =  "GFX_RUS_BTM_Sever_button"
+			orientation = UPPER_LEFT
+		}
+		buttonType = {
+			name = "RUS_BTM_SeveroZapad_button"
+			pdx_tooltip = "RUS_BTM_SeveroZapad_button_text"
+			position  = { x=75 y=136}
+			spriteType =  "GFX_RUS_BTM_SeveroZapad_button"
+			orientation = UPPER_LEFT
+		}
+		buttonType = {
+			name = "RUS_BTM_Zapad_button"
+			pdx_tooltip = "RUS_BTM_Zapad_button_text"
+			position  = { x=95 y=265}
+			spriteType =  "GFX_RUS_BTM_Zapad_button"
+			orientation = UPPER_LEFT
+		}
+		buttonType = {
+			name = "RUS_BTM_Tsentr_button"
+			pdx_tooltip = "RUS_BTM_Tsentr_button_text"
+			position  = { x=170 y=233}
+			spriteType =  "GFX_RUS_BTM_Tsentr_button"
+			orientation = UPPER_LEFT
+		}
+		
+		instantTextboxType = {
+			name = "eltsinnn"
+			position = { x = 110 y = 615 }
+			font = "hoi_20b"
+			text = "Eltsin_Team"
+			maxWidth = 300
+			maxHeight = 20
+		}
+		instantTextboxType = {
+			name = "hasbulatovvv"
+			position = { x = 110 y = 685 }
+			font = "hoi_20b"
+			text = "Hasbulatov_Team"
+			maxWidth = 150
+			maxHeight = 20
+		}
+		instantTextboxType = {
+			name = "MOSCOW_SELECTED_DISTRICT"
+			position = { x = 360 y = 575 }
+			font = "hoi_20b"
+			text = "[MOSCOW_SELECTED_DISTRICT]"
+			maxWidth = 300
+			maxHeight = 20
+		}
+		
+		iconType ={
+			name ="ramka"
+			spriteType = "GFX_ramka"
+			position = { x=350 y=600 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="vs_color"
+			spriteType = "GFX_vs_color"
+			position = { x=50 y=680 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="eltsin_color"
+			spriteType = "GFX_eltsin_color"
+			position = { x=50 y=600 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="DISTRICT_TSENTR"
+			spriteType = "GFX_D_TSENTR"
+			position = { x=352 y=602 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="DISTRICT_YUG"
+			spriteType = "GFX_D_YUG"
+			position = { x=352 y=602 }
+			Orientation = "UPPER_LEFT" 
+		}
+		iconType ={
+			name ="DISTRICT_YUGO_VOSTOK"
+			spriteType = "GFX_D_YUGO_VOSTOK"
+			position = { x=352 y=602 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="DISTRICT_VOSTOK"
+			spriteType = "GFX_D_VOSTOK"
+			position = { x=352 y=602 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="DISTRICT_SEVERO_VOSTOK"
+			spriteType = "GFX_D_SEVERO_VOSTOK"
+			position = { x=352 y=602 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="DISTRICT_SEVER"
+			spriteType = "GFX_D_SEVER"
+			position = { x=352 y=602 }
+			Orientation = "UPPER_LEFT"
+			
+		}
+		iconType ={
+			name ="DISTRICT_SEVERO_ZAPAD"
+			spriteType = "GFX_D_SEVERO_ZAPAD"
+			position = { x=352 y=602 }
+			Orientation = "UPPER_LEFT"
+			
+		}
+		iconType ={
+			name ="DISTRICT_ZAPAD"
+			spriteType = "GFX_D_ZAPAD"
+			position = { x=352 y=602 }
+			Orientation = "UPPER_LEFT"
+			
+		}
+		iconType ={
+			name ="DISTRICT_YUGO_ZAPAD"
+			spriteType = "GFX_D_YUGO_ZAPAD"
+			position = { x=352 y=602 }
+			Orientation = "UPPER_LEFT"
+			
+		}
+	}
+}
+		
+		
+		
+		
+		

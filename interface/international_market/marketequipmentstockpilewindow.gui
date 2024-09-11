@@ -6,7 +6,7 @@ guiTypes = {
 
 		background = {
 			name = "Background"
-			spriteType ="GFX_tiled_plain_bg"
+			spriteType ="GFX_ti1led_plain_bg"
 		}
 
 		buttonType = {
@@ -125,14 +125,14 @@ guiTypes = {
 
 			background = {
 				name = "background_overlay"
-				quadTextureSprite ="GFX_tiled_generic_overlay_bg1_small"
+				quadTextureSprite ="GFX_tiled_gene1ric_overlay_bg1_small"
 			}			
 
 			gridboxtype = {
 				name = "equipments_grid"
-				position = { x = 20 y = 0 }
+				position = { x = 20 y = 10 }
 				size = { width = 100%% height = 100%% }
-				slotsize = { width = 500 height = 100 }
+				slotsize = { width = 500 height = 140 }
 				format = "UPPER_LEFT"
 				max_slots_horizontal = 1
 			}	
@@ -142,7 +142,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "market_equipment_stockpile_entry"
 		position = { x=0 y=0 }
-		size = { width=500 height= 100 }
+		size = { width=500 height= 150 }
 		clipping = no
 
 		buttonType = {
@@ -176,7 +176,7 @@ guiTypes = {
 		iconType = {
 			name ="equipment_icon_default"
 			spriteType = "GFX_technology_medium"
-			position = { x=200 y=51 }
+			position = { x=230 y=61 }
 			centerposition = yes
 			alwaystransparent = yes
 		}

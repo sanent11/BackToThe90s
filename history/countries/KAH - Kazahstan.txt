@@ -2,6 +2,7 @@ capital = 586
 oob = "KAH_1991"
 set_cosmetic_tag = KAH_SOU
 recruit_character = KAH_Nursultan_Nazarbaev
+recruit_character = KAH_Nursultan_Nazarbaev_1
 
 set_research_slots = 3
 set_convoys = 0

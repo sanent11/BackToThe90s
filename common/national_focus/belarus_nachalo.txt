@@ -13,26 +13,313 @@ focus_tree = {
 	
 	
 	focus = {
-	    id = podvesti_itogi 
+	    id = Day_of_Volya 
 	    x = 8
 	    y = 0
-		icon = GFX_focus_Podvesti_itogi
+		icon = GFX_focus_Day_of_Volya 
 	    cost = 5     
 	    available_if_capitulated = no
 	   
 	    completion_reward = { 
 	        
+			add_political_power = 50
 			country_event = belarus.1
 		}
 	}
 	focus = {
-	    id = perekleit_oboi
+	    id = Rosupusk_KGB 
 	    x = 8
 	    y = 2
-		icon = GFX_focus_Perekleit_oboi
+		icon = GFX_focus_Rosupusk_KGB
 	    cost = 5     
 	    available_if_capitulated = no
-		prerequisite = { focus = podvesti_itogi }
+		prerequisite = { focus = Day_of_Volya }
+	   
+	    completion_reward = { 
+	        
+			country_event = belarus.2
+		}
+	}
+	################################## Комми древо ###########################
+	focus = {
+	    id = Nostalgia_po_BSSR 
+	    x = 12
+	    y = 4
+		icon = GFX_focus_Nostalgia_po_BSSR 
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = Rosupusk_KGB }
+		mutually_exclusive = { focus = Sozdanie_new_gosudarstva }
+	   
+	    completion_reward = { 
+	        
+			
+			set_politics = {
+    			ruling_party = communism
+   				elections_allowed = no
+    			last_election = "1991.1.1"
+    			election_frequency = 48	
+			}
+			swap_ideas = {
+				remove_idea = president_republic
+				add_idea = soviet_republic
+			}
+			set_cosmetic_tag = BLS_communism
+		}
+	}
+	focus = {
+	    id = Dementei_New_Lenin 
+	    x = 12
+	    y = 5
+		icon = GFX_focus_Dementei_New_Lenin
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = Nostalgia_po_BSSR }
+	   
+	    completion_reward = {
+			remove_country_leader_role = {
+				character = VS_BLS
+				ideology = leninism
+			} 
+			add_country_leader_role = {
+				character = Dementei
+				promote_leader = yes
+				country_leader = {
+					ideology = leninism
+					expire = "2022.10.24.1"
+					traits = {}
+    			}
+			}
+		}
+	}
+	focus = {
+	    id = New_GosPlan 
+	    x = 15
+	    y = 6
+		icon = GFX_focus_New_GosPlan
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = Dementei_New_Lenin }
+	   
+	    completion_reward = { 
+
+	        add_ideas = Pyatiletka
+			activate_decision = BLS_Pyatiletka_category
+		}
+	}
+	focus = {
+	    id = Podderzat_Kommi_v_RF 
+	    x = 15
+	    y = 7
+		icon = GFX_focus_Podderzat_Kommi_v_RF
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = New_GosPlan }
+		available = { has_global_flag = eltsin_win_bls }
+	   
+	    completion_reward = { 
+	        add_ideas = zov_communistov
+			
+		}
+	}
+	focus = {
+	    id = RSFSR_v_izgnanii 
+	    x = 13
+	    y = 8
+		icon = GFX_focus_RSFSR_v_izgnanii
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = Podderzat_Kommi_v_RF }
+		mutually_exclusive = { focus = Izolation }
+	   
+	    completion_reward = { 
+	        
+			country_event = belarus.15
+			add_war_support = 0.1
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 5000
+				producer = BLS
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 3000
+				producer = BLS
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 2000
+				producer = BLS
+			}
+		}
+	}
+	focus = {
+	    id = Marsh_na_Moskvu 
+	    x = 13
+	    y = 9
+		icon = GFX_focus_Marsh_na_Moskvu
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = RSFSR_v_izgnanii }
+	   
+	    completion_reward = { 
+	        
+			country_event = belarus.16
+			add_war_support = 0.15
+		}
+	}
+	focus = {
+	    id = Izolation 
+	    x = 17
+	    y = 8
+		icon = GFX_focus_Izolation 
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = Podderzat_Kommi_v_RF }
+		mutually_exclusive = { focus = RSFSR_v_izgnanii }
+	   
+	    completion_reward = { 
+	        add_ideas = close_country
+			
+		}
+	}
+	focus = {
+	    id = Conserva_put 
+	    x = 17
+	    y = 11
+		icon = GFX_focus_Conserva_put
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = Izolation }
+		prerequisite = { focus = Vostanovit_KPB }
+	   
+	    completion_reward = { 
+	        
+			country_event = belarus.13
+		}
+	}
+	focus = {
+	    id = Chistki_democratov 
+	    x = 9
+	    y = 6
+		icon = GFX_focus_Chistki_democratov 
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = Dementei_New_Lenin }
+	   
+	    completion_reward = { 
+
+			kill_ideology_leader = neutrality
+			kill_ideology_leader = conservocratic
+			custom_effect_tooltip = chistochki
+	        
+		
+		}
+	}
+	focus = {
+	    id = Usilenie_policemanov 
+	    x = 9
+	    y = 8
+		icon = GFX_focus_Usilenie_policemanov
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = Chistki_democratov }
+	   
+	    completion_reward = { 
+	        
+			
+		}
+	}
+	focus = {
+	    id = Vostanovit_KPB 
+	    x = 9
+	    y = 10
+		icon = GFX_focus_Vostanovit_KPB 
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = Usilenie_policemanov }
+	   
+	    completion_reward = {
+			add_stability = 0.1
+			add_political_power = 150
+			set_party_name = {
+				ideology = nationalism
+				long_name = BLS_communism_KPB_party_long
+				name = BLS_communism_KPB_party
+			}
+			set_party_name = {
+				ideology = neutrality
+				long_name = BLS_communism_KPB_party_long
+				name = BLS_communism_KPB_party
+			}
+			set_party_name = {
+				ideology = natdem
+				long_name = BLS_communism_KPB_party_long
+				name = BLS_communism_KPB_party
+			}
+			set_party_name = {
+				ideology = conservocratic
+				long_name = BLS_communism_KPB_party_long
+				name = BLS_communism_KPB_party
+			} 
+			set_party_name = {
+				ideology = liberocratic
+				long_name = BLS_communism_KPB_party_long
+				name = BLS_communism_KPB_party
+			} 
+			set_party_name = {
+				ideology = democratic
+				long_name = BLS_communism_KPB_party_long
+				name = BLS_communism_KPB_party
+			} 
+			set_party_name = {
+				ideology = paternalism
+				long_name = BLS_communism_KPB_party_long
+				name = BLS_communism_KPB_party
+			} 
+	        set_party_name = {
+				ideology = communism
+				long_name = BLS_communism_KPB_party_long
+				name = BLS_communism_KPB_party
+			}
+		}
+	}
+	focus = {
+	    id = New_soviet_gosudarstvo 
+	    x = 9
+	    y = 12
+		icon = GFX_focus_New_soviet_gosudarstvo
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = Vostanovit_KPB }
+		available = { 
+			owns_state = 993 
+			owns_state = 195
+		}
+	   
+	    completion_reward = { 
+	        set_cosmetic_tag = BLS_soyuznoe_commi_gosudarstvo
+			set_capital = { state = 994 }
+			add_state_core = 994
+			add_state_core = 993
+			hidden_effect = {
+				load_focus_tree = BLS_soyuznoe_gosudarstvo
+			}
+		}
+	}
+	#######################################################
+	
+	######################## Демократы #############################
+	focus = {
+	    id = Sozdanie_new_gosudarstva 
+	    x = 4
+	    y = 4
+		icon = GFX_focus_Sozdanie_new_gosudarstva
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = Rosupusk_KGB }
+		mutually_exclusive = { focus = Nostalgia_po_BSSR }
+		available = { has_country_flag = V_RAZRABOTKE }
 	   
 	    completion_reward = { 
 	        
@@ -40,299 +327,211 @@ focus_tree = {
 		}
 	}
 	focus = {
-	    id = sovietskoe_nasledie
-	    x = 12
-	    y = 3
-		icon = GFX_focus_sovietskoe_nasledie
-	    cost = 5     
-	    available_if_capitulated = no
-		prerequisite = { focus = perekleit_oboi }
-		
-	   
-	    completion_reward = { 
-		}
-	}
-	focus = {
-	    id = economic_reformi
-	    x = 5
-	    y = 3
-		icon = GFX_focus_Ekonomicheskie_reformy
-	    cost = 5     
-	    available_if_capitulated = no
-		prerequisite = { focus = perekleit_oboi focus = american_brothers }
-		
-	   
-	    completion_reward = { 
-			
-			country_event = belarus.7				
-			
-			add_ideas = konets_plana   
-		}
-	}
-	focus = {
-	    id = razlozhenie_armii
-	    x = 12
-	    y = 7
-		icon = GFX_focus_Razlozhenie_armii
-	    cost = 5     
-	    available_if_capitulated = no
-		prerequisite = { focus = sovietskoe_nasledie }
-	   
-	    completion_reward = { 
-	        
-			country_event = belarus.2
-	
-			206 = {
-				remove_building = {
-    				type = arms_factory
-    				level = 2
-				}
-				add_building_construction = {
-    				type = industrial_complex
-    				level = 2
-    				instant_build = yes
-				}
-			}
-			add_manpower = -10000
-		}
-	}
-	focus = {
-	    id = american_brothers  
-	    x = 3
-	    y = 3
-		icon = GFX_focus_Amerikanskie_bratya
-	    cost = 5     
-	    available_if_capitulated = no
-		prerequisite = { focus = perekleit_oboi focus = economic_reformi }
-		
-	   
-	    completion_reward = { 
-	        998 = {
-				add_building_construction = {
-    				type = industrial_complex
-    				level = 1
-    				instant_build = yes
-				}
-			}
-		}
-	}
-	focus = {
-	    id = porvat_tsepi
-	    x = 5
-	    y = 5
-		icon = GFX_focus_Porvat_tsepi
-	    cost = 5     
-	    available_if_capitulated = no
-		prerequisite = { focus = economic_reformi focus = american_brothers }
-	   
-	    completion_reward = { 
-	        
-		}
-	}
-	focus = {
-	    id = state_biznes
-	    x = 3 
-	    y = 5
-		icon = GFX_focus_Natsionalny_biznes
-	    cost = 5     
-	    available_if_capitulated = no
-		prerequisite = { focus = american_brothers focus = economic_reformi }
-	   
-	    completion_reward = { 
-	        add_ideas = malaya_privatizatia
-		}
-	}
-	focus = {
-	    id = verhovni_sovet
-	    x = 8 
-	    y = 3
-		icon = GFX_focus_Verkhovny_Sovet
-	    cost = 5     
-	    available_if_capitulated = no
-		prerequisite = { focus = perekleit_oboi }
-	   
-	    completion_reward = { 
-	    	set_party_name = {
-    			ideology = communism
-    			long_name = BLS_communism_KPB_party_long
-    			name = BLS_communism_KPB_party
-			}
-			add_popularity = {
-    			ideology = nationalism
-    			popularity = 0.2
-			}
-			add_popularity = {
-    			ideology = liberocratic
-    			popularity = 0.2
-			}
-			add_popularity = {
-    			ideology = conservocratic
-    			popularity = 0.2
-			}
-			add_popularity = {
-    			ideology = neutrality
-    			popularity = 0.05
-			}
-		}
-	}
-	focus = {
-	    id = belarusifikatsia
-	    x = 8 
-	    y = 4
-		icon = GFX_focus_belarusifikatsia
-	    cost = 5     
-	    available_if_capitulated = no
-		prerequisite = { focus = verhovni_sovet }
-	   
-	    completion_reward = { 
-	        country_event = belarus.8
-			reverse_add_opinion_modifier = {
-    			target = RUS
-    			modifier = rusofobia
-			}
-		}
-	}
-	focus = {
-	    id = elita
-	    x = 8 
-	    y = 5
-		icon = GFX_focus_Elita
-	    cost = 5     
-	    available_if_capitulated = no
-		prerequisite = { focus = belarusifikatsia }
-	   
-	    completion_reward = { 
-			add_popularity = {
-    			ideology = liberocratic
-    			popularity = 0.05
-			}
-			add_popularity = {
-    			ideology = nationalism
-    			popularity = 0.05
-			}
-			add_popularity = {
-    			ideology = neutrality
-    			popularity = 0.1
-			}
-		}
-	}
-	focus = {
-	    id = kritika
-	    x = 8 
-	    y = 6
-		icon = GFX_focus_Kritika
-	    cost = 5     
-	    available_if_capitulated = no
-		prerequisite = { focus = elita }
-	   
-	    completion_reward = { 
-	        add_stability = 0.05
-			add_war_support = -0.2
-			country_event = belarus.9
-		}
-	}
-	focus = {
-	    id = zavodi_lyudiam
+	    id = Pomnim_1918 
 	    x = 4
-	    y = 7
-		icon = GFX_focus_zavodi_lyudiam
+	    y = 5
+		icon = GFX_focus
 	    cost = 5     
 	    available_if_capitulated = no
-		prerequisite = { focus = state_biznes focus = porvat_tsepi }
+		prerequisite = { focus = Sozdanie_new_gosudarstva }
 	   
-	    completion_reward = { 
-			country_event = belarus.10
-	        996 = {
-				remove_building = {
-    				type = industrial_complex
-    				level = 2
-				}
-			}
-		}
-	}
-	focus = {
-	    id = state_idea
-	    x = 8
-	    y = 9
-		icon = GFX_focus_Natsionalnaya_ideya
-	    cost = 5     
-	    available_if_capitulated = no
-		prerequisite = { focus = zavodi_lyudiam }
-		prerequisite = { focus = kritika }
-		prerequisite = { focus = razlozhenie_armii }
-	   
-	    completion_reward = { 
-	        add_stability = 0.1
-		}
-	}
-	focus = {
-	    id = miting
-	    x = 8
-	    y = 10
-		icon = GFX_focus_Miting_u_parlamenta
-	    cost = 5     
-	    available_if_capitulated = no
-		prerequisite = { focus = state_idea }
-
-	    completion_reward = { 
-	        country_event = belarus.11
-		}
-	}
-	focus = {
-	    id = razgon
-	    x = 6
-	    y = 11
-		icon = GFX_focus_razgon
-	    cost = 5     
-	    available_if_capitulated = no
-		prerequisite = { focus = miting }
-		mutually_exclusive = { focus = sturm }
-
-	    completion_reward = { 
-	        add_manpower = -1000
-			country_event = belarus.12 
-		}
-	}
-	focus = {
-	    id = sturm
-	    x = 10
-	    y = 11
-		icon = GFX_focus_sturm
-	    cost = 5     
-	    available_if_capitulated = no
-		prerequisite = { focus = miting }
-		mutually_exclusive = { focus = razgon }
-
-	    completion_reward = { 
-			hidden_effect = {
-				load_focus_tree = BLS_communism_focus_tree
-			}
-		}		
-	}
-	focus = {
-	    id = reforma_armii
-	    x = 6
-	    y = 12
-		icon = GFX_focus_reforma_armii
-	    cost = 5     
-	    available_if_capitulated = no
-		prerequisite = { focus = razgon }
-
 	    completion_reward = { 
 	        
+			country_event = belarus.5
 		}
 	}
 	focus = {
-	    id = novaya_konstitucia
+	    id = Igri_v_parlamente 
+	    x = 4
+	    y = 6
+		icon = GFX_focus
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = Pomnim_1918 }
+	   
+	    completion_reward = { 
+	        
+			
+		}
+	}
+	focus = {
+	    id = Podderzka_BNF 
+	    x = 6
+	    y = 7
+		icon = GFX
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = Igri_v_parlamente }
+		mutually_exclusive = { focus = Nomenkulatura }
+	   
+	    completion_reward = { 
+	        
+			
+		}
+	}
+	focus = {
+	    id = Vozrozdenie_belaruskoi_kultrui 
+	    x = 6
+	    y = 8
+		icon = 
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = Igri_v_parlamente }
+	   
+	    completion_reward = { 
+	        
+			
+		}
+	}
+	focus = {
+	    id = Distantia_ot_Rossii 
+	    x = 6
+	    y = 9
+		icon = 
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = Vozrozdenie_belaruskoi_kultrui }
+	   
+	    completion_reward = { 
+	        
+			
+		}
+	}
+	focus = {
+	    id = Nalazhivanie_otnosheni_s_zapadom 
+	    x = 6
+	    y = 10
+		icon =  
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = Distantia_ot_Rossii }
+	   
+	    completion_reward = { 
+	        
+			
+		}
+	}
+	focus = {
+	    id = Nomenkulatura 
+	    x = 2
+	    y = 7
+		icon =  
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = Igri_v_parlamente }
+		mutually_exclusive = { focus = Podderzka_BNF }
+	   
+	    completion_reward = { 
+	        
+		
+		}
+	}
+	focus = {
+	    id = Status_KVO 
+	    x = 2
+	    y = 8
+		icon = 
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = Nomenkulatura }
+		
+	   
+	    completion_reward = { 
+	        
+		
+		}
+	}
+	focus = {
+	    id = Control_Economici 
+	    x = 2
+	    y = 9
+		icon =  
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = Status_KVO }
+		
+	   
+	    completion_reward = { 
+	        
+		
+		}
+	}
+	focus = {
+	    id = Vizit_v_Cremlin 
+	    x = 2
+	    y = 10
+		icon = 
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = Control_Economici }
+		
+	   
+	    completion_reward = { 
+	        
+		
+		}
+	}
+	#######################################################
+
+	###################### Выборы ###########################
+	focus = {
+	    id = Bel_Elections 
+	    x = 4
+	    y = 12
+		icon = 
+	    cost = 5     
+	    available_if_capitulated = no
+
+		
+	   
+	    completion_reward = { 
+	        
+		
+		}
+	}
+	focus = {
+	    id = Lukashenko 
+	    x = 2
+	    y = 13
+		icon =  
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = Bel_Elections }
+		
+	   
+	    completion_reward = { 
+	        
+		
+		}
+	}
+	focus = {
+	    id = Kebich 
+	    x = 4
+	    y = 13
+		icon =
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = Bel_Elections }
+		
+	   
+	    completion_reward = { 
+	        
+			
+		}
+	}
+	focus = {
+	    id = Pozdnyak 
 	    x = 6
 	    y = 13
-		icon = GFX_focus_novaya_konstitucia
+		icon =  
 	    cost = 5     
 	    available_if_capitulated = no
-		prerequisite = { focus = reforma_armii }
-
+		prerequisite = { focus = Bel_Elections }
+		
+	   
 	    completion_reward = { 
 	        
+			
 		}
 	}
 

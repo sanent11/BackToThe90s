@@ -12,4 +12,15 @@ spriteTypes = {
 		name = "GFX_idea_konets_plana"
 		texturefile = "gfx/interface/ideas/Belarus/konets_plana.png"
 	}
+	spriteType = {
+		name = "GFX_idea_Pyatiletka"
+		texturefile = "gfx/interface/ideas/Belarus/Pyatiletka.png"
+	}
+
+
+
+
+
+
+	
 }

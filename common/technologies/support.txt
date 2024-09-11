@@ -51,7 +51,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1.0
-		start_year = 1918
+		start_year = 1990
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1918 }
@@ -64,20 +64,7 @@ technologies = {
 		ai_will_do = {
 			factor = 2
 			
-			modifier = {
-				factor = 4
-				date > "1937.1.1"
-			}
-			
-			modifier = {
-				factor = 4
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 4
-				date > "1939.1.1"
-			}
+
 		}
 	}
 
@@ -94,7 +81,7 @@ technologies = {
 		}
 
 		research_cost = 1.25
-		start_year = 1936
+		start_year = 1991
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1936 }
@@ -113,24 +100,6 @@ technologies = {
 				is_major = yes
 			}
 			
-			modifier = {
-				factor = 2
-				date > "1937.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1939.1.1"
-			}
-			modifier = {
-				factor = 10
-				date > "1940.1.1"
-			}
 		}
 	}
 	
@@ -155,18 +124,6 @@ technologies = {
 			heavy_flame_tank
 		}
 		
-		on_research_complete = {
-			hidden_effect = {
-				if = {
-					limit = {
-						has_dlc = "No Step Back"
-						original_tag = ITA
-						has_completed_focus = ITA_italian_tankettes
-					}
-					ITA_add_basic_light_flamethrower_template = yes
-				}
-			}
-		}
 		
 		path = {
 			leads_to_tech = tech_engineers3
@@ -174,7 +131,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1993
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1939 }
@@ -250,7 +207,7 @@ technologies = {
 		}		
 
 		research_cost = 2.0
-		start_year = 1942
+		start_year = 1996
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1942 }
@@ -320,7 +277,7 @@ technologies = {
 			}
 		}
 		research_cost = 2.0
-		start_year = 1945
+		start_year = 1998
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1945 }
@@ -371,7 +328,7 @@ technologies = {
 		}
 
 		research_cost = 1.25
-		start_year = 1936
+		start_year = 1991
 		folder = {
 			name = support_folder
 			position = { x = 2 y = @1936 }
@@ -423,7 +380,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1993
 		folder = {
 			name = support_folder
 			position = { x = 2 y = @1939 }
@@ -465,7 +422,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1942
+		start_year = 1996
 		folder = {
 			name = support_folder
 			position = { x = 2 y = @1942 }
@@ -502,7 +459,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1945
+		start_year = 1998
 		folder = {
 			name = support_folder
 			position = { x = 2 y = @1945 }
@@ -545,7 +502,7 @@ technologies = {
 		}
 
 		research_cost = 1.25
-		start_year = 1936
+		start_year = 1991
 		folder = {
 			name = support_folder
 			position = { x = 4 y = @1936 }
@@ -612,7 +569,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1993
 		folder = {
 			name = support_folder
 			position = { x = 4 y = @1939 }
@@ -644,7 +601,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1942
+		start_year = 1996
 		folder = {
 			name = support_folder
 			position = { x = 4 y = @1942 }
@@ -671,7 +628,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1945
+		start_year = 1998
 		folder = {
 			name = support_folder
 			position = { x = 4 y = @1945 }
@@ -718,7 +675,7 @@ technologies = {
 		}
 
 		research_cost = 1.25
-		start_year = 1936
+		start_year = 1991
 		folder = {
 			name = support_folder
 			position = { x = 6 y = @1936 }
@@ -766,7 +723,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1993
 		folder = {
 			name = support_folder
 			position = { x = 6 y = @1939 }
@@ -815,7 +772,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1942
+		start_year = 1996
 		folder = {
 			name = support_folder
 			position = { x = 6 y = @1942 }
@@ -853,7 +810,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1945
+		start_year = 1998
 		folder = {
 			name = support_folder
 			position = { x = 6 y = @1945 }
@@ -900,7 +857,7 @@ technologies = {
 		}
 
 		research_cost = 1.25
-		start_year = 1936
+		start_year = 1991
 		folder = {
 			name = support_folder
 			position = { x = 8 y = @1936 }
@@ -946,7 +903,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1993
 		folder = {
 			name = support_folder
 			position = { x = 8 y = @1939 }
@@ -991,7 +948,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1942
+		start_year = 1996
 		folder = {
 			name = support_folder
 			position = { x = 8 y = @1942 }
@@ -1031,7 +988,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1945
+		start_year = 1998
 		folder = {
 			name = support_folder
 			position = { x = 8 y = @1945 }
@@ -1098,7 +1055,7 @@ technologies = {
 		}
 
 		research_cost = 1.25
-		start_year = 1936
+		start_year = 1991
 		folder = {
 			name = support_folder
 			position = { x = 10 y = @1936 }
@@ -1149,7 +1106,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1993
 		folder = {
 			name = support_folder
 			position = { x = 10 y = @1939 }
@@ -1199,7 +1156,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1942
+		start_year = 1996
 		folder = {
 			name = support_folder
 			position = { x = 10 y = @1942 }
@@ -1239,7 +1196,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1945
+		start_year = 1998
 		folder = {
 			name = support_folder
 			position = { x = 10 y = @1945 }
@@ -1290,7 +1247,7 @@ technologies = {
 		}
 
 		research_cost = 1.25
-		start_year = 1936
+		start_year = 1991
 		folder = {
 			name = support_folder
 			position = { x = 12 y = @1936 }
@@ -1326,7 +1283,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1993
 		folder = {
 			name = support_folder
 			position = { x = 12 y = @1939 }
@@ -1369,7 +1326,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1942
+		start_year = 1996
 		folder = {
 			name = support_folder
 			position = { x = 12 y = @1942 }
@@ -1407,7 +1364,7 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1945
+		start_year = 1998
 		folder = {
 			name = support_folder
 			position = { x = 12 y = @1945 }
@@ -1445,20 +1402,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1910
+		start_year = 1990
 		folder = {
 			name = support_folder
-			position = { x = 0 y = @1918 }
-		}
-
-		path = {
-			leads_to_tech = wartime_train
-			research_cost_coeff = 1
-		}
-
-		path = {
-			leads_to_tech = armored_train
-			research_cost_coeff = 1
+			position = { x = -10 y = 24 }
 		}
 		
 		categories = {
@@ -1484,138 +1431,6 @@ technologies = {
 			modifier = {
 				factor = 1.2
 				date > "1938.1.1"
-			}
-		}
-	}
-
-	railway_gun = {
-		enable_equipments = {
-			railway_gun_equipment_1
-		}
-
-		research_cost = 1.5
-		start_year = 1936
-		folder = {
-			name = support_folder
-			position = { x = 4 y = 3 }
-		}
-		
-		categories = {
-			train_tech
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 0.5
-			
-			modifier = {
-				is_major = yes
-				factor = 1
-			}
-
-			modifier = {
-				OR = {
-					TAG = GER
-					tag = SOV
-				}
-				factor = 1.5
-			}
-		}
-	}
-
-	wartime_train = {
-		enable_equipments = {
-			train_equipment_2
-		}
-
-		research_cost = 1.5
-		start_year = 1939
-		folder = {
-			name = support_folder
-			position = { x = 0 y = @1939 }
-		}
-		
-		categories = {
-			train_tech
-		}
-		
-		ai_will_do = {
-			factor = 2
-			
-			modifier = {
-				has_war = yes
-				factor = 20
-			}
-			modifier = {
-				factor = 1.2
-				date > "1940.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1941.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1942.1.1"
-			}
-		}
-	}
-
-	armored_train = {
-		enable_equipments = {
-			train_equipment_3
-		}
-
-		allow_branch = {
-			has_dlc = "No Step Back"
-		}
-
-		path = {
-			leads_to_tech = railway_gun
-			research_cost_coeff = 1
-		}
-		
-		allow_branch = {
-			has_dlc = "No Step Back"
-		}
-		
-		research_cost = 1.5
-		start_year = 1936
-		folder = {
-			name = support_folder
-			position = { x = 2 y = 3 }
-		}
-		
-		categories = {
-			train_tech
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				has_war = yes
-				factor = 20
-			}
-			modifier = {
-				tag = GER
-				factor = 5
-			}
-			modifier = {
-				factor = 1.2
-				date > "1938.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1939.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1940.1.1"
 			}
 		}
 	}

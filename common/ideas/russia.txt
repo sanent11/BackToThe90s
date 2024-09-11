@@ -38,9 +38,7 @@ ideas = {
 
 			modifier = {
 				production_speed_buildings_factor = -0.3
-				production_factory_max_efficiency_factor = -0.15
-				production_factory_start_efficiency_factor = -0.1
-				production_factory_efficiency_gain_factor = -0.1
+				production_factory_max_efficiency_factor = -0.15	
 			}
 		}		
 		RUS_dualpower = {
@@ -55,11 +53,50 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = idea_RUS_epoha_eltsina
+			picture = idea_RUS_dualpower
 
 			modifier = {
 				political_power_factor = -1.0
 				stability_factor = -0.2
 			}
 		}
+		Privatizatia = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = idea_Privatizatia
+
+			modifier = {
+				production_speed_buildings_factor  = 0.05
+				stability_weekly = -0.01
+				production_factory_max_efficiency_factor = -0.1
+			}
+		}
+		Liberalizatia_Tsen = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = idea_Liberalizatia_Tsen
+
+			modifier = {
+				stability_weekly = -0.01
+			}
+		}
 	}
+}

@@ -1,0 +1,70 @@
+focus_tree = {
+    id = BLS_soyuznoe_gosudarstvo
+	
+	country = {
+	    factor = 0
+		modifier = {
+		    add = 10
+			tag = BLS 
+		}
+	}
+	
+	default = no
+	
+	
+	focus = {
+	    id = 1991_otomshen
+	    x = 10
+	    y = 0
+		icon = GFX_focus_1991_otomshen
+	    cost = 5     
+	    available_if_capitulated = no
+	   
+	    completion_reward = { 
+	        remove_ideas = degradatsia_armii
+			add_stability = -0.25
+			add_political_power = 200
+		}
+	}
+	focus = {
+	    id = podavit_liberalov_mitingi
+	    x = 8
+	    y = 2
+		icon = GFX_focus_podavit_liberalov_mitingi
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = 1991_otomshen }
+	   
+	    completion_reward = { 
+			add_stability = 0.05
+			add_political_power = 100
+		}
+	}
+	focus = {
+	    id = zatknut_svobodnie_smi
+	    x = 12
+	    y = 2
+		icon = GFX_focus_podavit_liberalov_mitingi
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = 1991_otomshen }
+	   
+	    completion_reward = { 
+			add_stability = 0.05
+			add_political_power = 100
+		}
+	}
+	focus = { 
+	    id = zahvat_sng
+	    x = 10
+	    y = 4
+		icon = GFX_focus_podavit_liberalov_mitingi
+	    cost = 5     
+	    available_if_capitulated = no
+		prerequisite = { focus = zatknut_svobodnie_smi }
+		prerequisite = { focus = podavit_liberalov_mitingi }
+	   
+	    completion_reward = { 
+			activate_decision = BLS_Zahvat_SNG_category
+		}
+	}
