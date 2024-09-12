@@ -1,0 +1,6 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_tajikistan_civilwar"
+		texturefile = "gfx/event_pictures/tajikistan_civilwar.png"
+	}

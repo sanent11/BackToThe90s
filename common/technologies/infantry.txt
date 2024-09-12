@@ -1874,7 +1874,7 @@ technologies = {
 		}	
 		
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 1990
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = 0 }
@@ -1899,7 +1899,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1994
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = 5 }
@@ -1920,7 +1920,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1941
+		start_year = 1997
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = 10 }

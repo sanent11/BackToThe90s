@@ -64,6 +64,8 @@ country_event = { #Отставка Горбачева
 		add_stability = -0.15
 		set_global_flag = otstavka_gorbacheva
 		name = russiaStart.3.a
+		
+		
 	}
 }
 news_event = { #Мировой ивент про распад СССР
@@ -71,12 +73,24 @@ news_event = { #Мировой ивент про распад СССР
 	title = russiaStart.4.t
 	desc = russiaStart.4.d
 	picture = GFX_raspad_ussr
-	
+
+
 
 	trigger = {
-		has_global_flag = otstavka_gorbacheva
+		NOT = {
+			has_global_flag = raspad_ussr
+		}
+		date > 1991.12.20
+		date < 1992.1.10
 	}
-		
+	major = yes
+
+	immediate = {
+		hidden_effect  = {
+			set_global_flag = raspad_ussr
+		}
+	}
+
 	option = {
 		name = russiaStart.4.a
 		add_war_support = -0.05

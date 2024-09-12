@@ -1,0 +1,17 @@
+characters = {  
+  
+    Abdullo_Saidov = {
+		name = Abdullo_Saidov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SrednayaAsia/Abdullo_Saidov.png"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = { }
+			expire = "1998.8.24.1"
+			id = -1
+		}
+	}
+}

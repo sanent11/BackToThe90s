@@ -7,46 +7,19 @@ bookmarks = {
 		default_country = "RUS"
 		default = yes
 		
-		"RUS"={
-			history = "RUS_GATHERING_STORM_DESC"
-			ideology = communism
-			ideas = {
-				
-			}
-			focuses = {
-				RUS_belovezhskii_sogl
-				RUS_new_constitution
-				RUS_protest_snd
-			}
-		}
-		"UKN"={
-			history = "UKN_GATHERING_STORM_DESC"
-			ideology = conservocratic
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
+		
+		
 		"BLS"={
 			history = "BLR_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
-				
+				deficit_tovarov
+				degradatsia_armii
 			}
 			focuses = {
-				
-			}
-		}
-		"IAF"={
-			history = "IAF_GATHERING_STORM_DESC"
-			ideology = nationalism
-			ideas = {
-				
-			}
-			focuses = {
-				
+				Day_of_Volya
+				Nostalgia_po_BSSR
+				Sozdanie_new_gosudarstva
 			}
 		}
 		

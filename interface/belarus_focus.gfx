@@ -1,14 +1,16 @@
 spriteTypes = {
 
 	
-	spriteType = {
-		name = "GFX_focus_Rosupusk_KGB"
-		texturefile = "gfx/interface/goals/Belarus/Rosupusk_KGB.png"  
-	}
+
 	spriteType = {
 		name = "GFX_focus_Day_of_Volya"   
 		texturefile = "gfx/interface/goals/Belarus/Day_of_Volya.png"
 	}
+	spriteType = {
+		name = "GFX_focus_Rosupusk_KGB"
+		texturefile = "gfx/interface/goals/Belarus/Rosupusk_KGB.png"  
+	}
+
 	spriteType = {
 		name = "GFX_focus_Nostalgia_po_BSSR"
 		texturefile = "gfx/interface/goals/Belarus/Nostalgia_po_BSSR.png"

@@ -20,6 +20,9 @@ replace_path="common/national_focus"
 replace_path="common/technology_sharing"
 replace_path="common/ai_equipment"
 replace_path="common/ai_strategy"
+replace_path="common/characters"
+replace_path="common/decisions"
+
 supported_version="1.14.*"
 
 

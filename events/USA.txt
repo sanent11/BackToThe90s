@@ -82,12 +82,20 @@ news_event = {
 	
 	major = yes
 	
-	
 	trigger = {
-		date > 1993.2.6
-		date < 1993.2.26
+		date > 1993.2.1
+		date < 1993.2.20
+		NOT = {
+			has_global_flag = vzriv_v_new_yorke
+		}
 	}
-		
+
+	immediate = {
+		hidden_effect = {
+			set_global_flag = vzriv_v_new_yorke
+		}
+	}	
+
 	option = {
 		name = USAevents.4.a
 	}

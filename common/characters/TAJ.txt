@@ -8,9 +8,23 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = leninism
+			ideology = autor_democratic
 			traits = { }
 			expire = "2022.8.24.1"
+			id = -1
+		}
+	}
+	TAJ_VS = {
+		name = TAJ_VS
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SrednayaAsia/TAJ_VS.png"
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			traits = { }
+			expire = "2022.1.24.1"
 			id = -1
 		}
 	}

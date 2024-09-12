@@ -26,6 +26,15 @@ spriteTypes = {
 		name = "GFX_portrait_BLS_Stanislav_Shuskevic"
 		texturefile = "gfx/leaders/BLS/portrait_BLS_Stanislav_Shuskevic.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_portrait_Leonid_Maltsev"
+		texturefile = "gfx/leaders/BLS/Leonid_Maltsev.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_Nikolay_Churkin"
+		texturefile = "gfx/leaders/BLS/Nikolai_Churkin.png"
+	}
 	spriteType = {
 		name = "GFX_portrait_Dementei"
 		texturefile = "gfx/leaders/BLS/Dementei.png"

@@ -1,0 +1,53 @@
+add_namespace = taj
+
+
+news_event = {
+	id = taj.1
+	title = taj.1.t
+	desc = taj.1.d
+	picture = GFX_tajikistan_civilwar
+	
+	major = yes
+
+	trigger = {
+		date > 1992.5.1
+		date < 1992.5.11
+		NOT = {
+			has_global_flag = tajik_civilwar
+		}
+    }
+	immediate = {
+		hidden_effect = {
+			set_global_flag = tajik_civilwar
+			release = TJO
+			TJO = { transfer_state = 621 }
+			TJO = {
+				declare_war_on = {
+					target = TAJ
+					type = annex_everything
+				}
+				load_oob = TJO_1991
+			}
+			TAJ = {
+				remove_country_leader_role = {
+					character = TAJ_Rahmon_Nabiev
+					ideology = autor_democratic
+				} 
+				add_country_leader_role = {
+					character = TAJ_VS
+					promote_leader = yes
+					country_leader = {
+						ideology = centrism
+						expire = "2022.1.24.1"
+						traits = {}
+					}
+				}
+			}
+		}
+		
+	}	
+	option = { 
+		
+		name = taj.1.a
+	}
+}

@@ -2,6 +2,7 @@ capital = 742
 oob = "TAJ_1991"
 
 recruit_character = TAJ_Rahmon_Nabiev
+recruit_character = TAJ_VS
 
 set_research_slots = 3
 set_convoys = 0
@@ -44,7 +45,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = neutrality
 	last_election = no
 	election_frequency = 48
 	elections_allowed = no
@@ -53,12 +54,12 @@ set_politics = {
 set_popularities = {
 	fascism = 0
 	nationalism = 0
-	neutrality = 7
-	conservocratic = 23
+	neutrality = 70
+	conservocratic = 20
 	liberocratic = 0
 	democratic = 0
 	paternalism = 0
-	communism = 70
+	communism = 10
 	anarchy = 0
 	
 }

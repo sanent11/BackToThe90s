@@ -59,5 +59,35 @@ characters = {
 			id = -1
 		}
 	}
+	Nikolay_Churkin = {
+		name = Nikolay_Churkin
+		portraits = {
+			army = {
+				large = "gfx/leaders/BLS/Nikolai_Churkin.png"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	Leonid_Maltsev = {
+		name = Leonid_Maltsev
+		portraits = {
+			army = {
+				large = "gfx/leaders/BLS/Leonid_Maltsev.png"
+			}
+		}
+		corps_commander = {
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
 	
 }

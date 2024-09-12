@@ -32,6 +32,7 @@ XOR = "countries/Xorvatia.txt"
 MAK = "countries/Makedonia.txt"
 PRD = "countries/Pridnestr.txt"
 NKR = "countries/Karabah.txt"
+TJO = "countries/Tajik Opposition.txt"
 
 ##Западная Европа
 GER = "countries/Federate Germany.txt" 
