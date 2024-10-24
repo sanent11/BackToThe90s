@@ -65,6 +65,14 @@ spriteTypes = {
 	name = "GFX_pereimenovanie"
 	texturefile = "gfx/interface/goals/pereimenovanie.dds"			
 	}
+	SpriteType = {
+	name = "GFX_500_days"
+	texturefile = "gfx/interface/goals/500_days.dds"			
+	}
+	SpriteType = {
+	name = "GFX_500_days_categor"
+	texturefile = "gfx/interface/decisions/RUS/500_days_categor.dds"			
+	}
 
 
 

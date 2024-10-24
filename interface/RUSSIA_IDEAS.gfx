@@ -11,7 +11,10 @@ spriteTypes = {
 
 
 
-
+	spriteType = {
+		name = "GFX_idea_plurelizm"
+		texturefile = "gfx/interface/ideas/idea_RUS_plurelizm.png"
+	}
 	spriteType = {
 		name = "GFX_idea_Privatizatia"
 		texturefile = "gfx/interface/ideas/PRIVATIZATIA.png"

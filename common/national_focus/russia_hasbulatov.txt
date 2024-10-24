@@ -50,6 +50,7 @@ focus_tree = {
 	    available_if_capitulated = no
 	   
 	    completion_reward = { 
+	    country_event = russia.further_path
 		}
 	}
 	#Cоциализм
@@ -83,6 +84,8 @@ focus_tree = {
 	focus = {
 	    id = kompromiss
 		prerequisite = { focus = socialism_s_litsom }
+		prerequisite = { focus = borba_s_oligarhami }
+
 	    x = 2
 	    y = 4
 		icon = GFX_focus_kompromiss
@@ -90,6 +93,13 @@ focus_tree = {
 	    available_if_capitulated = no
 	   
 	    completion_reward = { 
+
+	    swap_ideas = {
+	    remove_idea = RUS_economic_for_proletareata_olegarhe
+    add_idea = RUS_economic_kompromiss
+    		}
+    add_ideas = RUS_kompromiss
+    
 		}
 	}
 	focus = {
@@ -100,9 +110,14 @@ focus_tree = {
 		icon = GFX_focus_defence_proletariat
 	    cost = 5     
 	    available_if_capitulated = no
+	   completion_reward = {
+	  
+	    swap_ideas = {
+    remove_idea = RUS_economic_crisis
+    add_idea = RUS_economic_for_proletareata
+}
+	    }
 	   
-	    completion_reward = { 
-		}
 	}
 	focus = {
 	    id = dveri_opens
@@ -114,6 +129,7 @@ focus_tree = {
 	    available_if_capitulated = no
 	   
 	    completion_reward = { 
+	      country_event = russia.dveri_opens
 		}
 	}
 	focus = {
@@ -122,10 +138,14 @@ focus_tree = {
 	    x = 6
 	    y = 5
 		icon = GFX_focus_borba_s_oligarhami
-	    cost = 5     
+	    cost = 7    
 	    available_if_capitulated = no
 	   
 	    completion_reward = { 
+	     swap_ideas = {
+	     remove_idea = RUS_economic_for_proletareata
+    add_idea = RUS_economic_for_proletareata_olegarhe
+    		}
 		}
 	}
 	focus = {
@@ -150,6 +170,7 @@ focus_tree = {
 	    available_if_capitulated = no
 	   
 	    completion_reward = { 
+	    add_ideas = RUS_pluralism
 		}
 	}
 	focus = {
@@ -174,6 +195,10 @@ focus_tree = {
 	    available_if_capitulated = no
 	   
 	    completion_reward = { 
+	    swap_ideas = {
+	     remove_idea = RUS_economic_kompromiss
+    add_idea = RUS_economic_stabilnost
+    		}
 		}
 	}
 	focus = {

@@ -162,3 +162,39 @@ country_event = {
 		}
 	}
 }
+	country_event = {
+	id = russia.further_path
+	title = russia.1.t
+	desc = russia.1.d
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = 1.further_path
+		add_political_power = 50
+		add_stability = 0.01
+		
+	
+			}
+		
+		}
+			country_event = {
+	id = russia.dveri_opens
+	title = russia.1.t
+	desc = russia.1.d
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = 1.dveri_opens
+		add_political_power = 50
+		add_stability = 0.01
+		
+	
+			}
+		}
+		
+	
+
