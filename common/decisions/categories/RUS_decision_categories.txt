@@ -1,0 +1,18 @@
+   
+
+RUS_500_days = {
+	
+	picture = GFX_500_days_categor
+
+	priority = 1000
+	     
+	allowed = {                                                                                        
+		original_tag = RUS                                                  
+	
+	} 
+
+	visible = { 
+	 has_completed_focus = RUS_500_days          
+                                     
+	}
+}        

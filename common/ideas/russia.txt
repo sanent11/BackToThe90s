@@ -57,9 +57,153 @@ ideas = {
 
 			modifier = {
 				production_speed_buildings_factor = -0.3
-				production_factory_max_efficiency_factor = -0.15	
+				production_factory_max_efficiency_factor = -0.15
+				production_factory_efficiency_gain_factor = -0.15	
 			}
-		}		
+		}
+		RUS_economic_for_proletareata = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = idea_RUS_economic_crisis
+
+			modifier = {
+			    liberocratic_drift = 0.02
+			    political_power_factor = 0.02
+				production_speed_buildings_factor = -0.23
+				production_factory_max_efficiency_factor = -0.13
+				production_factory_efficiency_gain_factor = -0.12
+
+				set_political_power = 	
+			}
+		}
+		RUS_economic_for_proletareata_olegarhe = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = idea_RUS_economic_crisis
+
+			modifier = {
+			    liberocratic_drift = 0.04
+			    political_power_factor = 0.03
+				production_speed_buildings_factor = -0.18
+				production_factory_max_efficiency_factor = -0.09
+				production_factory_efficiency_gain_factor = -0.1
+
+				set_political_power = 20	
+			}
+		}
+		RUS_pluralism = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GFX_idea_plurelizm
+
+			modifier = {
+			    liberocratic_drift = 0.02
+			    political_power_factor = 0.03
+			    stability_weekly = 0.01
+			    corporativizm_drift = 0.01
+			   
+
+				
+			}
+		}
+
+			RUS_economic_stabilnost = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = idea_RUS_economic_crisis
+
+			modifier = {
+			    liberocratic_drift = 0.04
+			    political_power_factor = 0.03
+				production_speed_buildings_factor = -0.05
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.03
+
+				set_political_power = 20	
+			}
+		}
+		RUS_economic_kompromiss = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = idea_RUS_economic_crisis
+
+			modifier = {
+			    liberocratic_drift = 0.04
+			    political_power_factor = 0.03
+				production_speed_buildings_factor = -0.10
+				production_factory_max_efficiency_factor = -0.5
+				production_factory_efficiency_gain_factor = -0.5
+
+				set_political_power = 20	
+			}
+		}
+		RUS_kompromiss = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = idea_RUS_economic_crisis
+
+			modifier = {
+			    liberocratic_drift = 0.04
+			    political_power_factor = 0.03
+			    stability_factor = 0.05
+
+			}	
+		}
+
 		RUS_dualpower = {
 
 			allowed = {

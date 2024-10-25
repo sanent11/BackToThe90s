@@ -1,0 +1,89 @@
+
+RUS_500_days = { 
+ 
+	500_days_1 = {       
+
+		allowed = {   
+			tag = RUS
+		}
+	   days_remove = 100 
+         
+		icon = 
+
+		fire_only_once = yes
+		
+		available = {
+
+		}
+
+		visible = {
+		}
+		 remove_effect = {
+			add_ideas = Privatizatia  
+		}
+	}
+
+		500_days_2 = {       
+
+		allowed = {   
+			tag = RUS
+		} 
+		days_remove = 150
+         
+		icon = 
+
+		fire_only_once = yes
+		
+		available = {
+
+		}
+
+		visible = {
+		}
+
+		remove_effect = {
+			add_ideas = Liberalizatia_Tsen  
+		}
+	}
+
+		500_days_3 = {       
+
+		allowed = {   
+			tag = RUS
+		} 
+		days_remove = 150
+         
+		icon = 
+
+		fire_only_once = yes
+		
+		available = {
+
+		}
+
+		visible = {
+		}
+	}
+
+		500_days_4 = {       
+
+		allowed = {   
+			tag = RUS
+		} 
+		days_remove = 100
+         
+		icon = 
+
+		fire_only_once = yes
+		
+		available = {
+
+		}
+
+		visible = {
+		}
+	}
+	
+		
+	}
+}
