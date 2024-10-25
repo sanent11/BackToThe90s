@@ -9,7 +9,7 @@
  STABILITY_POPULARITY_FACTOR: "Популярность правящей партии: $VALUE|=+2%$"
  STABILITY_EFFECT_TITLE: "\n§HВлияние нашей текущей стабильности:§!\n"
  STABILITY_PROPAGANDA: "£operative_mission_icons_small|8£ Иностранная пропаганда: $VALUE|+=2%$"
- WAR_SUPPORT_EFFECT_TITLE: "\n§HВлияние нашей текущей поддержки войны:§!\n"
+ WAR_SUPPORT_EFFECT_TITLE: "\n§HВлияние нашего этнонационализма:§!\n"
  WAR_SUPPORT_AT_OFFENSIVE_WAR: "Наступательная война: $VALUE|+=2%$"
  WAR_SUPPORT_AT_DEFENSIVE_WAR: "Оборонительная война: $VALUE|+=2%$"
  WAR_SUPPORT_TENSION: "Мировая напряженность: $VALUE|+=2%$"

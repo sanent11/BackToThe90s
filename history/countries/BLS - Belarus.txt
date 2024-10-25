@@ -78,3 +78,4 @@ add_ideas = {
 	deficit_tovarov
 	degradatsia_armii
 }
+give_military_access = RUS

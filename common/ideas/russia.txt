@@ -21,7 +21,26 @@ ideas = {
 				political_power_factor = -0.2
 			}
 		}
-		
+		degradatsia_armii_rus	= {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = degradatsia_armii
+
+			modifier = {
+				army_morale_factor = -0.95
+				army_org_factor = -0.9
+				army_speed_factor = -0.9
+			}
+		}	
 		RUS_economic_crisis	= {
 
 			allowed = {

@@ -664,7 +664,7 @@
 663;3;57;170;land;false;urban;1
 664;3;57;225;land;false;hills;6
 665;3;63;50;land;false;forest;1
-666;3;63;155;land;false;hills;1
+666;3;63;155;land;false;urban;1
 667;3;63;200;land;false;plains;1
 668;3;66;15;land;false;mountain;1
 669;3;66;165;land;false;plains;1
@@ -13359,3 +13359,12 @@
 13340;150;220;1;land;false;desert;6
 13341;200;220;17;land;false;mountain;6
 13342;170;190;85;land;false;mountain;6
+
+#Чечня
+13343;45;163;178;land;false;plains;1
+13344;147;163;178;land;false;plains;1
+13345;186;85;191;land;false;plains;1
+13346;3;63;12;land;false;hills;1
+13347;82;15;85;land;false;mountain;1
+13348;82;15;255;land;false;mountain;1
+13349;255;63;55;land;false;urban;1

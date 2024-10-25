@@ -52,6 +52,13 @@ set_technology = {
 	trench_warfare = 1
 	base_strike = 1
 	synth_oil_experiments = 1
+	mechanised_infantry = 1
+	mechanised_infantry2 = 1
+	mechanized_equipment_1 = 1
+	mechanized_equipment_2 = 1
+	tech_trucks = 1
+	tech_trucks2 = 1
+	paratroopers = 1
 }
 
 add_ideas = {
@@ -105,10 +112,28 @@ set_cosmetic_tag = RUS_SOU
 add_ideas = { SOV_gorbachev RUS_dualpower  }
 every_country = { add_dynamic_modifier = { modifier = addfabric_economic_res } }	
 	
-add_ideas = { federative soviet_republic extensive_conscription }
+add_ideas = { federative soviet_republic extensive_conscription degradatsia_armii }
 
 add_equipment_to_stockpile = {
     type = infantry_equipment_1
     amount = 15000
     producer = AFN
 }
+
+#add_equipment_to_stockpile = {
+#    type = basic_medium_tank
+#    amount = 4000
+#    producer = RUS
+#}
+#add_equipment_to_stockpile = {
+#    type = gwtank
+#    amount = 10000
+#    producer = RUS
+#}
+#add_equipment_to_stockpile = {
+#    type = gwtank
+#    amount = 10000
+#    producer = RUS
+#}
+
+

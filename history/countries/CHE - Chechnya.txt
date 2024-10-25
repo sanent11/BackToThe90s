@@ -3,7 +3,7 @@ oob = "СHE_1991"
 
 recruit_character = CHE_Dudaev
 
-set_research_slots = 3
+set_research_slots = 2
 set_convoys = 0
 
 set_technology = {
@@ -54,14 +54,18 @@ set_politics = {
 
 set_popularities = {
 	fascism = 0
-	nationalism = 100
-	neutrality = 0
+	nationalism = 90
+	neutrality = 2
 	natdem = 0
-	conservocratic = 0
+	conservocratic = 5
 	liberocratic = 0
-	democratic = 0
+	democratic = 1
 	paternalism = 0
-	communism = 0
+	communism = 2
 	anarchy = 0
 	
 }
+
+821 = {						add_dynamic_modifier = {
+						modifier = chechen_war
+					} }

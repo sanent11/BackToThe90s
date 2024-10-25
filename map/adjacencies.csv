@@ -209,4 +209,11 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13058;12512;impassable;-1;-1;-1;-1;-1;;Greenland Glacier
 13058;10636;impassable;-1;-1;-1;-1;-1;;Greenland Glacier
 13058;13066;impassable;-1;-1;-1;-1;-1;;Greenland Glacier
+
+1455;3667;impassable;-1;-1;-1;-1;-1;;Checnhyaa1
+7554;1455;impassable;-1;-1;-1;-1;-1;;Checnhyaa2
+1455;13347;impassable;-1;-1;-1;-1;-1;;Checnhyaa1
+13348;13347;impassable;-1;-1;-1;-1;-1;;Checnhyaa1
+6436;3667;impassable;-1;-1;-1;-1;-1;;Checnhyaa1
+1455;13278;impassable;-1;-1;-1;-1;-1;;Checnhyaa2
 -1;-1;;-1;-1;-1;-1;-1;-1

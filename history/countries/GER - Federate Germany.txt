@@ -65,3 +65,4 @@ set_popularities = {
 }
 
 add_ideas = { federative parlament_democratic }
+give_military_access = RUS

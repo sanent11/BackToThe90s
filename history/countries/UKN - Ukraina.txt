@@ -63,5 +63,6 @@ set_popularities = {
 	anarchy = 0
 	
 }
+give_military_access = RUS
 
 add_ideas = { SOV_gorbachev }

@@ -9,7 +9,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = nationalism_ideology
-			traits = { }
+			traits = { air_strategic_bombing_3 }
 			expire = "1996.8.24.1"
 			id = -1
 		}

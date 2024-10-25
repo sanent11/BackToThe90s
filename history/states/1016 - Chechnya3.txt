@@ -1,0 +1,27 @@
+state={
+	id=1016
+	name="STATE_1016"
+	
+	history={
+		owner = CHE
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = CHE
+		add_claim_by = RUS
+		victory_points = {
+			13348 3 
+		}
+		victory_points = {
+			1455 1 
+		}
+	}
+
+	provinces={
+		1455 13278 13348
+	}
+	manpower=82666
+	state_category=pastoral
+	local_supplies=0.000
+}
