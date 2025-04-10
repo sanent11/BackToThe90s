@@ -4,7 +4,7 @@ state = {
 
 	history = {
 	
-		owner = TMN
+		owner = TMS
 		
 		victory_points = {
 			12333 2
@@ -12,12 +12,12 @@ state = {
 		
 		buildings = {
 			infrastructure = 1
-			 
+			industrial_complex = 1
 
 		}
 		
-		add_core_of = TMN
-	
+		#add_core_of = SOV
+		add_core_of = TMS
 
 	}
 

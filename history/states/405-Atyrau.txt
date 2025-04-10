@@ -15,11 +15,14 @@ state = {
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
-			 
+			industrial_complex = 2
 			air_base = 1
 		}
 		
+		#add_core_of = SOV
 		add_core_of = UZB
+		
+		
 	}
 
 	provinces = {

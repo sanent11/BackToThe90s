@@ -13,14 +13,17 @@ state = {
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 1
-			industrial_complex = 3
 
 		}
 		victory_points = {
-			7375 20 
+			7375 1 
 		}
 		add_core_of = RUS
-		
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+			}
+		}
 	}
 
 	provinces = {

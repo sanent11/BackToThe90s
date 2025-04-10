@@ -9,8 +9,6 @@ state={
 	state_category = pastoral
 	history={
 		owner = CPR
-		add_core_of = CHI
-		add_claim_by = CHI
 		buildings = {
 			infrastructure = 1
 		}

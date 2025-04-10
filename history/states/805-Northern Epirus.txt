@@ -21,6 +21,7 @@ state={
 			infrastructure = 1
 		}
 		add_core_of = ALN
+		
 	}
 
 	local_supplies=0.0 

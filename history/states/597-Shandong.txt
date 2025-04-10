@@ -10,15 +10,13 @@ state=
 	{
 		owner = CPR
 		add_core_of = CHI
-		add_claim_by = CHI
 		add_core_of = CPR
-		
 		victory_points = {
 			1069 3 
 		}
 		buildings = {
 			infrastructure = 2
-			 
+			industrial_complex = 1
 			air_base = 3
 			4205 = {
 				naval_base = 2

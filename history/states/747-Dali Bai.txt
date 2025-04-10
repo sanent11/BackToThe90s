@@ -2,21 +2,23 @@ state={
 	id=747
 	name="STATE_747"
 	provinces={
-		606 953 982 6799 11741
+		4559 4937 5009 7965 7976 8126 10413 10863 12789 12898 
 	}
-	manpower=1000
+	manpower=1000000
 	buildings_max_level_factor=1.000
 	state_category = pastoral
 	history={
-		owner = SRB
-		add_core_of = SRB
-		add_claim_by = BOS
-
-		
-
+		owner = CPR
+		#add_core_of = YUN
+		add_core_of = CHI
+		add_core_of = CPR
+		victory_points = {
+			7965 3 
+		}
 		buildings = {
 			infrastructure = 2
 		}
+		
 
 	}
 

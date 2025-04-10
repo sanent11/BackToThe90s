@@ -5,9 +5,7 @@ state={
 	manpower = 980533
 	
 	state_category = pastoral
-	resources={
-		uran = 12
-	}
+
 	history={
 		owner = KAH
 		add_core_of = KAH
@@ -17,7 +15,7 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
-
+		#add_core_of = SOV
 
 	}
 

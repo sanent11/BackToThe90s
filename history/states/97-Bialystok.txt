@@ -15,11 +15,12 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			 
+			industrial_complex = 1
 			air_base = 3
 
 		}
 		add_core_of = PLN
+		#add_core_of = BLR
 
 	}
 

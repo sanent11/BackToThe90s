@@ -1,30 +1,28 @@
 
-
 state={
 	id=611
-	name="STATE_107"
+	name="STATE_611" # South Chahar
+	manpower = 1470000
+	
+	state_category = pastoral
 
 	history={
-		owner = RSK
+		owner = CPR
+		#add_core_of = MEN
+		add_core_of = CHI
+		add_core_of = CPR
 		buildings = {
-			infrastructure = 2
-			arms_factory = 1
-			 
-
+			infrastructure = 3
+			industrial_complex = 1
 		}
-
-		add_core_of = SRB
-		add_core_of = RSK
-		add_claim_by = 	XOR
-
+		victory_points = {
+			11752 4
+		}
 	}
 
 	provinces={
-		624 984 3596 13307 13308 13309 13310 13311 13312 6611 
+		828 952 1137 1489 1590 4495 4612 6904 7545 7674 9776 10397 11752 
 	}
-	manpower=191121
-	buildings_max_level_factor=1.000
-	state_category=large_city
 
-	local_supplies=4.0 
+	local_supplies=0.0 
 }

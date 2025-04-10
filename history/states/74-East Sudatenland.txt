@@ -1,28 +1,34 @@
-state=
-{
-	id=74
-	name="STATE_74"
+state = {
+	id = 74
+	name = "STATE_74"
 	manpower = 820000
 	
 	state_category = rural
 	
-	
-	history=
-	{
-		victory_points = {
-			3583 5
-		}
+	history = {
+		
 		owner = CZH
+		add_core_of = CZH
+
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1
 		}
-		add_core_of = CZH
 
+		victory_points = {
+			3583 5 # Ostrava
+		}
+
+		victory_points = {
+			3414 2 # Opava
+		}
+
+		
 	}
-	provinces= {
+
+	provinces = {
 		421 3414 3583 6485
  	}
 
-	local_supplies=2.0 
+	local_supplies = 2.0 
 }

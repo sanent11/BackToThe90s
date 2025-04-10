@@ -8,9 +8,11 @@ state={
 		owner = AUS
 		buildings = {
 			infrastructure = 2
-			 
+			industrial_complex = 1
 		}
 		add_core_of = AUS
+		add_claim_by = SWI
+		
 	}
 	provinces={
 		6678 6680 

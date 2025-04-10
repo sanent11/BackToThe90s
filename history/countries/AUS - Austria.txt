@@ -1,5 +1,5 @@
 capital = 4
-oob = "AUT_1991"
+oob = "AUS_1991"
 
 recruit_character = AUS_Franz_Vranitski
 

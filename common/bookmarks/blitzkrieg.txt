@@ -1,0 +1,32 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1991.12.1.12
+		picture = "GFX_select_date_1991"
+		default_country = "RUS"
+		default = yes
+		
+		
+		
+		"BLS"={
+			history = "BLR_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				deficit_tovarov
+				degradatsia_armii
+			}
+			focuses = {
+				Day_of_Volya
+				Nostalgia_po_BSSR
+				Sozdanie_new_gosudarstva
+			}
+		}
+		
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

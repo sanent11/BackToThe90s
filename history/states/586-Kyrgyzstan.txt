@@ -6,20 +6,21 @@ state={
 		chromium=12.000
 		tungsten=4.000
 		aluminium=10.000
-		uran = 5
 	}
 
 	history={
 		owner = KAH
 		add_core_of = KAH
 		buildings = {
-			infrastructure = 3
-			 
+			infrastructure = 2
+			industrial_complex = 3
 
 		}
 		victory_points = {
 			1591 3 
 		}
+		#add_core_of = SOV
+		
 
 	}
 

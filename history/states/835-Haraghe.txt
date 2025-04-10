@@ -24,7 +24,7 @@ state = {
 		}
 		
 		buildings = {
-			 
+			industrial_complex = 1
 			air_base = 1
 		}
 		
@@ -43,7 +43,7 @@ state = {
 		add_core_of = SOM
 		add_core_of = HAR
 
-	
+		
 	}
 
 	provinces = {

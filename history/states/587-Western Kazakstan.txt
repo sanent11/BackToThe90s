@@ -11,11 +11,10 @@ state={
 		victory_points = {
 			1517 1 
 		}
+		#add_core_of = SOV
 
 	}
-	resources={
-		uran = 3
-	}
+
 	provinces={
 		475 642 1517 3593 4523 4620 7641 10262 11701 12163 12383 13008 
 	}

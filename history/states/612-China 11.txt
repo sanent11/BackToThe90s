@@ -1,31 +1,25 @@
-
 state={
 	id=612
-	name="STATE_107"
+	name="STATE_612"
 
 	history={
-		owner = RSK
+		owner = CPR
+		add_core_of = CPR
+		add_core_of = CHI
+		#add_core_of = PRC
 		buildings = {
-			infrastructure = 2
-			arms_factory = 1
-			 
+			infrastructure = 1
 
 		}
-		victory_points = {
-			9608 10 
-		}
-		add_core_of = SRB
-		add_core_of = RSK
-		add_claim_by = 	XOR
 
 	}
 
 	provinces={
-		9608 13302 13303 13304
+		1551 1608 1796 1811 1871 4222 4555 7578 7648 10363 10372 12348 12448 12554 
 	}
-	manpower=191121
+	manpower=566000
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=rural
 
-	local_supplies=4.0 
+	local_supplies=0.0 
 }

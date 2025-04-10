@@ -9,13 +9,12 @@ state={
 	state_category = pastoral
 	history={
 		owner = CPR
+		#add_core_of = XSM
 		add_core_of = CHI
-		add_claim_by = CHI
 		add_core_of = CPR
-		
 		buildings = {
 			infrastructure = 1
-			 
+			industrial_complex = 1
 
 		}
 		

@@ -1,32 +1,30 @@
 
 state={
 	id=267
-	name="STATE_267"
+	name="STATE_267" # Kabul
+	manpower = 1976110
+	
+	state_category = town
+	
 	resources={
-		tungsten=3.000
+		tungsten=3 # was: 3
 	}
-
 	history={
 		owner = AFN
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
-			 
-
+			industrial_complex = 1  
 		}
 		victory_points = {
 			10737 5 
 		}
 		add_core_of = AFN
-		add_core_of = IAF
-
 	}
 
 	provinces={
-		 10737 
+		7916 7984 10737 10852 12769 
 	}
-	manpower=4000000
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+
+	local_supplies=0.0 
 }

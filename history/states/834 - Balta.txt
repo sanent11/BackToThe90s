@@ -9,7 +9,10 @@ state = {
 	history = {
 		owner = UKN
 		victory_points = {
-			3757 1 
+			3757 2 
+		}
+		victory_points = {
+			741 1 
 		}
 		buildings = {
 		
@@ -17,7 +20,13 @@ state = {
 			
 		}
 		add_core_of = UKN
-		
+		add_core_of = UKR
+		add_core_of = MOL
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+			}
+		}
 	}
 
 	provinces = {

@@ -37,7 +37,7 @@ state = {
 		add_core_of = BEG
 		add_core_of = ORO
 
-	
+		
 	}
 
 	provinces = {

@@ -7,6 +7,7 @@ state={
 
 	history={
 		owner = SRB
+		
 		victory_points = {
 			3614 1
 		}
@@ -15,7 +16,8 @@ state={
 			infrastructure = 3 #was: 6
 		}
 		add_core_of = SRB
-		add_core_of = VOE
+		add_core_of = SER
+		add_core_of = TRA
 	}
 
 	provinces={

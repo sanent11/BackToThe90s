@@ -4,20 +4,18 @@ state={
 	name="STATE_608"
 	manpower = 9648400
 	
-	state_category = megalopolis
+	state_category = large_city
 
 	history={
 		owner = CPR
 		add_core_of = CHI
-		add_claim_by = CHI
 		add_core_of = CPR
-		
 		buildings = {
 			infrastructure = 3 #was: 5
-			 
-			air_base = 10
+			industrial_complex = 2
+			air_base = 3
 			10068 = {
-				naval_base = 10
+				naval_base = 2
 			}
 		}
 		victory_points = {

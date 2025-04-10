@@ -6,13 +6,9 @@ state={
 	state_category = enclave
 	
 	history={
-		owner = SRB
-		add_core_of = SRB
-		add_claim_by = BOS
-		victory_points = {
-			11899 9
-		}
-
+		owner = CPR
+		add_core_of = CHI
+		add_core_of = CPR
 		buildings = {
 			infrastructure = 2
 			11981 = {
@@ -22,7 +18,7 @@ state={
 	}
 	
 	provinces={
-		11899 
+		11981 
 	}
 
 	local_supplies=0.0 

@@ -8,8 +8,8 @@ state={
 
 	history={
 		owner = RUS
-		#add_core_of = RUS
-		#add_claim_by = JAP # Removed because of too much aggression
+		add_core_of = RUS
+		#add_claim_by = SOV # Removed because of too much aggression
 		buildings = {
 			infrastructure = 2
 			1399 = {

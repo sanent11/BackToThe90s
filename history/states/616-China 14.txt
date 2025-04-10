@@ -1,26 +1,32 @@
+state = {
+	id = 616
+	name = "STATE_616"
 
+	history = {
 
-state={
-	id=616
-	name="STATE_107"
+		owner = CPR
+		#add_core_of = XSM
+		add_core_of = CHI
+		add_core_of = CPR
 
-	history={
-		owner = KYR
 		buildings = {
 			infrastructure = 1
-			 
-
 		}
 
-		add_core_of = KYR
+		victory_points = {
+			8127 2 #Yinchuan
+		}
+
+		
+
 	}
 
-	provinces={
-		2058 4467 4923 12581
+	provinces = {
+		3742 5031 5057 5100 7511 8055 8081 8127 10724 12327 12750 12776 
 	}
-	manpower=185121
-	buildings_max_level_factor=1.000
-	state_category=rural	
+	manpower = 2077600
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
 
-	local_supplies=4.0 
+	local_supplies = 0.0 
 }

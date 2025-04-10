@@ -1,41 +1,30 @@
 
-state={
-	id=821
-	name="STATE_821"
+state = {
+	id = 821
+	name = "STATE_821"
+	manpower = 731985
+	
+	state_category = rural
+	
 	resources={
-		oil=15.000
+		oil = 9 # was split from Dagestan which had 19 oil, and retained 10
 	}
 
-	history={
+	history = {
 		owner = CHE
 		buildings = {
 			infrastructure = 2
-			arms_factory = 2
-			 
-
 		}
 		victory_points = {
-			666 15 
+			3672 5 
 		}
-		victory_points = {
-			13346 3 
-		}
-		victory_points = {
-			13347 1 
-		}
-
+		add_claim_of = SOV
 		add_core_of = CHE
-		add_claim_by = RUS
-
-
 	}
 
-	provinces={
-		666 6689 13274 13343 13344 13345 13346 13347
+	provinces = {
+		666 670 1455 3667 3672 6689
 	}
-	manpower=1401283
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
 
+	local_supplies=0.0 
 }

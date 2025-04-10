@@ -2,23 +2,21 @@ state=
 {
 	id=326
 	name="STATE_326"
-	manpower = 5674114
-	state_category = megalopolis
+	manpower = 1143516
+	state_category = large_town
 	history=
 	{
-		owner = ENG
+		owner = CPR
 		add_core_of = CHI
-		add_claim_by = CHI
 		add_core_of = CPR
-	
 		victory_points = {
 			10062 3 
 		}
 		buildings = {
-			infrastructure = 5 #was: 5
-			air_base = 10
+			infrastructure = 3 #was: 5
+			air_base = 1
 			10062 = {
-				naval_base = 10
+				naval_base = 6
 				coastal_bunker = 1
 			}
 		}
@@ -27,5 +25,5 @@ state=
 		10062
 	}
 
-	local_supplies=20.0 
+	local_supplies=0.0 
 }

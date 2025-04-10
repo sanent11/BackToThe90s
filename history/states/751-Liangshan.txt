@@ -2,22 +2,25 @@ state={
 	id=751
 	name="STATE_751"
 	provinces={
-		13292
+		1999 2067 7294 10726 10841 12141 12819 
 	}
-	impassable = yes
-	manpower=60000
+	manpower=300000
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=pastoral
 	history={
-		owner = RWA
-		add_core_of = RWA
-		add_core_of = RWP
-		
+		owner = CPR
+		add_core_of = CHI
+		add_core_of = CPR
 		buildings = {
-			infrastructure = 0
+			infrastructure = 1
 
 		}
-
+		victory_points = {
+			12141 3
+		}
+		victory_points = {
+			7294 1
+		}
 		
 
 	}

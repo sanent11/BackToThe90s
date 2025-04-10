@@ -9,11 +9,9 @@ state={
 	state_category = rural
 	history={
 		owner = CPR
-		add_core_of = CHI
-		add_claim_by = CHI
 		buildings = {
 			infrastructure = 1
-			 
+			industrial_complex = 1
 			arms_factory = 1
 		}
 		victory_points = {

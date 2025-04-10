@@ -7,11 +7,9 @@ state={
 
 	history={
 		owner = CPR
-		add_core_of = CHI
-		add_claim_by = CHI
 		buildings = {
 			infrastructure = 1
-			 
+			industrial_complex = 1
 
 		}
 		add_core_of = CPR

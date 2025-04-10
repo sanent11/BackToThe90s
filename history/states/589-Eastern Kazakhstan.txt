@@ -4,12 +4,13 @@ state={
 
 	history={
 		owner = KAH
-		add_core_of = KAH
+		#add_core_of = KAZ
 		buildings = {
 			infrastructure = 2
-			 
+			industrial_complex = 1
 
 		}
+		add_core_of = KAH
 		
 		victory_points = {
 			1668 1

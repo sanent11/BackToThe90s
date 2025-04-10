@@ -1,4 +1,4 @@
-version="1.14.*"
+version="1.16.*"
 tags={
 	"Alternative History"
 	"Events"
@@ -23,7 +23,7 @@ replace_path="common/ai_strategy"
 replace_path="common/characters"
 replace_path="common/decisions"
 
-supported_version="1.14.*"
+supported_version="1.16.*"
 
 
 
