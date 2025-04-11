@@ -28,9 +28,7 @@ news_event = {
 					ideology = liberocratic
 					popularity = 0.05
 				}
-				set_politics = {
-					ruling_party = liberocratic
-				}
+
 			}
 		}
     }
@@ -62,7 +60,7 @@ news_event = {
 			USA = {
 				add_popularity = {
 					ideology = liberocratic
-					popularity = 0.1
+					popularity = 0.15
 				}
 
 			}
@@ -73,7 +71,39 @@ news_event = {
 	
 	}
 }
+country_event = {
+	id = USAevents.3
+	title = USAevents.3.t
+	desc = USAevents.3.desc
+	picture = GFX_news_event_usaelection1992
+	
+	major = yes
 
+	trigger = {
+		date > 1993.1.20
+		date < 1993.1.30
+		NOT = {
+			has_global_flag = usa_elections_1992_inagur
+		}
+		tag = USA
+
+	}	
+    immediate = {
+		hidden_effect  = {
+			set_global_flag = usa_elections_1992_inagur
+
+			USA = {
+				set_politics = {
+					ruling_party = liberocratic
+				}
+			}
+		}
+    }
+	option = {
+		name = USAevents.1.a
+	
+	}
+}
 news_event = {
 	id = USAevents.4
 	title = USAevents.4.t

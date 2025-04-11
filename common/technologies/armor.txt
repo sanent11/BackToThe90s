@@ -227,7 +227,10 @@ technologies = {
 			leads_to_tech = improved_medium_tank 
 			research_cost_coeff = 1
 		}
-		
+		path = {
+			leads_to_tech = basic_medium_tank_plus 
+			research_cost_coeff = 1
+		}		
 		research_cost = 2
 		start_year = 1976
 
@@ -253,7 +256,49 @@ technologies = {
 			mio_cat_tech_medium_armor_and_modules
 		}
 	}
-	
+	basic_medium_tank_plus = {
+
+		on_research_complete = {
+			add_equipment_bonus = {
+			  project = FROM
+			  bonus = {
+				armor = { # Type of equipment
+				  armor_value = 3
+				  soft_attack = 3
+				  instant = yes
+				}
+				small_plane_naval_bomber_airframe = {
+				  air_range = 0.1
+				  naval_strike_attack = 0.1
+				}
+			  }
+}
+		}
+		mechanized = {
+			reliability = 0.1
+
+		}
+			
+
+		research_cost = 1.0
+		start_year = 1985
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 2 }
+		}
+		
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_medium_armor
+			mio_cat_tech_medium_armor_and_modules
+		}
+		
+		ai_will_do = {
+			base = 3
+		}
+	}		
+
 	improved_medium_tank = { #Panzer IV
 
 		enable_equipments = {
@@ -265,8 +310,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = improved_heavy_tank 
-			research_cost_coeff = 0.9
+			leads_to_tech = improved_medium_tank_plus 
+			research_cost_coeff = 1
 		}
 		
 		research_cost = 2
@@ -294,7 +339,34 @@ technologies = {
 			mio_cat_tech_medium_armor_and_modules
 		}
 	}
-	
+	improved_medium_tank_plus = {
+
+		equipment_bonus = {
+			medium_tank_chassis = {
+				soft_attack = 0.15
+				build_cost_ic = -0.15
+			}
+		}
+		
+
+		research_cost = 1.0
+		start_year = 1985
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 5 }
+		}
+		
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_medium_armor
+			mio_cat_tech_medium_armor_and_modules
+		}
+		
+		ai_will_do = {
+			base = 3
+		}
+	}	
 	advanced_medium_tank = { #Panther
 
 		enable_equipments = {
@@ -306,8 +378,8 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = advanced_heavy_tank 
-			research_cost_coeff = 0.9
+			leads_to_tech = advanced_medium_tank_plus 
+			research_cost_coeff = 1
 		}
 		
 		research_cost = 2
@@ -336,7 +408,34 @@ technologies = {
 			mio_cat_tech_medium_armor_and_modules
 		}
 	}
-	
+	advanced_medium_tank_plus = {
+
+		equipment_bonus = {
+			medium_tank_equipment_1 = {
+				soft_attack = 0.15
+				build_cost_ic = -0.15
+			}
+		}
+		
+
+		research_cost = 1.0
+		start_year = 1985
+		folder = {
+			name = armour_folder
+			position = { x = 6 y = 8 }
+		}
+		
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_medium_armor
+			mio_cat_tech_medium_armor_and_modules
+		}
+		
+		ai_will_do = {
+			base = 3
+		}
+	}
 	
 	
 	main_battle_tank = { #E-50

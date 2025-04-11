@@ -54,12 +54,16 @@ set_popularities = {
 	fascism = 0
 	nationalism = 0
 	neutrality = 0 
-	natdem = 50
-	conservocratic = 22
+	natdem = 42
+	democratic = 35
 	liberocratic = 0
-	democratic = 0
+	conservocratic = 0
 	paternalism = 0
-	communism = 28
+	communism = 18
 	anarchy = 0
 	
+}
+declare_war_on = {
+	target = SOA
+	type = annex_everything
 }

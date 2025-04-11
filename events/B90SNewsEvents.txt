@@ -1,0 +1,156 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = bc90snews
+
+#Зимние Олимпийские игры 1992
+news_event = {
+	id = bc90snews.1
+	title = bc90snews.1.t
+	desc = bc90snews.1.d
+	picture = GFX_news_event_1992_winter_olymp
+	 
+	major = yes
+	trigger = {
+		date > 1992.2.8
+		date < 1992.2.23
+		NOT = {
+			has_global_flag = 1992_winter_olymp
+		}
+
+	}	
+    immediate = {
+		hidden_effect  = {
+			set_global_flag = 1992_winter_olymp
+		}
+	}
+	option = {
+		name = bc90snews.1.a
+		add_political_power = 5
+	}
+}
+
+#Война в Алжире
+news_event = {
+	id = bc90snews.2
+	title = bc90snews.2.t
+	desc = bc90snews.2.d
+	picture = GFX_news_event_1992_civil_war_algir
+	
+	major = yes
+	trigger = {
+		date > 1992.1.11
+		date < 1993.1.22
+		NOT = {
+			has_global_flag = 1992_civil_war_algir
+		}
+
+	}	
+    immediate = {
+		hidden_effect  = {
+			set_global_flag = 1992_civil_war_algir
+		}
+		#тут должна начаться война...
+	}
+	option = {
+		name = bc90snews.2.a
+	}
+}
+#Выборы в Болгарии (Ивент не доделан)
+news_event = {
+	id = bc90snews.3
+	title = bc90snews.3.t
+	desc = bc90snews.3.desc
+	#picture = GFX_news_event_1992_bulgaria_v1
+	
+	major = yes
+	is_triggered_only = yes
+
+    immediate = {
+		hidden_effect  = {
+			set_global_flag = bulgaria_v0
+		}
+		#тут должна начаться война...
+	}
+	option = {
+		name = bc90snews.3.a
+	}
+}
+#Выборы в Болгарии (Ивент не доделан)
+news_event = {
+	id = bc90snews.4
+	title = bc90snews.4.t
+	desc = bc90snews.4.desc
+	#picture = GFX_news_event_1992_bulgaria_v1
+	
+	major = yes
+	is_triggered_only = yes
+
+    immediate = {
+		hidden_effect  = {
+			set_global_flag = bulgaria_v1
+		}
+		#тут должна начаться война...
+	}
+	option = {
+		name = bc90snews.4.a
+	}
+}
+#Выборы в Болгарии (Ивент не доделан) (второй)
+news_event = {
+	id = bc90snews.5
+	title = bc90snews.5.t
+	desc = bc90snews.5.desc
+	#picture = GFX_news_event_1992_bulgaria_v2
+	is_triggered_only = yes
+
+	major = yes
+
+    immediate = {
+		hidden_effect  = {
+			set_global_flag = bulgaria_v2
+		}
+		#тут должна начаться война...
+	}
+	option = {
+		name = bc90snews.5.a
+	}
+}
+#Моджахеды
+news_event = {
+	id = bc90snews.6
+	title = bc90snews.6.t
+	desc = bc90snews.6.d
+	picture = GFX_news_event_end_war_afgan
+	
+	major = yes
+	trigger = {
+		NOT = {
+			country_exists = AFN
+			has_global_flag = AFN_capitulation
+
+		}
+
+	}	
+    immediate = {
+		hidden_effect  = {
+			set_global_flag = AFN_capitulation
+		}
+		#...
+	}
+	option = {
+		name = bc90snews.6.a
+		trigger = {
+			tag = RUS
+		}	
+	}
+	option = {
+		name = bc90snews.6.b
+		trigger = {
+			NOT = {
+				tag = RUS
+			}
+		}	
+	}
+}

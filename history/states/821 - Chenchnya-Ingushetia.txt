@@ -14,11 +14,12 @@ state = {
 		owner = CHE
 		buildings = {
 			infrastructure = 2
-		}
+
+			arms_factory = 1
+			 		}
 		victory_points = {
 			3672 5 
 		}
-		add_claim_of = SOV
 		add_core_of = CHE
 	}
 

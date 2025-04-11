@@ -4,12 +4,29 @@
 	division_cap = 6
 	
 	regiments = {
-	    infantry = { x = 0 y = 0 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
+	    motorized = { x = 0 y = 0 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 1 }
+	}
+	support = { 
+		artillery = { x = 0 y = 0 }
+	}
+	priority = 1
+}
+division_template = {
+    name = "Government Tank division"
+	division_names_group = AFN_INF_01
+	division_cap = 6
+	
+	regiments = {
+	    mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		medium_armor = { x = 2 y = 0 }
+		medium_armor = { x = 2 y = 1 }
+		medium_armor = { x = 2 y = 2 }
 	}
 	support = { 
 		artillery = { x = 0 y = 0 }
@@ -25,7 +42,40 @@ units = {
 		location = 10737
 		division_template = "Government division"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10737
+		division_template = "Government division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10737
+		division_template = "Government Tank division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.4
+
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10737
+		division_template = "Government Tank division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.4
 
 	}
 	division = {
@@ -36,7 +86,7 @@ units = {
 		location = 7984
 		division_template = "Government division"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	division = {
@@ -47,7 +97,7 @@ units = {
 		location = 13288
 		division_template = "Government division"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	division = {
@@ -58,7 +108,7 @@ units = {
 		location = 12877
 		division_template = "Government division"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	division = {
@@ -69,7 +119,7 @@ units = {
 		location = 4893
 		division_template = "Government division"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
 
 	}
 	division = {
@@ -80,7 +130,18 @@ units = {
 		location = 13287
 		division_template = "Government division"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 13287
+		division_template = "Government Tank division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
 
 	}
 		division = {
@@ -91,7 +152,18 @@ units = {
 		location = 5064
 		division_template = "Government division"
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5064
+		division_template = "Government Tank division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
 
 	}
 }

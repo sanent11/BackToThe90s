@@ -1,0 +1,17 @@
+characters = {  
+  
+    SOM_UnitedCongress_CaliMahdiMaxamed = {
+		name = SOM_UnitedCongress_CaliMahdiMaxamed
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOMALI/portrait_SOM_UnitedCongress_CaliMahdiMaxamed.dds"
+			}
+		}
+		country_leader = {
+			ideology = islam_democracy
+			traits = { }
+			expire = "2011.1.1.1"
+			id = -1
+		}
+	}
+}

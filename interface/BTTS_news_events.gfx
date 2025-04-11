@@ -1,0 +1,15 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_news_event_1992_winter_olymp"
+		texturefile = "gfx/event_pictures/GFX_news_event_1992_winter_olymp.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_1992_civil_war_algir"
+		texturefile = "gfx/event_pictures/GFX_news_event_1992_civil_war_algir.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_end_war_afgan"
+		texturefile = "gfx/event_pictures/GFX_news_event_end_war_afgan.dds"
+	}
+}

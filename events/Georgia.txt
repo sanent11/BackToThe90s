@@ -1,0 +1,147 @@
+﻿
+add_namespace = GEOevents
+
+
+
+news_event = {
+	id = GEOevents.1
+	title = GEOevents.1.t
+	desc = GEOevents.1.desc
+	picture = GFX_news_event_usaelection1992
+	
+	major = yes
+
+	trigger = {
+		date > 1991.12.22
+		date < 1992.1.6
+		NOT = {
+			has_global_flag = geo_revolt_1992
+		}
+
+	}	
+    immediate = {
+		hidden_effect  = {
+			set_global_flag = geo_revolt_1992
+			231 = {
+				set_demilitarized_zone = no
+			}
+
+			GEO = {
+				set_politics = {
+					ruling_party = democratic
+				}
+			}		
+		}
+    }
+	option = {
+		name = USAevents.1.a
+	
+	}
+}
+news_event = {
+	id = GEOevents.2
+	title = GEOevents.2.t
+	desc = GEOevents.2.desc
+	picture = GFX_news_event_usaelection1992
+	
+	major = yes
+
+	trigger = {
+		date > 1992.8.14
+		date < 1992.8.30
+		NOT = {
+			has_global_flag = geo_civil_war_1992
+		}
+
+	}	
+    immediate = {
+		hidden_effect  = {
+			set_global_flag = geo_civil_war_1992
+			826 = {
+				transfer_state_to = ABK
+				
+			}
+			GEO = {
+				declare_war_on = {
+					target = ABK
+					type = annex_everything
+				}
+			}
+		}
+    }
+	option = {
+		name = USAevents.1.a
+	
+	}
+}
+news_event = {
+	id = GEOevents.3
+	title = GEOevents.3.t
+	desc = GEOevents.3.desc
+	picture = GFX_news_event_usaelection1992
+	
+	major = yes
+
+	trigger = {
+		date > 1993.6.4
+		date < 1993.6.20
+		NOT = {
+			has_global_flag = geo_civil_war_1992
+		}
+
+	}	
+    immediate = {
+		hidden_effect  = {
+			set_global_flag = geo_civil_war_1992
+			
+
+			GEO = {
+				start_civil_war = {
+					ruling_party = democratic
+					# Original country's ideology changes to communism
+					ideology = natdem
+					# Breakaway gets old ideology of ROOT
+					capital = 946
+					states = {
+						946 
+					}
+
+					keep_political_leader = yes
+					keep_political_party_members = yes
+				}
+			}
+		}
+    }
+	option = {
+		name = USAevents.1.a
+	
+	}
+}
+
+news_event = {
+	id = USAevents.4
+	title = USAevents.4.t
+	desc = USAevents.4.d
+	picture = GFX_new_york_terrakt
+	
+	major = yes
+	
+	trigger = {
+		date > 1993.2.1
+		date < 1993.2.20
+		NOT = {
+			has_global_flag = vzriv_v_new_yorke
+		}
+	}
+
+	immediate = {
+		hidden_effect = {
+			set_global_flag = vzriv_v_new_yorke
+		}
+	}	
+
+	option = {
+		name = USAevents.4.a
+	}
+}
+	
