@@ -108,8 +108,10 @@ country_event = { #Либерализация цен
 		name = russiaStart.5.a
 		add_stability = -0.1
 		add_ideas = Liberalizatia_Tsen
+		
 	}
 }
+
 country_event = { #Приватизация
 	id = russiaStart.6
 	title = russiaStart.6.t
@@ -166,5 +168,19 @@ country_event = { #Проект новой конституции
 	option = {	
 		name = russiaStart.9.a
 		add_stability = -0.05
+	}
+}
+country_event = { #голод
+	id = russiaStart.10
+	title = russiaStart.10.t
+	desc = russiaStart.10.d
+	picture = GFX_liberalizatia_tsen  
+	
+	is_triggered_only = yes
+	
+	option = {	
+		name = russiaStart.10.a
+		add_stability = -0.15
+		add_ideas = hunger
 	}
 }	

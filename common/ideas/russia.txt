@@ -261,5 +261,26 @@ ideas = {
 				stability_weekly = -0.01
 			}
 		}
+		hunger = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = idea_Liberalizatia_Tsen
+
+			modifier = {
+				stability_weekly = -0.05
+				consumer_goods_factor = 0.15
+				industrial_capacity_factory = -0.15 
+				industrial_capacity_military = -0.2             
+			}
+		}
 	}
 }
