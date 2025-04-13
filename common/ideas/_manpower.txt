@@ -48,7 +48,7 @@ ideas = {
 			}
 
 			modifier = {
-				conscription = 0.005
+				conscription = 0.004
 				army_org_regain = 1.0
 				army_morale_factor = 1.0
 				army_org_factor	= 0.5
@@ -73,7 +73,7 @@ ideas = {
 			}
 
 			modifier = {
-				conscription = 0.04
+				conscription = 0.03
 				training_time_factor = 0.25
 				army_org_regain = 0.25
 				army_org_factor	= 0.25
@@ -101,7 +101,7 @@ ideas = {
 			level = 4
 
 			modifier = {
-				conscription = 0.15
+				conscription = 0.1
 				army_org_factor	= 0.1
 
 				
@@ -131,8 +131,6 @@ ideas = {
 				production_speed_buildings_factor = -0.4
 				training_time_factor = -0.5
 				army_org_regain = -0.25
-				army_morale_factor = -0.25
-				army_org_factor	= -0.25
 			}
 
 			cancel_if_invalid = no

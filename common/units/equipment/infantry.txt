@@ -40,11 +40,32 @@ equipments = {
 		}
 		
 	}
+	infantry_equipment_kustar = {
+		year = 1910
+	
+		archetype = infantry_equipment
+		priority = 10
+		visual_level = 1
+
+		#Defensive Abilities
+		defense = 20
+		breakthrough = 2
+		reliability = 0.3
+
+		#Offensive Abilities
+		soft_attack = 3
+		hard_attack = 0.5
+		ap_attack = 1
+		air_attack = 0
+
+		build_cost_ic = 0.35
+	}
 
 	infantry_equipment_0 = {
 		year = 1918
 	
 		archetype = infantry_equipment
+		parent = infantry_equipment_kustar
 		active = yes
 		priority = 05
 		visual_level = 0

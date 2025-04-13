@@ -1,0 +1,32 @@
+state = {
+	id = 1021
+	name = "STATE_1021"
+	manpower = 608500
+	
+	state_category = pastoral
+
+	history = {
+
+		owner = SMD
+		add_core_of = SMR
+		add_core_of = SOM
+		add_core_of = SMF
+		add_core_of = SMN
+		add_core_of = SMD
+		add_core_of = SMA
+		add_core_of = SMS
+
+		buildings = {
+			infrastructure = 0
+		}
+
+
+		
+	}
+
+	provinces = {
+		1966 4909 10818 10891 
+	}
+
+	local_supplies = 0.0 
+}

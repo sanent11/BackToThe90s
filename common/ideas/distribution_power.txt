@@ -37,11 +37,10 @@ ideas = {
 
 			modifier = {
 				
-				consumer_goods_factor = 0.6
-				research_speed_factor = -0.25
+				research_speed_factor = -0.1
 				drift_defence_factor = -0.45
-				production_speed_buildings_factor = -0.75
-				war_support_factor = 0.1
+				war_support_factor = 0.15
+				political_power_factor = 0.75
 
 			}
 
@@ -61,19 +60,18 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				
-				consumer_goods_factor = 0.25
-
-				experience_gain_army = 0.1
+				political_power_factor = 0.75
+				experience_gain_army = 0.25
 				monthly_population = -0.2
 				research_speed_factor = -0.2
 				stability_factor = -0.4
-				conscription_factor = 0.1
+				conscription_factor = 0.3
 				drift_defence_factor = -0.4
 				production_speed_buildings_factor = -0.5
 				communism_acceptance = -50
 				paternalism_acceptance = -50
-				
+				consumer_goods_factor = 0.25
+
 			
 
 			}
@@ -143,7 +141,6 @@ ideas = {
 
 			modifier = {
 				political_power_factor = 0.5
-				min_export = 0.075
 				drift_defence_factor = -0.05
 
 			}

@@ -1,0 +1,173 @@
+division_template = {
+    name = "Boyeviki Islam"
+	division_names_group = GEO_INF_01
+	
+	
+	regiments = {
+	    irregular_infantry = { x = 0 y = 0 }
+	    irregular_infantry = { x = 0 y = 1 }
+	    irregular_infantry = { x = 0 y = 2 }
+
+	}
+	is_locked = yes
+
+}
+
+division_template = {
+    name = "Pehota"
+	division_names_group = GEO_INF_01
+	
+	
+	regiments = {
+	    infantry = { x = 0 y = 0 }
+	}
+
+	priority = 1
+}
+units = {
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 13380
+		division_template = "Boyeviki Islam"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.2
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 13380
+		division_template = "Boyeviki Islam"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.2
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 13380
+		division_template = "Boyeviki Islam"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.2
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 13380
+		division_template = "Boyeviki Islam"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.2
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 13380
+		division_template = "Boyeviki Islam"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.2
+	}
+
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2063
+		division_template = "Boyeviki Islam"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.2
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2063
+		division_template = "Boyeviki Islam"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.2
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2063
+		division_template = "Boyeviki Islam"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.2
+	}
+
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 8094
+		division_template = "Boyeviki Islam"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.2
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 8094
+		division_template = "Boyeviki Islam"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.2
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 8094
+		division_template = "Boyeviki Islam"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.2
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12814
+		division_template = "Boyeviki Islam"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.2
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12814
+		division_template = "Boyeviki Islam"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.2
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12814
+		division_template = "Boyeviki Islam"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.2
+	}
+}
+
+
+

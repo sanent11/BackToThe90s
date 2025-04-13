@@ -1,0 +1,154 @@
+division_template = {
+    name = "Core Army"
+	division_names_group = GEO_INF_01
+	
+	
+	regiments = {
+	    motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+	    motorized = { x = 0 y = 2 }
+	}
+	is_locked = yes
+
+}
+division_template = {
+    name = "Opolchenie"
+	division_names_group = GEO_INF_01
+	
+	
+	regiments = {
+	    irregular_infantry = { x = 0 y = 0 }
+	    militia = { x = 0 y = 1 }
+	}
+
+}
+division_template = {
+    name = "BTR"
+	division_names_group = GEO_INF_01
+	
+	
+	regiments = {
+	    mechanized = { x = 0 y = 0 }
+	    medium_armor = { x = 1 y = 0 }
+	}
+
+}
+division_template = {
+    name = "TANK"
+	division_names_group = GEO_INF_01
+	
+	
+	regiments = {
+	    medium_armor = { x = 0 y = 0 }
+	}
+
+}
+division_template = {
+    name = "Pehota"
+	division_names_group = GEO_INF_01
+	
+	
+	regiments = {
+	    infantry = { x = 0 y = 0 }
+	}
+
+	priority = 1
+}
+units = {
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 8164
+		division_template = "Core Army"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 8164
+		division_template = "Core Army"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12991
+		division_template = "Opolchenie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 13383
+		division_template = "Opolchenie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 10928
+		division_template = "Opolchenie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12991
+		division_template = "Opolchenie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12991
+		division_template = "BTR"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 8164
+		division_template = "Opolchenie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {    
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12991
+		division_template = "TANK"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+
+}
+
+
+

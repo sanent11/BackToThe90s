@@ -1,0 +1,19 @@
+ideas = {
+    country = {
+        Somali_civil_war= {
+			modifier = {
+
+				surrender_limit = 1.0
+				research_speed_factor = -0.5
+				stability_factor = -0.7
+				recruitable_population_factor = 0.2
+				industry_free_repair_factor = -0.85
+
+
+			}
+			picture = KNDR
+
+        }        
+	}
+		
+}

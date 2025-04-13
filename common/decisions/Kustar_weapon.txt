@@ -1,0 +1,21 @@
+
+CUSTAR_production = { 
+	CUSTAR_product_war = {
+		activation = {
+			has_civil_war = yes
+		}
+		cancel_trigger = {
+			has_civil_war = no
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = yes
+		days_mission_timeout = 30
+		timeout_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_kustar
+				amount = 200
+			}
+			activate_mission = CUSTAR_product_war
+		}
+	}
+}

@@ -1351,10 +1351,7 @@ technologies = {
 		}
 
 		
-		path = {
-			leads_to_tech = motorised_infantry
-			research_cost_coeff = 1
-		}
+
 		path = {
 			leads_to_tech = tech_trucks2
 			research_cost_coeff = 1
@@ -1425,7 +1422,10 @@ technologies = {
 			motorized_equipment_1
 			
 		}
-
+		path = {
+			leads_to_tech = tech_trucks
+			research_cost_coeff = 1
+		}
 		#enable_equipment_modules = {
 		#	tank_wheeled_suspension
 		#}

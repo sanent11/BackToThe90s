@@ -1,0 +1,16 @@
+
+CUSTAR_production = {
+	 
+	icon = saf_anti_colonialist_crusade
+	picture = GFX_ZVO                                          
+	                                           
+	allowed = {                              
+		always = yes
+	}
+	visible = {  
+        has_civil_war = yes
+	}	  
+
+	priority = 500
+}
+

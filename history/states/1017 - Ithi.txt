@@ -1,0 +1,32 @@
+state = {
+	id = 1017
+	name = "STATE_1017"
+	manpower = 108500
+	
+	state_category = wasteland
+
+	history = {
+
+		owner = SMR
+		add_core_of = SMR
+		add_core_of = SOM
+		add_core_of = SMF
+		add_core_of = SMN
+		add_core_of = SMD
+		add_core_of = SMA
+		add_core_of = SMS
+
+		buildings = {
+			infrastructure = 0
+		}
+
+
+		
+	}
+
+	provinces = {
+		13380
+	}
+
+	local_supplies = 0.0 
+}
