@@ -24,6 +24,7 @@ division_template = {
 }
 division_template = {
     name = "BTR"
+	is_locked = yes
 	division_names_group = GEO_INF_01
 	
 	
@@ -41,6 +42,7 @@ division_template = {
 	regiments = {
 	    medium_armor = { x = 0 y = 0 }
 	}
+	is_locked = yes
 
 }
 division_template = {

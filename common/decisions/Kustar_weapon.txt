@@ -2,10 +2,13 @@
 CUSTAR_production = { 
 	CUSTAR_product_war = {
 		activation = {
-			has_civil_war = yes
+			OR = {
+				has_idea = Somali_civil_war
+				has_idea = Somali_civil_war
+			}
 		}
-		cancel_trigger = {
-			has_civil_war = no
+		available  = {
+			has_war = no
 		}
 		icon = mission_icon     # For GFX_decision_mission_icon
 		is_good = yes

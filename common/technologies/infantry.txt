@@ -1356,7 +1356,10 @@ technologies = {
 			leads_to_tech = tech_trucks2
 			research_cost_coeff = 1
 		}
-
+		path = {
+			leads_to_tech = motorised_infantry
+			research_cost_coeff = 1
+		}
 		
 
 		research_cost = 1.5
@@ -1422,10 +1425,7 @@ technologies = {
 			motorized_equipment_1
 			
 		}
-		path = {
-			leads_to_tech = tech_trucks
-			research_cost_coeff = 1
-		}
+
 		#enable_equipment_modules = {
 		#	tank_wheeled_suspension
 		#}
@@ -1447,9 +1447,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			
-		}
+
 
 		research_cost = 2
 		start_year = 1936
@@ -1463,9 +1461,7 @@ technologies = {
 			position = { x = 7 y = 9 }
 		}
 		
-		sub_technologies = {
-			motorized_rocket_unit
-		}
+
 		
 		categories = {
 			motorized_equipment
@@ -1550,7 +1546,12 @@ technologies = {
 			militia
 		}
 	}
-
+ 	kustar_eq_tech = {
+ 		allow = { always = no }
+		enable_equipments = {
+			infantry_equipment_kustar
+		}
+	}
 	
 	mechanised_infantry2 = {
 

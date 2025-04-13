@@ -11,9 +11,32 @@ ideas = {
 
 
 			}
-			picture = KNDR
+			picture = Africa_civil_war
 
-        }        
+        }
+        Somali_USA_vols= {
+			modifier = {
+				custom_modifier_tooltip  = somali_vol
+				send_volunteer_size = 3
+				send_volunteers_tension = -1.0
+				send_volunteer_divisions_required = -1.0
+
+
+			}
+			picture = fdfdffd
+
+        }  
+        Somali_OTHER_vols= {
+			modifier = {
+				custom_modifier_tooltip  = somali_vol
+				send_volunteers_tension = -1.0
+				send_volunteer_divisions_required = -1.0
+
+
+			}
+			picture = gdfgfddfg
+
+        } 		
 	}
 		
 }

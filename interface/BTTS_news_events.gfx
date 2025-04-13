@@ -12,4 +12,8 @@ spriteTypes = {
 		name = "GFX_news_event_end_war_afgan"
 		texturefile = "gfx/event_pictures/GFX_news_event_end_war_afgan.dds"
 	}
+	spriteType = {
+		name = "GFX_1992_somali_civil_war_unosomI"
+		texturefile = "gfx/event_pictures/GFX_news_event_end_war_afgan.dds"
+	}
 }

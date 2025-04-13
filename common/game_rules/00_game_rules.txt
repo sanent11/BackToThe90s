@@ -185,20 +185,16 @@ allow_volunteers = {
 		text = "RULE_OPTION_FREE"
 		desc = "RULE_ALLOW_VOLUNTEERS_FREE_DESC"
 	}
-	option = {
-		name = "LIMITED"
-		text = "RULE_OPTION_LIMITED"
-		desc = "RULE_ALLOW_VOLUNTEERS_LIMITED_DESC"
-	}
+
 	option = {
 		name = SAME_IDEOLOGY
 		text = "RULE_OPTION_SAME_IDEOLOGY"
 		desc = "RULE_ALLOW_VOLUNTEERS_SAME_IDEOLOGY_DESC"
 	}
 	default = {
-		name = BLOCKED
-		text = "RULE_OPTION_BLOCKED"
-		desc = "RULE_ALLOW_VOLUNTEERS_BLOCKED_DESC"
+		name = LIMITED
+		text = "RULE_OPTION_LIMITED"
+		desc = "RULE_ALLOW_VOLUNTEERS_FREE_DESC"
 	}
 }
 

@@ -9,9 +9,12 @@ set_technology = {
 	tech_support = 1
 	gwtank = 1
 	gw_artillery = 1
+	kustar_eq_tech = 1
 }
 oob = "SMF_1991"
-
+enable_equipments = {
+	infantry_equipment_kustar
+}	
 set_convoys = 10
 
 add_ideas = { Somali_civil_war war_dictatorship service_by_requirement }

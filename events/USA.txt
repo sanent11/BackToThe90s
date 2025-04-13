@@ -130,4 +130,5 @@ news_event = {
 		name = USAevents.4.a
 	}
 }
+
 	

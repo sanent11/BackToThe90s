@@ -1,0 +1,122 @@
+﻿
+add_namespace = somali_event
+
+
+#Моджахеды
+news_event = {
+	id = somali_event.1
+	title = somali_event.1.t
+	desc = somali_event.1.d
+	picture = GFX_1992_somali_civil_war_unosomI
+	
+	major = yes
+	trigger = {
+		date > 1992.1.9
+		date < 1993.1.22
+		NOT = {
+			has_global_flag = 1992_somali_civil_war_UNITAF 
+		}
+		SOM = {
+			has_war = yes
+		}
+		country_exists = SOM
+
+	}	
+    immediate = {
+		hidden_effect  = {
+			set_global_flag = 1992_somali_civil_war_UNITAF 
+
+		}
+		
+	}
+	option = {
+		name = somali_event.1.a
+		trigger = {
+			NOT = {
+				tag = USA
+				tag = AST
+				tag = CAN
+				tag = ITA
+				tag = IND
+				tag = PAK
+				tag = ETH
+				tag = FRA
+				tag = GER
+				tag = BOT
+			}
+		}
+	}
+	option = {
+		name = somali_event.1.b
+		trigger = {
+			OR = {
+				tag = AST
+				tag = CAN
+				tag = ITA
+				tag = IND
+				tag = PAK
+				tag = ETH
+				tag = FRA
+				tag = GER
+				tag = BOT
+			}
+		}
+		country_event = somali_event.3
+		
+	}
+	option = {
+		name = somali_event.1.c
+		trigger = {
+			tag = USA
+		}	
+		country_event = somali_event.2
+
+	}
+}
+country_event = {
+	id = somali_event.2
+	title = somali_event.2.t
+	desc = somali_event.2.desc
+	picture = dffsdsdf
+	
+
+	is_triggered_only = yes
+
+	option = {
+		name = somali_event.2.a
+		add_ideas = Somali_USA_vols
+		set_country_flag = may_send_volunteers_to_SOM
+		set_rule = {
+			can_send_volunteers = yes
+		}
+		add_ai_strategy = {
+			type = send_volunteers_desire	
+			id = SOM
+			value = 200
+		}
+	}
+}
+
+country_event = {
+	id = somali_event.3
+	title = somali_event.3.t
+	desc = somali_event.3.desc
+	picture = GFX_news_event_usaelection1992
+	
+
+	is_triggered_only = yes
+
+	option = {
+		name = somali_event.3.a
+		add_ideas = Somali_OTHER_vols
+		set_country_flag = may_send_volunteers_to_SOM
+		set_rule = {
+			can_send_volunteers = yes
+		}
+		add_ai_strategy = {
+			type = send_volunteers_desire	
+			id = SOM
+			value = 200
+		}
+	}
+}

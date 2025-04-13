@@ -22,7 +22,11 @@ spriteTypes = {
 		name = "GFX_idea_KNDR"
 		texturefile = "gfx/interface/ideas/North Korea/Chuche.dds"
 	}
-
+	#Africa
+	spriteType = {
+		name = "GFX_idea_Africa_civil_war"
+		texturefile = "gfx/interface/ideas/Africa_civil_war.dds"
+	}
 
 
 }
