@@ -5,10 +5,11 @@ ideas = {
 
 				surrender_limit = 1.0
 				research_speed_factor = -0.5
-				stability_factor = -0.7
+				stability_factor = -0.85
 				recruitable_population_factor = 0.2
 				industry_free_repair_factor = -0.85
-
+				army_defence_against_major_factor = 0.5
+				monthly_population = -1.25
 
 			}
 			picture = Africa_civil_war
@@ -23,19 +24,88 @@ ideas = {
 
 
 			}
-			picture = fdfdffd
-
+			picture = OON
+				targeted_modifier = {
+					tag = SMN 
+					attack_bonus_against = -0.85
+				}
+				targeted_modifier = {
+					tag = SMR 
+					attack_bonus_against = -0.85
+				}
+				targeted_modifier = {
+					tag = SMN 
+					attack_bonus_against = -0.85
+				}
+				targeted_modifier = {
+					tag = SMF
+					attack_bonus_against = -0.85
+				}
+				targeted_modifier = {
+					tag = SMA
+					attack_bonus_against = -0.85
+				}
+				targeted_modifier = {
+					tag = SMU
+					attack_bonus_against = -0.85
+				}
+				targeted_modifier = {
+					tag = SMD
+					attack_bonus_against = -0.85
+				}
+				targeted_modifier = {
+					tag = SMM
+					attack_bonus_against = -0.85
+				}
+				targeted_modifier = {
+					tag = SMS
+					attack_bonus_against = -0.85
+				}
         }  
         Somali_OTHER_vols= {
 			modifier = {
 				custom_modifier_tooltip  = somali_vol
 				send_volunteers_tension = -1.0
 				send_volunteer_divisions_required = -1.0
-
-
+	
 			}
-			picture = gdfgfddfg
-
+			picture = OON
+			targeted_modifier = {
+					tag = SMN 
+					attack_bonus_against = -0.85
+				}
+				targeted_modifier = {
+					tag = SMR 
+					attack_bonus_against = -0.85
+				}
+				targeted_modifier = {
+					tag = SMN 
+					attack_bonus_against = -0.85
+				}
+				targeted_modifier = {
+					tag = SMF
+					attack_bonus_against = -0.85
+				}
+				targeted_modifier = {
+					tag = SMA
+					attack_bonus_against = -0.85
+				}
+				targeted_modifier = {
+					tag = SMU
+					attack_bonus_against = -0.85
+				}
+				targeted_modifier = {
+					tag = SMD
+					attack_bonus_against = -0.85
+				}
+				targeted_modifier = {
+					tag = SMM
+					attack_bonus_against = -0.85
+				}
+				targeted_modifier = {
+					tag = SMS
+					attack_bonus_against = -0.85
+				}
         } 		
 	}
 		

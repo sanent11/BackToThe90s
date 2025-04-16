@@ -47,6 +47,10 @@ declare_war_on = {
     type = annex_everything
 }
 add_civil_war_target = SMA
+declare_war_on = {    target = SMU type = annex_everything}
+add_civil_war_target = SMU
+declare_war_on = {    target = SMM type = annex_everything}
+add_civil_war_target = SMM
 declare_war_on = {
     target = SMS
     type = annex_everything

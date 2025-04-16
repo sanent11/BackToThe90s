@@ -346,4 +346,6 @@ SMN = "countries/North Ossetia.txt"
 SMD = "countries/Rif.txt"
 SMA = "countries/Bukharan Republic.txt"
 SMS = "countries/RWP.txt"
+SMM = "countries/Navarra.txt"
+SMU = "countries/Galicia.txt"
 

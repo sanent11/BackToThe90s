@@ -4,7 +4,7 @@ state=
 	name="STATE_269"
 	manpower = 2747000
 	
-	state_category = enclave
+	state_category = town
 	
 	history= {
 		victory_points = { 
@@ -13,6 +13,8 @@ state=
 		victory_points = { 
 			5068 1
 		}
+		add_dynamic_modifier = {			modifier = hungry_1992		}
+		add_dynamic_modifier = {			modifier = hungry_1993		}
 		owner = SMS
 		add_core_of = SMR
 		add_core_of = SOM
@@ -20,6 +22,8 @@ state=
 		add_core_of = SMN
 		add_core_of = SMD
 		add_core_of = SMA
+		add_core_of = SMM
+		add_core_of = SMU
 		add_core_of = SMS		
 		buildings = {
 			infrastructure = 2
@@ -31,7 +35,7 @@ state=
 		}
 	}
 	provinces={
-		1905 5068 10777 10833 10921 12759 
+		5068 10777 10833 10921 12759 
 	}
 
 	local_supplies=0.0 

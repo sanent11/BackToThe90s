@@ -14,15 +14,14 @@ news_event = {
 	major = yes
 	trigger = {
 		date > 1992.2.8
-		date < 1992.2.23
 		NOT = {
-			has_global_flag = 1992_winter_olymp
+			has_global_flag = news_1992_winter_olymp
 		}
 
 	}	
     immediate = {
 		hidden_effect  = {
-			set_global_flag = 1992_winter_olymp
+			set_global_flag = news_1992_winter_olymp
 		}
 	}
 	option = {
@@ -43,13 +42,13 @@ news_event = {
 		date > 1992.1.11
 		date < 1993.1.22
 		NOT = {
-			has_global_flag = 1992_civil_war_algir
+			has_global_flag = news_1992_civil_war_algir
 		}
 
 	}	
     immediate = {
 		hidden_effect  = {
-			set_global_flag = 1992_civil_war_algir
+			set_global_flag = news_1992_civil_war_algir
 		}
 		#тут должна начаться война...
 	}

@@ -6,7 +6,8 @@ state = {
 	state_category = wasteland
 
 	history = {
-
+		add_dynamic_modifier = {			modifier = hungry_1992		}
+		add_dynamic_modifier = {			modifier = hungry_1993		}
 		owner = SMR
 		add_core_of = SMR
 		add_core_of = SOM
@@ -14,10 +15,15 @@ state = {
 		add_core_of = SMN
 		add_core_of = SMD
 		add_core_of = SMA
+		add_core_of = SMM
+		add_core_of = SMU
 		add_core_of = SMS
 
 		buildings = {
 			infrastructure = 0
+			13380 = {
+				bunker = 2
+			}
 		}
 
 

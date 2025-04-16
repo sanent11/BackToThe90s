@@ -1,0 +1,43 @@
+
+hungry_1992 = { # on Region
+	army_attack_factor = -0.3
+	army_attack_speed_factor = -0.3
+	army_attack_against_major_factor = 0.3
+	monthly_population = -3.0
+	heat_attrition_factor = 2.0
+	supply_consumption_factor = 1.0
+	supply_node_range = -2.0
+
+	local_resources_factor = -0.45
+	local_supplies  = -0.5
+	icon = GFX_idea_DEFF
+    remove_trigger = {
+		date > 1993.1.1
+		OR = {
+			SOM = {
+				OR = {
+					has_full_control_of_state = 844
+					has_full_control_of_state = 1020	
+				}
+
+			}
+			date > 1995.1.1
+
+		}
+	}
+}
+hungry_1993 = { # on Region
+
+	army_attack_factor = -0.3
+	army_attack_speed_factor = -0.3
+	army_attack_against_major_factor = 0.3
+	monthly_population = -0.7
+	heat_attrition_factor = 1.0
+	supply_consumption_factor = 2.0
+	supply_node_range = -0.5
+
+	local_resources_factor = -0.45
+	local_supplies = -0.45
+	icon = GFX_idea_DEFF
+
+}

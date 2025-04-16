@@ -11,10 +11,9 @@ news_event = {
 	
 	major = yes
 	trigger = {
-		date > 1992.1.9
-		date < 1993.1.22
+		date > 1992.12.9
 		NOT = {
-			has_global_flag = 1992_somali_civil_war_UNITAF 
+			has_global_flag = news_1992_somali_civil_war_UNITAF 
 		}
 		SOM = {
 			has_war = yes
@@ -24,7 +23,7 @@ news_event = {
 	}	
     immediate = {
 		hidden_effect  = {
-			set_global_flag = 1992_somali_civil_war_UNITAF 
+			set_global_flag = news_1992_somali_civil_war_UNITAF 
 
 		}
 		
@@ -43,6 +42,14 @@ news_event = {
 				tag = FRA
 				tag = GER
 				tag = BOT
+				tag = SMS
+				tag = SMM
+				tag = SMD
+				tag = SMU
+				tag = SMA
+				tag = SMF
+				tag = SMN
+				tag = SMR
 			}
 		}
 	}
@@ -72,12 +79,51 @@ news_event = {
 		country_event = somali_event.2
 
 	}
+	option = {
+		name = somali_event.1.d
+		trigger = {
+			OR = {
+				tag = SMS
+				tag = SMM
+				tag = SMD
+				tag = SMU
+				tag = SMA
+				tag = SMF
+				tag = SMN
+				tag = SMR
+			}		
+		}	
+		division_template = {
+			name = "Anti-colonial-Opolchenie"
+			division_names_group = GEO_INF_01
+			
+			
+			regiments = {
+				irregular_infantry = { x = 0 y = 0 }
+				irregular_infantry = { x = 0 y = 1 }
+				militia = { x = 0 y = 2 }
+				militia = { x = 0 y = 3 }
+			}
+			is_locked = yes
+
+		}
+		add_manpower = -15000
+
+		capital_scope = {
+			create_unit = {
+				division = "name = \"Anti-colonial-Opolchenie\" division_template = \"Anti-colonial-Opolchenie\" start_experience_factor = 0.5 "
+				owner = ROOT
+				count = 5
+			}
+		}
+
+	}
 }
 country_event = {
 	id = somali_event.2
 	title = somali_event.2.t
 	desc = somali_event.2.desc
-	picture = dffsdsdf
+	picture = GFX_1992_somali_civil_war_unosomI
 	
 
 	is_triggered_only = yes
@@ -101,7 +147,7 @@ country_event = {
 	id = somali_event.3
 	title = somali_event.3.t
 	desc = somali_event.3.desc
-	picture = GFX_news_event_usaelection1992
+	picture = GFX_1992_somali_civil_war_unosomI
 	
 
 	is_triggered_only = yes

@@ -16,9 +16,39 @@ CUSTAR_production = {
 		timeout_effect = {
 			add_equipment_to_stockpile = {
 				type = infantry_equipment_kustar
-				amount = 200
+				amount = 350
 			}
 			activate_mission = CUSTAR_product_war
+		}
+	}
+	debug_war_somali = {       
+
+		allowed = { 
+			always = yes
+		} 
+         
+		icon = GFX_decision_hol_exchange_intelligence_data
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+
+		}
+
+		visible = {
+		}
+		
+		cancel_effect = {
+			
+		}
+		
+		complete_effect = {
+				news_event = somali_event.1
+
+		}
+
+		ai_will_do = {
+			
 		}
 	}
 }

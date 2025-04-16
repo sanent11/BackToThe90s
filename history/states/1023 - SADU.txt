@@ -1,12 +1,15 @@
 state = {
-	id = 844
-	name = "STATE_844"
-	manpower = 528895
+	id = 1023
+	name = "STATE_1023"
+	manpower = 208500
 	
 	state_category = pastoral
-	
+
 	history = {
-		owner = SMN
+		victory_points = {
+			1964 5 # Manama
+		}
+		owner = SMU
 		add_core_of = SMR
 		add_core_of = SOM
 		add_core_of = SMF
@@ -18,21 +21,20 @@ state = {
 		add_core_of = SMS
 		add_dynamic_modifier = {			modifier = hungry_1992		}
 		add_dynamic_modifier = {			modifier = hungry_1993		}
-
-		victory_points = {
-		 	12941 6 
-		}
 		buildings = {
-			infrastructure = 2
-			12941 = {
-				naval_base = 2
+			infrastructure = 0
+			1964 = {
 				bunker = 2
 			}
-			
 		}
+
+
+
+		
 	}
-	provinces = { 
-		11014 12941 
+
+	provinces = {
+		1964 2020
 	}
 
 	local_supplies = 0.0 
