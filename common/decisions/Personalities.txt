@@ -1,0 +1,81 @@
+
+Personalities_category = { 
+ 
+	Personalities_ZVO = {       
+
+		allowed = {   
+			tag = RUS
+		} 
+         
+		icon = GFX_decision_hol_exchange_intelligence_data
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+
+		}
+
+		visible = {
+		}
+		
+		cancel_effect = {
+			custom_effect_tooltip = "[RUS_PERSONALITIES_GFX_1]"
+		}
+		
+		complete_effect = {
+			every_character = { 
+				limit = {
+
+
+
+				}
+				add_to_array = {    array = RUS.Personalities
+								value = THIS.id}
+			}	
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+	Personalities_ZVO2 = {       
+
+		allowed = {   
+			tag = RUS
+		} 
+         
+		icon = GFX_decision_hol_exchange_intelligence_data
+		is_good = yes
+		fire_only_once = yes
+		
+		available = {
+
+		}
+
+		visible = {
+		}
+		
+		cancel_effect = {
+			
+		}
+		
+		complete_effect = {
+			every_character = { 
+				limit = {
+					is_in_array = {
+						array = RUS.Personalities
+						value = THIS.id
+					}
+
+
+				}
+				add_to_array = {    array = RUS.Personalities
+								value = THIS.id}
+			}	
+		}
+
+		ai_will_do = {
+			
+		}
+	}
+}

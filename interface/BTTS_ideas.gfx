@@ -35,4 +35,12 @@ spriteTypes = {
 		name = "GFX_idea_DEFF"
 		texturefile = "gfx/interface/ideas/idea_DEFF.dds"
 	}
+	#RUS PERSONALITES
+	spriteType = {
+		name = "GFX_idea_RUS_PERSONALITIES_1"
+		texturefile = "gfx/interface/Advisors/RUS_Boris_Yeltsin_HG.png"
+		
+
+	}
+
 }

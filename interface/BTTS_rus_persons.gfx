@@ -1,0 +1,19 @@
+spriteTypes = {
+
+	#RUS
+
+	spriteType = {
+		name = "GFX_RUS_PERSONALITIES"
+		texturefile = "gfx/RUS_Persons.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_white_bg"
+		texturefile = "gfx/GFX_white_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_RUS_Persons_window"
+		texturefile = "gfx/RUS_Persons_window.dds"
+	}
+
+}

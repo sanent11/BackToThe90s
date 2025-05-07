@@ -110,7 +110,6 @@ add_to_faction = KAH
 set_cosmetic_tag = RUS_SOU 
 
 add_ideas = { SOV_gorbachev RUS_dualpower  }
-every_country = { add_dynamic_modifier = { modifier = addfabric_economic_res } }	
 	
 add_ideas = { federative soviet_republic extensive_conscription degradatsia_armii }
 
@@ -135,5 +134,18 @@ add_equipment_to_stockpile = {
 #    amount = 10000
 #    producer = RUS
 #}
+add_to_array = {
+    array = RUS_PERSONALITIES_COLVO
+    value = 1
+}
+add_to_array = {
+    array = RUS_PERSONALITIES_COLVO
+    value = 2
+}
 
+
+set_variable = { RUS_PERSONALITIES_selected  = 0 }
+set_variable = { Eltsin_influence  = 100 }
+set_variable = { Eltsin_loyality  = 100 }
+set_variable = { Eltsin_work  = token:RUS_President }
 

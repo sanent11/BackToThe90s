@@ -1,0 +1,25 @@
+﻿l_russian:
+ Personalities_category: "Олимп России"
+ RUS_WINDOW_TITLE_none: "C:\\Personalities"
+ RUS_WINDOW_TITLE_eltsin: "C:\\Personalities\\Boris Yeltsin"
+ RUS_WINDOW_TITLE_goydar: "C:\\Personalities\\Egor Gaidar"
+ 
+ RUS_PERSONALITIES_STATS: "[RUS_PERSONALITIES_STATS_loc]"
+ RUS_WINDOW_TITLE: "[RUS_WINDOW_TITLE_loc]"
+ 
+ RUS_PERSONALITIES_BUTTON_BACK: "[RUS_PERSONALITIES_BUTTON_BACK_loc]"
+ RUS_PERSONALITIES_BUTTON_BACK_noneactive: "§gBack"
+ RUS_PERSONALITIES_BUTTON_BACK_active: "§bBack"
+ 
+ RUS_PERSONALITIES_BUTTON_HELP: "§bHelp"
+ 
+ RUS_PERSONALITIES_File_Text: "[RUS_PERSONALITIES_File_Text_loc]"
+ RUS_PERSONALITIES_File_Text_Eltsin: "Boris Yeltsin"
+ RUS_PERSONALITIES_File_Text_Gaydar: "Egor Gaidar"
+ 
+ RUS_WINDOW_COLVO: "§b[?RUS.RUS_PERSONALITIES_COLVO^num] object(s)"
+ RUS_PERSONALITIES_selected_none: " "
+ RUS_PERSONALITIES_selected_Eltsin: "ЛОЯЛЬНОСТЬ: [?RUS.Eltsin_loyality]\nВЛИЯНИЕ: [?RUS.Eltsin_influence]\nДОЛЖНОСТЬ:[?RUS.Eltsin_work.GetTokenLocalizedKey]"
+ RUS_President: "Президент России"
+ 
+ RUS_PERSONALITIES_GFX_1: "gfx/interface/Advisors/RUS_Boris_Yeltsin_HG.png"

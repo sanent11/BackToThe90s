@@ -1,0 +1,16 @@
+
+Personalities_category = {
+	scripted_gui = Personalities_Rus
+	icon = saf_anti_colonialist_crusade
+	picture = GFX_ZVO                                          
+	                                           
+	allowed = {                              
+		original_tag = RUS 
+	}
+	visible = {  
+		always = yes
+	}	  
+	visible_when_empty = yes
+	priority = 500
+}
+

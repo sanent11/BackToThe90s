@@ -1,0 +1,65 @@
+@BUTTON_GFX_1 = "GFX_idea_RUS_PERSONALITIES_1"
+@BUTTON_GFX_0 ="GFX_idea_RUS_PERSONALITIES_1"
+scripted_gui = {
+	Personalities_Rus= {
+	
+		context_type = decision_category
+		
+		window_name = "Personalities_Rus_container"
+
+		visible = {
+			tag = RUS
+		}
+
+		effects = {
+			#Example Buttons to show it working
+			Buttons_Array_Portrait_click = {
+				set_variable = { RUS.RUS_PERSONALITIES_selected = v }
+			}			
+			Button_Back_click = {
+				set_variable = {
+					var = RUS.RUS_PERSONALITIES_selected
+					value = 0
+				}
+			}	
+
+		}
+		triggers = {
+			Buttons_Array_Portrait_visible = {
+				check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 0 compare = equals }
+			}			
+			File_Text_visible = {
+				check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 0 compare = equals }
+			}
+			Button_Back_click_enabled= {
+				check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 0 compare = not_equals }
+			}
+		}
+		properties = {
+			Buttons_Array_Portrait = {
+				frame = v
+
+			}
+		}
+		
+		dynamic_lists = {
+			Buttons_Array_Grid_Box = {
+					#The array to use. Will call a gui for each index.
+					array = RUS_PERSONALITIES_COLVO
+
+					#value of the current array index. Optional. Default value is v.
+					value = v
+
+					#current array index. Optional. Default value is i.
+					index = i
+					
+					#This will change the scope to the value if yes
+					change_scope = yes
+
+					#The GUI drawn for each index
+					entry_container = "Buttons_Array"
+			}
+			
+		}
+	}
+}
