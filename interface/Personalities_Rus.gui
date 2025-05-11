@@ -28,7 +28,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "window_title"
 			position = { x=42 y=9 }
-			font = "standard_22"
+			font = "hoi_24header"
 			text = "RUS_WINDOW_TITLE"
 			format = "UPPER_LEFT"
 			maxWidth = 1000
@@ -36,7 +36,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "window_colvo"
 			position = { x=20 y=466 }
-			font = "garamond_24"
+			font = "hoi_24header"
 			text = "RUS_WINDOW_COLVO"
 			format = "UPPER_LEFT"
 			maxWidth = 1000
@@ -47,7 +47,7 @@ guiTypes = {
 			position = { x=0 y=32 }
 			#This will write onto the button the value and index of the array
 			buttonText = "RUS_PERSONALITIES_BUTTON_BACK"
-			buttonFont = "garamond_16"
+			buttonFont = "hoi_24header"
 		}
 		buttonType = {
 			name ="Button_Help"
@@ -55,17 +55,25 @@ guiTypes = {
 			position = { x=150 y=32 }
 			#This will write onto the button the value and index of the array
 			buttonText = "RUS_PERSONALITIES_BUTTON_HELP"
-			buttonFont = "garamond_16"
+			buttonFont = "hoi_24header"
 		}
 		#Example Buttons for array
-		#instantTextBoxType = {
-		#	name = "Loyality_text"
-		#	position = { x=50 y=15 }
-		#	font = "hoi_16mbs"
-		#	text = "RUS_PERSONALITIES_STATS"
-		#	format = UPPER_LEFT
-		#	maxWidth = 1000
-		#}
+		instantTextBoxType = {
+			name = "OPEN_stats"
+			position = { x=170 y=140 }
+			font = "hoi_22tech"
+			text = "RUS_PERSONALITIES_STATITS"
+			format = UPPER_LEFT
+			maxWidth = 1000
+		}
+        iconType ={
+            name ="OPEN_portrait"
+            spriteType = "GFX_RUS_PERSONALITIES_button"
+            position = { x= 10 y = 140 }
+            Orientation = "UPPER_LEFT"
+		    alwaystransparent = yes
+
+        }  
 		containerWindowType = {
 			name = "Buttons_Array_Container_For_Grid"
 			Orientation = upper_left
@@ -95,21 +103,27 @@ guiTypes = {
 				#max_slots_vertical = 1
 			}
 		}
+
 	}
 	containerWindowType = {
 		name = "Buttons_Array"
 		size = {width=500 height=300}
 
 		buttonType = {
-			name ="Buttons_Array_Portrait"
-			quadTextureSprite  = "GFX_RUS_PERSONALITIES"
-			position = { x=7 y=0 }
+			name ="Buttons_Array_Button"
+			spriteType = "GFX_RUS_PERSONALITIES_button"
+			position = { x=0 y=0 }
 			#This will write onto the button the value and index of the array
-			#buttonText = "v: [?v] i: [?i]"
-			#buttonFont = "hoi_16mbs"
-			frame = v
 		}
-		#Example Buttons for array
+        iconType ={
+            name ="Buttons_Array_Icon"
+            spriteType = "GFX_RUS_PERSONALITIES_button"
+            position = { x= 0 y = 0 }
+            Orientation = "UPPER_LEFT"
+		     alwaystransparent = yes
+
+        }  
+		Example Buttons for array
 		instantTextBoxType = {
 			name = "File_Text"
 			position = { x=0 y=65 }

@@ -3,11 +3,11 @@ defined_text = {
 	text = { trigger = { check_variable = { var = RUS_PERSONALITIES_selected value = 0 compare = equals } }
 		localization_key = RUS_PERSONALITIES_selected_none
 	}
-	text = { trigger = { check_variable = { var = RUS_PERSONALITIES_selected value = 1 compare = equals } }
+	text = { trigger = { check_variable = { var = RUS_PERSONALITIES_selected value = token:RUS_Egor_Gaydar compare = equals } }
 		localization_key = RUS_PERSONALITIES_selected_Eltsin
 	}
-	text = { trigger = { check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 2 compare = equals } }
-		localization_key = moscow_selected_district_2
+	text = { trigger = { check_variable = { var = RUS_PERSONALITIES_selected value = token:RUS_boris_yeltsin compare = equals } }
+		localization_key = RUS_PERSONALITIES_selected_Eltsin
 	}
 	text = { trigger = { check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 3 compare = equals } }
 		localization_key = moscow_selected_district_3
@@ -31,38 +31,49 @@ defined_text = {
 		localization_key = moscow_selected_district_9
 	}
 }
+
+#defined_text = {
+#	name = RUS_WINDOW_TITLE_loc
+#	text = { trigger = { check_variable = { var = RUS_PERSONALITIES_selected value = 0 compare = equals } }
+#		localization_key = RUS_WINDOW_TITLE_none
+#	}
+#	text = { trigger = { check_variable = { var = RUS_PERSONALITIES_selected value = 1 compare = equals } }
+#		localization_key = RUS_WINDOW_TITLE_eltsin
+#	}
+#	text = { trigger = { check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 2 compare = equals } }
+#		localization_key = RUS_WINDOW_TITLE_goydar
+#	}
+#	text = { trigger = { check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 3 compare = equals } }
+#		localization_key = moscow_selected_district_3
+#	}
+#	text = { trigger = { check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 4 compare = equals } }
+#		localization_key = moscow_selected_district_4
+#	}
+#	text = { trigger = { check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 5 compare = equals } }
+#		localization_key = moscow_selected_district_5
+#	}
+#	text = { trigger = { check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 6 compare = equals } }
+#		localization_key = moscow_selected_district_6
+#	}
+#	text = { trigger = { check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 7 compare = equals } }
+#		localization_key = moscow_selected_district_7
+#	}
+#	text = { trigger = { check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 8 compare = equals } }
+#		localization_key = moscow_selected_district_8
+#	}
+#	text = { trigger = { check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 9 compare = equals } }
+#		localization_key = moscow_selected_district_9
+#	}
+#}
 defined_text = {
 	name = RUS_WINDOW_TITLE_loc
 	text = { trigger = { check_variable = { var = RUS_PERSONALITIES_selected value = 0 compare = equals } }
-		localization_key = RUS_WINDOW_TITLE_none
+		localization_key = ""
 	}
-	text = { trigger = { check_variable = { var = RUS_PERSONALITIES_selected value = 1 compare = equals } }
-		localization_key = RUS_WINDOW_TITLE_eltsin
+	text = { trigger = { check_variable = { var = RUS_PERSONALITIES_selected value = 0 compare = not_equals } }
+		localization_key = RUS_WINDOW_TITLE_get_character_name
 	}
-	text = { trigger = { check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 2 compare = equals } }
-		localization_key = RUS_WINDOW_TITLE_goydar
-	}
-	text = { trigger = { check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 3 compare = equals } }
-		localization_key = moscow_selected_district_3
-	}
-	text = { trigger = { check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 4 compare = equals } }
-		localization_key = moscow_selected_district_4
-	}
-	text = { trigger = { check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 5 compare = equals } }
-		localization_key = moscow_selected_district_5
-	}
-	text = { trigger = { check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 6 compare = equals } }
-		localization_key = moscow_selected_district_6
-	}
-	text = { trigger = { check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 7 compare = equals } }
-		localization_key = moscow_selected_district_7
-	}
-	text = { trigger = { check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 8 compare = equals } }
-		localization_key = moscow_selected_district_8
-	}
-	text = { trigger = { check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 9 compare = equals } }
-		localization_key = moscow_selected_district_9
-	}
+
 }
 defined_text = {
 	name = RUS_PERSONALITIES_BUTTON_BACK_loc
@@ -74,13 +85,36 @@ defined_text = {
 	}
 
 }
+
+defined_text = {
+	name = RUS_PERSONALITIES_Portrait_Get_loc
+	text = { trigger = { check_variable = { var = v value = token:RUS_boris_yeltsin compare = equals } }
+		localization_key = "GFX_idea_RUS_advisior_Eltsin"
+	}
+	text = { trigger = { check_variable = { var = v value = token:RUS_Egor_Gaydar compare = equals } }
+		localization_key ="GFX_idea_RUS_advisior_Gaydar"
+	}
+
+}
+
+defined_text = {
+	name = RUS_PERSONALITIES_Portrait_Get_selected_loc
+	text = { trigger = { check_variable = { var = RUS_PERSONALITIES_selected value = token:RUS_boris_yeltsin compare = equals } }
+		localization_key = "GFX_idea_RUS_advisior_Eltsin"
+	}
+	text = { trigger = { check_variable = { var = RUS_PERSONALITIES_selected value = token:RUS_Egor_Gaydar compare = equals } }
+		localization_key ="GFX_idea_RUS_advisior_Gaydar"
+	}
+
+}
 defined_text = {
 	name = RUS_PERSONALITIES_File_Text_loc
-	text = { trigger = { check_variable = { var = v value = 1 compare = equals } }
+	text = { trigger = { check_variable = { var = v value = token:RUS_boris_yeltsin compare = equals } }
 		localization_key = RUS_PERSONALITIES_File_Text_Eltsin
 	}
-	text = { trigger = { check_variable = { var = v value = 2 compare = equals } }
+	text = { trigger = { check_variable = { var = v value = token:RUS_Egor_Gaydar compare = equals } }
 		localization_key = RUS_PERSONALITIES_File_Text_Gaydar
 	}
+
 
 }

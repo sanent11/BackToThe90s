@@ -15,37 +15,48 @@ Personalities_category = {
 
 		}
 
-		visible = {
+		visible = { 
 		}
 		
 		cancel_effect = {
-			custom_effect_tooltip = "[RUS_PERSONALITIES_GFX_1]"
+			custom_effect_tooltip = "[?RUS.RUS_PERSONALITIES_selected]"
 		}
 		
 		complete_effect = {
-			every_character = { 
-				limit = {
+			token:RUS_boris_yeltsin = {
+				set_variable = { loyality = 100 }
 
+			}
+			meta_effect = {
+				text = {
+					[character_token] = {
+						set_variable = { RUS.loyality = loyality }
 
+					}
 
 				}
-				add_to_array = {    array = RUS.Personalities
-								value = THIS.id}
-			}	
+				character_token = "[?RUS_PERSONALITIES_selected.GetTokenKey]"
+				# it's very important to use GetTokenKey to make sure that you get the text in the variable
+				# if you want to use the text in the variable as a localisation key, use GetTokenLocalisationKey instead
+				# if you have any trouble with GetTokenKey and GetTokeLocalisationKey, you can check it out in the page "Variable" of the HOI4 wiki
+				
+			}
+			custom_effect_tooltip = Personalities_test
+
 		}
 
 		ai_will_do = {
 			
 		}
 	}
-	Personalities_ZVO2 = {       
+	Personalities_ZVO2 = {        
 
 		allowed = {   
 			tag = RUS
 		} 
-         
+          
 		icon = GFX_decision_hol_exchange_intelligence_data
-		is_good = yes
+		is_good = yes 
 		fire_only_once = yes
 		
 		available = {
@@ -56,22 +67,14 @@ Personalities_category = {
 		}
 		
 		cancel_effect = {
-			
+			 
 		}
 		
-		complete_effect = {
-			every_character = { 
-				limit = {
-					is_in_array = {
-						array = RUS.Personalities
-						value = THIS.id
-					}
+		complete_effect = { 
+			RUS_boris_yeltsin = { 
+				set_variable = { RUS_PERSONALITIES_selected.testvar = 1 }
+			}
 
-
-				}
-				add_to_array = {    array = RUS.Personalities
-								value = THIS.id}
-			}	
 		}
 
 		ai_will_do = {

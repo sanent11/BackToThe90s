@@ -7,10 +7,10 @@ characters = {
 		name = RUS_boris_yeltsin
 		portraits={
 			civilian={
-				large= "gfx/leaders/RUS/portrait_RUS_Boris_Yeltsin.dds"
+				large= GFX_big_RUS_boris_yeltsin
 			}
 			civilian = {
-				small= "gfx/interface/Advisors/RUS_Boris_Yeltsin_HG.png"
+				small= GFX_small_RUS_boris_yeltsin
 			}
 		}
 		country_leader = {
@@ -50,8 +50,11 @@ characters = {
 		name = Egor_Gaydar
 		portraits={
 			civilian = {
-				small= "gfx/interface/Advisors/RUS_Egor_Gaydar_ME.png"
+				small= GFX_small_RUS_Egor_Gaydar
+				large= GFX_big_RUS_Egor_Gaydar
+
 			}
+			
 		}
 		advisor = {
 			slot = ministr_economici
@@ -141,7 +144,8 @@ characters = {
 		name = RUS_Vladimir_Zhirinovsky
 		portraits={
 			civilian={
-				large= "gfx/leaders/RUS/portrait_RUS_Vladimir_Zhirinovsky.dds"
+				small=GFX_small_RUS_Vladimir_Zhirinovsky
+				large=GFX_big_RUS_Vladimir_Zhirinovsky
 			}
 		}
 		country_leader = {

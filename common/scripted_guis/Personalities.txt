@@ -13,8 +13,24 @@ scripted_gui = {
 
 		effects = {
 			#Example Buttons to show it working
-			Buttons_Array_Portrait_click = {
+			Buttons_Array_Button_click = {
 				set_variable = { RUS.RUS_PERSONALITIES_selected = v }
+					meta_effect = {
+						text = {
+							[character_token] = {
+								set_variable = { RUS.SELECTED_LOYALITY = loyality }
+								set_variable = { RUS.SELECTED_INFLUENCE = influence }
+								set_variable = { RUS.SELECTED_IDEOLOGY = ideology }
+
+							}
+
+						}
+						character_token = "[?RUS_PERSONALITIES_selected.GetTokenKey]"
+						# it's very important to use GetTokenKey to make sure that you get the text in the variable
+						# if you want to use the text in the variable as a localisation key, use GetTokenLocalisationKey instead
+						# if you have any trouble with GetTokenKey and GetTokeLocalisationKey, you can check it out in the page "Variable" of the HOI4 wiki
+						
+					}
 			}			
 			Button_Back_click = {
 				set_variable = {
@@ -25,20 +41,35 @@ scripted_gui = {
 
 		}
 		triggers = {
-			Buttons_Array_Portrait_visible = {
+			Buttons_Array_Button_visible = {
 				check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 0 compare = equals }
-			}			
+			}		
+			Buttons_Array_Icon = {
+				check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 0 compare = equals }
+			}	
 			File_Text_visible = {
 				check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 0 compare = equals }
 			}
+
+
+
+
 			Button_Back_click_enabled= {
+				check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 0 compare = not_equals }
+			}
+			OPEN_portrait_visible= {
+				check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 0 compare = not_equals }
+			}
+			OPEN_stats_visible= {
 				check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 0 compare = not_equals }
 			}
 		}
 		properties = {
-			Buttons_Array_Portrait = {
-				frame = v
-
+			Buttons_Array_Button = {
+				image = "GFX_small_[?v.GetTokenKey]"
+			}
+			OPEN_portrait = {
+				image = "GFX_big_[?RUS.RUS_PERSONALITIES_selected.GetTokenKey]"
 			}
 		}
 		

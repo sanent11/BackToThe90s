@@ -34,4 +34,13 @@ leader_traits = {
 		stability_factor = 0.2
 		paternalism_drift = 0.05
 	}
+
+
+
+	RUS_PERSONALITES_president = {
+		random = no 
+	}	
+	RUS_PERSONALITES_leader_gov = {
+		random = no 
+	}
 }

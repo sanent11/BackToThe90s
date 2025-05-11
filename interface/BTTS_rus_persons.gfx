@@ -15,5 +15,32 @@ spriteTypes = {
 		name = "GFX_RUS_Persons_window"
 		texturefile = "gfx/RUS_Persons_window.dds"
 	}
-
+	
+	#RUS PERSONALITES
+	spriteType = {
+		name = "GFX_small_RUS_boris_yeltsin"
+		texturefile = "gfx/interface/Advisors/RUS_Boris_Yeltsin_HG.png"
+	}	
+	spriteType = {
+		name = "GFX_big_RUS_boris_yeltsin"
+		texturefile = "gfx/leaders/RUS/portrait_RUS_Boris_Yeltsin.dds"
+	}
+	spriteType = {
+		name = "GFX_small_RUS_Egor_Gaydar"
+		texturefile = "gfx/interface/Advisors/RUS_Egor_Gaydar_ME.png"
+		
+	}
+	spriteType = {
+		name = "GFX_big_RUS_Egor_Gaydar"
+		texturefile = "gfx/leaders/RUS/RUS_Egor_Gaydar.dds"
+	}
+	spriteType = {
+		name = "GFX_small_RUS_Vladimir_Zhirinovsky"
+		texturefile = "gfx/interface/Advisors/Zhirinovsky.dds"
+		
+	}
+	spriteType = {
+		name = "GFX_big_RUS_Vladimir_Zhirinovsky"
+		texturefile = "gfx/leaders/RUS/portrait_RUS_Vladimir_Zhirinovsky.dds"
+	}
 }

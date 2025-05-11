@@ -134,18 +134,42 @@ add_equipment_to_stockpile = {
 #    amount = 10000
 #    producer = RUS
 #}
+#add_to_array = {
+#    array = RUS_PERSONALITIES_COLVO
+#    value = 1
+#}
+#add_to_array = {
+#    array = RUS_PERSONALITIES_COLVO
+#    value = 2
+#}
 add_to_array = {
     array = RUS_PERSONALITIES_COLVO
-    value = 1
-}
-add_to_array = {
-    array = RUS_PERSONALITIES_COLVO
-    value = 2
+    value = token:RUS_boris_yeltsin
 }
 
 
 set_variable = { RUS_PERSONALITIES_selected  = 0 }
-set_variable = { Eltsin_influence  = 100 }
-set_variable = { Eltsin_loyality  = 100 }
-set_variable = { Eltsin_work  = token:RUS_President }
 
+RUS_boris_yeltsin = {
+	set_variable = { loyality = 100 }
+	set_variable = { influence = 100 }
+	set_variable = { ideology = token:neo_liberalism }
+}
+add_to_array = {
+    array = RUS_PERSONALITIES_COLVO
+    value = token:RUS_Egor_Gaydar
+}
+RUS_Egor_Gaydar = {
+	set_variable = { loyality = 90 }
+	set_variable = { influence = 60 }
+	set_variable = { ideology = token:neo_liberalism }
+}
+add_to_array = {
+    array = RUS_PERSONALITIES_COLVO
+    value = token:RUS_Vladimir_Zhirinovsky
+}
+RUS_Vladimir_Zhirinovsky = {
+	set_variable = { loyality = 60 }
+	set_variable = { influence = 40 }
+	set_variable = { ideology = token:slavanofil }
+}

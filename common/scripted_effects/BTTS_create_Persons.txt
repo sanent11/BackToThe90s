@@ -1,0 +1,11 @@
+RUS_create_PERSONS = {
+	add_to_array = {
+		array = RUS_PERSONALITIES_COLVO
+		value = token:aCHARACTER
+	}
+	ADD_CHARACTER = {
+		set_variable = { loyality = aLOYALITY }
+		set_variable = { influence = aINFLUENCE }
+		set_variable = { ideology = aIDEOLOGY }
+	}
+}
