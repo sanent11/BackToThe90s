@@ -43,4 +43,12 @@ spriteTypes = {
 		name = "GFX_big_RUS_Vladimir_Zhirinovsky"
 		texturefile = "gfx/leaders/RUS/portrait_RUS_Vladimir_Zhirinovsky.dds"
 	}
+	spriteType = {
+		name = "GFX_small_Hasbulatov"
+		texturefile = "gfx/interface/Advisors/Hasbulatov.dds"
+	}
+	spriteType = {
+		name = "GFX_big_Hasbulatov"
+		texturefile = "gfx/leaders/RUS/Hasbulatov.dds"
+	}
 }

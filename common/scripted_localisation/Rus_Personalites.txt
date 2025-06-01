@@ -118,3 +118,23 @@ defined_text = {
 
 
 }
+defined_text = {
+	name = RUS_PERSONALITIES_STAT_loyality_loc
+	text = { trigger = { check_variable = { var = RUS.SELECTED_LOYALITY  value = 15 compare = less_than } }
+		localization_key = RUS_PERSONALITIES_selected_LOYALITY_0
+	}
+	text = { trigger = { check_variable = { var = RUS.SELECTED_LOYALITY  value = 15 compare = greater_than_or_equals } check_variable = { var = RUS.SELECTED_LOYALITY  value = 35 compare = less_than } }
+		localization_key = RUS_PERSONALITIES_selected_LOYALITY_15
+	}
+	text = { trigger = { check_variable = { var = RUS.SELECTED_LOYALITY  value = 35 compare = greater_than_or_equals } check_variable = { var = RUS.SELECTED_LOYALITY  value = 65 compare = less_than } }
+		localization_key = RUS_PERSONALITIES_selected_LOYALITY_35
+	}
+	text = { trigger = { check_variable = { var = RUS.SELECTED_LOYALITY  value = 65 compare = greater_than_or_equals } check_variable = { var = RUS.SELECTED_LOYALITY  value = 85 compare = less_than } }
+		localization_key = RUS_PERSONALITIES_selected_LOYALITY_65
+	}
+	text = { trigger = { check_variable = { var = RUS.SELECTED_LOYALITY  value = 85 compare = greater_than_or_equals } }
+		localization_key = RUS_PERSONALITIES_selected_LOYALITY_85
+	}
+
+
+}

@@ -157,6 +157,15 @@ RUS_boris_yeltsin = {
 }
 add_to_array = {
     array = RUS_PERSONALITIES_COLVO
+    value = token:Hasbulatov
+}
+Hasbulatov = {
+	set_variable = { loyality = 65 }
+	set_variable = { influence = 70 }
+	set_variable = { ideology = token:liberalism }
+}
+add_to_array = {
+    array = RUS_PERSONALITIES_COLVO
     value = token:RUS_Egor_Gaydar
 }
 RUS_Egor_Gaydar = {
@@ -169,7 +178,7 @@ add_to_array = {
     value = token:RUS_Vladimir_Zhirinovsky
 }
 RUS_Vladimir_Zhirinovsky = {
-	set_variable = { loyality = 60 }
+	set_variable = { loyality = 30 }
 	set_variable = { influence = 40 }
 	set_variable = { ideology = token:slavanofil }
 }

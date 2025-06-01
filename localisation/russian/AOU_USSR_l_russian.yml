@@ -7,9 +7,9 @@ minister_vnutrennix_del: "Министр внутренних дел"
 ministr_economici: "Министр экономики"
 ministr_finansov: "Министр финансов"
 
-Andrey_Dynaev: "Андрей Дунаев"
-Andrey_Kozirev: "Андрей Козырев"
-Egor_Gaydar: "Егор Гайдар"
+RUS_Andrey_Dynaev: "Андрей Дунаев"
+RUS_Andrey_Kozirev: "Андрей Козырев"
+RUS_Egor_Gaydar: "Егор Гайдар"
 
 eltsin_hog_trait: "Глава правительства"
 

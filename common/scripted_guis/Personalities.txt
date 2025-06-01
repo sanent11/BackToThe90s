@@ -50,7 +50,9 @@ scripted_gui = {
 			File_Text_visible = {
 				check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 0 compare = equals }
 			}
-
+			right_vertical_slider_intel_visible = {
+				check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 0 compare = equals }
+			}
 
 
 

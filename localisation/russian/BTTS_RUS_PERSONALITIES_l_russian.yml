@@ -24,7 +24,14 @@
   
  RUS_WINDOW_COLVO: "§b[?RUS.RUS_PERSONALITIES_COLVO^num] object(s)"
  RUS_PERSONALITIES_selected_none: " "
- RUS_PERSONALITIES_STATITS: "§bЛОЯЛЬНОСТЬ: [?RUS.SELECTED_LOYALITY]\nВЛИЯНИЕ: [?RUS.SELECTED_INFLUENCE]\nИДЕОЛОГИЯ:[?RUS.SELECTED_IDEOLOGY.GetTokenLocalizedKey]\nДеятельность:Чиновник"
+ RUS_PERSONALITIES_selected_LOYALITY_0: "§RЛОЯЛЬНОСТЬ: [?RUS.SELECTED_LOYALITY]\nВраждебная оппозиция"
+ RUS_PERSONALITIES_selected_LOYALITY_15: "§OЛОЯЛЬНОСТЬ: [?RUS.SELECTED_LOYALITY]\nОппозиция"
+ RUS_PERSONALITIES_selected_LOYALITY_35: "§YЛОЯЛЬНОСТЬ: [?RUS.SELECTED_LOYALITY]\nНейтральный"
+ RUS_PERSONALITIES_selected_LOYALITY_65: "§GЛОЯЛЬНОСТЬ: [?RUS.SELECTED_LOYALITY]\nПоддерживает правительство"
+ RUS_PERSONALITIES_selected_LOYALITY_85: "§0ЛОЯЛЬНОСТЬ: [?RUS.SELECTED_LOYALITY]\nПреданный"
+ RUS_PERSONALITIES_STATITS: "[RUS_PERSONALITIES_STAT_loyality_loc]§b\nВЛИЯНИЕ: [?RUS.SELECTED_INFLUENCE]\nИДЕОЛОГИЯ:[?RUS.SELECTED_IDEOLOGY.GetTokenLocalizedKey]\nДеятельность:Чиновник"
+ 
+ RUS_Work_None: "Не работает"
  
  RUS_Work_None: "Не работает"
  RUS_Work_President: "Президент России"
@@ -36,3 +43,13 @@
  RUS_PERSONALITIES_Portrait_Get: "[RUS_PERSONALITIES_Portrait_Get_loc]"
 
  RUS_PERSONALITIES_GFX_1: "gfx/interface/Advisors/RUS_Boris_Yeltsin_HG.png"
+#Decisions
+ RUS_Personalities_attack: "§RАтаковать§! §Y[?RUS_PERSONALITIES_selected.GetTokenLocalizedKey]§!"
+ RUS_Personalities_attack_desc: "«Методы мы найдём»"
+ RUS_Personalities_minus_influence: "§OУменьшит влияние §Y$CHR$§! на §Y$NUM$§W"
+ RUS_Personalities_minus_loyality: "§RУменьшит лояльность §Y$CHR$§R на §Y$NUM$§W"
+ 
+ RUS_Personalities_helping: "§GПоддержать§! §Y[?RUS_PERSONALITIES_selected.GetTokenLocalizedKey]§!"
+ RUS_Personalities_helping_desc: ""
+ RUS_Personalities_plus_influence: "§9Увеличевает влияние §Y$CHR$§! на §Y$NUM$§W"
+ RUS_Personalities_plus_loyality: "§GУвеличевает лояльность §Y$CHR$§R на §Y$NUM$§W"

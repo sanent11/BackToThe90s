@@ -47,7 +47,7 @@ characters = {
 	}
 	
 	RUS_Egor_Gaydar = {
-		name = Egor_Gaydar
+		name = RUS_Egor_Gaydar
 		portraits={
 			civilian = {
 				small= GFX_small_RUS_Egor_Gaydar
@@ -83,7 +83,7 @@ characters = {
 		
 	}
 	RUS_Andrey_Kozirev = {
-		name = Andrey_Kozirev
+		name = RUS_Andrey_Kozirev
 		portraits={
 			civilian = {
 				small= "gfx/interface/Advisors/RUS_Andrey_Kozirev_MID.png"
@@ -103,7 +103,7 @@ characters = {
 		}
 	}
 	RUS_Andrey_Dynaev = {
-		name = Andrey_Dynaev
+		name = RUS_Andrey_Dynaev
 		portraits={
 			civilian = {
 				small= "gfx/interface/Advisors/RUS_Andrey_Dynaev_MVD.png"

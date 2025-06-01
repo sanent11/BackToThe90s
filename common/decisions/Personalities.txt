@@ -1,55 +1,6 @@
 
-Personalities_category = { 
- 
-	Personalities_ZVO = {       
-
-		allowed = {   
-			tag = RUS
-		} 
-         
-		icon = GFX_decision_hol_exchange_intelligence_data
-		is_good = yes
-		fire_only_once = yes
-		
-		available = {
-
-		}
-
-		visible = { 
-		}
-		
-		cancel_effect = {
-			custom_effect_tooltip = "[?RUS.RUS_PERSONALITIES_selected]"
-		}
-		
-		complete_effect = {
-			token:RUS_boris_yeltsin = {
-				set_variable = { loyality = 100 }
-
-			}
-			meta_effect = {
-				text = {
-					[character_token] = {
-						set_variable = { RUS.loyality = loyality }
-
-					}
-
-				}
-				character_token = "[?RUS_PERSONALITIES_selected.GetTokenKey]"
-				# it's very important to use GetTokenKey to make sure that you get the text in the variable
-				# if you want to use the text in the variable as a localisation key, use GetTokenLocalisationKey instead
-				# if you have any trouble with GetTokenKey and GetTokeLocalisationKey, you can check it out in the page "Variable" of the HOI4 wiki
-				
-			}
-			custom_effect_tooltip = Personalities_test
-
-		}
-
-		ai_will_do = {
-			
-		}
-	}
-	Personalities_ZVO2 = {        
+Personalities_category = {  
+	RUS_Personalities_helping = {        
 
 		allowed = {   
 			tag = RUS
@@ -57,7 +8,6 @@ Personalities_category = {
           
 		icon = GFX_decision_hol_exchange_intelligence_data
 		is_good = yes 
-		fire_only_once = yes
 		
 		available = {
 
@@ -71,14 +21,173 @@ Personalities_category = {
 		}
 		
 		complete_effect = { 
-			RUS_boris_yeltsin = { 
-				set_variable = { RUS_PERSONALITIES_selected.testvar = 1 }
+			meta_effect = {
+				text = {
+					[character_token] = {
+
+							add_to_variable = { loyality = 5 }
+							if = {
+								limit = {
+									 check_variable = { var = loyality  value = 100 compare = less_than }
+									 check_variable = { var = loyality  value = 0 compare = greater_than_or_equals }
+								}
+				
+
+							}
+							else_if = {
+								limit = {
+									 check_variable = { var = loyality  value = 100 compare = greater_than_or_equals }
+								}
+								set_variable = { loyality = 100 }
+	
+							}
+							else = {
+								limit = {
+									 check_variable = { var = loyality  value = 0 compare = less_than }
+								}
+								set_variable = { loyality = 0 }
+	
+							}
+							set_variable = { RUS.SELECTED_LOYALITY = loyality }
+							add_to_variable = { influence = 5 }
+
+							if = {
+								limit = {
+									 check_variable = { var = influence  value = 100 compare = less_than }
+									 check_variable = { var = influence  value = 0 compare = greater_than_or_equals }
+								}
+				
+
+							}
+							else_if = {
+								limit = {
+									 check_variable = { var = influence  value = 100 compare = greater_than_or_equals }
+								}
+								set_variable = { influence = 100 }
+	
+							}
+							else = {
+								limit = {
+									 check_variable = { var = influence  value = 0 compare = less_than }
+								}
+								set_variable = { influence = 0 }
+	
+							}
+							set_variable = { RUS.SELECTED_INFLUENCE = influence }
+
+					}
+
+				}
+				character_token = "[?RUS_PERSONALITIES_selected.GetTokenKey]"				
 			}
-
+			custom_effect_tooltip = {
+				localization_key = RUS_Personalities_plus_influence
+				CHR = "[?RUS_PERSONALITIES_selected.GetTokenLocalizedKey]"
+				NUM = "5"
+			}	
+			custom_effect_tooltip = {
+				localization_key = RUS_Personalities_plus_loyality
+				CHR = "[?RUS_PERSONALITIES_selected.GetTokenLocalizedKey]"
+				NUM = "5"
+			}
 		}
-
+		cost = 150
 		ai_will_do = {
 			
 		}
 	}
+	RUS_Personalities_attack = {        
+
+		allowed = {   
+			tag = RUS
+		} 
+          
+		icon = GFX_decision_hol_exchange_intelligence_data
+		is_good = yes 
+		
+		available = {
+
+		}
+
+		visible = {
+		}
+		
+		cancel_effect = {
+			 
+		}
+		
+		complete_effect = { 
+			meta_effect = {
+				text = {
+					[character_token] = {
+						subtract_from_variable = { loyality = 5 }
+							if = {
+								limit = {
+									 check_variable = { var = loyality  value = 100 compare = less_than }
+									 check_variable = { var = loyality  value = 0 compare = greater_than_or_equals }
+								}
+				
+
+							}
+							else_if = {
+								limit = {
+									 check_variable = { var = loyality  value = 100 compare = greater_than_or_equals }
+								}
+								set_variable = { loyality = 100 }
+	
+							}
+							else = {
+								limit = {
+									 check_variable = { var = loyality  value = 0 compare = less_than }
+								}
+								set_variable = { loyality = 0 }
+	
+							}
+							set_variable = { RUS.SELECTED_LOYALITY = loyality }
+						subtract_from_variable = { influence = 5 }
+						if = {
+								limit = {
+									 check_variable = { var = influence  value = 100 compare = less_than }
+									 check_variable = { var = influence  value = 0 compare = greater_than_or_equals }
+								}
+				
+
+							}
+							else_if = {
+								limit = {
+									 check_variable = { var = influence  value = 100 compare = greater_than_or_equals }
+								}
+								set_variable = { influence = 100 }
+	
+							}
+							else = {
+								limit = {
+									 check_variable = { var = influence  value = 0 compare = less_than }
+								}
+								set_variable = { influence = 0 }
+	
+							}
+							set_variable = { RUS.SELECTED_INFLUENCE = influence }
+					}
+
+				}
+				character_token = "[?RUS_PERSONALITIES_selected.GetTokenKey]"			
+			}
+			custom_effect_tooltip = {
+				localization_key = RUS_Personalities_minus_influence
+				CHR = "[?RUS_PERSONALITIES_selected.GetTokenLocalizedKey]"
+				NUM = "5"
+			}
+			custom_effect_tooltip = {
+				localization_key = RUS_Personalities_minus_loyality
+				CHR = "[?RUS_PERSONALITIES_selected.GetTokenLocalizedKey]"
+				NUM = "5"
+			}
+		}
+		cost = 150
+		ai_will_do = {
+			
+		}
+	}
+
 }
