@@ -21,10 +21,14 @@ scripted_gui = {
 								set_variable = { RUS.SELECTED_LOYALITY = loyality }
 								set_variable = { RUS.SELECTED_INFLUENCE = influence }
 								set_variable = { RUS.SELECTED_IDEOLOGY = ideology }
+								set_variable = { RUS.SELECTED_WORK = work }
+								set_variable = { RUS.SELECTED_SELECTED_FOCUS = selected_focus }
+								set_variable = { RUS.SELECTED_PAST_FOCUS = past_focus }
 
 							}
 
 						}
+						
 						character_token = "[?RUS_PERSONALITIES_selected.GetTokenKey]"
 						# it's very important to use GetTokenKey to make sure that you get the text in the variable
 						# if you want to use the text in the variable as a localisation key, use GetTokenLocalisationKey instead
@@ -63,6 +67,18 @@ scripted_gui = {
 				check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 0 compare = not_equals }
 			}
 			OPEN_stats_visible= {
+				check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 0 compare = not_equals }
+			}
+			OPEN_selected_focus_visible= {
+				check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 0 compare = not_equals }
+			}
+			OPEN_selected_focus_bg_visible= {
+				check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 0 compare = not_equals }
+			}
+			OPEN_past_focus_bg_visible= {
+				check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 0 compare = not_equals }
+			}
+			OPEN_past_focus_visible= {
 				check_variable = { var = RUS.RUS_PERSONALITIES_selected value = 0 compare = not_equals }
 			}
 		}

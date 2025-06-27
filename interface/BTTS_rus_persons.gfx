@@ -51,4 +51,13 @@ spriteTypes = {
 		name = "GFX_big_Hasbulatov"
 		texturefile = "gfx/leaders/RUS/Hasbulatov.dds"
 	}
+
+	spriteType = {
+		name = "GFX_small_RUS_Rutskoy"
+		texturefile = "gfx/interface/Advisors/Rutskoy.dds"
+	}
+	spriteType = {
+		name = "GFX_big_RUS_Rutskoy"
+		texturefile = "gfx/leaders/RUS/Rutskoy.dds"
+	}
 }

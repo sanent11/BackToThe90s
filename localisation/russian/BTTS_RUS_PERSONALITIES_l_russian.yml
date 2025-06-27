@@ -29,7 +29,7 @@
  RUS_PERSONALITIES_selected_LOYALITY_35: "§YЛОЯЛЬНОСТЬ: [?RUS.SELECTED_LOYALITY]\nНейтральный"
  RUS_PERSONALITIES_selected_LOYALITY_65: "§GЛОЯЛЬНОСТЬ: [?RUS.SELECTED_LOYALITY]\nПоддерживает правительство"
  RUS_PERSONALITIES_selected_LOYALITY_85: "§0ЛОЯЛЬНОСТЬ: [?RUS.SELECTED_LOYALITY]\nПреданный"
- RUS_PERSONALITIES_STATITS: "[RUS_PERSONALITIES_STAT_loyality_loc]§b\nВЛИЯНИЕ: [?RUS.SELECTED_INFLUENCE]\nИДЕОЛОГИЯ:[?RUS.SELECTED_IDEOLOGY.GetTokenLocalizedKey]\nДеятельность:Чиновник"
+ RUS_PERSONALITIES_STATITS: "[RUS_PERSONALITIES_STAT_loyality_loc]§b\nВЛИЯНИЕ: [?RUS.SELECTED_INFLUENCE]\nИДЕОЛОГИЯ:[?RUS.SELECTED_IDEOLOGY.GetTokenLocalizedKey]\nДеятельность:[RUS_PERSONALITIES_work_loc]"
  
  RUS_Work_None: "Не работает"
  
@@ -50,6 +50,32 @@
  RUS_Personalities_minus_loyality: "§RУменьшит лояльность §Y$CHR$§R на §Y$NUM$§W"
  
  RUS_Personalities_helping: "§GПоддержать§! §Y[?RUS_PERSONALITIES_selected.GetTokenLocalizedKey]§!"
- RUS_Personalities_helping_desc: ""
- RUS_Personalities_plus_influence: "§9Увеличевает влияние §Y$CHR$§! на §Y$NUM$§W"
- RUS_Personalities_plus_loyality: "§GУвеличевает лояльность §Y$CHR$§R на §Y$NUM$§W"
+ RUS_Personalities_helping_desc: "«Будем друзьями»"
+ RUS_Personalities_plus_influence: "§9Увеличивает влияние §Y$CHR$§! на §Y$NUM$§W"
+ RUS_Personalities_plus_loyality: "§GУвеличивает лояльность §Y$CHR$§R на §Y$NUM$§W"
+ 
+ #работы
+ RUS_PERSONALITIES_work: "Политик" #0
+ RUS_PERSONALITIES_work_Politic: "Политик" #0
+ RUS_PERSONALITIES_work_VicePresident: "Вице-Президент" #0
+ RUS_PERSONALITIES_work_President: "Президент" #1
+
+ RUS_PERSONALITIES_work_Ministr_Economic: "Министр Экономики" #21
+ RUS_PERSONALITIES_work_VerhovnySovet: "Председатель Верховного Совета" #101
+
+#Фокусы Персонажей
+ RUS_PERSONALITIES_PAST_FOCUS: "§6Предыдущий Фокус:\n[RUS_PERSONALITIES_PAST_FOCUS_loc]" 
+ RUS_PERSONALITIES_SELECTED_FOCUS: "§YТекущий Фокус:\n[RUS_PERSONALITIES_SELECTED_FOCUS_loc]" 
+ RUS_PERSONALITIES_SELECTED_FOCUS_desc: "[RUS_PERSONALITIES_SELECTED_FOCUS_DESC_loc]"
+ RUS_PERSONALITIES_focus_None: "Не выбран" 
+ RUS_PERSONALITIES_focus_Add_Influence: "Увеличить Влияние" 
+ RUS_PERSONALITIES_focus_Add_Influence_desc: "§Y[?RUS_PERSONALITIES_selected.GetTokenLocalizedKey]§g увеличивит своё влияние на §Y1§!"
+ RUS_PERSONALITIES_focus_Add_Descrit: "Дескретирровать власть" 
+ RUS_PERSONALITIES_focus_Add_Influence_desc: "§Y[?RUS_PERSONALITIES_selected.GetTokenLocalizedKey]§g увеличивит своё влияние на §Y1§!"
+ RUS_PERSONALITIES_focus_Add_popular_party: "Пропагандировать партию" 
+ RUS_PERSONALITIES_focus_Add_Influence_desc: "§Y[?RUS_PERSONALITIES_selected.GetTokenLocalizedKey]§g увеличивит своё влияние на §Y1§!"
+ RUS_PERSONALITIES_focus_Add_political_power: "Содействовать власти" 
+ RUS_PERSONALITIES_focus_Add_Influence_desc: "§Y[?RUS_PERSONALITIES_selected.GetTokenLocalizedKey]§g увеличивит своё влияние на §Y1§!"
+
+
+

@@ -168,6 +168,38 @@ country_event = { #Проект новой конституции
 	option = {	
 		name = russiaStart.9.a
 		add_stability = -0.05
+		custom_effect_tooltip = {
+			localization_key = RUS_Personalities_minus_loyality
+			CHR = "[?Hasbulatov.GetName]"
+			NUM = "25"
+		}
+		Hasbulatov = {
+			subtract_from_variable = { loyality = 25 }
+				clamp_variable = {
+					var = loyality
+					min = 0
+					max = 100
+				}
+		}
+		meta_effect = {
+			text = {
+				[character_token] = {
+					set_variable = { RUS.SELECTED_LOYALITY = loyality }
+					set_variable = { RUS.SELECTED_INFLUENCE = influence }
+					set_variable = { RUS.SELECTED_IDEOLOGY = ideology }
+					set_variable = { RUS.SELECTED_WORK = work }
+					set_variable = { RUS.SELECTED_SELECTED_FOCUS = selected_focus }
+					set_variable = { RUS.SELECTED_PAST_FOCUS = past_focus }
+
+				}
+
+			} 
+			character_token = "[?RUS_PERSONALITIES_selected.GetTokenKey]"
+			# it's very important to use GetTokenKey to make sure that you get the text in the variable
+			# if you want to use the text in the variable as a localisation key, use GetTokenLocalisationKey instead
+			# if you have any trouble with GetTokenKey and GetTokeLocalisationKey, you can check it out in the page "Variable" of the HOI4 wiki
+			
+		}
 	}
 }
 country_event = { #голод

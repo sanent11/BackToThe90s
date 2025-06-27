@@ -69,11 +69,42 @@ guiTypes = {
         iconType ={
             name ="OPEN_portrait"
             spriteType = "GFX_RUS_PERSONALITIES_button"
-            position = { x= 180 y = 70 }
+            position = { x=10  y = 70 }
             Orientation = "UPPER_LEFT"
 		    alwaystransparent = yes
 
-        }  
+        } 
+		iconType = {
+			name = "OPEN_selected_focus_bg"
+			position = { x = 180 y = 150 }
+			spriteType = "GFX_add_national_goal_button"
+			alwaystransparent = yes
+			pdx_tooltip = "RUS_PERSONALITIES_SELECTED_FOCUS_desc"
+
+		}	
+		instantTextBoxType = {
+			name = "OPEN_selected_focus"
+			position = { x=200 y=170 }
+			font = "hoi_18mbs"
+			text = "RUS_PERSONALITIES_SELECTED_FOCUS"
+			format = UPPER_LEFT
+			maxWidth = 1000
+		} 
+
+		iconType = {
+			name = "OPEN_past_focus_bg"
+			position = { x = 180 y = 85 }
+			spriteType = "GFX_add_national_goal_button"
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "OPEN_past_focus"
+			position = { x=200 y=105 }
+			font = "hoi_18mbs"
+			text = "RUS_PERSONALITIES_PAST_FOCUS"
+			format = UPPER_LEFT
+			maxWidth = 1000
+		}	
 		containerWindowType = {
 			name = "Buttons_Array_Container_For_Grid"
 			Orientation = upper_left

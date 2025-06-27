@@ -14,7 +14,7 @@ Personalities_category = {
 		}
 
 		visible = {
-		}
+check_variable = { var = RUS_PERSONALITIES_selected value = 0 compare = not_equals }		}
 		
 		cancel_effect = {
 			 
@@ -26,52 +26,18 @@ Personalities_category = {
 					[character_token] = {
 
 							add_to_variable = { loyality = 5 }
-							if = {
-								limit = {
-									 check_variable = { var = loyality  value = 100 compare = less_than }
-									 check_variable = { var = loyality  value = 0 compare = greater_than_or_equals }
-								}
-				
-
-							}
-							else_if = {
-								limit = {
-									 check_variable = { var = loyality  value = 100 compare = greater_than_or_equals }
-								}
-								set_variable = { loyality = 100 }
-	
-							}
-							else = {
-								limit = {
-									 check_variable = { var = loyality  value = 0 compare = less_than }
-								}
-								set_variable = { loyality = 0 }
-	
+							clamp_variable = {
+								var = loyality
+								min = 0
+								max = 100
 							}
 							set_variable = { RUS.SELECTED_LOYALITY = loyality }
 							add_to_variable = { influence = 5 }
 
-							if = {
-								limit = {
-									 check_variable = { var = influence  value = 100 compare = less_than }
-									 check_variable = { var = influence  value = 0 compare = greater_than_or_equals }
-								}
-				
-
-							}
-							else_if = {
-								limit = {
-									 check_variable = { var = influence  value = 100 compare = greater_than_or_equals }
-								}
-								set_variable = { influence = 100 }
-	
-							}
-							else = {
-								limit = {
-									 check_variable = { var = influence  value = 0 compare = less_than }
-								}
-								set_variable = { influence = 0 }
-	
+						clamp_variable = {
+								var = influence
+								min = 0
+								max = 100
 							}
 							set_variable = { RUS.SELECTED_INFLUENCE = influence }
 
@@ -106,11 +72,25 @@ Personalities_category = {
 		is_good = yes 
 		
 		available = {
+		meta_trigger = {
+			text = {
+
+				NOT = {
+					has_country_leader = {
+						character = [character_token]
+						ruling_only = yes
+					}
+				}
+			}
+			character_token = "[?RUS_PERSONALITIES_selected.GetTokenKey]"			
 
 		}
 
+		}
 		visible = {
-		}
+check_variable = { var = RUS_PERSONALITIES_selected value = 0 compare = not_equals }		}
+
+		
 		
 		cancel_effect = {
 			 
@@ -121,51 +101,17 @@ Personalities_category = {
 				text = {
 					[character_token] = {
 						subtract_from_variable = { loyality = 5 }
-							if = {
-								limit = {
-									 check_variable = { var = loyality  value = 100 compare = less_than }
-									 check_variable = { var = loyality  value = 0 compare = greater_than_or_equals }
-								}
-				
-
-							}
-							else_if = {
-								limit = {
-									 check_variable = { var = loyality  value = 100 compare = greater_than_or_equals }
-								}
-								set_variable = { loyality = 100 }
-	
-							}
-							else = {
-								limit = {
-									 check_variable = { var = loyality  value = 0 compare = less_than }
-								}
-								set_variable = { loyality = 0 }
-	
+								clamp_variable = {
+								var = loyality
+								min = 0
+								max = 100
 							}
 							set_variable = { RUS.SELECTED_LOYALITY = loyality }
 						subtract_from_variable = { influence = 5 }
-						if = {
-								limit = {
-									 check_variable = { var = influence  value = 100 compare = less_than }
-									 check_variable = { var = influence  value = 0 compare = greater_than_or_equals }
-								}
-				
-
-							}
-							else_if = {
-								limit = {
-									 check_variable = { var = influence  value = 100 compare = greater_than_or_equals }
-								}
-								set_variable = { influence = 100 }
-	
-							}
-							else = {
-								limit = {
-									 check_variable = { var = influence  value = 0 compare = less_than }
-								}
-								set_variable = { influence = 0 }
-	
+									clamp_variable = {
+								var = influence
+								min = 0
+								max = 100
 							}
 							set_variable = { RUS.SELECTED_INFLUENCE = influence }
 					}
@@ -185,6 +131,59 @@ Personalities_category = {
 			}
 		}
 		cost = 150
+		ai_will_do = {
+			
+		}
+	}
+	RUS_Personalities_test = {        
+
+		allowed = {   
+			tag = RUS
+		} 
+          
+		icon = GFX_decision_hol_exchange_intelligence_data
+		is_good = yes 
+		
+		available = {
+
+
+		}
+
+		
+		
+		cancel_effect = {
+			 
+		}
+		
+		complete_effect = {		
+		every_character = {
+			limit = {
+				check_variable = { var = influence  value = 20 compare = greater_than_or_equals }
+				check_variable = { var = work value = 1 compare = not_equals }
+
+			}
+			BTTS_persons_focus_vybor = yes
+
+		}
+					meta_effect = {
+						text = {
+							[character_token] = {
+								set_variable = { RUS.SELECTED_LOYALITY = loyality }
+								set_variable = { RUS.SELECTED_INFLUENCE = influence }
+								set_variable = { RUS.SELECTED_IDEOLOGY = ideology }
+								set_variable = { RUS.SELECTED_WORK = work }
+								set_variable = { RUS.SELECTED_SELECTED_FOCUS = selected_focus }
+								set_variable = { RUS.SELECTED_PAST_FOCUS = past_focus }
+
+							}
+
+						} 
+						character_token = "[?RUS_PERSONALITIES_selected.GetTokenKey]"
+						# it's very important to use GetTokenKey to make sure that you get the text in the variable
+						# if you want to use the text in the variable as a localisation key, use GetTokenLocalisationKey instead
+						# if you have any trouble with GetTokenKey and GetTokeLocalisationKey, you can check it out in the page "Variable" of the HOI4 wiki
+						
+					}
 		ai_will_do = {
 			
 		}

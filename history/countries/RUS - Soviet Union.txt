@@ -62,6 +62,7 @@ set_technology = {
 }
 
 add_ideas = {
+	SOV_gorbachev
 	RUS_epoha_eltsina
 	RUS_economic_crisis
 	SOV_gorbachev
@@ -109,7 +110,7 @@ add_to_faction = KAH
 
 set_cosmetic_tag = RUS_SOU 
 
-add_ideas = { SOV_gorbachev RUS_dualpower  }
+add_ideas = {  RUS_dualpower  }
 	
 add_ideas = { federative soviet_republic extensive_conscription degradatsia_armii }
 
@@ -154,16 +155,11 @@ RUS_boris_yeltsin = {
 	set_variable = { loyality = 100 }
 	set_variable = { influence = 100 }
 	set_variable = { ideology = token:neo_liberalism }
+	set_variable = { main_ideology = token:liberocratic }
+	set_variable = { work = 1 }
+
 }
-add_to_array = {
-    array = RUS_PERSONALITIES_COLVO
-    value = token:Hasbulatov
-}
-Hasbulatov = {
-	set_variable = { loyality = 65 }
-	set_variable = { influence = 70 }
-	set_variable = { ideology = token:liberalism }
-}
+
 add_to_array = {
     array = RUS_PERSONALITIES_COLVO
     value = token:RUS_Egor_Gaydar
@@ -172,13 +168,50 @@ RUS_Egor_Gaydar = {
 	set_variable = { loyality = 90 }
 	set_variable = { influence = 60 }
 	set_variable = { ideology = token:neo_liberalism }
+	set_variable = { main_ideology = token:liberocratic }
+	set_variable = { work = 21 }
+
 }
+recruit_character = RUS_Andrey_Kozirev
+add_to_array = {
+    array = RUS_PERSONALITIES_COLVO
+    value = token:RUS_Rutskoy
+}
+RUS_Rutskoy = {
+	set_variable = { loyality = 50 }
+	set_variable = { influence = 75 }
+	set_variable = { ideology = token:soc_dem }
+	set_variable = { main_ideology = token:democratic }
+
+	set_variable = { work = 11 }
+
+}
+
+add_to_array = {
+    array = RUS_PERSONALITIES_COLVO
+    value = token:Hasbulatov
+}
+Hasbulatov = {
+	set_variable = { loyality = 65 }
+	set_variable = { influence = 75 }
+	set_variable = { ideology = token:soc_dem }
+	set_variable = { main_ideology = token:democratic }
+
+	set_variable = { work = 10 }
+
+}
+
+
 add_to_array = {
     array = RUS_PERSONALITIES_COLVO
     value = token:RUS_Vladimir_Zhirinovsky
 }
+
 RUS_Vladimir_Zhirinovsky = {
 	set_variable = { loyality = 30 }
-	set_variable = { influence = 40 }
+	set_variable = { influence = 20 }
 	set_variable = { ideology = token:slavanofil }
+	set_variable = { main_ideology = token:conservliberal }
+
+	set_variable = { work = 0 }
 }

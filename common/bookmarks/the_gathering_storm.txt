@@ -8,7 +8,20 @@ bookmarks = {
 		default = yes
 		
 		
-		
+		"RUS"={
+			history = "RUS_GATHERING_STORM_DESC"
+			ideology = liberocratic
+			ideas = {
+				SOV_gorbachev
+				RUS_dualpower
+				RUS_epoha_eltsina
+			}
+			focuses = {
+				Day_of_Volya
+				Nostalgia_po_BSSR
+				Sozdanie_new_gosudarstva
+			}
+		}
 		"BLS"={
 			history = "BLR_GATHERING_STORM_DESC"
 			ideology = neutrality
@@ -22,7 +35,7 @@ bookmarks = {
 				Sozdanie_new_gosudarstva
 			}
 		}
-		
+
 		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

@@ -174,13 +174,29 @@ characters = {
 		name = Hasbulatov
 		portraits={
 			civilian={
-				large= "gfx/leaders/RUS/Hasbulatov.dds"
+				large= GFX_big_Hasbulatov
+				small = GFX_small_Hasbulatov
 			}
 		}
 		country_leader = {
-			ideology = liberalism
+			ideology = soc_dem
 			traits = { }
 			expire = "2022.8.6.1"
+			id = -1
+		}
+	}
+	RUS_Rutskoy = {
+		name = RUS_Rutskoy
+		portraits={
+			civilian={
+				large= GFX_big_RUS_Rutskoy
+				small = GFX_small_RUS_Rutskoy
+			}
+		}
+		country_leader = {
+			ideology = soc_dem
+			traits = { }
+			expire = "2035.8.6.1"
 			id = -1
 		}
 	}

@@ -86,7 +86,7 @@ defined_text = {
 
 }
 
-defined_text = {
+defined_text = { 
 	name = RUS_PERSONALITIES_Portrait_Get_loc
 	text = { trigger = { check_variable = { var = v value = token:RUS_boris_yeltsin compare = equals } }
 		localization_key = "GFX_idea_RUS_advisior_Eltsin"
@@ -118,15 +118,101 @@ defined_text = {
 
 
 }
+
+defined_text = {
+	name = RUS_PERSONALITIES_work_loc
+	text = { trigger = { check_variable = { var = RUS.SELECTED_WORK value = 0 compare = equals } }
+		localization_key = RUS_PERSONALITIES_work_Politic
+	}
+	text = { trigger = { check_variable = { var = RUS.SELECTED_WORK value = 1 compare= equals } }
+		localization_key = RUS_PERSONALITIES_work_President
+	}
+	text = { trigger = { check_variable = { var = RUS.SELECTED_WORK value = 21 compare= equals } }
+		localization_key = RUS_PERSONALITIES_work_Ministr_Economic
+	}
+	text = { trigger = { check_variable = { var = RUS.SELECTED_WORK value = 10 compare= equals } }
+		localization_key = RUS_PERSONALITIES_work_VerhovnySovet
+	}
+	text = { trigger = { check_variable = { var = RUS.SELECTED_WORK value = 11 compare= equals } }
+		localization_key = RUS_PERSONALITIES_work_VicePresident
+	}
+}
+
+defined_text = {
+	name = RUS_PERSONALITIES_SELECTED_FOCUS_loc
+	text = { trigger = { check_variable = { var = RUS.SELECTED_SELECTED_FOCUS value = 0 compare = equals } }
+		localization_key = RUS_PERSONALITIES_focus_None
+	}
+	text = { trigger = { check_variable = { var = RUS.SELECTED_SELECTED_FOCUS value = 1 compare= equals } }
+		localization_key = RUS_PERSONALITIES_focus_Add_popular_party
+	}
+	text = { trigger = { check_variable = { var = RUS.SELECTED_SELECTED_FOCUS value = 2 compare= equals } }
+		localization_key = RUS_PERSONALITIES_focus_Add_Descrit
+	}
+	text = { trigger = { check_variable = { var = RUS.SELECTED_SELECTED_FOCUS value = 3 compare= equals } }
+		localization_key = RUS_PERSONALITIES_focus_Add_political_power
+	}
+	text = { trigger = { check_variable = { var = RUS.SELECTED_SELECTED_FOCUS value = 4 compare= equals } }
+		localization_key = RUS_PERSONALITIES_focus_Add_Influence
+	}
+}
+defined_text = {
+	name = RUS_PERSONALITIES_SELECTED_FOCUS_DESC_loc
+	text = { trigger = { check_variable = { var = RUS.SELECTED_SELECTED_FOCUS value = 0 compare = equals } }
+		localization_key = RUS_PERSONALITIES_focus_None
+	}
+	text = { trigger = { check_variable = { var = RUS.SELECTED_SELECTED_FOCUS value = 1 compare= equals } }
+		localization_key = RUS_PERSONALITIES_focus_Add_popular_party_desc
+	}
+	text = { trigger = { check_variable = { var = RUS.SELECTED_SELECTED_FOCUS value = 2 compare= equals } }
+		localization_key = RUS_PERSONALITIES_focus_Add_Descrit_desc
+	}
+	text = { trigger = { check_variable = { var = RUS.SELECTED_SELECTED_FOCUS value = 4 compare= equals } }
+		localization_key = RUS_PERSONALITIES_focus_Add_political_power_desc
+	}
+}defined_text = {
+	name = RUS_PERSONALITIES_PAST_FOCUS_loc
+	text = { trigger = { check_variable = { var = RUS.SELECTED_PAST_FOCUS value = 0 compare = equals } }
+		localization_key = RUS_PERSONALITIES_focus_None
+	}
+	text = { trigger = { check_variable = { var = RUS.SELECTED_PAST_FOCUS value = 1 compare= equals } }
+		localization_key = RUS_PERSONALITIES_focus_Add_popular_party
+	}
+	text = { trigger = { check_variable = { var = RUS.SELECTED_PAST_FOCUS value = 2 compare= equals } }
+		localization_key = RUS_PERSONALITIES_focus_Add_Descrit
+	}
+	text = { trigger = { check_variable = { var = RUS.SELECTED_PAST_FOCUS value = 3 compare= equals } }
+		localization_key = RUS_PERSONALITIES_focus_Add_political_power
+	}
+	text = { trigger = { check_variable = { var = RUS.SELECTED_PAST_FOCUS value = 4 compare= equals } }
+		localization_key = RUS_PERSONALITIES_focus_Add_Influence
+	}
+}
+defined_text = {
+	name = RUS_PERSONALITIES_PAST_FOCUS_DESC_loc
+	text = { trigger = { check_variable = { var = RUS.PAST_SELECTED_FOCUS value = 0 compare = equals } }
+		localization_key = RUS_PERSONALITIES_focus_None
+	}
+	text = { trigger = { check_variable = { var = RUS.PAST_SELECTED_FOCUS value = 1 compare= equals } }
+		localization_key = RUS_PERSONALITIES_focus_Add_popular_party_desc
+	}
+	text = { trigger = { check_variable = { var = RUS.PAST_SELECTED_FOCUS value = 2 compare= equals } }
+		localization_key = RUS_PERSONALITIES_focus_Add_Descrit_desc
+	}
+	text = { trigger = { check_variable = { var = RUS.PAST_SELECTED_FOCUS value = 4 compare= equals } }
+		localization_key = RUS_PERSONALITIES_focus_Add_political_power_desc
+	}
+}
+
 defined_text = {
 	name = RUS_PERSONALITIES_STAT_loyality_loc
-	text = { trigger = { check_variable = { var = RUS.SELECTED_LOYALITY  value = 15 compare = less_than } }
+	text = { trigger = { check_variable = { var = RUS.SELECTED_LOYALITY  value = 20 compare = less_than } }
 		localization_key = RUS_PERSONALITIES_selected_LOYALITY_0
 	}
-	text = { trigger = { check_variable = { var = RUS.SELECTED_LOYALITY  value = 15 compare = greater_than_or_equals } check_variable = { var = RUS.SELECTED_LOYALITY  value = 35 compare = less_than } }
+	text = { trigger = { check_variable = { var = RUS.SELECTED_LOYALITY  value = 20 compare = greater_than_or_equals } check_variable = { var = RUS.SELECTED_LOYALITY  value = 40 compare = less_than } }
 		localization_key = RUS_PERSONALITIES_selected_LOYALITY_15
 	}
-	text = { trigger = { check_variable = { var = RUS.SELECTED_LOYALITY  value = 35 compare = greater_than_or_equals } check_variable = { var = RUS.SELECTED_LOYALITY  value = 65 compare = less_than } }
+	text = { trigger = { check_variable = { var = RUS.SELECTED_LOYALITY  value = 40 compare = greater_than_or_equals } check_variable = { var = RUS.SELECTED_LOYALITY  value = 65 compare = less_than } }
 		localization_key = RUS_PERSONALITIES_selected_LOYALITY_35
 	}
 	text = { trigger = { check_variable = { var = RUS.SELECTED_LOYALITY  value = 65 compare = greater_than_or_equals } check_variable = { var = RUS.SELECTED_LOYALITY  value = 85 compare = less_than } }
@@ -135,6 +221,6 @@ defined_text = {
 	text = { trigger = { check_variable = { var = RUS.SELECTED_LOYALITY  value = 85 compare = greater_than_or_equals } }
 		localization_key = RUS_PERSONALITIES_selected_LOYALITY_85
 	}
-
+}
 
 }

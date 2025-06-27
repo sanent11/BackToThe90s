@@ -179,7 +179,7 @@ focus_tree = {
 		available = { has_global_flag = protest_snd }
 		icon = GFX_protest_snd
 	    x = 8
-	    y = 7
+	    y = 6
 	    cost = 1
 	    available_if_capitulated = no
 	   
